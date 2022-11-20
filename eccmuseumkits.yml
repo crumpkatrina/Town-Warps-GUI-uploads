@@ -2,8 +2,7 @@
   eccmuseum1:
     delay: 172800
     items:
-      - PRISMARINE_BRICKS 1 unbreaking:1 lore:&3A_piece_of_ECCMuseum's_roof_as_a_Thank_You|&6ECCMuseum's_Five_Year_Anniversary
-      
+      - PRISMARINE_BRICKS 1 unbreaking:1 lore:&3A_piece_of_ECCMuseum's_roof_as_a_Thank_You|&6ECCMuseum's_Five_Year_Anniversary   
   eccmuseum2:
     delay: 172800
     items:
