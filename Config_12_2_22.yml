@@ -14893,7 +14893,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townwarps
+        command: "townwarps"
         message: ""
         runas: player
     47:
@@ -15341,7 +15341,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townwarps
+        command: "townwarps"
         message: ""
         runas: player
     47:
@@ -15791,7 +15791,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townwarps
+        command: "townwarps"
         message: ""
         runas: player
     47:
@@ -16241,7 +16241,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townwarps
+        command: "townwarps"
         message: ""
         runas: player
     47:
@@ -16484,7 +16484,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townwarps
+        command: "townwarps"
         message: ""
         runas: player
     47:
@@ -18971,7 +18971,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyage
+        command: "townsbyage"
         message: ""
         runas: player
     47:
@@ -19419,7 +19419,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyage
+        command: "townsbyage"
         message: ""
         runas: player
     47:
@@ -19869,7 +19869,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyage
+        command: "townsbyage"
         message: ""
         runas: player
     47:
@@ -20319,7 +20319,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyage
+        command: "townsbyage"
         message: ""
         runas: player
     47:
@@ -20562,7 +20562,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyage
+        command: "townsbyage"
         message: ""
         runas: player
     47:
@@ -23049,7 +23049,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyowner
+        command: "townsbyowner"
         message: ""
         runas: player
     47:
@@ -23497,7 +23497,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyowner
+        command: "townsbyowner"
         message: ""
         runas: player
     47:
@@ -23947,7 +23947,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyowner
+        command: "townsbyowner"
         message: ""
         runas: player
     47:
@@ -24397,7 +24397,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyowner
+        command: "townsbyowner"
         message: ""
         runas: player
     47:
@@ -24640,7 +24640,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyowner
+        command: "townsbyowner"
         message: ""
         runas: player
     47:
@@ -27428,7 +27428,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townwarpsn
+        command: "townwarpsn"
         message: ""
         runas: player
     47:
@@ -27744,7 +27744,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyagen
+        command: "townsbyagen"
         message: ""
         runas: player
     47:
@@ -28060,7 +28060,7 @@ interface:
       pass:
         type: CHEST_MINECART
         name: "&6Reverse Order"
-        command: "townsbyownern
+        command: "townsbyownern"
         message: ""
         runas: player
     47:
