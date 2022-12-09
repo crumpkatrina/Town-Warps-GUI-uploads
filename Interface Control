@@ -10400,7 +10400,7 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    15:
+    13:
       permission: ""
       pass:
         type: PAPER
@@ -10409,7 +10409,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) 75 McMMO Levels\n&bhttps://ecocitycraft.com/forum/wiki/main-75-mcmmo-levels/\n&e------------------"
         runas: console
-    16:
+    14:
       permission: ""
       pass:
         type: PAPER
@@ -10418,7 +10418,16 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Back\n&bhttps://ecocitycraft.com/forum/wiki/main-back/\n&e------------------"
         runas: console
-    17:
+    15:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3CoinMaster"
+        desc: "&7reduce your &5CoinFlip|&7taxes by &a100%&7!"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Back\n&bhttps://ecocitycraft.com/forum/wiki/main-coinmaster/\n&e------------------"
+        runas: console
+    16:
       permission: ""
       pass:
         type: PAPER
@@ -10427,7 +10436,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) EcoSort\n&bhttps://ecocitycraft.com/forum/wiki/main-ecosort/\n&e------------------"
         runas: console
-    18:
+    17:
       permission: ""
       pass:
         type: PAPER
@@ -10436,13 +10445,22 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCommands\n&bhttps://ecocitycraft.com/forum/wiki/main-extcommands/\n&e------------------"
         runas: console
+    18:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3ExtCreations"
+        desc: "&6* &7Build Lifts, Gates, Doors, Bridges,|&7  Color Signs, Disposal Signs!|&6* &7/workbench &6* &7/kit mobs|&6* &7/kit signs &6* &7/kit enderchest"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreations\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreations/\n&e------------------"
+        runas: console
     19:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    24:
+    22:
       permission: ""
       pass:
         type: PAPER
@@ -10451,7 +10469,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) 1000 McMMO Levels\n&bhttps://ecocitycraft.com/forum/wiki/main-1000-mcmmo-levels/\n&e------------------"
         runas: console
-    25:
+    23:
       permission: ""
       pass:
         type: PAPER
@@ -10460,7 +10478,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) BackPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-backplus/\n&e------------------"
         runas: console
-    26:
+    25:
       permission: ""
       pass:
         type: PAPER
@@ -10469,7 +10487,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) EcoSortPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-ecosortplus/\n&e------------------"
         runas: console
-    27:
+    26:
       permission: ""
       pass:
         type: PAPER
@@ -10478,13 +10496,22 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCommandsPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-extcommandsplus/\n&e------------------"
         runas: console
+    27:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3ExtCreationsPlus"
+        desc: "&6* &7Construct hidden switches|&6* &7Create light switches|&6* &7Light/Power meters|&6* &7Painting switcher|&6* &7Format signs|&6* &c/smelt &6* &c/desmelt|&6* &c/oxidize &6* &c/deoxidize|&6* &c/strip &6* &c/crush"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreationsPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreationsplus/\n&e------------------"
+        runas: console
     28:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    35:
+    34:
       permission: ""
       pass:
         type: PAPER
@@ -10493,7 +10520,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) EcoSortPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-ecosortplus2/\n&e------------------"
         runas: console
-    36:
+    35:
       permission: ""
       pass:
         type: PAPER
@@ -10501,6 +10528,15 @@ interface:
         desc: "&e&l**&e&oAutomatic Tool Repair!&e&l**|&6* &7/condense &6* &7/disposal|&6* &7/nightvision &6* &7/anvil|&6* &7/powertool a:<command>|&7  multiple powertools on one item|&6* &5Anvil Tool Name Coloring &6* &7/itemfilter|&6* &7/repair messages &7toggle repair msgs"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCommandsPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-extcommandsplus2/\n&e------------------"
+        runas: console
+    36:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3ExtCreationsPlus2"
+        desc: "&6* &7Removed Cooldowns &6* &7Place Beacons|&6* &c/cartography &6* &c/grindstone|&6* &c/loom &6* &c/stonecutter|&6* &c/disposal &6* &c/moisturize|&6* &c/kit mobs2 &6* &c/kit breath"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreationsPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreationsplus2/\n&e------------------"
         runas: console
     37:
       permission: ""
@@ -10583,21 +10619,12 @@ interface:
       permission: ""
       pass:
         type: PAPER
-        name: "&3ExtCreations"
-        desc: "&6* &7Build Lifts, Gates, Doors, Bridges,|&7  Color Signs, Disposal Signs!|&6* &7/workbench &6* &7/kit mobs|&6* &7/kit signs &6* &7/kit enderchest"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreations\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreations/\n&e------------------"
-        runas: console
-    11:
-      permission: ""
-      pass:
-        type: PAPER
         name: "&3Feed"
         desc: "&c/feed &7fill your hunger bar"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Feed\n&bhttps://ecocitycraft.com/forum/wiki/main-feed/\n&e------------------"
         runas: console
-    12:
+    11:
       permission: ""
       pass:
         type: PAPER
@@ -10606,7 +10633,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Flying/Speed\n&bhttps://ecocitycraft.com/forum/wiki/main-flying-speed/\n&e------------------"
         runas: console
-    13:
+    12:
       permission: ""
       pass:
         type: PAPER
@@ -10615,7 +10642,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) HeadMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-headmaster/\n&e------------------"
         runas: console
-    14:
+    13:
       permission: ""
       pass:
         type: PAPER
@@ -10623,6 +10650,15 @@ interface:
         desc: "&6* &c/vanish &7hide yourself from|&7  players and tab|&6* &c/lb tb [on/off] &7Access to &5LogBlock|&6* &7Ability to use Invis Potions"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Investigator\n&bhttps://ecocitycraft.com/forum/wiki/main-investigator/\n&e------------------"
+        runas: console
+    14:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3LottoMaster"
+        desc: "&c/lot draw &7draw the current lotto|&57 minute cooldown"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) HeadMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-lottomaster/\n&e------------------"
         runas: console
     15:
       permission: ""
@@ -10664,21 +10700,12 @@ interface:
       permission: ""
       pass:
         type: PAPER
-        name: "&3ExtCreationsPlus"
-        desc: "&6* &7Construct hidden switches|&6* &7Create light switches|&6* &7Light/Power meters|&6* &7Painting switcher|&6* &7Format signs|&6* &c/smelt &6* &c/desmelt|&6* &c/oxidize &6* &c/deoxidize|&6* &c/strip &6* &c/crush"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreationsPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreationsplus/\n&e------------------"
-        runas: console
-    20:
-      permission: ""
-      pass:
-        type: PAPER
         name: "&3FeedPlus"
         desc: "&6* &7Hunger stays full!|&6* &c/fill milk"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) FeedPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-feedplus/\n&e------------------"
         runas: console
-    21:
+    20:
       permission: ""
       pass:
         type: PAPER
@@ -10687,7 +10714,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Flying/SpeedPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-flying-speedplus/\n&e------------------"
         runas: console
-    23:
+    22:
       permission: ""
       pass:
         type: PAPER
@@ -10695,6 +10722,15 @@ interface:
         desc: "&6* &c/invsee <user> &6* &c/enderchest <user>|&6* &c/baltop &6* &c/bal <user>|&6* &c/inspect <user> &6* &c/exp <user>|&6* &c/myfeatures <user> &6* &c/rg list"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) InvestigatorPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-investigatorplus/\n&e------------------"
+        runas: console
+    23:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3LottoMasterPlus"
+        desc: "&7reduce your &5Lotto|&7taxes by &a50%&7!"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) HeadMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-lottomasterplus/\n&e------------------"
         runas: console
     25:
       permission: ""
@@ -10723,16 +10759,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) MultiHomePlus\n&bhttps://ecocitycraft.com/forum/wiki/main-multihomeplus/\n&e------------------"
         runas: console
-    28:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3ExtCreationsPlus2"
-        desc: "&6* &7Removed Cooldowns &6* &7Place Beacons|&6* &c/cartography &6* &c/grindstone|&6* &c/loom &6* &c/stonecutter|&6* &c/disposal &6* &c/moisturize|&6* &c/kit mobs2 &6* &c/kit breath"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreationsPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreationsplus2/\n&e------------------"
-        runas: console
-    32:
+    31:
       permission: ""
       pass:
         type: PAPER
@@ -10740,6 +10767,15 @@ interface:
         desc: "&6* &c/balbank <user>|&6* &c/balall <user>"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) InvestigatorPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-investigatorplus2/\n&e------------------"
+        runas: console
+    32:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3LottoMasterPlus2"
+        desc: "&7reduce your &5Lotto|&7taxes by &a100%&7!"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) HeadMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-lottomasterplus2/\n&e------------------"
         runas: console
     34:
       permission: ""
