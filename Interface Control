@@ -3051,24 +3051,24 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Hover over an icon for information!"
         desc: "&7Click &3blue titles &7to post links in chat."
-    13:
-      permission: ""
-      pass:
-        type: BEACON
-        name: "&3Help: Magic"
-        desc: "&5Magic Days &7occur every &a15th day|&c/magicday &7check the status|   &7of the next/current &9Magic&7.|&7Players can purchase additional hours|&7for the entire server or personal use|&7through the &efeature shop&7.|&5Click to post link in chat."
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft]\n&aMagic Feature Shop Page\n&bhttps://shop.ecocitycraft.com/category/magic\n&e------------------"
-        runas: console
-    15:
-      permission: ""
-      pass:
-        type: REPEATING_COMMAND_BLOCK
-        name: "&3Help: Magic"
-        desc: "&7View all Magic Tools and their|&7enchantments/abilities here|&5Click to post link in chat."
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft]\n&aMagic Tools Wiki Article\n&bhttps://ecocitycraft.com/forum/wiki/ecocitycraft-star-and-magic-tools/#magic-tools\n&e------------------"
-        runas: console
+    #13:
+      #permission: ""
+      #pass:
+        #type: BEACON
+        #name: "&3Help: Magic"
+        #desc: "&5Magic Days &7occur every &a15th day|&c/magicday &7check the status|   &7of the next/current &9Magic&7.|&7Players can purchase additional hours|&7for the entire server or personal use|&7through the &efeature shop&7.|&5Click to post link in chat."
+        #command: ""
+        #message: "&e------------------\n&6[EcoCityCraft]\n&aMagic Feature Shop Page\n&bhttps://shop.ecocitycraft.com/category/magic\n&e------------------"
+        #runas: console
+    #15:
+      #permission: ""
+      #pass:
+        #type: REPEATING_COMMAND_BLOCK
+        #name: "&3Help: Magic"
+        #desc: "&7View all Magic Tools and their|&7enchantments/abilities here|&5Click to post link in chat."
+        #command: ""
+        #message: "&e------------------\n&6[EcoCityCraft]\n&aMagic Tools Wiki Article\n&bhttps://ecocitycraft.com/forum/wiki/ecocitycraft-star-and-magic-tools/#magic-tools\n&e------------------"
+        #runas: console
     18:
       permission: ""
       pass:
@@ -3081,6 +3081,21 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Hover over an icon for information!"
         desc: "&7Click &3blue titles &7to post links in chat."
+    22:
+      permission: ""
+      pass:
+        type: REPEATING_COMMAND_BLOCK
+        name: "&3Help: Magic"
+        desc: "&7View all Magic Tools and their|&7enchantments/abilities here|&5Click to post link in chat."
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft]\n&aMagic Tools Wiki Article\n&bhttps://ecocitycraft.com/forum/wiki/ecocitycraft-star-and-magic-tools/#magic-tools\n&e------------------"
+        runas: console
+    24:
+      permission: ""
+      pass:
+        type: EXPERIENCE_BOTTLE
+        name: "&6Help: Magic"
+        desc: "&7Players that sell '&9Magic&7' are|&7selling an upgrade through|&7the &dWizard feature&7."
     27:
       permission: ""
       pass:
@@ -3093,24 +3108,24 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Hover over an icon for information!"
         desc: "&7Click &3blue titles &7to post links in chat."
-    30:
-      permission: ""
-      pass:
-        type: ENCHANTED_GOLDEN_APPLE
-        name: "&6Help: Magic"
-        desc: "&5Magic Days &7and &5Magic Hours|&7are the only time you can use|&7magic tools, with the exception of:|&6* &7Magic Armor (without sell bonus)|&6* &7Magic Elytra &6* &7Magic Shovel|&6* &7Magic Shears"
-    32:
-      permission: ""
-      pass:
-        type: CHEST
-        name: "&6Help: Magic"
-        desc: "&7Players that promote &bmagic chests|&7are gathering funds to buy a|&7server-wide &9Magic Hour"
-    34:
-      permission: ""
-      pass:
-        type: EXPERIENCE_BOTTLE
-        name: "&6Help: Magic"
-        desc: "&7Players that sell '&9Magic&7' are|&7selling an upgrade through|&7the &dWizard feature&7."
+    #30:
+      #permission: ""
+      #pass:
+        #type: ENCHANTED_GOLDEN_APPLE
+        #name: "&6Help: Magic"
+        #desc: "&5Magic Days &7and &5Magic Hours|&7are the only time you can use|&7magic tools, with the exception of:|&6* &7Magic Armor (without sell bonus)|&6* &7Magic Elytra &6* &7Magic Shovel|&6* &7Magic Shears"
+    #32:
+      #permission: ""
+      #pass:
+        #type: CHEST
+        #name: "&6Help: Magic"
+        #desc: "&7Players that promote &bmagic chests|&7are gathering funds to buy a|&7server-wide &9Magic Hour"
+    #34:
+      #permission: ""
+      #pass:
+        #type: EXPERIENCE_BOTTLE
+        #name: "&6Help: Magic"
+        #desc: "&7Players that sell '&9Magic&7' are|&7selling an upgrade through|&7the &dWizard feature&7."
     36:
       permission: ""
       pass:
@@ -3269,12 +3284,18 @@ interface:
         type: NETHER_STAR
         name: "&6&lStar Tools: &c*NOT CRAFTABLE*"
         desc: "&7These are tools that have powerful|&7enchantments that cannot be|&7obtained through vanilla means.|&7These tools are obtained via the|&7Star Shop (&c/warp starshop&7) with|&7Nether Stars or by purchasing|&7them from other players."
+    #34:
+      #permission: ""
+      #pass:
+        #type: REPEATING_COMMAND_BLOCK
+        #name: "&6&lMagic Tools: &c*NOT CRAFTABLE*"
+        #desc: "&7These are tools that have powerful|&7enchantments and Magic abilities|&7that cannot be obtained|&7through vanilla means.|&7These tools are obtained via|&7God Drops or by purchasing|&7them from other players. These|&7tools only work on a &b&lMagic|&b&lDay&7. See if Magic is Enabled|&7with &c/magicday"
     34:
       permission: ""
       pass:
         type: REPEATING_COMMAND_BLOCK
         name: "&6&lMagic Tools: &c*NOT CRAFTABLE*"
-        desc: "&7These are tools that have powerful|&7enchantments and Magic abilities|&7that cannot be obtained|&7through vanilla means.|&7These tools are obtained via|&7God Drops or by purchasing|&7them from other players. These|&7tools only work on a &b&lMagic|&b&lDay&7. See if Magic is Enabled|&7with &c/magicday"
+        desc: "&7These are tools that have powerful|&7enchantments and Magic abilities|&7that cannot be obtained|&7through vanilla means.|&7These tools are obtained via|&7God Drops or by purchasing|&7them from other players."
     36:
       permission: ""
       pass:
@@ -9470,22 +9491,22 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a section"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    13:
-      permission: ""
-      pass:
-        type: KNOWLEDGE_BOOK
-        name: "&6Cosmetics"
-        command: "wikis4b1"
-        message: ""
-        runas: player
-    15:
-      permission: ""
-      pass:
-        type: KNOWLEDGE_BOOK
-        name: "&6Crate Keys"
-        command: "wikis4b2"
-        message: ""
-        runas: player
+    #13:
+      #permission: ""
+      #pass:
+        #type: KNOWLEDGE_BOOK
+        #name: "&6Cosmetics"
+        #command: "wikis4b1"
+        #message: ""
+        #runas: player
+    #15:
+      #permission: ""
+      #pass:
+        #type: KNOWLEDGE_BOOK
+        #name: "&6Crate Keys"
+        #command: "wikis4b2"
+        #message: ""
+        #runas: player
     18:
       permission: ""
       pass:
@@ -9498,6 +9519,30 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a section"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    21:
+      permission: ""
+      pass:
+        type: KNOWLEDGE_BOOK
+        name: "&6Cosmetics"
+        command: "wikis4b1"
+        message: ""
+        runas: player
+    23:
+      permission: ""
+      pass:
+        type: KNOWLEDGE_BOOK
+        name: "&6Crate Keys"
+        command: "wikis4b2"
+        message: ""
+        runas: player
+    25:
+      permission: ""
+      pass:
+        type: KNOWLEDGE_BOOK
+        name: "&6Features/Upgrades"
+        command: "wikis4b3"
+        message: ""
+        runas: player
     27:
       permission: ""
       pass:
@@ -9510,22 +9555,22 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a section"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    31:
-      permission: ""
-      pass:
-        type: KNOWLEDGE_BOOK
-        name: "&6Features/Upgrades"
-        command: "wikis4b3"
-        message: ""
-        runas: player
-    33:
-      permission: ""
-      pass:
-        type: KNOWLEDGE_BOOK
-        name: "&6Magic Hours"
-        command: "wikis4b7"
-        message: ""
-        runas: player
+    #31:
+      #permission: ""
+      #pass:
+        #type: KNOWLEDGE_BOOK
+        #name: "&6Features/Upgrades"
+        #command: "wikis4b3"
+        #message: ""
+        #runas: player
+    #33:
+      #permission: ""
+      #pass:
+        #type: KNOWLEDGE_BOOK
+        #name: "&6Magic Hours"
+        #command: "wikis4b7"
+        #message: ""
+        #runas: player
     36:
       permission: ""
       pass:
@@ -11300,167 +11345,173 @@ interface:
         command: "wikis4b5"
         message: ""
         runas: player
-    54:
-      permission: ""
-      pass:
-        type: LIME_WOOL
-        name: "&7Click to the next section:"
-        desc: "&6Magic Hours"
-        command: "wikis4b7"
-        message: ""
-        runas: player
-  wikis4b7:
-    name: "Magic Hours"
-    0:
-      permission: ""
-      pass:
-        type: LIGHT_GRAY_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    1:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    9:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    10:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    18:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    19:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    21:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3Magic Hour (Everyone)"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Magic Hour (Everyone)\n&bhttps://ecocitycraft.com/forum/wiki/main-magic-hour-everyone/\n&e------------------"
-        runas: console
-    23:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3Magic Hour (Personal)"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Magic Hour (Personal)\n&bhttps://ecocitycraft.com/forum/wiki/main-magic-hour-personal/\n&e------------------"
-        runas: console
-    25:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3Monthly Magic Hours"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Monthly Magic Hours\n&bhttps://ecocitycraft.com/forum/wiki/main-monthly-magic-hours/\n&e------------------"
-        runas: console
-    27:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    28:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    36:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    37:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    45:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    46:
-      permission: ""
-      pass:
-        type: OAK_DOOR
-        name: "&cPrevious Page"
-        desc: "&7Click here to the previous page!|&6Main Network Features"
-        command: "wikis4b"
-        message: ""
-        runas: player
-    47:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    48:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    49:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    50:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    51:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    52:
-      permission: ""
-      pass:
-        type: BLACK_STAINED_GLASS_PANE
-        name: "&7Choose a topic"
-        desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    53:
-      permission: ""
-      pass:
-        type: RED_WOOL
-        name: "&7Click to the previous section:"
-        desc: "&6Features/Upgrades (4/4)"
-        command: "wikis4b6"
-        message: ""
-        runas: player
+    #54:
+      #permission: ""
+      #pass:
+        #type: LIME_WOOL
+        #name: "&7Click to the next section:"
+        #desc: "&6Magic Hours"
+        #command: "wikis4b7"
+        #message: ""
+        #runas: player
     54:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+  #wikis4b7:
+    #name: "Magic Hours"
+    #0:
+      #permission: ""
+      #pass:
+        #type: LIGHT_GRAY_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #1:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #9:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #10:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #18:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #19:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #21:
+      #permission: ""
+      #pass:
+        #type: PAPER
+        #name: "&3Magic Hour (Everyone)"
+        #command: ""
+        #message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Magic Hour (Everyone)\n&bhttps://ecocitycraft.com/forum/wiki/main-magic-hour-everyone/\n&e------------------"
+        #runas: console
+    #23:
+      #permission: ""
+      #pass:
+        #type: PAPER
+        #name: "&3Magic Hour (Personal)"
+        #command: ""
+        #message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Magic Hour (Personal)\n&bhttps://ecocitycraft.com/forum/wiki/main-magic-hour-personal/\n&e------------------"
+        #runas: console
+    #25:
+      #permission: ""
+      #pass:
+        #type: PAPER
+        #name: "&3Monthly Magic Hours"
+        #command: ""
+        #message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Monthly Magic Hours\n&bhttps://ecocitycraft.com/forum/wiki/main-monthly-magic-hours/\n&e------------------"
+        #runas: console
+    #27:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #28:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #esc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #36:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #37:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #esc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #45:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #46:
+      #permission: ""
+      #pass:
+        #type: OAK_DOOR
+        #name: "&cPrevious Page"
+        #desc: "&7Click here to the previous page!|&6Main Network Features"
+        #command: "wikis4b"
+        #message: ""
+        #runas: player
+    #47:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #48:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #49:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #50:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #51:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #52:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    #53:
+      #permission: ""
+      #pass:
+        #type: RED_WOOL
+        #name: "&7Click to the previous section:"
+        #desc: "&6Features/Upgrades (4/4)"
+        #command: "wikis4b6"
+        #message: ""
+        #runas: player
+    #54:
+      #permission: ""
+      #pass:
+        #type: BLACK_STAINED_GLASS_PANE
+        #name: "&7Choose a topic"
+        #desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
   wikis4c1:
     name: "Skyblock Ranks"
     0:
