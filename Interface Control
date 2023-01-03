@@ -1363,8 +1363,8 @@ interface:
       permission: ""
       pass:
         type: NAME_TAG
-        name: "&3Chat Example&7: &a&lDonation Tag"
-        desc: "&7&l[MN]&f[G] &a[Resident]&f&n[&6&n*&b&nVIP&6&n*&f&n]&a **&4&landrew&3&lkm&f: Hello World!|&7Indicates the player's donation tag|&7Tag can be toggled on/off by the player|&5Click here &7to post a link in chat to a|&7Wiki article about &3Supporter Information"
+        name: "&3Chat Example&7: &a&lSupporter Tag"
+        desc: "&7&l[MN]&f[G] &a[Resident]&f&n[&6&n*&b&nVIP&6&n*&f&n]&a **&4&landrew&3&lkm&f: Hello World!|&7Indicates the player's supporter tag|&7Tag can be toggled on/off by the player|&5Click here &7to post a link in chat to a|&7Wiki article about &3Supporter Information"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aSupporter Information Wiki Article\n&bhttps://ecocitycraft.com/forum/wiki/supporter-information/\n&e------------------"
         runas: console
@@ -7439,9 +7439,9 @@ interface:
       permission: ""
       pass:
         type: PAPER
-        name: "&3Donation Feature Commands"
+        name: "&3Supporter Feature Commands"
         command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&aDonation Feature Commands\n&bhttps://ecocitycraft.com/forum/wiki/donation-feature-commands/\n&e------------------"
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&aPurchase Feature Commands\n&bhttps://ecocitycraft.com/forum/wiki/supporter-feature-commands/\n&e------------------"
         runas: console
     18:
       permission: ""
