@@ -13524,7 +13524,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Hades"
-        desc: "&c&lThe &6&lMarket Square|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cHades|&fto escape the|&fshackles of|&fmundane living!"
         command: "warp hades"
         message: ""
         runas: player
@@ -14172,7 +14172,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Poseidon"
-        desc: "&c&lThe &6&lShopping Quarter|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cPoseidon|&fto experience the|&fbustling city!"
         command: "warp poseidon"
         message: ""
         runas: player
@@ -14640,7 +14640,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Zeus"
-        desc: "&c&lThe &a&lGaia &c&lNations &6&lStore!|&f&lWe sell everything!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&cZeus &fis host to multiple|&fplayer run stores!|&bGrab a bargain today!"
         command: "warp zeus"
         message: ""
         runas: player
@@ -14764,7 +14764,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Zeus"
-        desc: "&c&lThe &a&lGaia &c&lNations &6&lStore!|&f&lWe sell everything!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&cZeus &fis host to multiple|&fplayer run stores!|&bGrab a bargain today!"
         command: "warp zeus"
         message: ""
         runas: player
@@ -15230,7 +15230,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Poseidon"
-        desc: "&c&lThe &6&lShopping Quarter|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cPoseidon|&fto experience the|&fbustling city!"
         command: "warp poseidon"
         message: ""
         runas: player
@@ -15878,7 +15878,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Hades"
-        desc: "&c&lThe &6&lMarket Square|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cHades|&fto escape the|&fshackles of|&fmundane living!"
         command: "warp hades"
         message: ""
         runas: player
@@ -17872,7 +17872,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Poseidon"
-        desc: "&c&lThe &6&lShopping Quarter|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cPoseidon|&fto experience the|&fbustling city!"
         command: "warp poseidon"
         message: ""
         runas: player
@@ -18070,7 +18070,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Zeus"
-        desc: "&c&lThe &a&lGaia &c&lNations &6&lStore!|&f&lWe sell everything!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&cZeus &fis host to multiple|&fplayer run stores!|&bGrab a bargain today!"
         command: "warp zeus"
         message: ""
         runas: player
@@ -18088,7 +18088,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Hades"
-        desc: "&c&lThe &6&lMarket Square|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cHades|&fto escape the|&fshackles of|&fmundane living!"
         command: "warp hades"
         message: ""
         runas: player
@@ -20046,7 +20046,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Hades"
-        desc: "&c&lThe &6&lMarket Square|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cHades|&fto escape the|&fshackles of|&fmundane living!"
         command: "warp hades"
         message: ""
         runas: player
@@ -20064,7 +20064,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Zeus"
-        desc: "&c&lThe &a&lGaia &c&lNations &6&lStore!|&f&lWe sell everything!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&cZeus &fis host to multiple|&fplayer run stores!|&bGrab a bargain today!"
         command: "warp zeus"
         message: ""
         runas: player
@@ -20262,7 +20262,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Poseidon"
-        desc: "&c&lThe &6&lShopping Quarter|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cPoseidon|&fto experience the|&fbustling city!"
         command: "warp poseidon"
         message: ""
         runas: player
@@ -22754,7 +22754,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Hades &dOlympiansAreGods"
-        desc: "&c&lThe &6&lMarket Square|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cHades|&fto escape the|&fshackles of|&fmundane living!"
         command: "warp hades"
         message: ""
         runas: player
@@ -22763,7 +22763,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Poseidon &dOlympiansAreGods"
-        desc: "&c&lThe &6&lShopping Quarter|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cPoseidon|&fto experience the|&fbustling city!"
         command: "warp poseidon"
         message: ""
         runas: player
@@ -22772,7 +22772,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Zeus &dOlympiansAreGods"
-        desc: "&c&lThe &a&lGaia &c&lNations &6&lStore!|&f&lWe sell everything!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&cZeus &fis host to multiple|&fplayer run stores!|&bGrab a bargain today!"
         command: "warp zeus"
         message: ""
         runas: player
@@ -24094,7 +24094,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Hades &dOlympiansAreGods"
-        desc: "&c&lThe &6&lMarket Square|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cHades|&fto escape the|&fshackles of|&fmundane living!"
         command: "warp hades"
         message: ""
         runas: player
@@ -24103,7 +24103,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Poseidon &dOlympiansAreGods"
-        desc: "&c&lThe &6&lShopping Quarter|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cPoseidon|&fto experience the|&fbustling city!"
         command: "warp poseidon"
         message: ""
         runas: player
@@ -24112,7 +24112,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Zeus &dOlympiansAreGods"
-        desc: "&c&lThe &a&lGaia &c&lNations &6&lStore!|&f&lWe sell everything!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&cZeus &fis host to multiple|&fplayer run stores!|&bGrab a bargain today!"
         command: "warp zeus"
         message: ""
         runas: player
@@ -27815,7 +27815,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Hades"
-        desc: "&c&lThe &6&lMarket Square|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cHades|&fto escape the|&fshackles of|&fmundane living!"
         command: "warp hades"
         message: ""
         runas: player
@@ -27925,7 +27925,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Poseidon"
-        desc: "&c&lThe &6&lShopping Quarter|&c&lof the|&a&lGaia &c&lNation!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&fVisit &cPoseidon|&fto experience the|&fbustling city!"
         command: "warp poseidon"
         message: ""
         runas: player
@@ -28007,7 +28007,7 @@ interface:
       pass:
         type: END_CRYSTAL
         name: "&6Zeus"
-        desc: "&c&lThe &a&lGaia &c&lNations &6&lStore!|&f&lWe sell everything!"
+        desc: "&a&l~*~ The Gaia Collective ~*~|&cZeus &fis host to multiple|&fplayer run stores!|&bGrab a bargain today!"
         command: "warp zeus"
         message: ""
         runas: player
