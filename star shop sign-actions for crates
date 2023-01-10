@@ -1,0 +1,63 @@
+#StarShop sign-action kits
+    1spwnrkey:
+     items:
+        - PAPER 1 unbreaking:1 name:&b&o&lSpawner_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_1_Spawner_Key!
+    10spwnrkey:
+     items:
+        - PAPER 1 unbreaking:1 name:&b&o&lSpawner_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_10_Spawner_Keys!
+    50spwnrkey:
+     items:
+        - PAPER 1 unbreaking:1 name:&b&o&lSpawner_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_50_Spawner_Keys!
+    1eggkey:
+     items:
+        - PAPER 1 unbreaking:1 name:&b&o&lEgg_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_1_Egg_Key!
+    10eggkey:
+     items:
+        - PAPER 1 unbreaking:1 name:&b&o&lEgg_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_10_Egg_Keys!
+    50eggkey:
+     items:
+        - PAPER 1 unbreaking:1 name:&b&o&lEgg_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_50_Egg_Keys!
+
+#StarShop sign-actions
+    starspwnr1:
+      world: rising
+      x: -3280
+      y: 258
+      z: -6896
+      actions:
+        - console cc give physical spawner 1 {user}
+    starspwnr10:
+      world: rising
+      x: -3281
+      y: 258
+      z: -6896
+      actions:
+        - console cc give physical spawner 10 {user}
+    starspwnr50:
+      world: rising
+      x: -3282
+      y: 258
+      z: -6896
+      actions:
+        - console cc give physical spawner 50 {user}
+    staregg1:
+      world: rising
+      x: -3282
+      y: 258
+      z: -6904
+      actions:
+        - console cc give physical egg 1 {user}
+    staregg10:
+      world: rising
+      x: -3281
+      y: 258
+      z: -6904
+      actions:
+        - console cc give physical egg 10 {user}
+    staregg50:
+      world: rising
+      x: -3280
+      y: 258
+      z: -6904
+      actions:
+        - console cc give physical egg 50 {user}
