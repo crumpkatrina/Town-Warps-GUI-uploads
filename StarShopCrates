@@ -85,43 +85,43 @@
 #StarShopMAINNORTH sign-actions
     starspwnr1:
       world: rising_n
-      x: -3280
-      y: 258
-      z: -6896
+      x: -30
+      y: 49
+      z: 4
       actions:
         - console cc give physical spawner 1 {user}
     starspwnr10:
       world: rising_n
-      x: -3281
-      y: 258
-      z: -6896
+      x: -31
+      y: 49
+      z: 4
       actions:
         - console cc give physical spawner 10 {user}
     starspwnr50:
       world: rising_n
-      x: -3282
-      y: 258
-      z: -6896
+      x: -32
+      y: 49
+      z: 4
       actions:
         - console cc give physical spawner 50 {user}
     staregg1:
       world: rising_n
-      x: -3282
-      y: 258
-      z: -6904
+      x: -32
+      y: 49
+      z: -4
       actions:
         - console cc give physical egg 1 {user}
     staregg10:
       world: rising_n
-      x: -3281
-      y: 258
-      z: -6904
+      x: -31
+      y: 49
+      z: -4
       actions:
         - console cc give physical egg 10 {user}
     staregg50:
       world: rising_n
-      x: -3280
-      y: 258
-      z: -6904
+      x: -30
+      y: 49
+      z: -4
       actions:
         - console cc give physical egg 50 {user}
