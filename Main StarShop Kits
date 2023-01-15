@@ -1,0 +1,19 @@
+ #StarShopMAIN 
+ 1spwnrkey:
+   items:
+      - PAPER 1 unbreaking:1 name:&b&o&lSpawner_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_1_Spawner_Key!
+  10spwnrkey:
+   items:
+      - PAPER 1 unbreaking:1 name:&b&o&lSpawner_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_10_Spawner_Keys!
+  50spwnrkey:
+   items:
+      - PAPER 1 unbreaking:1 name:&b&o&lSpawner_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_50_Spawner_Keys!
+  1eggkey:
+   items:
+      - PAPER 1 unbreaking:1 name:&b&o&lEgg_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_1_Egg_Key!
+  10eggkey:
+   items:
+      - PAPER 1 unbreaking:1 name:&b&o&lEgg_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_10_Egg_Keys!
+  50eggkey:
+   items:
+      - PAPER 1 unbreaking:1 name:&b&o&lEgg_Key_Receipt lore:&5&oThank_you_for_your_purchase_of_50_Egg_Keys!
