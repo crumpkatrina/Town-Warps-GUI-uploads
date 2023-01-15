@@ -1046,38 +1046,38 @@ interface:
       permission: ""
       pass:
         type: PAPER
-        name: "&c/lottery"
-        desc: "&7check out the ECC lottery."
+        name: "&c/raffle"
+        desc: "&7check out the ECC Raffle."
     31:
+      permission: ""
+      pass:
+        type: GOLD_NUGGET
+        name: "&c/ecoflip"
+        desc: "&7check out the ECC EcoFlip."
+    32:
       permission: ""
       pass:
         type: OAK_SIGN
         name: "&c/ch g"
         desc: "&7access and chat in the global channel."
-    32:
+    33:
       permission: ""
       pass:
         type: OAK_SIGN
         name: "&c/ch l"
         desc: "&7access and chat in the local channel."
-    33:
+    34:
       permission: ""
       pass:
         type: OAK_SIGN
         name: "&c/ch list"
         desc: "&7show a list of available chat channels."
-    34:
+    35:
       permission: ""
       pass:
         type: KNOWLEDGE_BOOK
         name: "&c/msg <username> <msg>"
         desc: "&7private message another user."
-    35:
-      permission: ""
-      pass:
-        type: OAK_SIGN
-        name: "&c/auc help"
-        desc: "&7get help regarding our auction system."
     36:
       permission: ""
       pass:
@@ -1091,6 +1091,12 @@ interface:
         name: "&7Hover over an icon for information!"
         desc: "&7Click &6orange titles &7for more info."
     38:
+      permission: ""
+      pass:
+        type: OAK_SIGN
+        name: "&c/auc help"
+        desc: "&7get help regarding our auction system."
+    39:
       permission: ""
       pass:
         type: ANVIL
@@ -1409,7 +1415,7 @@ interface:
       pass:
         type: PAPER
         name: "&6Extra Chat Commands&7:"
-        desc: "&c/sellspam &7- reduce spam from &c/sell|&c/auc spam &7- reduce spam from &bauction|&c/lot messages &7- toggle Lottery messages|&c/r &7- start a conversation with the last person to DM you|&c/r <message> &7- respond to a DM from another player|&c/ignore <user> &7- ignore messages from a user|&c/shout <message> &7- Shout in the current server|&7Links do not work in shouts, costs &c$1,000 ECD"
+        desc: "&c/sellspam &7- reduce spam from &c/sell|&c/auc spam &7- reduce spam from &bauction|&c/raf messages &7- toggle Raffle messages|&c/r &7- start a conversation with the last person to DM you|&c/r <message> &7- respond to a DM from another player|&c/ignore <user> &7- ignore messages from a user|&c/shout <message> &7- Shout in the current server|&7Links do not work in shouts, costs &e$5,000 ECD"
     31:
       permission: ""
       pass:
@@ -1555,7 +1561,7 @@ interface:
       pass:
         type: COAL
         name: "&f[Builder] &eStarting rank &7includes:"
-        desc: "&6* &715 LWC Protections! &6* &7Buy and sell items!|&6* &7Build on unprotected land or join towns as members|&6* &7Ability to set up to two homes!|&6* &7Create Chestshops (Rising only)!|&6* &3Access Builder commands&7: &bClick to post link in chat|&6* &7If you have $15,000 in your &c/balance|  &7you can apply for &a[Resident]"
+        desc: "&6* &715 LWC Protections! &6* &7Buy and sell items!|&6* &7Build on unprotected land or join towns as members|&6* &7Ability to set up to two homes!|&6* &7Create Chestshops (Rising only)!|&6* &3Access Builder commands&7: &bClick to post link in chat|&6* &7If you have $30,000 in your &c/balance|  &7you can apply for &a[Resident]"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aBuilder Commands Wiki Article\n&bhttps://ecocitycraft.com/forum/wiki/server-commands/#builders\n&e------------------"
         runas: console
@@ -1575,7 +1581,7 @@ interface:
       permission: ""
       pass:
         type: COPPER_INGOT
-        name: "&a[Resident] &e$15,000&7. Includes:"
+        name: "&a[Resident] &e$30,000&7. Includes:"
         desc: "&6* &7100 LWC Protections! &6* &7Ability to get your head.|&6* &7Ability to set up to three homes!|&6* &7Ability to apply for spawn market station.|&6* &7Ability to add members to towns you own.|&6* &3Access Resident commands&7: &bClick to post link in chat|&6* &7Ability to apply for a town / &2[Mayor] &7rank."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aResident Commands Wiki Article\n&bhttps://ecocitycraft.com/forum/wiki/server-commands/#residents\n&e------------------"
@@ -1584,7 +1590,7 @@ interface:
       permission: ""
       pass:
         type: IRON_INGOT
-        name: "&2[Mayor] &e$85,000&7. Includes:"
+        name: "&2[Mayor] &e$170,000&7. Includes:"
         desc: "&6* &7Your own town (up to 200x200!) &6* &7300 LWC protections.|&6* &7Ability to set up to four homes! &6* &7Ability to manage town owners.|&6* &7Ability to apply for special features for your town.|&6* &3Access to town commands&7. &bClick for more information&7.|&6* &7Ability to apply for another town / &6[President] &7rank."
         command: "HelpMeTownCommands"
         message: ""
@@ -1593,31 +1599,31 @@ interface:
       permission: ""
       pass:
         type: GOLD_INGOT
-        name: "&6[President] &e$180,000&7. Includes:"
+        name: "&6[President] &e$360,000&7. Includes:"
         desc: "&6* &7A new town (Up to 200x200!) Note: You can opt out of|  &7the new town, &cthis is irreversible once processed!|&6* &7500 LWC protections! &6* &7Ability to set up to five homes!|&6* &7Ability to set up a nation with town portals, including|  &7cross-server! &6* &7Ability to apply for Town Transfers for|  &7Official Ownership! &6* &7Ability to apply for additional towns.|&6* &7Ability to apply for &6[T&2y&6c&2o&6o&2n&6]&7."
     14:
       permission: ""
       pass:
         type: REDSTONE
-        name: "&6[T&2y&6c&2o&6o&2n&6] &e$500,000&7. Includes:"
+        name: "&6[T&2y&6c&2o&6o&2n&6] &e$1,000,000&7. Includes:"
         desc: "&6* &7Ability to claim a town from inactive players.|  &7Note: This is not setting a new town, this is claiming|  &7an existing town via the Town Claim Application.|&6* &7Ability to apply for &6[&a$&bEcoLeader&a$&6]&7."
     15:
       permission: ""
       pass:
         type: LAPIS_LAZULI
-        name: "&6[&a$&bEcoLeader&a$&6] &e$1,000,000&7. Includes:"
-        desc: "&6* &71 more town claim (2 total)!|  &7Note: This is not setting a new town, this is claiming|  &7an existing town via the Town Claim Application.|&6* &7EcoLeader forum medal!|&6* &7Ability to apply for &6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6]&7."
+        name: "&6[&a$&bEcoLeader&a$&6] &e$2,000,000&7. Includes:"
+        desc: "&6* &71 more town claim (2 total)!|  &7Note: This is not setting a new town, this is claiming|  &7an existing town via the Town Claim Application.|&6* &7EcoLeader forum medal!|&6* &7Ability to apply for &6[&a$$&bEco&3Master&a$$&6]&7."
     16:
       permission: ""
       pass:
         type: DIAMOND
-        name: "&6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6] &e$2,500,000&7. Includes:"
+        name: "&6[&a$$&bEco&3Master&a$$&6] &e$5,000,000&7. Includes:"
         desc: "&6* &71 more town claim (3 total)!|  &7Note: This is not setting a new town, this is claiming|  &7an existing town via the Town Claim Application.|&6* &7EcoMaster forum medal!|&6* &7Ability to apply for &6[&a$$$&3EcoLegend&a$$$&6]&7."
     17:
       permission: ""
       pass:
         type: EMERALD
-        name: "&6[&a$$$&3EcoLegend&a$$$&6] &e$5,000,000&7. Includes:"
+        name: "&6[&a$$$&3EcoLegend&a$$$&6] &e$10,000,000&7. Includes:"
         desc: "&6* &71 more town claim (4 total)!|  &7Note: This is not setting a new town, this is claiming|  &7an existing town via the Town Claim Application.|&6* &7EcoLegend forum medal!|&6* &7Prestige! A 3% bonus to your /sell command!|&6* &c&lSatisfaction knowing you've beaten EcoCityCraft <3"
     18:
       permission: ""
@@ -1635,7 +1641,7 @@ interface:
       permission: ""
       pass:
         type: NAME_TAG
-        name: "&3Apply for &a[Resident] &e$15,000&7."
+        name: "&3Apply for &a[Resident] &e$30,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aResident Application\n&bhttps://ecocitycraft.com/forum/forms/.1/respond\n&e------------------"
@@ -1644,7 +1650,7 @@ interface:
       permission: "group.main_resident"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &2[Mayor] &e$85,000&7."
+        name: "&3Apply for &2[Mayor] &e$170,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aMayor Application\n&bhttps://ecocitycraft.com/forum/forms/.23/respond\n&e------------------"
@@ -1660,7 +1666,7 @@ interface:
       permission: "group.main_mayor"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &6[President] &e$180,000&7."
+        name: "&3Apply for &6[President] &e$360,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aPresident Application\n&bhttps://ecocitycraft.com/forum/forms/.25/respond\n&e------------------"
@@ -1676,7 +1682,7 @@ interface:
       permission: "group.main_president"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &6[T&2y&6c&2o&6o&2n&6] &e$500,000&7."
+        name: "&3Apply for &6[T&2y&6c&2o&6o&2n&6] &e$1,000,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTycoon Application\n&bhttps://ecocitycraft.com/forum/forms/.36/respond\n&e------------------"
@@ -1692,7 +1698,7 @@ interface:
       permission: "group.main_tycoon"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &6[&a$&bEcoLeader&a$&6] &e$1,000,000&7."
+        name: "&3Apply for &6[&a$&bEcoLeader&a$&6] &e$2,000,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aEcoLeader Application\n&bhttps://ecocitycraft.com/forum/forms/.37/respond\n&e------------------"
@@ -1708,14 +1714,14 @@ interface:
       permission: "group.main_ecoleader"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6] &e$2,500,000&7."
+        name: "&3Apply for &6[&a$$&bEco&3Master&a$$&6] &e$5,000,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aEcoMaster Application\n&bhttps://ecocitycraft.com/forum/forms/.38/respond\n&e------------------"
         runas: console
       fail:
         type: BARRIER
-        name: "&3Apply for &6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6]"
+        name: "&3Apply for &6[&a$$&bEco&3Master&a$$&6]"
         desc: "&4Prerequisites not met!|&7Must apply for &6[&a$&bEcoLeader&a$&6]"
         command: ""
         message: ""
@@ -1724,7 +1730,7 @@ interface:
       permission: "group.main_ecomaster"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &6[&a$$$&3EcoLegend&a$$$&6] &e$5,000,000&7."
+        name: "&3Apply for &6[&a$$$&3EcoLegend&a$$$&6] &e$10,000,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aEcoLegend Application\n&bhttps://ecocitycraft.com/forum/forms/.39/respond\n&e------------------"
@@ -1732,7 +1738,7 @@ interface:
       fail:
         type: BARRIER
         name: "&3Apply for &6[&a$$$&3EcoLegend&a$$$&6]"
-        desc: "&4Prerequisites not met!|&7Must apply for &6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6]"
+        desc: "&4Prerequisites not met!|&7Must apply for &6[&a$$&bEco&3Master&a$$&6]"
         command: ""
         message: ""
         runas: player
@@ -1752,31 +1758,31 @@ interface:
       permission: ""
       pass:
         type: NETHERRACK
-        name: "&d[Survivor] &e$20,000&7. Includes:"
+        name: "&d[Survivor] &e$40,000&7. Includes:"
         desc: "&6* &7Access to the &dNether Portal &7at spawn.|&6* &7Ability to anything you please in the nether|  &7and can be as destructive as you wish!"
     31:
       permission: ""
       pass:
         type: NETHER_GOLD_ORE
-        name: "&d[Warrior] &e$25,000&7. Includes:"
+        name: "&d[Warrior] &e$50,000&7. Includes:"
         desc: "&6* &7Keep all the perks of being a &dSurvivor&7!|&6* &7Ability to use Lava Buckets in the nether (without Pyro!).|&6* &7Access to all Warrior commands.|&6* &7Ability to sneak!"
     32:
       permission: ""
       pass:
         type: NETHER_QUARTZ_ORE
-        name: "&d[Terminator] &e$30,000&7. Includes:"
+        name: "&d[Terminator] &e$60,000&7. Includes:"
         desc: "&6* &7Keep all the perks of being a &dSurvivor&7/&dWarrior&7!|&6* &7Ability to spawn 32 pieces of TNT and|  &71 piece of Flint and Steel every hour.|&6* &7Ability to use flint + steel to light things in the nether!|&6* &7Access to all Terminator commands.|&6* &7Access to all future nether additions!"
     34:
       permission: ""
       pass:
         type: END_STONE
-        name: "&e[Voyager] $20,000&7. Includes:"
+        name: "&e[Voyager] $40,000&7. Includes:"
         desc: "&6* &7Access to the &eEnd Portal &7at spawn.|&6* &7Immunity to void damage in the End."
     35:
       permission: ""
       pass:
         type: PURPUR_BLOCK
-        name: "&e[VoidWalker] $25,000&7. Includes:"
+        name: "&e[VoidWalker] $50,000&7. Includes:"
         desc: "&6* &7Keep all the perks of being a &eVoyager&7!|&6* &7Access to all VoidWalker commands.|&6* &7Ability to use Lava Buckets in the end.|  &7Bring them over from Rising! &6* &7Ability to sneak!|&6* &7Ability to spawn 5 pieces of TNT and|  &71 piece of Flint and Steel every hour.|&6* &7Ability to use flint + steel to light|  &7things in the end (without Pyro!).|&6* &7Ability to use Firework Rockets (without|  &7Pyro!). Use them with an elytra and|  &7dominate the end!|&6* &7Access to all future end additions!"
     36:
       permission: ""
@@ -1794,7 +1800,7 @@ interface:
       permission: ""
       pass:
         type: NAME_TAG
-        name: "&3Apply for &d[Survivor] &e$20,000&7."
+        name: "&3Apply for &d[Survivor] &e$40,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aSurvivor Application\n&bhttps://ecocitycraft.com/forum/forms/.2/respond\n&e------------------"
@@ -1803,7 +1809,7 @@ interface:
       permission: "group.main_survivor"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &d[Warrior] &e$25,000&7."
+        name: "&3Apply for &d[Warrior] &e$50,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aWarrior Application\n&bhttps://ecocitycraft.com/forum/forms/.4/respond\n&e------------------"
@@ -1819,7 +1825,7 @@ interface:
       permission: "group.main_warrior"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &d[Terminator] &e$30,000&7."
+        name: "&3Apply for &d[Terminator] &e$60,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTerminator Application\n&bhttps://ecocitycraft.com/forum/forms/.5/respond\n&e------------------"
@@ -1835,7 +1841,7 @@ interface:
       permission: ""
       pass:
         type: NAME_TAG
-        name: "&3Apply for &e[Voyager] $20,000&7."
+        name: "&3Apply for &e[Voyager] $40,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aVoyager Application\n&bhttps://ecocitycraft.com/forum/forms/.3/respond\n&e------------------"
@@ -1844,7 +1850,7 @@ interface:
       permission: "group.main_voyager"
       pass:
         type: NAME_TAG
-        name: "&3Apply for &e[VoidWalker] $25,000&7."
+        name: "&3Apply for &e[VoidWalker] $50,000&7."
         desc: "&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aVoidWalker Application\n&bhttps://ecocitycraft.com/forum/forms/.6/respond\n&e------------------"
@@ -1944,7 +1950,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&a[Resident] &3Application"
-        desc: "&7Cost: &e$15,000&7.|&7Access to apply for &aspawn shop&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$30,000&7.|&7Access to apply for &aspawn shop&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aResident Application\n&bhttps://ecocitycraft.com/forum/forms/.1/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/resident-application/\n&e------------------"
         runas: console
@@ -1953,7 +1959,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&2[Mayor] &3Application"
-        desc: "&7Cost: &e$85,000&7.|&7Access to apply for &2town features&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$170,000&7.|&7Access to apply for &2town features&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aMayor Application\n&bhttps://ecocitycraft.com/forum/forms/.23/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-mayor-application/\n&e------------------"
         runas: console
@@ -1969,7 +1975,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&6[President] &3Application"
-        desc: "&7Cost: &e$180,000&7.|&7Access to apply for &6town features+&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$360,000&7.|&7Access to apply for &6town features+&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aPresident Application\n&bhttps://ecocitycraft.com/forum/forms/.25/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/president-application/\n&e------------------"
         runas: console
@@ -1985,7 +1991,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&6[T&2y&6c&2o&6o&2n&6] &3Application"
-        desc: "&7Cost: &e$500,000&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$1,000,000&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTycoon Application\n&bhttps://ecocitycraft.com/forum/forms/.36/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/tycoon-application/\n&e------------------"
         runas: console
@@ -2001,7 +2007,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&6[&a$&bEcoLeader&a$&6] &3Application"
-        desc: "&7Cost: &e$1,000,000&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$2,000,000&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aEcoLeader Application\n&bhttps://ecocitycraft.com/forum/forms/.37/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/ecoleader-application/\n&e------------------"
         runas: console
@@ -2016,14 +2022,14 @@ interface:
       permission: "group.main_ecoleader"
       pass:
         type: NAME_TAG
-        name: "&6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6] &3Application"
-        desc: "&7Cost: &e$2,500,000&7.|&5Click to post links in chat."
+        name: "&6[&a$$&bEco&3Master&a$$&6] &3Application"
+        desc: "&7Cost: &e$5,000,000&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aEcoMaster Application\n&bhttps://ecocitycraft.com/forum/forms/.38/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/ecomaster-application/\n&e------------------"
         runas: console
       fail:
         type: BARRIER
-        name: "&6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6] &3Application"
+        name: "&6[&a$$&bEco&3Master&a$$&6] &3Application"
         desc: "&4Prerequisites not met!|&7Must apply for &6[&a$&bEcoLeader&a$&6]"
         command: ""
         message: ""
@@ -2033,14 +2039,14 @@ interface:
       pass:
         type: NAME_TAG
         name: "&6[&a$$$&3EcoLegend&a$$$&6] &3Application"
-        desc: "&7Cost: &e$5,000,000&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$10,000,000&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aEcoLegend Application\n&bhttps://ecocitycraft.com/forum/forms/.39/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/ecolegend-application/\n&e------------------"
         runas: console
       fail:
         type: BARRIER
         name: "&6[&a$$$&3EcoLegend&a$$$&6] &3Application"
-        desc: "&4Prerequisites not met!|&7Must apply for &6[&a$$&3E&bc&3o&bM&3a&bs&3t&be&3r&a$$&6]"
+        desc: "&4Prerequisites not met!|&7Must apply for &6[&a$$&bEco&3Master&a$$&6]"
         command: ""
         message: ""
         runas: player
@@ -2061,7 +2067,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&d[Survivor] &3Application"
-        desc: "&7Cost: &e$20,000&7.|&dNether World &7access.|&5Click to post links in chat."
+        desc: "&7Cost: &e$40,000&7.|&dNether World &7access.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aSurvivor Application\n&bhttps://ecocitycraft.com/forum/forms/.2/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/survivor-application/\n&e------------------"
         runas: console
@@ -2070,7 +2076,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&d[Warrior] &3Application"
-        desc: "&7Cost: &e$25,000&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$50,000&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aWarrior Application\n&bhttps://ecocitycraft.com/forum/forms/.4/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/warrior-application/\n&e------------------"
         runas: console
@@ -2086,7 +2092,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&d[Terminator] &3Application"
-        desc: "&7Cost: &e$30,000&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$60,000&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTerminator Application\n&bhttps://ecocitycraft.com/forum/forms/.5/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/terminator-application/\n&e------------------"
         runas: console
@@ -2102,7 +2108,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&e[Voyager] &3Application"
-        desc: "&7Cost: &e$20,000&7.|&eEnd World &7access.|&5Click to post links in chat."
+        desc: "&7Cost: &e$40,000&7.|&eEnd World &7access.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aVoyager Application\n&bhttps://ecocitycraft.com/forum/forms/.3/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/voyager-application/\n&e------------------"
         runas: console
@@ -2111,7 +2117,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&d[VoidWalker] &3Application"
-        desc: "&7Cost: &e$25,000&7.|&5Click to post links in chat."
+        desc: "&7Cost: &e$50,000&7.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aVoidWalker Application\n&bhttps://ecocitycraft.com/forum/forms/.6/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/voidwalker-application/\n&e------------------"
         runas: console
@@ -2493,7 +2499,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Warp Application"
-        desc: "&7Cost: &e$50,000&7.|&7Add town to &c/warp|&5Click to post links in chat"
+        desc: "&7Cost: &e$100,000&7.|&7Add town to &c/warp|&5Click to post links in chat"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Warp Application\n&bhttps://ecocitycraft.com/forum/forms/.26/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-warp-application/\n&e------------------"
         runas: console
@@ -2502,7 +2508,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Warp Relocation Application"
-        desc: "&7Cost: &e$10,000&7.|&7Relocate a town warp|&5Click to post links in chat."
+        desc: "&7Cost: &e$20,000&7.|&7Relocate a town warp|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Warp Relocation Application\n&bhttps://ecocitycraft.com/forum/forms/.27/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-warp-relocation-application/\n&e------------------"
         runas: console
@@ -2511,7 +2517,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Warp GUI Change Application"
-        desc: "&7Cost: &e$10,000&7.|&7Edit your town GUI category/description|&5Click to post links in chat."
+        desc: "&7Cost: &e$20,000&7.|&7Edit your town GUI category/description|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Warp GUI Change Application\n&bhttps://ecocitycraft.com/forum/forms/.70/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-warp-gui-change-application/\n&e------------------"
         runas: console
@@ -2520,7 +2526,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Pad Application"
-        desc: "&7Cost: &e$100,000&7.|&7Apply for a town pad at &c/warp towns|&7Town must have a warp to apply|&5Click to post links in chat."
+        desc: "&7Cost: &e$200,000&7.|&7Apply for a town pad at &c/warp towns|&7Town must have a warp to apply|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Pad Application\n&bhttps://ecocitycraft.com/forum/forms/.68/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-pad-application/\n&e------------------"
         runas: console
@@ -2529,7 +2535,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town-Exclusive Portal Application"
-        desc: "&7Cost: &e$100,000 &7(&e+$10,000 &7optional portal size)|&7Create a portal that links to other locations|&5Click to post links in chat."
+        desc: "&7Cost: &e$200,000 &7(&e+$20,000 &7optional portal size)|&7Create a portal that links to other locations|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Exclusive Portal Application\n&bhttps://ecocitycraft.com/forum/forms/.28/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-exclusive-portal-application/\n&e------------------"
         runas: console
@@ -2538,7 +2544,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town-Town Portal Application"
-        desc: "&7Cost: &e$25,000/portal &7(&e+$10,000 &7optional portal size)|&7Create a portal that links to other portals in towns|&5Click to post links in chat."
+        desc: "&7Cost: &e$50,000/portal &7(&e+$20,000 &7optional portal size)|&7Create a portal that links to other portals in towns|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown-Town Portal Application\n&bhttps://ecocitycraft.com/forum/forms/.41/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-town-portal-application/\n&e------------------"
         runas: console
@@ -2554,7 +2560,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Portal Relocation Application"
-        desc: "&7Cost: &e$10,000&7.|&7Relocate a town portal|&5Click to post links in chat."
+        desc: "&7Cost: &e$20,000&7.|&7Relocate a town portal|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Portal Relocation Application\n&bhttps://ecocitycraft.com/forum/forms/.30/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-portal-relocation-application/\n&e------------------"
         runas: console
@@ -2575,7 +2581,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Portal Resize Application"
-        desc: "&7Cost: &e$10,000&7.|&7Resize a town portal|&5Click to post links in chat."
+        desc: "&7Cost: &e$20,000&7.|&7Resize a town portal|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Portal Resize Application\n&bhttps://ecocitycraft.com/forum/forms/.29/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-portal-resize-application/\n&e------------------"
         runas: console
@@ -2584,7 +2590,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Special Feature Removal Application"
-        desc: "&7Cost: &e$5,000&7.|&7Remove a town feature|&5Click to post links in chat."
+        desc: "&7Cost: &e$10,000&7.|&7Remove a town feature|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aSpecial Feature Removal Application\n&bhttps://ecocitycraft.com/forum/forms/.35/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/special-feature-removal-application/\n&e------------------"
         runas: console
@@ -2593,7 +2599,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3PVP Area Application"
-        desc: "&7Cost: &e$40,000&7.|&7Add a PVP subregion|&5Click to post links in chat."
+        desc: "&7Cost: &e$80,000&7.|&7Add a PVP subregion|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aPVP Area Application\n&bhttps://ecocitycraft.com/forum/forms/.31/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/pvp-area-application/\n&e------------------"
         runas: console
@@ -2602,7 +2608,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3PVP Area Relocation Application"
-        desc: "&7Cost: &e$10,000&7.|&7Relocate a PVP subregion|&5Click to post links in chat."
+        desc: "&7Cost: &e$20,000&7.|&7Relocate a PVP subregion|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aPVP Area Relocation Application\n&bhttps://ecocitycraft.com/forum/forms/.32/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/pvp-area-relocation-application/\n&e------------------"
         runas: console
@@ -2611,7 +2617,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Heal Sign Application"
-        desc: "&7Cost: &e$40,000&7.|&7Right click to fully heal|&5Click to post links in chat."
+        desc: "&7Cost: &e$80,000&7.|&7Right click to fully heal|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aHeal Sign Application\n&bhttps://ecocitycraft.com/forum/forms/.33/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/heal-sign-application/\n&e------------------"
         runas: console
@@ -2620,12 +2626,11 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Archive WorldEdit Application"
-        desc: "&7Cost: &e$3,500 per y-level, min 50 y-levels|&7Transfer a town build from Archive|&5Click to post links in chat."
+        desc: "&7Cost: &e$7,000 per y-level, min 50 y-levels|&7Transfer a town build from Archive|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aArchive WorldEdit Application\n&bhttps://ecocitycraft.com/forum/forms/.66/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/archive-worldedit-application/\n&e------------------"
         runas: console
-    # Town Migration Application
-    # 15:
+    # Town Migration Application 15:
       # permission: ""
       # pass:
         # type: NAME_TAG
@@ -2691,7 +2696,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Transfer Application"
-        desc: "&7Cost: &e150,000&7.|&7Officially transfer ownership|&7of a town to another user|&5Click to post links in chat."
+        desc: "&7Cost: &e300,000&7.|&7Officially transfer ownership|&7of a town to another user|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Transfer Application\n&bhttps://ecocitycraft.com/forum/forms/.43/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-transfer-application/\n&e------------------"
         runas: console
@@ -2707,7 +2712,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Town Move Application"
-        desc: "&7Cost: &e250,000 &7-OR- &e$500,000&7.|&7Relocate a town region.|&cDoes not move blocks.|&5Click to post links in chat."
+        desc: "&7Cost: &e500,000 &7-OR- &e$1,000,000&7.|&7Relocate a town region.|&cDoes not move blocks.|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aTown Move Application\n&bhttps://ecocitycraft.com/forum/forms/.42/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/town-move-application/\n&e------------------"
         runas: console
@@ -2739,7 +2744,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3UnClaimable Town Application"
-        desc: "&7Cost: &e$2,000,000 &7+ &e1,000 &7NetherStars|&7Mark a town as unclaimable|&5Click to post links in chat."
+        desc: "&7Cost: &e$4,000,000 &7+ &e1,000 &7NetherStars|&7Mark a town as unclaimable|&5Click to post links in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aUnClaimable Town Application\n&bhttps://ecocitycraft.com/forum/forms/.60/respond\n&aIn-depth instructions\n&bhttps://ecocitycraft.com/forum/wiki/unclaimable-town-application/\n&e------------------"
         runas: console
@@ -2937,7 +2942,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Apply for Nether Access"
-        desc: "&d[Survivor] &e$20,000|&5Click to post link in chat."
+        desc: "&d[Survivor] &e$40,000|&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aSurvivor Application\n&bhttps://ecocitycraft.com/forum/forms/.2/respond\n&e------------------"
         runas: console
@@ -2952,7 +2957,7 @@ interface:
       pass:
         type: NAME_TAG
         name: "&3Apply for End Access"
-        desc: "&e[Voyager] $20,000|&5Click to post link in chat."
+        desc: "&e[Voyager] $40,000|&5Click to post link in chat."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aVoyager Application\n&bhttps://ecocitycraft.com/forum/forms/.3/respond\n&e------------------"
         runas: console
@@ -4387,9 +4392,9 @@ interface:
       pass:
         type: CLOCK
         name: "&3Sports"
-        desc: "&7Requires forum account|&7place bets with forum|&7balance &9Minimum bet: 5k|&5Click to post link in chat."
+        desc: "&7Requires forum &6premium|&6account &7place bets with|&7forum balance |&9Minimum bet: 5k|&5Click to post links in chat."
         command: ""
-        message: "&e------------------\n&6[EcoCityCraft]\n&aSportsbook\n&bhttps://ecocitycraft.com/forum/sportsbook/\n&e------------------"
+        message: "&e------------------\n&6[EcoCityCraft]\n&aPurchase Forum Premium\n&bhttps://ecocitycraft.com/forum/account/upgrades/\n&aSportsbook\n&bhttps://ecocitycraft.com/forum/sportsbook/\n&e------------------"
         runas: console
     9:
       permission: ""
@@ -5733,15 +5738,15 @@ interface:
         command: "warp snipechest"
         message: ""
         runas: player
-    43:
-      permission: ""
-      pass:
-        type: TRIPWIRE_HOOK
-        name: "&6Star Casino"
-        desc: "&7Click here to TP to the Star Casino!|&aPress your luck to win exclusive prizes!"
-        command: "warp starcasino"
-        message: ""
-        runas: player
+    #43:
+      #permission: ""
+      #pass:
+        #type: TRIPWIRE_HOOK
+        #name: "&6Star Casino"
+        #desc: "&7Click here to TP to the Star Casino!|&aPress your luck to win exclusive prizes!"
+        #command: "warp starcasino"
+        #message: ""
+        #runas: player
     44:
       permission: ""
       pass:
@@ -5979,15 +5984,15 @@ interface:
         command: "warp snipechest"
         message: ""
         runas: player
-    43:
-      permission: ""
-      pass:
-        type: TRIPWIRE_HOOK
-        name: "&6Star Casino"
-        desc: "&7Click here to TP to the Star Casino!|&aPress your luck to win exclusive prizes!"
-        command: "warp starcasino"
-        message: ""
-        runas: player
+    #43:
+      #permission: ""
+      #pass:
+        #type: TRIPWIRE_HOOK
+        #name: "&6Star Casino"
+        #desc: "&7Click here to TP to the Star Casino!|&aPress your luck to win exclusive prizes!"
+        #command: "warp starcasino"
+        #message: ""
+        #runas: player
     44:
       permission: ""
       pass:
@@ -10544,6 +10549,15 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
+    45:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3ExtCreationsPlus3"
+        desc: "&6* &7Removed Cooldowns &6* &7Place Beacons|&6* &c/cartography &6* &c/grindstone|&6* &c/loom &6* &c/stonecutter|&6* &c/disposal &6* &c/moisturize|&6* &c/kit mobs2 &6* &c/kit breath"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreationsPlus3\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreationsplus3/\n&e------------------"
+        runas: console
     46:
       permission: ""
       pass:
@@ -10655,10 +10669,10 @@ interface:
       permission: ""
       pass:
         type: PAPER
-        name: "&3LottoMaster"
-        desc: "&c/lot draw &7draw the current lotto|&57 minute cooldown"
+        name: "&3RaffleMaster"
+        desc: "&c/raf draw &7draw the current raffle|&57 minute cooldown"
         command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) HeadMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-lottomaster/\n&e------------------"
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) RaffleMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-rafflemaster/\n&e------------------"
         runas: console
     15:
       permission: ""
@@ -10727,10 +10741,10 @@ interface:
       permission: ""
       pass:
         type: PAPER
-        name: "&3LottoMasterPlus"
-        desc: "&7reduce your &5Lotto|&7taxes by &a50%&7!"
+        name: "&3RaffleMasterPlus"
+        desc: "&7reduce your &5Raffle|&7taxes by &a50%&7!"
         command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) HeadMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-lottomasterplus/\n&e------------------"
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) RaffleMasterPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-rafflemasterplus/\n&e------------------"
         runas: console
     25:
       permission: ""
@@ -10772,10 +10786,10 @@ interface:
       permission: ""
       pass:
         type: PAPER
-        name: "&3LottoMasterPlus2"
-        desc: "&7reduce your &5Lotto|&7taxes by &a100%&7!"
+        name: "&3RaffleMasterPlus2"
+        desc: "&7reduce your &5Raffle|&7taxes by &a100%&7!"
         command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) HeadMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-lottomasterplus2/\n&e------------------"
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) RaffleMasterPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-rafflemasterplus2/\n&e------------------"
         runas: console
     34:
       permission: ""
@@ -10888,12 +10902,21 @@ interface:
       permission: ""
       pass:
         type: PAPER
+        name: "&3MythicUpgrade Refresh"
+        desc: "&7Refresh &c/mythicupgrade &7cooldown|&7Must have &5WizardPlus3"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) MythicUpgrade Refresh\n&bhttps://ecocitycraft.com/forum/wiki/main-mythicupgrade-refresh/\n&e------------------"
+        runas: console
+    11:
+      permission: ""
+      pass:
+        type: PAPER
         name: "&3Nickname"
         desc: "&a/nick &7give yourself|&7a **nickname"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Nickname\n&bhttps://ecocitycraft.com/forum/wiki/main-nickname/\n&e------------------"
         runas: console
-    11:
+    12:
       permission: ""
       pass:
         type: PAPER
@@ -10902,7 +10925,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) PlayerVaults\n&bhttps://ecocitycraft.com/forum/wiki/main-playervaults/\n&e------------------"
         runas: console
-    12:
+    13:
       permission: ""
       pass:
         type: PAPER
@@ -10911,7 +10934,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Pyro\n&bhttps://ecocitycraft.com/forum/wiki/main-pyro/\n&e------------------"
         runas: console
-    13:
+    14:
       permission: ""
       pass:
         type: PAPER
@@ -10920,7 +10943,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) SmithMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-smithmaster/\n&e------------------"
         runas: console
-    14:
+    15:
       permission: ""
       pass:
         type: PAPER
@@ -10929,7 +10952,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Stealth\n&bhttps://ecocitycraft.com/forum/wiki/main-stealth/\n&e------------------"
         runas: console
-    15:
+    16:
       permission: ""
       pass:
         type: PAPER
@@ -10938,7 +10961,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Teleport\n&bhttps://ecocitycraft.com/forum/wiki/main-teleport/\n&e------------------"
         runas: console
-    16:
+    17:
       permission: ""
       pass:
         type: PAPER
@@ -10947,7 +10970,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Tombstone\n&bhttps://ecocitycraft.com/forum/wiki/main-tombstone/\n&e------------------"
         runas: console
-    17:
+    18:
       permission: ""
       pass:
         type: PAPER
@@ -10956,16 +10979,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ToolHunter\n&bhttps://ecocitycraft.com/forum/wiki/main-toolhunter/\n&e------------------"
         runas: console
-    18:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3TownControl"
-        desc: "&7Access to some|&7town flags"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControl\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrol/\n&e------------------"
-        runas: console
-    19:
+    20:
       permission: ""
       pass:
         type: PAPER
@@ -10974,7 +10988,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) NicknamePlus\n&bhttps://ecocitycraft.com/forum/wiki/main-nicknameplus/\n&e------------------"
         runas: console
-    20:
+    21:
       permission: ""
       pass:
         type: PAPER
@@ -10983,7 +10997,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) PlayerVaultsPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-playervaultsplus/\n&e------------------"
         runas: console
-    21:
+    22:
       permission: ""
       pass:
         type: PAPER
@@ -10992,7 +11006,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) PyroPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-pyroplus/\n&e------------------"
         runas: console
-    22:
+    23:
       permission: ""
       pass:
         type: PAPER
@@ -11001,7 +11015,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) SmithMasterPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-smithmasterplus/\n&e------------------"
         runas: console
-    23:
+    24:
       permission: ""
       pass:
         type: PAPER
@@ -11010,7 +11024,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) StealthPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-stealthplus/\n&e------------------"
         runas: console
-    24:
+    25:
       permission: ""
       pass:
         type: PAPER
@@ -11019,7 +11033,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TeleportPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-teleportplus/\n&e------------------"
         runas: console
-    25:
+    26:
       permission: ""
       pass:
         type: PAPER
@@ -11028,16 +11042,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TombstonePlus\n&bhttps://ecocitycraft.com/forum/wiki/main-tombstoneplus/\n&e------------------"
         runas: console
-    27:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3TownControlPlus"
-        desc: "&6* &7Set up to 5 plots per town|&6* &c//wand &7Select region|&6* &c/setplot <town> <plot> <user>|&6* &7Access to more|&7  town flags"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControlPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrolplus/\n&e------------------"
-        runas: console
-    29:
+    30:
       permission: ""
       pass:
         type: PAPER
@@ -11046,7 +11051,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) PlayerVaultsPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-playervaultsplus2/\n&e------------------"
         runas: console
-    30:
+    31:
       permission: ""
       pass:
         type: PAPER
@@ -11055,7 +11060,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) PyroPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-pyroplus2/\n&e------------------"
         runas: console
-    32:
+    33:
       permission: ""
       pass:
         type: PAPER
@@ -11064,7 +11069,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) StealthPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-stealthplus2/\n&e------------------"
         runas: console
-    33:
+    34:
       permission: ""
       pass:
         type: PAPER
@@ -11073,7 +11078,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TeleportPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-teleportplus2/\n&e------------------"
         runas: console
-    34:
+    35:
       permission: ""
       pass:
         type: PAPER
@@ -11082,16 +11087,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TombstonePlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-tombstoneplus2/\n&e------------------"
         runas: console
-    36:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3TownControlPlus2"
-        desc: "&6* &7Set unlimited plots &c//wand|&6* &c/setplot <town> <plot> <user>|&6* &7Access to even|&7  more town flags!"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControlPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrolplus2/\n&e------------------"
-        runas: console
-    38:
+    39:
       permission: ""
       pass:
         type: PAPER
@@ -11099,15 +11095,6 @@ interface:
         desc: "&bAdditional Packages|&c/pv # &7personal storage|&7per server|&7Up to &a91 Vaults"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) PlayerVaultsPlus Expansions\n&bhttps://ecocitycraft.com/forum/wiki/main-playervaultsplus-expansions/\n&e------------------"
-        runas: console
-    45:
-      permission: ""
-      pass:
-        type: PAPER
-        name: "&3TownControlPlus3"
-        desc: "&7Access to &bEVEN|&bMORE &7town flags!!!"
-        command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControlPlus3\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrolplus3/\n&e------------------"
         runas: console
     46:
       permission: ""
@@ -11190,12 +11177,21 @@ interface:
       permission: ""
       pass:
         type: PAPER
+        name: "&3TownControl"
+        desc: "&7Access to some|&7town flags"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControl\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrol/\n&e------------------"
+        runas: console
+    11:
+      permission: ""
+      pass:
+        type: PAPER
         name: "&3TownPolice"
         desc: "&7Ban users from entering towns|&c/userban <town> <user>"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownPolice\n&bhttps://ecocitycraft.com/forum/wiki/main-townpolice/\n&e------------------"
         runas: console
-    11:
+    12:
       permission: ""
       pass:
         type: PAPER
@@ -11204,7 +11200,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TravelBag\n&bhttps://ecocitycraft.com/forum/wiki/main-travelbag/\n&e------------------"
         runas: console
-    12:
+    13:
       permission: ""
       pass:
         type: PAPER
@@ -11213,7 +11209,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) UnlimitedLWC\n&bhttps://ecocitycraft.com/forum/wiki/main-unlimitedlwc/\n&e------------------"
         runas: console
-    13:
+    14:
       permission: ""
       pass:
         type: PAPER
@@ -11222,7 +11218,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Water\n&bhttps://ecocitycraft.com/forum/wiki/main-water/\n&e------------------"
         runas: console
-    14:
+    15:
       permission: ""
       pass:
         type: PAPER
@@ -11237,7 +11233,16 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    20:
+    19:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3TownControlPlus"
+        desc: "&6* &7Set up to 5 plots per town|&6* &c//wand &7Select region|&6* &c/setplot <town> <plot> <user>|&6* &7Access to more|&7  town flags"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControlPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrolplus/\n&e------------------"
+        runas: console
+    21:
       permission: ""
       pass:
         type: PAPER
@@ -11246,7 +11251,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TravelBagPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-travelbagplus/\n&e------------------"
         runas: console
-    22:
+    23:
       permission: ""
       pass:
         type: PAPER
@@ -11255,7 +11260,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) WaterPlus\n&bhttps://ecocitycraft.com/forum/wiki/main-waterplus/\n&e------------------"
         runas: console
-    23:
+    24:
       permission: ""
       pass:
         type: PAPER
@@ -11270,7 +11275,16 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    29:
+    28:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3TownControlPlus2"
+        desc: "&6* &7Set unlimited plots &c//wand|&6* &c/setplot <town> <plot> <user>|&6* &7Access to even|&7  more town flags!"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControlPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrolplus2/\n&e------------------"
+        runas: console
+    30:
       permission: ""
       pass:
         type: PAPER
@@ -11279,7 +11293,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TravelBagPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-travelbagplus2/\n&e------------------"
         runas: console
-    31:
+    32:
       permission: ""
       pass:
         type: PAPER
@@ -11288,7 +11302,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) WaterPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-waterplus2/\n&e------------------"
         runas: console
-    32:
+    33:
       permission: ""
       pass:
         type: PAPER
@@ -11303,7 +11317,16 @@ interface:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
-    38:
+    37:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3TownControlPlus3"
+        desc: "&7Access to &bEVEN|&bMORE &7town flags!!!"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TownControlPlus3\n&bhttps://ecocitycraft.com/forum/wiki/main-towncontrolplus3/\n&e------------------"
+        runas: console
+    39:
       permission: ""
       pass:
         type: PAPER
@@ -11312,7 +11335,7 @@ interface:
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) TravelBagPlus Expansions\n&bhttps://ecocitycraft.com/forum/wiki/main-travelbagplus-expansions/\n&e------------------"
         runas: console
-    41:
+    42:
       permission: ""
       pass:
         type: PAPER
