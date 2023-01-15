@@ -12306,7 +12306,8 @@ interface:
         name: "&7Choose a topic"
         desc: "&6Orange &7titles open new pages.|&3Blue &7titles post links in chat."
 # End Wiki System
-# Start Town Warps System  serverwarps:
+# Start Town Warps System
+  serverwarps:
     name: "Server Warps"
     0:
       permission: ""
