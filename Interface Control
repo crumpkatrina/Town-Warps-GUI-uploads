@@ -10430,7 +10430,7 @@ interface:
         name: "&3CoinMaster"
         desc: "&7reduce your &5CoinFlip|&7taxes by &a100%&7!"
         command: ""
-        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Back\n&bhttps://ecocitycraft.com/forum/wiki/main-coinmaster/\n&e------------------"
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) CoinMaster\n&bhttps://ecocitycraft.com/forum/wiki/main-coinmaster/\n&e------------------"
         runas: console
     16:
       permission: ""
@@ -10554,7 +10554,7 @@ interface:
       pass:
         type: PAPER
         name: "&3ExtCreationsPlus3"
-        desc: "&6* &7Removed Cooldowns &6* &7Place Beacons|&6* &c/cartography &6* &c/grindstone|&6* &c/loom &6* &c/stonecutter|&6* &c/disposal &6* &c/moisturize|&6* &c/kit mobs2 &6* &c/kit breath"
+        desc: "&6* &7Create Doorbells|&6* &7Place sign with [Doorbell] on Line 1|&6* &c/doorbell message <message>|  &7to create custom message. &7Doorbells have a|  &520 second &7cooldown."
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) ExtCreationsPlus3\n&bhttps://ecocitycraft.com/forum/wiki/main-extcreationsplus3/\n&e------------------"
         runas: console
