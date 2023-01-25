@@ -1,0 +1,931 @@
+# Configure GUI's here
+# Note: Slots start at 0 instead of 1, max slot is 53 (don't go over) (E.g: last slot in first row of inventory is 8)
+# Item Material's can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#
+# GUI Methods:
+# - BOOK
+# - CHEST
+# - CHAT (Disables GUI)
+GUIMethod:
+  Today: CHEST #BOOK not available (future update?)
+  TopVoter: CHEST #BOOK not available (future update?)
+  Last: CHEST #BOOK not available (future update?)
+  Next: CHEST 
+  Total: CHEST #BOOK not available (future update?)
+  # GUI for /vote
+  URL: CHEST
+  Best: CHEST #BOOK not available (future update?)
+  Streak: CHEST #BOOK not available (future update?)
+  GUI: CHEST #CHAT/BOOK not availabe for this (future update?)
+  
+# Enable command for last month gui
+# Requires restart to take effect
+LastMonthGUI: false
+  
+CHEST:
+  # GUI for /vote gui, /vgui, /votegui
+  VoteGUI:
+    # Items will be ordered as listed here
+    # You can add items following this format, even set slots
+    # See extra item below. GUI will auto resize to what is needed
+    URL:
+      # Standard item format, lore is automaticly applied 
+      Item:
+        Material: 'BOW'
+        Amount: 1
+        Name: '&4URL'
+        Lore:
+        - '&aClick me for links'
+        # You can set skulls of the player using the following
+        # Remove the # to enable
+        #Skull: '%Player%'
+    Next:
+      Item:
+        Material: 'COMPASS'
+        Amount: 1
+        Name: '&4Next'
+    Last:
+      Item:
+        Material: 'CLOCK'
+        Amount: 1
+        Name: '&4Last'
+    Total:
+      Item:
+        Material: 'CHEST'
+        Amount: 1
+        Name: '&4Total'
+    Top:
+      Item:
+        Material: 'OAK_SIGN'
+        Amount: 1
+        Name: '&4Top'
+    Today:
+      Item:
+        Material: 'BOOK'
+        Amount: 1
+        Name: '&4Today'
+    Shop:
+      Item:
+        Material: 'DIAMOND'
+        Amount: 1
+        Name: '&4Vote Shop'
+        Lore:
+        - '&aYou currently have %points% EcoVotes'
+    # 'ExtraName' below is an identifier, can be whatever
+    # ExtraItem:
+      # Item:
+        # Material: 'DIRT'
+        # Amount: 1
+        # Name: 'Extra item'
+        ## Works on most GUI items
+        # Slot: 10
+      ## Send rewards on click, run commands, check conditions, etc
+      # Rewards: []
+        
+  # GUI for /vote url, /vote
+  VoteURL:
+    # GUI Name
+    Name: '&cVoteURL'
+    BackButton: true
+    SiteName: '&c%Name%'
+    SiteNameCanVote: '&a%Name%'
+    SeeURL: '&cClick to see URL'
+    NextVote: '&cCan Vote In: %Info%'
+    #Start slot for specific site buttons
+    #StartSlot: 1
+    ViewAllUrlsButtonEnabled: true
+    AllUrlsButton:
+      #Set slot for AllUrlsButton
+      #Slot: 0
+      RequireAllSitesVoted: true
+      AlreadyVotedItem:
+        Material: 'REDSTONE_BLOCK'
+        Data: 0 
+        Amount: 1
+        Name: '&4All Voting Sites'
+        Lore:
+        - '&cClick Me'
+      CanVoteItem:
+        Material: 'EMERALD_BLOCK'
+        Data: 0
+        Amount: 1
+        Name: '&4All Voting Sites'
+        Lore:
+        - '&cClick Me'
+    AlreadyVotedItem:
+      Material: 'REDSTONE_BLOCK'
+      Data: 0 
+      Amount: 1
+    CanVoteItem:
+      Material: 'EMERALD_BLOCK'
+      Data: 0
+      Amount: 1
+    # URL when clicking item in /vote (GUI version)
+    URLText: '%VoteUrl%'
+    # #Add Extra items
+    # ExtraItems:
+      # Item1:
+        # Material: DIRT
+        # Amount: 1
+        # Slot: 1
+        # #Can run commands or effects
+        # Rewards: []
+    
+  VoteLast:
+    Name: 'VoteLast: %player%'
+    BackButton: true
+    # Lines for each vote site
+    # %time% = time, using timeformat below
+    # %timesince% = time since vote
+    Line: '&6%timeSince%'
+  VoteNext:
+    Name: 'VoteNext: %player%'
+    BackButton: true
+  VoteToday:
+    Name: 'VoteToday'
+    Line: '&6%VoteSite% : %Time%'
+    IconTitle: '%player%'
+    BackButton: true
+    UseSkull: true
+    # If UseSkull is false, use this item
+    PlayerItem:
+      Material: 'PAPER'
+      Amount: 1
+  VoteTop:
+    Name: 'VoteTop %topvoter%'
+    BackButton: true
+    # Item of top voter (change material below)
+    Item:
+      Name: '&3&l%position%: &3%player%'
+      Lore: '&3&lVotes: &3%votes%'
+    # Opens main GUI of the specific player that gets clicked
+    OpenMainGUIOnClick: true
+    SwitchItem:
+      Name: '&3Switch TopVoter'
+      Lore: '&bCurrently: %Top%'
+      Material: 'OAK_SIGN'
+      Amount: 1
+      # 8 Slots over from the bottom left
+      # Bottom of GUI
+      Slot: 7
+    # Number of topvoters to display on each GUI page, must be a multiple of 9
+    Size: 27
+    # If true, /vote top will show player heads
+    UseSkull: true
+    # Item for player in GUI if use skull is false
+    PlayerItem:
+      Material: 'PAPER'
+  VoteTotal:
+    Name: 'VoteTotal: %player%'
+    BackButton: true
+    DayTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cDaily Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+    WeekTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cWeekly Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+    MonthTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cMonthly Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+    AllTimeTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cAllTime Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+  VoteBest:
+    Name: 'VoteBest: %player%'
+    BackButton: true
+    DayBest:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cDaily Best'
+        Lore: '&c&lBest: &c%Best%'
+        Amount: 1
+    WeekBest:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cWeekly Best'
+        Lore: '&c&lBest: &c%Best%'
+        Amount: 1
+    MonthBest:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cMonthly Best'
+        Lore: '&c&lBest: &c%Best%'
+        Amount: 1
+  VoteStreak:
+    Name: 'VoteStreak: %player%'
+    BackButton: false
+    CurrentDayStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cCurrent Daily Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    CurrentWeekStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cCurrent Weekly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    CurrentMonthStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cCurrent Monthly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    HighestDayStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cHighest Daily Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    HighestWeekStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cHighest Weekly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    HighestMonthStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cHighest Monthly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+  VoteURLSite:
+    Name: 'VoteSite: %site%'
+  VoteGUIName: '&cVoteGUI: &c&l%player%'
+  VoteRewardName: 'VoteReward'
+  VoteShopName: 'VoteShop'
+  
+  BackButton:
+    Material: 'BARRIER'
+    Data: 0
+    Amount: 1
+    Name: '&8Back to VoteGUI'
+    # If true, clicking back button will open VoteURL
+    OpenVoteURL: false
+    # If true, backbutton will be the last slot of the GUI
+    EndOfGUI: false
+
+  VoteShopBackButton: true
+  VoteShopEnabled: true
+  # Hide items in vote shop which user can not buy
+  VoteShopHideLimitedReached: false
+  # Requires above to be false
+  VoteShopLimitReached: '&aYou reached your limit'
+  VoteShopRequireConfirmation: false
+  VoteShopDisabled: '&cVote shop disabled'
+  Shop:
+    NetherStar:
+      Identifier_Name: 'Nether Star'
+      Material: 'NETHER_STAR'
+      Amount: 1
+      Name: '&4Buy A Nether Star'
+      Lore:
+      - '&c&lCost: &c2 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 2
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Items:
+          NetherStar:
+            Material: 'NETHER_STAR'
+            Amount: 1 
+    JigSaw:
+      Identifier_Name: 'Jig Saw'
+      Material: 'JIGSAW'
+      Amount: 1
+      Name: '&4Buy A JigSaw (64 Nether Stars!)'
+      Lore:
+      - '&c&lCost: &c115 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 115
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Items:
+          JigSaw:
+            Material: 'JIGSAW'
+            Amount: 1 
+    GodDrop:
+      Identifier_Name: 'God Drop'
+      Material: 'LECTERN'
+      Amount: 1
+      Name: '&4Buy A God Drop! (Spin with &f/cc&4)'
+      Lore:
+      - '&c&lCost: &c1,625 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 1625
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'cc give virtual goddrop 1 %Player%'
+    StarMelonSword:
+      Identifier_Name: 'Star Melon Sword'
+      Material: 'DIAMOND_SWORD'
+      Amount: 1
+      Name: '&4Buy A Star Melon Sword!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff5sword %Player%'
+    StarEff7Pickaxe:
+      Identifier_Name: 'Star Eff 7 Pickaxe'
+      Material: 'DIAMOND_PICKAXE'
+      Amount: 1
+      Name: '&4Buy A Star Eff 7 Pickaxe!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff7pick %Player%'
+    StarEff10Axe:
+      Identifier_Name: 'Star Eff 10 Axe'
+      Material: 'DIAMOND_AXE'
+      Amount: 1
+      Name: '&4Buy A Star Eff 10 Axe!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff10axe %Player%'
+    StarEff10Shovel:
+      Identifier_Name: 'Star Eff 10 Shovel'
+      Material: 'DIAMOND_SHOVEL'
+      Amount: 1
+      Name: '&4Buy A Star Eff 10 Shovel!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff10shovel %Player%'
+    StarHoe:
+      Identifier_Name: 'Star Fortune 5 Hoe'
+      Material: 'DIAMOND_HOE'
+      Amount: 1
+      Name: '&4Buy A Star Fortune 5 Hoe!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit fort5hoe %Player%'
+    StarLure5Rod:
+      Identifier_Name: 'Star Lure 5 Rod'
+      Material: 'FISHING_ROD'
+      Amount: 1
+      Name: '&4Buy A Star Lure 5 Rod!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit lure5rod %Player%'
+    500CosmoCoins:
+      Identifier_Name: '500 Cosmo Coins'
+      Material: 'BOOK'
+      Amount: 1
+      Name: '&4Buy 500 Cosmo Coins!'
+      Lore:
+      - '&c&lCost: &c7 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 7
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'procosmetics give coins %Player% 500'
+    Magic Rabbit(White, Blue Particles):
+      Identifier_Name: 'Magic Rabbit (White, Blue Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(White, Blue Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"White, Blue Particles\",\"color\":\"#2E5299\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:1,ActiveEffects:[{Id:13b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Rabbit(White, Avocado Green Particles):
+      Identifier_Name: 'Magic Rabbit (White, Avocado Green Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(White, Avocado Green Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"White, Avocado Green Particles\",\"color\":\"#339900\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:1,ActiveEffects:[{Id:26b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Rabbit(Black, Red Particles):
+      Identifier_Name: 'Magic Rabbit (Black, Red Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(Black, Red Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Black, Red Particles\",\"color\":\"#F82423\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:2,ActiveEffects:[{Id:23b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Rabbit(Black, Yellow Particles):
+      Identifier_Name: 'Magic Rabbit (Black, Yellow Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(Black, Yellow Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Black, Yellow Particles\",\"color\":\"#D9C043\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:2,ActiveEffects:[{Id:3b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Rabbit(Black & White, Dark Green Particles):
+      Identifier_Name: 'Magic Rabbit (Black & White, Dark Green Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(Black & White, Dark Green Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Black & White, Dark Green Particles\",\"color\":\"#0B6138\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:3,ActiveEffects:[{Id:31b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Rabbit(Blakc & White, Purple Particles):
+      Identifier_Name: 'Magic Rabbit (Black & White, Purple Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(Black & White, Purple Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Black & White, Purple Particles\",\"color\":\"#551D4A\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:3,ActiveEffects:[{Id:9b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Rabbit(Gold, Red Particles):
+      Identifier_Name: 'Magic Rabbit (Gold, Red Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(Gold, Red Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Gold, Red Particles\",\"color\":\"#F82423\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:4,ActiveEffects:[{Id:6b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Rabbit(Gold, Medium Blue Particles):
+      Identifier_Name: 'Magic Rabbit (Gold, Medium Blue Particles)'
+      Material: 'RABBIT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Rabbit(Gold, Medium Blue Particles)!'
+      Lore:
+      - '&c&lCost: &c25 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 25
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% rabbit_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\",\"bold\":true},{\"text\":\"MagicMob (Rabbit)\",\"color\":\"aqua\",\"bold\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Gold, Medium Blue Particles\",\"color\":\"#1F1FA1\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{RabbitType:4,ActiveEffects:[{Id:16b,Amplifier:1b,Duration:2000000000}]}} 1"
+    Lunar New Year Fireworks (Large Ball):
+      Identifier_Name: 'Lunar New Year Firework (Large Ball)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Lunar New Year Fireworks (Large Ball)'
+      Lore:
+      - '&c&lCost: &c2 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 5
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% firework_rocket{display:{Name:'{\"text\":\"Lunar New Year Firework (Large Ball)\",\"color\":\"#700303\",\"bold\":true}',Lore:['{\"text\":\"Lunar New Year Firework (Large Ball)\",\"color\":\"gray\",\"italic\":true}','{\"text\":\"Red and Gold\",\"color\":\"gray\",\"italic\":true}']},Enchantments:[{}],Fireworks:{Flight:1b,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;10354688,13215780]}]}} 64"
+    Lunar New Year Fireworks (Small Ball):
+      Identifier_Name: 'Lunar New Year Firework (Small Ball)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Lunar New Year Fireworks (Small Ball)'
+      Lore:
+      - '&c&lCost: &c2 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 5
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% firework_rocket{display:{Name:'{\"text\":\"Lunar New Year Firework (Small Ball)\",\"color\":\"#700303\",\"bold\":true}',Lore:['{\"text\":\"Lunar New Year Firework (Small Ball)\",\"color\":\"gray\",\"italic\":true}','{\"text\":\"Red and Gold\",\"color\":\"gray\",\"italic\":true}']},Enchantments:[{}],Fireworks:{Flight:1b,Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;10354688,13215780]}]}} 64"
+    Lunar New Year Fireworks (Star Shaped):
+      Identifier_Name: 'Lunar New Year Firework (Star-Shaped)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Lunsar New Year Fireworks (Star Shaped)'
+      Lore:
+      - '&c&lCost: &c2 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 5
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% firework_rocket{display:{Name:'{\"text\":\"Lunar New Year Firework (Star-Shaped)\",\"color\":\"#700303\",\"bold\":true}',Lore:['{\"text\":\"Lunar New Year Firework (Star-Shaped)\",\"color\":\"gray\",\"italic\":true}','{\"text\":\"Red and Gold\",\"color\":\"gray\",\"italic\":true}']},Enchantments:[{}],Fireworks:{Flight:1b,Explosions:[{Type:1,Flicker:1b,Trail:1b,Colors:[I;10354688,13215780]}]}} 64"
+    Lunar New Year Fireworks (Creeper Shaped):
+      Identifier_Name: 'Lunar New Year Firework (Creeper-Shaped)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Lunar New Year Fireworks (Creeper-Shaped)'
+      Lore:
+      - '&c&lCost: &c2 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 5
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% firework_rocket{display:{Name:'{\"text\":\"Lunar New Year Firework (Creeper-Shaped)\",\"color\":\"#700303\",\"bold\":true}',Lore:['{\"text\":\"Lunar New Year Firework (Creeper-Shaped)\",\"color\":\"gray\",\"italic\":true}','{\"text\":\"Red and Gold\",\"color\":\"gray\",\"italic\":true}']},Enchantments:[{}],Fireworks:{Flight:1b,Explosions:[{Type:3,Flicker:1b,Trail:1b,Colors:[I;10354688,13215780]}]}} 64"
+    Lunar New Year Fireworks (Burst):
+      Identifier_Name: 'Lunar New Year Firework (Burst)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Lunar New Year Fireworks (Burst)'
+      Lore:
+      - '&c&lCost: &c2 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 5
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% firework_rocket{display:{Name:'{\"text\":\"Lunar New Year Firework (Burst)\",\"color\":\"#700303\",\"bold\":true}',Lore:['{\"text\":\"Lunar New Year Firework (Burst)\",\"color\":\"gray\",\"italic\":true}','{\"text\":\"Red and Gold\",\"color\":\"gray\",\"italic\":true}']},Enchantments:[{}],Fireworks:{Flight:1b,Explosions:[{Type:4,Flicker:1b,Trail:1b,Colors:[I;10354688,13215780]}]}} 64"
+    White Iridescent Glass:
+      Identifier_Name: 'White Iridescent Glass!'
+      Material: 'WHITE_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 White Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% white_stained_glass{display:{Name:'{\"text\":\"White Iridescent Glass\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Light Gray Iridescent Glass:
+      Identifier_Name: 'Light Gray Iridescent Glass!'
+      Material: 'LIGHT_GRAY_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Light Gray Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% light_gray_stained_glass{display:{Name:'{\"text\":\"Light Gray Iridescent Glass\",\"color\":\"#889BA6\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Gray Iridescent Glass:
+      Identifier_Name: 'Gray Iridescent Glass!'
+      Material: 'GRAY_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Gray Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% gray_stained_glass{display:{Name:'{\"text\":\"Gray Iridescent Glass\",\"color\":\"#475157\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Black Iridescent Glass:
+      Identifier_Name: 'Black Iridescent Glass!'
+      Material: 'BLACK_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Black Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% black_stained_glass{display:{Name:'{\"text\":\"Black Iridescent Glass\",\"color\":\"#1D2124\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Brown Iridescent Glass:
+      Identifier_Name: 'Brown Iridescent Glass!'
+      Material: 'BROWN_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Brown Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% brown_stained_glass{display:{Name:'{\"text\":\"Brown Iridescent Glass\",\"color\":\"#69451C\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Red Iridescent Glass:
+      Identifier_Name: 'Red Iridescent Glass!'
+      Material: 'RED_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Red Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% red_stained_glass{display:{Name:'{\"text\":\"Red Iridescent Glass\",\"color\":\"#8C0000\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Orange Iridescent Glass:
+      Identifier_Name: 'Orange Iridescent Glass!'
+      Material: 'ORANGE_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Orange Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% orange_stained_glass{display:{Name:'{\"text\":\"Orange Iridescent Glass\",\"color\":\"#F07A13\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Yellow Iridescent Glass:
+      Identifier_Name: 'Yellow Iridescent Glass!'
+      Material: 'YELLOW_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Yellow Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% yellow_stained_glass{display:{Name:'{\"text\":\"Yellow Iridescent Glass\",\"color\":\"#F0E913\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Lime Iridescent Glass:
+      Identifier_Name: 'Lime Iridescent Glass!'
+      Material: 'LIME_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Lime Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% lime_stained_glass{display:{Name:'{\"text\":\"Lime Iridescent Glass\",\"color\":\"#1CC922\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Green Iridescent Glass:
+      Identifier_Name: 'Green Iridescent Glass!'
+      Material: 'GREEN_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Green Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% green_stained_glass{display:{Name:'{\"text\":\"Green Iridescent Glass\",\"color\":\"#0C570F\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Cyan Iridescent Glass:
+      Identifier_Name: 'Cyan Iridescent Glass!'
+      Material: 'CYAN_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Cyan Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% cyan_stained_glass{display:{Name:'{\"text\":\"Cyan Iridescent Glass\",\"color\":\"#4BA9B0\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Light Blue Iridescent Glass:
+      Identifier_Name: 'Light Blue Iridescent Glass!'
+      Material: 'LIGHT_BLUE_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Light Blue Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% light_blue_stained_glass{display:{Name:'{\"text\":\"Light Blue Iridescent Glass\",\"color\":\"#2FBBDE\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Blue Iridescent Glass:
+      Identifier_Name: 'Blue Iridescent Glass!'
+      Material: 'BLUE_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Blue Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% blue_stained_glass{display:{Name:'{\"text\":\"Blue Iridescent Glass\",\"color\":\"#0C169C\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Purple Iridescent Glass:
+      Identifier_Name: 'Purple Iridescent Glass!'
+      Material: 'PURPLE_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Purple Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% purple_stained_glass{display:{Name:'{\"text\":\"Purple Iridescent Glass\",\"color\":\"#5A1085\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Magenta Iridescent Glass:
+      Identifier_Name: 'Magenta Iridescent Glass!'
+      Material: 'MAGENTA_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Magenta Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% magenta_stained_glass{display:{Name:'{\"text\":\"Magenta Iridescent Glass\",\"color\":\"#C02FD6\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Pink Iridescent Glass:
+      Identifier_Name: 'Pink Iridescent Glass!'
+      Material: 'PINK_STAINED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Pink Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% pink_stained_glass{display:{Name:'{\"text\":\"Pink Iridescent Glass\",\"color\":\"#E048CC\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Iridescent Glass:
+      Identifier_Name: 'Iridescent Glass!'
+      Material: 'GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% glass{display:{Name:'{\"text\":\"Iridescent Glass\",\"color\":\"#D9E0C7\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+    Tinted Iridescent Glass:
+      Identifier_Name: 'Tinted Iridescent Glass!'
+      Material: 'TINTED_GLASS'
+      Amount: 1
+      Name: '&4Buy 1 Tinted Iridescent Glass!'
+      Lore:
+      - '&c&lCost: &c10 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% tinted_glass{display:{Name:'{\"text\":\"Tinted Iridescent Glass\",\"color\":\"#363832\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Iridescent Glass Collection\",\"italic\":true}','{\"text\":\"January 2023 - Vote Shop\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]} 1"
+  
+  ShopConfirmPurchase:
+    Title: 'Confirm Purchase?'
+    YesItem:
+      Material: EMERALD_BLOCK
+      Amount: 1
+      Name: '&aYes'
+    NoItem:
+      Material: BARRIER
+      Amount: 1
+      Name: '&cNo'
+  
+  BOOK:
+  VoteURLBookGUI:
+    Title: '&cVoteURL'
+    CanVoteText: 'Click me'
+    CanVoteColor: 'GREEN'
+    AlreadyVotedText: 'Click me'
+    AlreadyVotedColor: 'RED' 
+    Layout:
+    - '&3&l%Sitename%'
+    - '[UrlText]'
+    
