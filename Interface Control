@@ -2936,7 +2936,7 @@ interface:
       pass:
         type: NETHERRACK
         name: "&6Nether World"
-        desc: "&7Accessed with &c/m &7or &c/mn &7and|&7then &c/warp nether&7. &92 unique maps|&7Available to &d[Survivor]&7. &c&nResets monthly&7.|&6* &7A fiery harsh &4PVP world &7where grief is allowed. Beware.|&6* &aBlaze spawners &7work &6* &cMagma cube spawners &7don't work|&6* &7You cannot lock chests and doors in this world!|&6* &7You cannot teleport to other players in this world!"
+        desc: "&7Accessed with &c/m &7or &c/mn &7and|&7then &c/warp nether&7. &92 unique maps|&7Available to &d[Survivor]&7. &c&nResets monthly&7.|&6* &7A &charsh fiery world &7where grief is allowed. Beware.|&6* &aBlaze spawners &7work &6* &cMagma cube spawners &7don't work|&6* &7You cannot lock chests and doors in this world!|&6* &7You cannot teleport to other players in this world!"
     40:
       permission: ""
       pass:
@@ -2951,7 +2951,7 @@ interface:
       pass:
         type: END_STONE
         name: "&6End World"
-        desc: "&7Accessed with &c/m &7or &c/mn &7and|&7then &c/warp end&7. &92 unique maps|&7Available to &e[Voyager]&7. &c&nResets monthly&7.|&6* &7A voidful &4PVP world &7where grief is allowed. Beware.|&6* &7Farm &5Chorus Plants &7exclusively in this &3&nfly-free zone&7.|&6* &7You cannot lock chests and doors in this world!|&6* &7You cannot teleport to other players in this world!"
+        desc: "&7Accessed with &c/m &7or &c/mn &7and|&7then &c/warp end&7. &92 unique maps|&7Available to &e[Voyager]&7. &c&nResets monthly&7.|&6* &7A &6voidful world &7where grief is allowed. Beware.|&6* &7Farm &5Chorus Plants &7exclusively in this world.|&6* &7You cannot lock chests and doors in this world!|&6* &7You cannot teleport to other players in this world!"
     43:
       permission: ""
       pass:
@@ -10772,6 +10772,15 @@ interface:
         desc: "&7Set up to &a25 &7homes"
         command: ""
         message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) MultiHomePlus\n&bhttps://ecocitycraft.com/forum/wiki/main-multihomeplus/\n&e------------------"
+        runas: console
+    29:
+      permission: ""
+      pass:
+        type: PAPER
+        name: "&3Flying/SpeedPlus2"
+        desc: "&6* &c/fly &7in End|&6* &c/speed &7adjust speed"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft Wiki]\n&a(Main) Flying/SpeedPlus2\n&bhttps://ecocitycraft.com/forum/wiki/main-flying-speedplus2/\n&e------------------"
         runas: console
     31:
       permission: ""
