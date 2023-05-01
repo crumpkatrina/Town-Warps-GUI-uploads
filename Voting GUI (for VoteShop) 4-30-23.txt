@@ -1,0 +1,977 @@
+# Configure GUI's here
+# Note: Slots start at 0 instead of 1, max slot is 53 (don't go over) (E.g: last slot in first row of inventory is 8)
+# Item Material's can be found here: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+#
+# GUI Methods:
+# - BOOK
+# - CHEST
+# - CHAT (Disables GUI)
+GUIMethod:
+  Today: CHEST #BOOK not available (future update?)
+  TopVoter: CHEST #BOOK not available (future update?)
+  Last: CHEST #BOOK not available (future update?)
+  Next: CHEST 
+  Total: CHEST #BOOK not available (future update?)
+  # GUI for /vote
+  URL: CHEST
+  Best: CHEST #BOOK not available (future update?)
+  Streak: CHEST #BOOK not available (future update?)
+  GUI: CHEST #CHAT/BOOK not availabe for this (future update?)
+  
+# Enable command for last month gui
+# Requires restart to take effect
+LastMonthGUI: false
+  
+CHEST:
+  # GUI for /vote gui, /vgui, /votegui
+  VoteGUI:
+    # Items will be ordered as listed here
+    # You can add items following this format, even set slots
+    # See extra item below. GUI will auto resize to what is needed
+    URL:
+      # Standard item format, lore is automaticly applied 
+      Item:
+        Material: 'BOW'
+        Amount: 1
+        Name: '&4URL'
+        Lore:
+        - '&aClick me for links'
+        # You can set skulls of the player using the following
+        # Remove the # to enable
+        #Skull: '%Player%'
+    Next:
+      Item:
+        Material: 'COMPASS'
+        Amount: 1
+        Name: '&4Next'
+    Last:
+      Item:
+        Material: 'CLOCK'
+        Amount: 1
+        Name: '&4Last'
+    Total:
+      Item:
+        Material: 'CHEST'
+        Amount: 1
+        Name: '&4Total'
+    Top:
+      Item:
+        Material: 'OAK_SIGN'
+        Amount: 1
+        Name: '&4Top'
+    Today:
+      Item:
+        Material: 'BOOK'
+        Amount: 1
+        Name: '&4Today'
+    Shop:
+      Item:
+        Material: 'DIAMOND'
+        Amount: 1
+        Name: '&4Vote Shop'
+        Lore:
+        - '&aYou currently have %points% EcoVotes'
+    # 'ExtraName' below is an identifier, can be whatever
+    # ExtraItem:
+      # Item:
+        # Material: 'DIRT'
+        # Amount: 1
+        # Name: 'Extra item'
+        ## Works on most GUI items
+        # Slot: 10
+      ## Send rewards on click, run commands, check conditions, etc
+      # Rewards: []
+        
+  # GUI for /vote url, /vote
+  VoteURL:
+    # GUI Name
+    Name: '&cVoteURL'
+    BackButton: true
+    SiteName: '&c%Name%'
+    SiteNameCanVote: '&a%Name%'
+    SeeURL: '&cClick to see URL'
+    NextVote: '&cCan Vote In: %Info%'
+    #Start slot for specific site buttons
+    #StartSlot: 1
+    ViewAllUrlsButtonEnabled: true
+    AllUrlsButton:
+      #Set slot for AllUrlsButton
+      #Slot: 0
+      RequireAllSitesVoted: true
+      AlreadyVotedItem:
+        Material: 'REDSTONE_BLOCK'
+        Data: 0 
+        Amount: 1
+        Name: '&4All Voting Sites'
+        Lore:
+        - '&cClick Me'
+      CanVoteItem:
+        Material: 'EMERALD_BLOCK'
+        Data: 0
+        Amount: 1
+        Name: '&4All Voting Sites'
+        Lore:
+        - '&cClick Me'
+    AlreadyVotedItem:
+      Material: 'REDSTONE_BLOCK'
+      Data: 0 
+      Amount: 1
+    CanVoteItem:
+      Material: 'EMERALD_BLOCK'
+      Data: 0
+      Amount: 1
+    # URL when clicking item in /vote (GUI version)
+    URLText: '%VoteUrl%'
+    # #Add Extra items
+    # ExtraItems:
+      # Item1:
+        # Material: DIRT
+        # Amount: 1
+        # Slot: 1
+        # #Can run commands or effects
+        # Rewards: []
+    
+  VoteLast:
+    Name: 'VoteLast: %player%'
+    BackButton: true
+    # Lines for each vote site
+    # %time% = time, using timeformat below
+    # %timesince% = time since vote
+    Line: '&6%timeSince%'
+    ClickableLinks: true
+  VoteNext:
+    Name: 'VoteNext: %player%'
+    BackButton: true
+  VoteToday:
+    Name: 'VoteToday'
+    Line: '&6%VoteSite% : %Time%'
+    IconTitle: '%player%'
+    BackButton: true
+    UseSkull: true
+    # If UseSkull is false, use this item
+    PlayerItem:
+      Material: 'PAPER'
+      Amount: 1
+  VoteTop:
+    Name: 'VoteTop %topvoter%'
+    BackButton: true
+    # Item of top voter (change material below)
+    Item:
+      Name: '&3&l%position%: &3%player%'
+      Lore: '&3&lVotes: &3%votes%'
+    # Opens main GUI of the specific player that gets clicked
+    OpenMainGUIOnClick: true
+    SwitchItem:
+      Name: '&3Switch TopVoter'
+      Lore: '&bCurrently: %Top%'
+      Material: 'OAK_SIGN'
+      Amount: 1
+      # 8 Slots over from the bottom left
+      # Bottom of GUI
+      Slot: 7
+    # Number of topvoters to display on each GUI page, must be a multiple of 9
+    Size: 27
+    # If true, /vote top will show player heads
+    UseSkull: true
+    # Item for player in GUI if use skull is false
+    PlayerItem:
+      Material: 'PAPER'
+  VoteTotal:
+    Name: 'VoteTotal: %player%'
+    BackButton: true
+    DayTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cDaily Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+    WeekTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cWeekly Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+    MonthTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cMonthly Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+    AllTimeTotal:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cAllTime Total'
+        Lore: '&c&lTotal: &c%Total%'
+        Amount: 1
+  VoteBest:
+    Name: 'VoteBest: %player%'
+    BackButton: true
+    DayBest:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cDaily Best'
+        Lore: '&c&lBest: &c%Best%'
+        Amount: 1
+    WeekBest:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cWeekly Best'
+        Lore: '&c&lBest: &c%Best%'
+        Amount: 1
+    MonthBest:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cMonthly Best'
+        Lore: '&c&lBest: &c%Best%'
+        Amount: 1
+  VoteStreak:
+    Name: 'VoteStreak: %player%'
+    BackButton: false
+    CurrentDayStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cCurrent Daily Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    CurrentWeekStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cCurrent Weekly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    CurrentMonthStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cCurrent Monthly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    HighestDayStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cHighest Daily Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    HighestWeekStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cHighest Weekly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+    HighestMonthStreak:
+      Item:
+        Material: 'CLOCK'
+        Name: '&cHighest Monthly Streak'
+        Lore: '&c&lStreak: &c%Streak%'
+        Amount: 1
+  VoteURLSite:
+    Name: 'VoteSite: %site%'
+  VoteGUIName: '&cVoteGUI: &c&l%player%'
+  VoteRewardName: 'VoteReward'
+  VoteShopName: 'VoteShop'
+  
+  BackButton:
+    Material: 'BARRIER'
+    Data: 0
+    Amount: 1
+    Name: '&8Back to VoteGUI'
+    # If true, clicking back button will open VoteURL
+    OpenVoteURL: false
+    # If true, backbutton will be the last slot of the GUI
+    EndOfGUI: false
+
+  VoteShopBackButton: true
+  VoteShopEnabled: true
+  # Hide items in vote shop which user can not buy
+  VoteShopHideLimitedReached: false
+  # Requires above to be false
+  VoteShopLimitReached: '&aYou reached your limit'
+  VoteShopRequireConfirmation: false
+  VoteShopDisabled: '&cVote shop disabled'
+  Shop:
+    NetherStar:
+      Identifier_Name: 'Nether Star'
+      Material: 'NETHER_STAR'
+      Amount: 1
+      Name: '&4Buy A Nether Star'
+      Lore:
+      - '&c&lCost: &c2 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 4
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Items:
+          NetherStar:
+            Material: 'NETHER_STAR'
+            Amount: 1 
+    JigSaw:
+      Identifier_Name: 'Jig Saw'
+      Material: 'JIGSAW'
+      Amount: 1
+      Name: '&4Buy A JigSaw (64 Nether Stars!)'
+      Lore:
+      - '&c&lCost: &c115 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 220
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Items:
+          JigSaw:
+            Material: 'JIGSAW'
+            Amount: 1 
+    GodDrop:
+      Identifier_Name: 'God Drop'
+      Material: 'LECTERN'
+      Amount: 1
+      Name: '&4Buy A God Drop! (Spin with &f/cc&4)'
+      Lore:
+      - '&c&lCost: &c1,625 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 1625
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'cc give virtual goddrop 1 %Player%'
+    StarMelonSword:
+      Identifier_Name: 'Star Melon Sword'
+      Material: 'DIAMOND_SWORD'
+      Amount: 1
+      Name: '&4Buy A Star Melon Sword!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff5sword %Player%'
+    StarEff7Pickaxe:
+      Identifier_Name: 'Star Eff 7 Pickaxe'
+      Material: 'DIAMOND_PICKAXE'
+      Amount: 1
+      Name: '&4Buy A Star Eff 7 Pickaxe!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff7pick %Player%'
+    StarEff10Axe:
+      Identifier_Name: 'Star Eff 10 Axe'
+      Material: 'DIAMOND_AXE'
+      Amount: 1
+      Name: '&4Buy A Star Eff 10 Axe!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff10axe %Player%'
+    StarEff10Shovel:
+      Identifier_Name: 'Star Eff 10 Shovel'
+      Material: 'DIAMOND_SHOVEL'
+      Amount: 1
+      Name: '&4Buy A Star Eff 10 Shovel!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit eff10shovel %Player%'
+    StarHoe:
+      Identifier_Name: 'Star Fortune 5 Hoe'
+      Material: 'DIAMOND_HOE'
+      Amount: 1
+      Name: '&4Buy A Star Fortune 5 Hoe!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit fort5hoe %Player%'
+    StarLure5Rod:
+      Identifier_Name: 'Star Lure 5 Rod'
+      Material: 'FISHING_ROD'
+      Amount: 1
+      Name: '&4Buy A Star Lure 5 Rod!'
+      Lore:
+      - '&c&lCost: &c3,525 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 3525
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'kit lure5rod %Player%'
+    500CosmoCoins:
+      Identifier_Name: '500 Cosmo Coins'
+      Material: 'BOOK'
+      Amount: 1
+      Name: '&4Buy 500 Cosmo Coins!'
+      Lore:
+      - '&c&lCost: &c7 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 10
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - 'procosmetics give coins %Player% 500'
+    Magic Goat (Ghostly):
+      Identifier_Name: 'Magic Goat (Ghostly)'
+      Material: 'GOAT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Goat (Ghostly)!'
+      Lore:
+      - '&c&lCost: &c60 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 60
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %player% goat_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Goat)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Ghostly Goat\",\"color\":\"#A8B2BF\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{Glowing:1b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Goat (Red Particles):
+      Identifier_Name: 'Magic Goat (Red Particles)'
+      Material: 'GOAT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Goat (Red Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% goat_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Goat)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Red Particles\",\"color\":\"#F82423\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:6,Amplifier:1b,Duration:2000000000}]}} 1" 
+    Magic Goat (Orange Particles):
+      Identifier_Name: 'Magic Goat (Orange Particles)'
+      Material: 'GOAT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Goat (Orange Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% goat_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Goat)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Orange Particles\",\"color\":\"#F87D23\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:21,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Goat (Avocado Green Particles):
+      Identifier_Name: 'Magic Goat (Avocado Green Particles)'
+      Material: 'GOAT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Goat (Avocado Green Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% goat_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Goat)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Avocado Green Particles\",\"color\":\"#339900\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:26,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Goat (Azure Particles):
+      Identifier_Name: 'Magic Goat (Azure Particles)'
+      Material: 'GOAT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Goat (Azure Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% goat_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Goat)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Azure Particles\",\"color\":\"#2552A5\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:22,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Goat (Medium Blue Particles):
+      Identifier_Name: 'Magic Goat (Medium Blue Particles)'
+      Material: 'GOAT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Goat (Medium Blue Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% goat_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Goat)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Medium Blue Particles\",\"color\":\"#1F1FA1\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:16,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Goat (Pink Particles):
+      Identifier_Name: 'Magic Goat (Pink Particles)'
+      Material: 'GOAT_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Goat (Pink Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% goat_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Goat)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Pink Particles\",\"color\":\"#CD5CAB\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:10,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Bee (Ghostly):
+      Identifier_Name: 'Magic Bee (Ghostly)'
+      Material: 'BEE_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Bee(Ghostly)!'
+      Lore:
+      - '&c&lCost: &c60 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 60
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give % player% bee_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Bee)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Ghostly Bee\",\"color\":\"#A8B2BF\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{Glowing:1b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Bee (Purple Particles):
+      Identifier_Name: 'Magic Bee (Purple Particles)'
+      Material: 'BEE_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Bee(Purple Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% bee_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Bee)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Purple Particles\",\"color\":\"#551D4A\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:9,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Bee (Khaki Particles):
+      Identifier_Name: 'Magic Bee (Khaki Particles)'
+      Material: 'BEE_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Bee(Khaki Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% bee_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Bee)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Khaki Particles\",\"color\":\"#C0A44D\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:27,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Bee (Glaucous Particles):
+      Identifier_Name: 'Magic Bee (Glaucous Particles)'
+      Material: 'BEE_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Bee(Glaucous Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% bee_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Bee)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Glaucous Particles\",\"color\":\"#88A3BE\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:30,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Bee (Cyan Particles):
+      Identifier_Name: 'Magic Bee (Cyan Particles)'
+      Material: 'BEE_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Bee(Cyan Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% bee_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Bee)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Cyan Particles\",\"color\":\"#1DC2D1\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:29,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Bee (Orange Particles):
+      Identifier_Name: 'Magic Bee (Orange Particles)'
+      Material: 'BEE_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Bee(Orange Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% bee_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Bee)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Orange Particles\",\"color\":\"#F87D23\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:21,Amplifier:1b,Duration:2000000000}]}} 1"
+    Magic Bee (Amber Particles):
+      Identifier_Name: 'Magic Bee (Amber Particles)'
+      Material: 'BEE_SPAWN_EGG'
+      Amount: 1
+      Name: '&4Buy a Magic Bee(Amber Particles)!'
+      Lore:
+      - '&c&lCost: &c30 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 30
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give &player% bee_spawn_egg{display:{Name:'[{\"text\":\"*~*\",\"color\":\"dark_purple\"},{\"text\":\"MagicMob (Bee)\",\"color\":\"aqua\",\"italic\":true},{\"text\":\"*~*\",\"color\":\"dark_purple\"}]',Lore:['{\"text\":\"Amber Particles\",\"color\":\"#E49A3A\",\"italic\":true}']},Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}],EntityTag:{ActiveEffects:[{Id:12,Amplifier:1b,Duration:2000000000}]}} 1"
+    Starry Night Fireworks (Large Ball):
+      Identifier_Name: 'Starry Night Firework (Large Ball)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Starry Night Fireworks (Large Ball)'
+      Lore:
+      - '&c&lCost: &c8 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 8
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %player% firework_rocket{display:{Name:'{\"text\":\"Starry Night Firework (Large Ball)\",\"color\":\"#181D6B\",\"bold\":true,\"italic\":true}'},Enchantments:[{}],Fireworks:{Flight:3b,Explosions:[{Type:1,Colors:[I;1119058,15138814,3024499],FadeColors:[I;854848]}]}} 64"
+    Starry Night Fireworks (Small Ball):
+      Identifier_Name: 'Starry Night Firework (Small Ball)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Starry Night Fireworks (Small Ball)'
+      Lore:
+      - '&c&lCost: &c8 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 8
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %player% firework_rocket{display:{Name:'{\"text\":\"Starry Night Firework (Small Ball)\",\"color\":\"#181D6B\",\"bold\":true,\"italic\":true}'},Enchantments:[{}],Fireworks:{Flight:3b,Explosions:[{Type:0,Colors:[I;1119058,15138814,3024499],FadeColors:[I;854848]}]}} 64"
+    Starry Night Fireworks (Burst):
+      Identifier_Name: 'Starry Night Firework (Burst)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Starry Night Fireworks (Burst)'
+      Lore:
+      - '&c&lCost: &c8 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 8
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %player% firework_rocket{display:{Name:'{\"text\":\"Starry Night Firework (Burst)\",\"color\":\"#181D6B\",\"bold\":true,\"italic\":true}'},Enchantments:[{}],Fireworks:{Flight:3b,Explosions:[{Type:4,Colors:[I;1119058,15138814,3024499],FadeColors:[I;854848]}]}} 64"
+    Starry Night Fireworks (Star-shaped):
+      Identifier_Name: 'Starry Night Firework (Star-shaped)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Starry Night Fireworks (Star-shaped)'
+      Lore:
+      - '&c&lCost: &c8 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 8
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %player% firework_rocket{display:{Name:'{\"text\":\"Starry Night Firework (Star-shaped)\",\"color\":\"#181D6B\",\"bold\":true,\"italic\":true}'},Enchantments:[{}],Fireworks:{Flight:3b,Explosions:[{Type:2,Colors:[I;1119058,15138814,3024499],FadeColors:[I;854848]}]}} 64"
+    Starry Night Fireworks (Creeper-shaped):
+      Identifier_Name: 'Starry Night Firework (Creeper-shaped)'
+      Material: 'FIREWORK_ROCKET'
+      Amount: 1
+      Name: '&4Buy 64 Starry Night Fireworks (Creeper-shaped)'
+      Lore:
+      - '&c&lCost: &c8 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 8
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %player% firework_rocket{display:{Name:'{\"text\":\"Starry Night Firework (Creeper-shaped)\",\"color\":\"#181D6B\",\"bold\":true,\"italic\":true}'},Enchantments:[{}],Fireworks:{Flight:3b,Explosions:[{Type:3,Colors:[I;1119058,15138814,3024499],FadeColors:[I;854848]}]}} 64"
+    Sweet Summer Cherries:
+      Identifier_Name: 'Sweet Summer Cherries!'
+      Material: 'SWEET_BERRIES'
+      Amount: 1
+      Name: '&4Buy 1 Sweet Summer Cherries!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% sweet_berries{display:{Name:'{\"text\":\"Sweet Summer Cherries\",\"color\":\"#CD001A\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Summer is the season of cherries,\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"enjoy them while they are at their best!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Fragrant Lemons:
+      Identifier_Name: 'Fragrant Lemons!'
+      Material: 'GLOW_BERRIES'
+      Amount: 1
+      Name: '&4Buy 1 Fragrant Lemons!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% glow_berries{display:{Name:'{\"text\":\"Fragrant Lemons\",\"color\":\"#D9D902\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Perfect for some homemade Lemonade!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Dragon Fruit:
+      Identifier_Name: 'Dragon Fruit!'
+      Material: 'CHORUS_FRUIT'
+      Amount: 1
+      Name: '&4Buy 1 Dragon Fruit!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% chorus_fruit{display:{Name:'{\"text\":\"Dragon Fruit\",\"color\":\"#f35d8b\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"This rare and hard-to-grow frui tastes\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"like a cross between kiwi and pear!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Yellow Carrot:
+      Identifier_Name: 'Yellow Carrot!'
+      Material: 'GOLDEN_CARROT'
+      Amount: 1
+      Name: '&4Buy 1 Yellow Carrot!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% golden_carrot{display:{Name:'{\"text\":\"Yellow Carrot\",\"color\":\"#F3C11D\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"This carrot has a more earthy taste\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"than its orange cousin!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    An Ordinary Carrot:
+      Identifier_Name: 'An Ordinary Carrot!'
+      Material: 'CARROT'
+      Amount: 1
+      Name: '&4Buy 1 An Ordinary Carrot!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% carrot{display:{Name:'{\"text\":\"An Ordinary Carrot\",\"color\":\"#F36427\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Like its yellow cousin, its earthy and sweet,\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"everyone loves carrots right?\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    A Delicious Sweet Potato:
+      Identifier_Name: 'A Delicious Sweet Potato'
+      Material: 'POTATO'
+      Amount: 1
+      Name: '&4Buy 1 A Delicious Sweet Potato!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% potato{display:{Name:'{\"text\":\"A Delicious Sweet Potato\",\"color\":\"#9C8013\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"This is not a yam, yams are not sweet potatoes!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Get it right ok?\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    A Very Red Beetroot:
+      Identifier_Name: 'A Very Red Beetroot!'
+      Material: 'BEETROOT'
+      Amount: 1
+      Name: '&4Buy 1 A Very Red Beetroot!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% beetroot{display:{Name:'{\"text\":\"A Very Red Beetroot\",\"color\":\"#75173D\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Beets are delicious depending on who you ask,\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"they also stain things purple!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Golden Delicious Apple:
+      Identifier_Name: 'Golden Delicious Apple!'
+      Material: 'GOLDEN_APPLE'
+      Amount: 1
+      Name: '&4Buy 1 Golden Delicious Apple!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% golden_apple{display:{Name:'{\"text\":\"Golden Delicious Apple\",\"color\":\"#B8B207\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"A popular, sweet and beautiful apple variety!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Red Delicious Apple:
+      Identifier_Name: 'Red Delicious Apple!'
+      Material: 'APPLE'
+      Amount: 1
+      Name: '&4Buy 1 Red Delicious Apple!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% apple{display:{Name:'{\"text\":\"Red Delicious Apple\",\"color\":\"#8F0B14\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"A popular and rather sweet apple variety!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    A Shiny Golden Delicious Apple:
+      Identifier_Name: 'A Shiny Golden Delicious Apple!'
+      Material: 'ENCHANTED_GOLDEN_APPLE'
+      Amount: 1
+      Name: '&4Buy 1 A Shiny Golden Delicious Apple!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% enchanted_golden_apple{display:{Name:'{\"text\":\"Shiny Golden Delicous Apple\",\"color\":\"#B8B207\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"A popular, sweet and beautiful apple variety!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"This one is shiny, how unique!!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Summer Wheat:
+      Identifier_Name: 'Summer Wheat!'
+      Material: 'WHEAT'
+      Amount: 1
+      Name: '&4Buy 1 Summer Wheat!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% wheat{display:{Name:'{\"text\":\"Summer Wheat\",\"color\":\"#8F7C2F\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Summer does bring thoughts of swaying\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\fields of golden wheat!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Sweet Summer Honeycomb:
+      Identifier_Name: 'Sweet Summer Honeycomb!'
+      Material: 'HONEYCOMB'
+      Amount: 1
+      Name: '&4Buy 1 Sweet Summer Honeycomb!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% honeycomb{display:{Name:'{\"text\":\"Sweet Summer Honeycomb\",\"color\":\"#EBA937\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Honey Bees are very busy during the summer,\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"be kind while enjoying some of their honey!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Sweet Summer Honey:
+      Identifier_Name: 'Sweet Summer Honey!'
+      Material: 'HONEY_BOTTLE'
+      Amount: 1
+      Name: '&4Buy 1 Sweet Summer Honey!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% honey_bottle{display:{Name:'{\"text\":\"Sweet Summer Honey\",\"color\":\"#EBA937\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Honey Bees are very busy during the summer,\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"be kind while enjoying some of their honey!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Sweet Summer Honeycomb Block:
+      Identifier_Name: 'Sweet Summer Honeycomb Block!'
+      Material: 'HONEYCOMB_BLOCK'
+      Amount: 1
+      Name: '&4Buy 1 Sweet Summer Honeycomb Block!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% honeycomb_block{display:{Name:'{\"text\":\"Sweet Summer Honeycomb Block\",\"color\":\"#EBA937\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Honey Bees are very busy during the summer,\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"be kind while enjoying some of their honey!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+    Sweet Summer Honey Block:
+      Identifier_Name: 'Sweet Summer Honey Block!'
+      Material: 'HONEY_BLOCK'
+      Amount: 1
+      Name: '&4Buy 1 Sweet Summer Honey Block!'
+      Lore:
+      - '&c&lCost: &c15 EcoVotes'
+      - '&c&lYour Balance: &a%points%'
+      Cost: 15
+      Permission: ''
+      CloseGUI: false
+      RequireConfirmation: true
+      Rewards:
+        Commands:
+        - "minecraft:give %Player% honey_block{display:{Name:'{\"text\":\"Sweet Summer Honey Block\",\"color\":\"#EBA937\",\"bold\":true,\"italic\":true}',Lore:['{\"text\":\"Honey Bees are very busy during the summer,\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"be kind while enjoying some of their honey!\",\"color\":\"#FFC042\",\"italic\":true}','{\"text\":\"Summer Feast Collection\",\"color\":\"dark_purple\",\"italic\":true}','{\"text\":\"May 2023 - Vote Shop\",\"color\":\"dark_purple\",\"italic\":true}']},Enchantments:[{}]} 1"
+  ShopConfirmPurchase:
+    Title: 'Confirm Purchase?'
+    YesItem:
+      Material: EMERALD_BLOCK
+      Amount: 1
+      Name: '&aYes'
+    NoItem:
+      Material: BARRIER
+      Amount: 1
+      Name: '&cNo'
+    
+            
+BOOK:
+  VoteURLBookGUI:
+    Title: '&cVoteURL'
+    CanVoteText: 'Click me'
+    CanVoteColor: 'GREEN'
+    AlreadyVotedText: 'Click me'
+    AlreadyVotedColor: 'RED' 
+    Layout:
+    - '&3&l%Sitename%'
+    - '[UrlText]'
+  
