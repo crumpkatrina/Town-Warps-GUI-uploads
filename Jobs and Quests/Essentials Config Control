@@ -184,6 +184,8 @@ kits:
   tagmoj:
     items: 
       - NAME_TAG 1 unbreaking:1 name:&7&lMojang_Key_Voucher lore:Redeem_this_item_for_Mojang_Crate_Keys!|Visit_/warp_redeem_and_use_this_item_in_the_slot_dispenser|to_redeem_your_key!|&7Don't_forget_you_can_redeem_on_any_Main_server!
+#Jobs System Input Kits
+#INSERT JOB KIT INPUTS HERE
 
 #ECCMuseum Kits  
   # eccmuseum1:
@@ -1245,6 +1247,8 @@ kits:
   mojrdm:
    items:
       - PAPER 1 unbreaking:1 name:&b&o&lMojang_Voucher_Receipt lore:&5&oCongratulations_on_your_1_Mojang_Key!
+#JobsSystem sign-action kits
+#INSERT JOBS OUTPUT KITS HERE
 
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
@@ -1391,6 +1395,8 @@ sign-actions:
     z: 208
     actions:
       - console cc give physical mojang 1 {user}
+#Jobs System sign-actions
+#INSERT JOBS SIGN-ACTIONS HERE
 
 # Backup runs a batch/bash command while saving is disabled.
 backup:
