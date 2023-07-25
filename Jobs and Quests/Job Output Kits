@@ -1,0 +1,109 @@
+ #Jobs Output Kits	  
+  #Oak Woodworker
+  job1:
+	delay: 21600
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Mud Brickmaker
+  job2:
+	delay: 21600
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Specialist Fisherman
+  job3:
+	delay: 43200
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Ancient City Explorer 
+  job4:
+	delay: 21600
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Geode Miner
+  job5:
+	delay: 43200
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Candlemaker
+  job6:
+	delay: 21600
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Bedmaker
+  job7:
+	delay 21600
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Leatherworker
+  job8:
+	delay 21600
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Tackmaker
+  job9:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Marine Biologist
+  job10:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Cave Spelunker
+  job11:
+    items:
+      - BIG_DRIPLEAF_STEM
+  #Tree Farmer
+  job12:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Miner
+  job13:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Shroom Farmer
+  job14:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Cactus Farmer
+  job15:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Botanist
+  job16:
+    items:
+      - BIG_DRIPLEAF_STEM
+  #Brush Gatherer
+  job17:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Iron Smith
+  job18:
+    items: 
+	  - BIG_DRIPLEAF_STEM
+  #Copper Smith
+  job19:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Baker
+  job20:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Chef
+  job21:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Farmer
+  job22:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Banner Weaver
+  job23:
+    items:
+      - BIG_DRIPLEAF_STEM
+  #Lush Cave Explorer
+  job24:
+    items:
+	  - BIG_DRIPLEAF_STEM
+  #Beekeeper
+  job25:
+    items:
+	  - BIG_DRIPLEAF_STEM
