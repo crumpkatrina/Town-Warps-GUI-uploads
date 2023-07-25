@@ -6,17 +6,17 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
+      - console msg {user} You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
 	  - console eco give {user} 500
-  #Mud Brickmaker
+  #Cobblestone Miner
   job2:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Mud Brickmaker Job for &a$750 EcoDollars&f!
-	  - console eco give {user} 750
+      - console msg {user} You have completed the &6Cobblestone Miner Job for &a$750 EcoDollars&f!
+      - console eco give {user} 500
   #Specialist Fisherman
   job3:
     world: rising
@@ -24,17 +24,17 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Specialist Fisherman Job for &a$2000 EcoDollars&f!
-	  - console eco give {user} 5000
-  #Ancient City Explorer 
+      - console msg {user} You have completed the &6Specialist Fisherman Job for &a$5000 EcoDollars&f!
+      - console eco give {user} 5000
+  #Woodcutter
   job4:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Ancient City Explorer Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 1000
+      - console msg {user} You have completed the &6Woodcutter Job for &a$800 EcoDollars&f!
+      - console eco give {user} 800
   #Geode Miner
   job5:
     world: rising
@@ -42,26 +42,26 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Geode Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 2500
-  #Candlemaker
+      - console msg {user} You have completed the &6Geode Miner Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
+  #Stone Mason
   job6:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Candlemaker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 1000
-  #Bedmaker
+      - console msg {user} You have completed the &6Stone Mason Job for &a$500 EcoDollars&f!
+      - console eco give {user} 500
+  #Arborist
   job7:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Bedmaker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Arborist Job for &a$500 EcoDollars&f!
+      - console eco give {user} 750
   #Leatherworker
   job8:
     world: rising
@@ -69,53 +69,53 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Leatherworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Tackmaker
+      - console msg {user} You have completed the &6Leatherworker Job for &a$500 EcoDollars&f!
+      - console eco give {user} 500
+  #Sandstone Miner
   job9:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Marine Biologist
+      - console msg {user} You have completed the &6Sandstone Miner Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
+  #Brickmaker
   job10:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Cave Spelunker
+      - console msg {user} You have completed the &6Brickmaker Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
+  #Stone Miner
   job11:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Tree Farmer
+      - console msg {user} You have completed the &6Stone Miner Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
+  #Leafblower
   job12:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Miner
+      - console msg {user} You have completed the &6Leafblower Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
+  #Ore Miner
   job13:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Ore Miner Job for &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
   #Shroom Farmer
   job14:
     world: rising
@@ -123,8 +123,8 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Shroom Farmer Job for &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
   #Cactus Farmer
   job15:
     world: rising
@@ -132,17 +132,17 @@
     y: 65
     z: 180
     actions:
-     - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Botanist
+     - console msg {user} You have completed the &6Cactus Farmer Job for &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
+  #Gritty Shoveler
   job16:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Gritty Shoveler Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
   #Brush Gatherer
   job17:
     world: rising
@@ -150,26 +150,26 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Iron Smith
+      - console msg {user} You have completed the &6Brush Gatherer Job for &a$500 EcoDollars&f!
+      - console eco give {user} 500
+  #Seed Merchant
   job18:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Copper Smith
+      - console msg {user} You have completed the &6Seed Merchant Job for &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
+  #Kelpie
   job19:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Kelpie Job for &a$500 EcoDollars&f!
+      - console eco give {user} 500
   #Baker
   job20:
     world: rising
@@ -177,8 +177,8 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Oak Woodworker Job for &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
   #Chef
   job21:
     world: rising
@@ -186,8 +186,8 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Chef Job for &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
   #Farmer
   job22:
     world: rising
@@ -195,17 +195,17 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Banner Weaver
+      - console msg {user} You have completed the &6Farmer Job for &a$500 EcoDollars&f!
+      - console eco give {user} 1000
+  #Dirt Digger
   job23:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Oak Woodworker Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
   #Lush Cave Explorer
   job24:
     world: rising
@@ -213,14 +213,14 @@
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
-  #Beekeeper
+      - console msg {user} You have completed the &6Lush Caves Explorer Job for &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
+  #Metals Miner
   job25:
     world: rising
     x: 74
     y: 65
     z: 180
     actions:
-      - console msg {user] You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-	  - console eco give {user} 500
+      - console msg {user} You have completed the &6Oak Woodworker Job for &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
