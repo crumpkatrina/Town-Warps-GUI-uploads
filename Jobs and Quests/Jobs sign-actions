@@ -2,15 +2,6 @@
   #Oak Woodworker
   job1:
     world: rising
-    x: 74
-    y: 65
-    z: 180
-    actions:
-      - console msg {user} You have completed the &6Oak Woodworker Job for &a$500 EcoDollars&f!
-      - console eco give {user} a#Jobs sign-actions
-  #Oak Woodworker
-  job1:
-    world: rising
     x: -12
     y: 65
     z: -109
