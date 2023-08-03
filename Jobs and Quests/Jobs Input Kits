@@ -2,7 +2,7 @@
   #Oak Woodworker
   1job:
     items:
-      - SHULKER_BOX {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:oak_stairs",Count:64b},{Slot:1b,id:"minecraft:oak_fence",Count:64b},{Slot:2b,id:"minecraft:oak_fence_gate",Count:64b},{Slot:3b,id:"minecraft:oak_door",Count:16b},{Slot:4b,id:"minecraft:oak_trapdoor",Count:64b},{Slot:5b,id:"minecraft:oak_pressure_plate",Count:64b},{Slot:6b,id:"minecraft:oak_button",Count:64b}]}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:oak_stairs",Count:64b},{Slot:1b,id:"minecraft:oak_fence",Count:64b},{Slot:2b,id:"minecraft:oak_fence_gate",Count:64b},{Slot:3b,id:"minecraft:oak_door",Count:16b},{Slot:4b,id:"minecraft:oak_trapdoor",Count:64b},{Slot:5b,id:"minecraft:oak_pressure_plate",Count:64b},{Slot:6b,id:"minecraft:oak_button",Count:64b}]}}
   #Cobblestone Miner
   2job:
     items:
