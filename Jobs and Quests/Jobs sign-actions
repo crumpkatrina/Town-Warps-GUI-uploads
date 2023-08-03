@@ -1,7 +1,7 @@
 #Jobs sign-actions
   #Oak Woodworker
   job1:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -109
@@ -10,7 +10,7 @@
       - console eco give {user} 500
   #Cobblestone Miner
   job2:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -108
@@ -19,7 +19,7 @@
       - console eco give {user} 500
   #Specialist Fisherman
   job3:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -107
@@ -28,7 +28,7 @@
       - console eco give {user} 5000
   #Woodcutter
   job4:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -106
@@ -37,7 +37,7 @@
       - console eco give {user} 800
   #Geode Miner
   job5:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -105
@@ -46,7 +46,7 @@
       - console eco give {user} 750
   #Stone Mason
   job6:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -104
@@ -55,7 +55,7 @@
       - console eco give {user} 500
   #Arborist
   job7:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -103
@@ -64,7 +64,7 @@
       - console eco give {user} 750
   #Leatherworker
   job8:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -102
@@ -73,7 +73,7 @@
       - console eco give {user} 500
   #Sandstone Miner
   job9:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -101
@@ -82,7 +82,7 @@
       - console eco give {user} 750
   #Brickmaker
   job10:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -100
@@ -91,7 +91,7 @@
       - console eco give {user} 750
   #Stone Miner
   job11:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -99
@@ -100,7 +100,7 @@
       - console eco give {user} 750
   #Leafblower
   job12:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -98
@@ -109,7 +109,7 @@
       - console eco give {user} 750
   #Ore Miner
   job13:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -97
@@ -118,7 +118,7 @@
       - console eco give {user} 1500
   #Shroom Farmer
   job14:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -96
@@ -127,16 +127,16 @@
       - console eco give {user} 1000
   #Cactus Farmer
   job15:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -95
     actions:
      - console msg {user} You have completed the &6Cactus Farmer Job for &a$1500 EcoDollars&f!
-      - console eco give {user} 1500
+     - console eco give {user} 1500
   #Gritty Shoveler
   job16:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -94
@@ -145,7 +145,7 @@
       - console eco give {user} 750
   #Brush Gatherer
   job17:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -93
@@ -154,7 +154,7 @@
       - console eco give {user} 500
   #Seed Merchant
   job18:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -92
@@ -163,7 +163,7 @@
       - console eco give {user} 1500
   #Kelpie
   job19:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -91
@@ -172,7 +172,7 @@
       - console eco give {user} 500
   #Baker
   job20:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -90
@@ -181,7 +181,7 @@
       - console eco give {user} 1000
   #Chef
   job21:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -89
@@ -190,7 +190,7 @@
       - console eco give {user} 1000
   #Farmer
   job22:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -88
@@ -199,7 +199,7 @@
       - console eco give {user} 1000
   #Dirt Digger
   job23:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -87
@@ -208,7 +208,7 @@
       - console eco give {user} 750
   #Lush Cave Explorer
   job24:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -86
@@ -217,10 +217,10 @@
       - console eco give {user} 1000
   #Metals Miner
   job25:
-    world: rising
+    world: rising_s
     x: -12
     y: 65
     z: -85
     actions:
       - console msg {user} You have completed the &6Metals Minder Job for &a$1000 EcoDollars&f!
-      - console eco give {user} 1000500
+      - console eco give {user} 1000
