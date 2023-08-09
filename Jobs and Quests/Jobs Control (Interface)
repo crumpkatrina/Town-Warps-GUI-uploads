@@ -225,8 +225,8 @@ helpmejobs:
       type: BLACK_STAINED_GLASS_PANE
       name: "&7Hover over an icon for information!"
       desc: "&7Click &3blue titles &7to post links in chat."
-jobswarps:
-  name: "§aJobsWarps"
+jobwarps:
+  name: "§aJobWarps"
   0:
     permission: ""
     pass:
@@ -647,8 +647,8 @@ jobswarps:
       command: "JobsWarps2"
       message: ""
       runas: player
-jobswarps2:
-  name: "§aJobs§6Warps2"
+jobwarps2:
+  name: "§aJob§6Warps2"
   0:
     permission: ""
     pass:
