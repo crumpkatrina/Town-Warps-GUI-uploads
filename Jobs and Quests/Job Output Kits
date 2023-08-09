@@ -11,7 +11,7 @@
       - BIG_DRIPLEAF_STEM 1
   #Specialist Fisherman
   job3:
-    delay: 86400
+    delay: 43200
     items:
       - BIG_DRIPLEAF_STEM 1
   #Woodcutter
@@ -84,7 +84,7 @@
     delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
-  #Seed Merchant
+  #Seed Gatherer
   job18:
     delay: 43200
     items:
@@ -96,12 +96,12 @@
       - BIG_DRIPLEAF_STEM 1
   #Baker
   job20:
-    delay: 43200
+    delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
   #Chef
   job21:
-    delay: 43200
+    delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
   #Farmer
