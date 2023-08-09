@@ -502,7 +502,7 @@ jobswarps:
     pass:
       type: COOKED_CHICKEN
       name: "&aChef"
-      desc: "&aClick to warp to this job!|&7*Requirements*|&6*&716 Steak|&6*&716 Cooked Chicken|&6*&716 Cooked Cod|&6*&716 Cooked Salmon"
+      desc: "&aClick to warp to this job!|&7*Requirements*|&6*&716 Cooked Steak|&6*&716 Cooked Chicken|&6*&716 Cooked Cod|&6*&716 Cooked Salmon"
       command: "warp j21"
       message: ""
       runas: player
