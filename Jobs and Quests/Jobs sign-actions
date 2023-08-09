@@ -15,7 +15,7 @@
     y: 65
     z: -108
     actions:
-      - console msg {user} You have completed the &6Cobblestone Miner Job for &a$750 EcoDollars&f!
+      - console msg {user} You have completed the &6Cobblestone Miner Job for &a$500 EcoDollars&f!
       - console eco give {user} 500
   #Specialist Fisherman
   job3:
