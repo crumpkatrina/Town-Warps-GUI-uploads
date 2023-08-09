@@ -62,14 +62,14 @@
     actions:
       - console msg {user} You have completed the &6Arborist Job for &a$500 EcoDollars&f!
       - console eco give {user} 750
-  #Leatherworker
+  #Deepslate Miner
   job8:
     world: rising_s
     x: -12
     y: 65
     z: -102
     actions:
-      - console msg {user} You have completed the &6Leatherworker Job for &a$500 EcoDollars&f!
+      - console msg {user} You have completed the &6Deepslate Miner Job for &a$750 EcoDollars&f!
       - console eco give {user} 500
   #Sandstone Miner
   job9:
@@ -107,15 +107,15 @@
     actions:
       - console msg {user} You have completed the &6Leafblower Job for &a$750 EcoDollars&f!
       - console eco give {user} 750
-  #Ore Miner
+  #Tuff Miner
   job13:
     world: rising_s
     x: -12
     y: 65
     z: -97
     actions:
-      - console msg {user} You have completed the &6Ore Miner Job for &a$1500 EcoDollars&f!
-      - console eco give {user} 1500
+      - console msg {user} You have completed the &6Ore Miner Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
   #Shroom Farmer
   job14:
     world: rising_s
@@ -152,14 +152,14 @@
     actions:
       - console msg {user} You have completed the &6Brush Gatherer Job for &a$500 EcoDollars&f!
       - console eco give {user} 500
-  #Seed Merchant
+  #Seed Gatherer
   job18:
     world: rising_s
     x: -12
     y: 65
     z: -92
     actions:
-      - console msg {user} You have completed the &6Seed Merchant Job for &a$1500 EcoDollars&f!
+      - console msg {user} You have completed the &6Seed Gatherer Job for &a$1500 EcoDollars&f!
       - console eco give {user} 1500
   #Kelpie
   job19:
@@ -177,8 +177,8 @@
     y: 65
     z: -90
     actions:
-      - console msg {user} You have completed the &6Baker Job for &a$1000 EcoDollars&f!
-      - console eco give {user} 1000
+      - console msg {user} You have completed the &6Baker Job for &a$500 EcoDollars&f!
+      - console eco give {user} 500
   #Chef
   job21:
     world: rising_s
@@ -195,8 +195,8 @@
     y: 65
     z: -88
     actions:
-      - console msg {user} You have completed the &6Farmer Job for &a$500 EcoDollars&f!
-      - console eco give {user} 1000
+      - console msg {user} You have completed the &6Farmer Job for &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
   #Dirt Digger
   job23:
     world: rising_s
@@ -206,14 +206,14 @@
     actions:
       - console msg {user} You have completed the &6Dirt Digger Job for &a$750 EcoDollars&f!
       - console eco give {user} 750
-  #Lush Cave Explorer
+  #Flower Picker
   job24:
     world: rising_s
     x: -12
     y: 65
     z: -86
     actions:
-      - console msg {user} You have completed the &6Lush Caves Explorer Job for &a$1000 EcoDollars&f!
+      - console msg {user} You have completed the &6Flower Picker Job for &a$1000 EcoDollars&f!
       - console eco give {user} 1000
   #Metals Miner
   job25:
