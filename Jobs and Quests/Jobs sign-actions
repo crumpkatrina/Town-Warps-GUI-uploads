@@ -213,8 +213,8 @@
     y: 65
     z: -86
     actions:
-      - console msg {user} You have completed the &6Flower Picker Job for &a$1000 EcoDollars&f!
-      - console eco give {user} 1000
+      - console msg {user} You have completed the &6Flower Picker Job for &a$750 EcoDollars&f!
+      - console eco give {user} 750
   #Metals Miner
   job25:
     world: rising_s
