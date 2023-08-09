@@ -27,7 +27,7 @@
   7job:
     items:
       - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:oak_sapling",Count:64b},{Slot:1b,id:"minecraft:spruce_sapling",Count:64b},{Slot:2b,id:"minecraft:birch_sapling",Count:64b},{Slot:4b,id:"minecraft:jungle_sapling",Count:64b},{Slot:5b,id:"minecraft:acacia_sapling",Count:64b},{Slot:6b,id:"minecraft:dark_oak_sapling",Count:64b},{Slot:7b,id:"minecraft:mangrove_propagule",Count:64b},{Slot:8b,id:"minecraft:cherry_sapling",Count:64b}],id:"minecraft:shulker_box"}}
-  #Leatherworker
+  #Deepslate Miner
   8job:
     items:
        - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:leather",Count:32b},{Slot:1b,id:"minecraft:leather_helmet",Count:1b},{Slot:2b,id:"minecraft:leather_chestplate",Count:1b},{Slot:3b,id:"minecraft:leather_leggings",Count:1b},{Slot:4b,id:"minecraft:leather_boots",Count:1b}],id:"minecraft:shulker_box"}}
@@ -47,7 +47,7 @@
   12job:
     items:
       - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:oak_leaves",Count:64b},{Slot:1b,id:"minecraft:spruce_leaves",Count:64b},{Slot:2b,id:"minecraft:birch_leaves",Count:64b},{Slot:4b,id:"minecraft:jungle_leaves",Count:64b},{Slot:5b,id:"minecraft:acacia_leaves",Count:64b},{Slot:6b,id:"minecraft:dark_oak_leaves",Count:64b},{Slot:7b,id:"minecraft:mangrove_leaves",Count:64b},{Slot:8b,id:"minecraft:cherry_leaves",Count:64b},{Slot:9b,id:"minecraft:azalea_leaves",Count:64b}],id:"minecraft:shulker_box"}}
-  #Ore Miner
+  #Tuff Miner
   13job:
     items:
       - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:coal_ore",Count:64b},{Slot:1b,id:"minecraft:iron_ore",Count:64b},{Slot:2b,id:"minecraft:copper_ore",Count:64b}],id:"minecraft:shulker_box"}}
@@ -91,7 +91,7 @@
   23job:
     items:
       - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:podzol",Count:64b},{Slot:1b,id:"minecraft:coarse_dirt",Count:64b}],id:"minecraft:shulker_box"}}	
-  #Lush Cave Explorer
+  #Flower Picker
   24job:
     items:
       - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Slot:0b,id:"minecraft:small_dripleaf",Count:32b},{Slot:1b,id:"minecraft:glow_berries",Count:32b},{Slot:2b,id:"minecraft:moss_block",Count:32b}],id:"minecraft:shulker_box"}}
