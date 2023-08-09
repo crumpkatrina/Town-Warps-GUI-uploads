@@ -34,7 +34,7 @@
     delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
-  #Leatherworker
+  #Deepslate Miner
   job8:
     delay: 21600
     items:
@@ -59,9 +59,9 @@
     delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
-  #Ore Miner
+  #Tuff Miner
   job13:
-    delay: 43200
+    delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
   #Shroom Farmer
@@ -114,9 +114,9 @@
     delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
-  #Lush Cave Explorer
+  #Flower Picker
   job24:
-    delay: 43200
+    delay: 21600
     items:
       - BIG_DRIPLEAF_STEM 1
   #Metals Miner
