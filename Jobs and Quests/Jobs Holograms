@@ -1,8 +1,9 @@
 job1:
   lines:
   - '&b&lOak Woodworker!'
-  - '&a&l*$500 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1000 EcoDollars*'
+  - '&a&l*1 Nether Srar*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10561.5
@@ -11,8 +12,8 @@ job1:
 job2:
   lines:
   - '&b&lCobblestone Miner!'
-  - '&a&l*$500 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1000 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10579
@@ -21,8 +22,8 @@ job2:
 job3:
   lines:
   - '&b&lSpecialist Fisherman!'
-  - '&a&l*$5000 EcoDollars*'
-  - '&6&l*2x Daily*'
+  - '&a&l*$6000 EcoDollars*'
+  - '&6&l*Every 12 Hours*'
   position:
     world: rising
     x: -10586.5
@@ -31,8 +32,8 @@ job3:
 job4:
   lines:
   - '&b&lWoodcutter!'
-  - '&a&l*$800 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1100 EXP*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10589.5
@@ -41,8 +42,9 @@ job4:
 job5:
   lines:
   - '&b&lGeode Miner!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*16 Diamonds*'
+  - '&a&l*1 Nether Star*'  
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10599.5
@@ -51,8 +53,8 @@ job5:
 job6:
   lines:
   - '&b&lStone Mason!'
-  - '&a&l*$500 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1000 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10602.5
@@ -61,8 +63,8 @@ job6:
 job7:
   lines:
   - '&b&lArborist!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1500 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10519
@@ -71,8 +73,8 @@ job7:
 job8:
   lines:
   - '&b&lDeepslate Miner!'
-  - '&a&l*$500 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*2200 EXP*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10507
@@ -81,8 +83,8 @@ job8:
 job9:
   lines:
   - '&b&lSandstone Miner!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1000 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10524.5
@@ -91,8 +93,8 @@ job9:
 job10:
   lines:
   - '&b&lBrickmaker!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1500 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10511.5
@@ -101,8 +103,8 @@ job10:
 job11:
   lines:
   - '&b&lStone Miner!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*1100 EXP*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10498.5
@@ -111,8 +113,9 @@ job11:
 job12:
   lines:
   - '&b&lLeafblower!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1500 EcoDollars*'
+  - '&a&l*1 Nether Star*'  
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10480.5
@@ -121,8 +124,8 @@ job12:
 job13:
   lines:
   - '&b&lTuff Miner!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*2200 EXP*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10467.5
@@ -131,8 +134,9 @@ job13:
 job14:
   lines:
   - '&b&lShroom Farmer!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1500 EcoDollars*'
+  - '&a&l*1 Nether Star*'   
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10461
@@ -141,8 +145,8 @@ job14:
 job15:
   lines:
   - '&b&lCactus Farmer!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*2x Daily*'
+  - '&a&l*2200 EXP*'
+  - '&6&l*Every 12 Hours*'
   position:
     world: rising
     x: -10479
@@ -151,8 +155,8 @@ job15:
 job16:
   lines:
   - '&b&lGritty Shoveler!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1500 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10468
@@ -161,8 +165,8 @@ job16:
 job17:
   lines:
   - '&b&lBrush Gatherer!'
-  - '&a&l*$500 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1000 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10471.5
@@ -171,8 +175,8 @@ job17:
 job18:
   lines:
   - '&b&lSeed Gatherer!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*2x Daily*'
+  - '&a&l*$2500 EcoDollars*'
+  - '&6&l*Every 12 Hours*'
   position:
     world: rising
     x: -10460.5
@@ -181,8 +185,8 @@ job18:
 job19:
   lines:
   - '&b&lKelpie!'
-  - '&a&l*$500 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*2 Netherite Ingots*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10463.5
@@ -191,8 +195,8 @@ job19:
 job20:
   lines:
   - '&b&lBaker!'
-  - '&a&l*$500 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1000 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10448
@@ -201,8 +205,8 @@ job20:
 job21:
   lines:
   - '&b&lChef!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1500 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10448
@@ -211,8 +215,8 @@ job21:
 job22:
   lines:
   - '&b&lFarmer!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*2x Daily*'
+  - '&a&l*$2500 EcoDollars*'
+  - '&6&l*Every 12 Hours*'
   position:
     world: rising
     x: -10433
@@ -221,8 +225,8 @@ job22:
 job23:
   lines:
   - '&b&lDirt Digger!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*$1500 EcoDollars*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10441.5
@@ -231,8 +235,8 @@ job23:
 job24:
   lines:
   - '&b&lFlower Picker!'
-  - '&a&l*$750 EcoDollars*'
-  - '&6&l*4x Daily*'
+  - '&a&l*1100 EXP*'
+  - '&6&l*Every 6 Hours*'
   position:
     world: rising
     x: -10433
@@ -241,8 +245,9 @@ job24:
 job25:
   lines:
   - '&b&lMetals Miner!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&6&l*2x Daily*'
+  - '&a&l16 Diamonds*'
+  - '&a&l*1 Nether Star*'   
+  - '&6&l*Every 12 Hours*'
   position:
     world: rising
     x: -10433
