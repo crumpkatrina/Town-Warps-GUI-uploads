@@ -1,126 +1,130 @@
- #Jobs Output Kits	  
+ #Job Tutorial
+  tutjob:
+    delay: 604800
+    items:
+      - SHULKER_BOX 1
   #Oak Woodworker
   job1:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Cobblestone Miner
   job2:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Specialist Fisherman
   job3:
     delay: 43200
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Woodcutter
   job4:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Geode Miner
   job5:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Stone Mason
   job6:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Aborist
   job7:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Deepslate Miner
   job8:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Sandstone Miner
   job9:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Brickmaker
   job10:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Stone Miner
   job11:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Leafblower
   job12:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Tuff Miner
   job13:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Shroom Farmer
   job14:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Cactus Farmer
   job15:
     delay: 43200
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Gritty Shoveler
   job16:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Brush Gatherer
   job17:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Seed Gatherer
   job18:
     delay: 43200
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Kelpie
   job19:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Baker
   job20:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Chef
   job21:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Farmer
   job22:
     delay: 43200
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Dirt Digger
   job23:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Flower Picker
   job24:
     delay: 21600
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
   #Metals Miner
   job25:
     delay: 43200
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
