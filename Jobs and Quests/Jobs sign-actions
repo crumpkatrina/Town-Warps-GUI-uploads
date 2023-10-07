@@ -15,8 +15,9 @@
     y: 84
     z: 4098
     actions:
-      - console msg {user} You have completed the &6Oak Woodworker Job &ffor &a$500 EcoDollars&f!
-      - console eco give {user} 500
+      - console msg {user} You have completed the &6Oak Woodworker Job &ffor &a$1000 EcoDollars and 1 Nether Star&f!
+      - console eco give {user} 1000
+      - console give {user} NETHER_STAR 1
   #Cobblestone Miner
   job2:
     world: rising
@@ -24,8 +25,8 @@
     y: 84
     z: 4080
     actions:
-      - console msg {user} You have completed the &6Cobblestone Miner Job &ffor  &a$500 EcoDollars&f!
-      - console eco give {user} 500
+      - console msg {user} You have completed the &6Cobblestone Miner Job &ffor &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
   #Specialist Fisherman
   job3:
     world: rising
@@ -33,8 +34,9 @@
     y: 84
     z: 4061
     actions:
-      - console msg {user} You have completed the &6Specialist Fisherman Job &ffor  &a$5000 EcoDollars&f!
-      - console eco give {user} 5000
+      - console msg {user} You have completed the &6Specialist Fisherman Job &ffor &a$6000 EcoDollars and 1 Nether Star&f!
+      - console eco give {user} 6000
+      - console give {user} NETHER_STAR 1
   #Woodcutter
   job4:
     world: rising
@@ -42,8 +44,8 @@
     y: 84
     z: 4075
     actions:
-      - console msg {user} You have completed the &6Woodcutter Job &ffor  &a$800 EcoDollars&f!
-      - console eco give {user} 800
+      - console msg {user} You have completed the &6Woodcutter Job &ffor &a$1100 EXP&f!
+      - console exp give {user} 1100
   #Geode Miner
   job5:
     world: rising
@@ -51,8 +53,9 @@
     y: 84
     z: 4061
     actions:
-      - console msg {user} You have completed the &6Geode Miner Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Geode Miner Job &ffor &a$16 Diamonds and 1 Nether Star&f!
+      - console give {user} DIAMOND 16
+      - console give {user} NETHER_STAR 1 
   #Stone Mason
   job6:
     world: rising
@@ -60,8 +63,8 @@
     y: 84
     z: 4075
     actions:
-      - console msg {user} You have completed the &6Stone Mason Job &ffor  &a$500 EcoDollars&f!
-      - console eco give {user} 500
+      - console msg {user} You have completed the &6Stone Mason Job &ffor &a$1500 EcoDollars&f!
+      - console eco give {user} 1000
   #Arborist
   job7:
     world: rising
@@ -69,8 +72,8 @@
     y: 89
     z: 4011
     actions:
-      - console msg {user} You have completed the &6Arborist Job &ffor  &a$500 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Arborist Job &ffor &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
   #Deepslate Miner
   job8:
     world: rising
@@ -78,8 +81,8 @@
     y: 89
     z: 4014
     actions:
-      - console msg {user} You have completed the &6Deepslate Miner Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 500
+      - console msg {user} You have completed the &6Deepslate Miner Job &ffor &a$2200 EXP&f!
+      - console exp give {user} 2200
   #Sandstone Miner
   job9:
     world: rising
@@ -87,8 +90,8 @@
     y: 81
     z: 3985
     actions:
-      - console msg {user} You have completed the &6Sandstone Miner Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Sandstone Miner Job &ffor &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
   #Brickmaker
   job10:
     world: rising
@@ -96,8 +99,8 @@
     y: 81
     z: 3985
     actions:
-      - console msg {user} You have completed the &6Brickmaker Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Brickmaker Job &ffor &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
   #Stone Miner
   job11:
     world: rising
@@ -105,8 +108,8 @@
     y: 81
     z: 3985
     actions:
-      - console msg {user} You have completed the &6Stone Miner Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Stone Miner Job &ffor &a$1100 EXP&f!
+      - console exp give {user} 1100
   #Leafblower
   job12:
     world: rising
@@ -114,8 +117,9 @@
     y: 73
     z: 3983
     actions:
-      - console msg {user} You have completed the &6Leafblower Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Leafblower Job &ffor &a$1500 EcoDollars and 1 Nether Star&f!
+      - console eco give {user} 1500
+      - console give {user} NETHER_STAR 1 
   #Tuff Miner
   job13:
     world: rising
@@ -123,8 +127,8 @@
     y: 70
     z: 3983
     actions:
-      - console msg {user} You have completed the &6Ore Miner Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Tuff Miner Job &ffor &a$2200 EXP&f!
+      - console EXP give {user} 2200
   #Shroom Farmer
   job14:
     world: rising
@@ -132,8 +136,9 @@
     y: 70
     z: 3997
     actions:
-      - console msg {user} You have completed the &6Shroom Farmer Job &ffor  &a$1000 EcoDollars&f!
+      - console msg {user} You have completed the &6Shroom Farmer Job &ffor &a$1500 EcoDollars and 1 Nether Star&f!
       - console eco give {user} 1000
+      - console give {user} NETHER_STAR 1  
   #Cactus Farmer
   job15:
     world: rising
@@ -141,8 +146,8 @@
     y: 81
     z: 4107
     actions:
-     - console msg {user} You have completed the &6Cactus Farmer Job &ffor  &a$1500 EcoDollars&f!
-     - console eco give {user} 1500
+      - console msg {user} You have completed the &6Cactus Farmer Job &ffor &a$2200 EXP&f!
+      - console exp give {user} 2200
   #Gritty Shoveler
   job16:
     world: rising
@@ -150,8 +155,8 @@
     y: 70
     z: 4026
     actions:
-      - console msg {user} You have completed the &6Gritty Shoveler Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Gritty Shoveler Job &ffor &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
   #Brush Gatherer
   job17:
     world: rising
@@ -159,8 +164,9 @@
     y: 78
     z: 4126
     actions:
-      - console msg {user} You have completed the &6Brush Gatherer Job &ffor  &a$500 EcoDollars&f!
-      - console eco give {user} 500
+      - console msg {user} You have completed the &6Brush Gatherer Job &ffor &a$1000 EcoDollars and 1 Nether Star&f!
+      - console eco give {user} 1000
+      - console give {user} NETHER_STAR 1  
   #Seed Gatherer
   job18:
     world: rising
@@ -168,8 +174,8 @@
     y: 71
     z: 4088
     actions:
-      - console msg {user} You have completed the &6Seed Gatherer Job &ffor  &a$1500 EcoDollars&f!
-      - console eco give {user} 1500
+      - console msg {user} You have completed the &6Seed Gatherer Job &ffor &a$2500 EcoDollars&f!
+      - console eco give {user} 2500
   #Kelpie
   job19:
     world: rising
@@ -177,8 +183,8 @@
     y: 71
     z: 4102
     actions:
-      - console msg {user} You have completed the &6Kelpie Job &ffor  &a$500 EcoDollars&f!
-      - console eco give {user} 500
+      - console msg {user} You have completed the &6Kelpie Job &ffor &a$2 Netherite Ingot&f!
+      - console give {user} NETHERITE_INGOT 2
   #Baker
   job20:
     world: rising
@@ -186,8 +192,8 @@
     y: 70
     z: 4100
     actions:
-      - console msg {user} You have completed the &6Baker Job &ffor  &a$500 EcoDollars&f!
-      - console eco give {user} 500
+      - console msg {user} You have completed the &6Baker Job &ffor &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
   #Chef
   job21:
     world: rising
@@ -195,7 +201,7 @@
     y: 70
     z: 4087
     actions:
-      - console msg {user} You have completed the &6Chef Job &ffor  &a$1000 EcoDollars&f!
+      - console msg {user} You have completed the &6Chef Job &ffor &a$1500 EcoDollars&f!
       - console eco give {user} 1000
   #Farmer
   job22:
@@ -204,8 +210,8 @@
     y: 66
     z: 4077
     actions:
-      - console msg {user} You have completed the &6Farmer Job &ffor  &a$1500 EcoDollars&f!
-      - console eco give {user} 1500
+      - console msg {user} You have completed the &6Farmer Job &ffor &a$2500 EcoDollars&f!
+      - console eco give {user} 2500
   #Dirt Digger
   job23:
     world: rising
@@ -213,8 +219,8 @@
     y: 70
     z: 4115
     actions:
-      - console msg {user} You have completed the &6Dirt Digger Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Dirt Digger Job &ffor &a$1500 EcoDollars&f!
+      - console eco give {user} 1500
   #Flower Picker
   job24:
     world: rising
@@ -222,8 +228,8 @@
     y: 66
     z: 4103
     actions:
-      - console msg {user} You have completed the &6Flower Picker Job &ffor  &a$750 EcoDollars&f!
-      - console eco give {user} 750
+      - console msg {user} You have completed the &6Flower Picker Job &ffor &a$1100 EXP&f!
+      - console exp give {user} 1100
   #Metals Miner
   job25:
     world: rising
@@ -231,5 +237,6 @@
     y: 66
     z: 4090
     actions:
-      - console msg {user} You have completed the &6Metals Miner Job &ffor  &a$1000 EcoDollars&f!
-      - console eco give {user} 1000
+      - console msg {user} You have completed the &6Metals Miner Job &ffor &a16 Diamonds and 1 Nether Star&f!
+      - console eco give {user} DIAMOND 16
+      - console give {user} NETHER_STAR 1  
