@@ -65,6 +65,12 @@ world-guard:
     - "parkour2"
     - "parkour3"
     - "parkour4"
+    - "parkour5"
+    - "parkour6"
+    - "parkour7"
+    - "parkour8"
+    - "parkour9"
+    - "parkour10"
 
 3d-menu:
   # This feature allows you to enable the 3D menu, note that the 2D menu will be disabled.
