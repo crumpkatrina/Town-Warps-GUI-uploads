@@ -5,126 +5,126 @@
       - SHULKER_BOX 1
   #Oak Woodworker
   job1:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Cobblestone Miner
   job2:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Redstone Technician
   job3:
-    delay: 43200
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Woodcutter
   job4:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Geode Miner
   job5:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Stone Mason
   job6:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Aborist
   job7:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Deepslate Miner
   job8:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Sandstone Miner
   job9:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Ice Carver
   job10:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Stone Miner
   job11:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Leafblower
   job12:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Tuff Miner
   job13:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Shroom Farmer
   job14:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Lilypad Hopper
   job15:
-    delay: 43200
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Gritty Shoveler
   job16:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Reef Specialist
   job17:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Portal Hunter
   job18:
-    delay: 43200
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Kelpie
   job19:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Taiga Explorer
   job20:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Bamboo Crafter
   job21:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Sugarcane Farmer
   job22:
-    delay: 43200
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Dirt Digger
   job23:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Cherry Enthusiast
   job24:
-    delay: 21600
+    delay: 7200
     items:
       - SHULKER_BOX 1
   #Metals Miner
   job25:
-    delay: 43200
+    delay: 7200
     items:
       - SHULKER_BOX 1
