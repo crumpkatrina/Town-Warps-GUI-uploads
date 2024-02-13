@@ -27,15 +27,15 @@
     actions:
       - console msg {user} You have completed the &6Cobblestone Miner Job &ffor &a$1000 EcoDollars&f!
       - console eco give {user} 1000
-  #Specialist Fisherman
+  #Redstone Technician
   job3:
     world: rising
     x: -10587
     y: 84
     z: 4061
     actions:
-      - console msg {user} You have completed the &6Specialist Fisherman Job &ffor &a$6000 EcoDollars and 1 Nether Star&f!
-      - console eco give {user} 6000
+      - console msg {user} You have completed the &6Redstone Technician Job &ffor &a$2500 EcoDollars and 1 Nether Star&f!
+      - console eco give {user} 2500
       - console give {user} NETHER_STAR 1
   #Woodcutter
   job4:
@@ -44,7 +44,7 @@
     y: 84
     z: 4075
     actions:
-      - console msg {user} You have completed the &6Woodcutter Job &ffor &a$1100 EXP&f!
+      - console msg {user} You have completed the &6Woodcutter Job &ffor &a1100 EXP&f!
       - console exp give {user} 1100
   #Geode Miner
   job5:
@@ -53,7 +53,7 @@
     y: 84
     z: 4061
     actions:
-      - console msg {user} You have completed the &6Geode Miner Job &ffor &a$16 Diamonds and 1 Nether Star&f!
+      - console msg {user} You have completed the &6Geode Miner Job &ffor &a16 Diamonds and 1 Nether Star&f!
       - console give {user} DIAMOND 16
       - console give {user} NETHER_STAR 1 
   #Stone Mason
@@ -81,7 +81,7 @@
     y: 89
     z: 4014
     actions:
-      - console msg {user} You have completed the &6Deepslate Miner Job &ffor &a$2200 EXP&f!
+      - console msg {user} You have completed the &6Deepslate Miner Job &ffor &a2200 EXP&f!
       - console exp give {user} 2200
   #Sandstone Miner
   job9:
@@ -92,14 +92,14 @@
     actions:
       - console msg {user} You have completed the &6Sandstone Miner Job &ffor &a$1000 EcoDollars&f!
       - console eco give {user} 1000
-  #Brickmaker
+  #Ice Carver
   job10:
     world: rising
     x: -10512
     y: 81
     z: 3985
     actions:
-      - console msg {user} You have completed the &6Brickmaker Job &ffor &a$1500 EcoDollars&f!
+      - console msg {user} You have completed the &6Ice Carver Job &ffor &a$1500 EcoDollars&f!
       - console eco give {user} 1500
   #Stone Miner
   job11:
@@ -108,7 +108,7 @@
     y: 81
     z: 3985
     actions:
-      - console msg {user} You have completed the &6Stone Miner Job &ffor &a$1100 EXP&f!
+      - console msg {user} You have completed the &6Stone Miner Job &ffor &a1100 EXP&f!
       - console exp give {user} 1100
   #Leafblower
   job12:
@@ -127,7 +127,7 @@
     y: 70
     z: 3983
     actions:
-      - console msg {user} You have completed the &6Tuff Miner Job &ffor &a$2200 EXP&f!
+      - console msg {user} You have completed the &6Tuff Miner Job &ffor &a2200 EXP&f!
       - console EXP give {user} 2200
   #Shroom Farmer
   job14:
@@ -139,14 +139,14 @@
       - console msg {user} You have completed the &6Shroom Farmer Job &ffor &a$1500 EcoDollars and 1 Nether Star&f!
       - console eco give {user} 1000
       - console give {user} NETHER_STAR 1  
-  #Cactus Farmer
+  #Lilypad Hopper
   job15:
     world: rising
     x: -10483
     y: 81
     z: 4107
     actions:
-      - console msg {user} You have completed the &6Cactus Farmer Job &ffor &a$2200 EXP&f!
+      - console msg {user} You have completed the &6Lilypad Hopper Job &ffor &a2200 EXP&f!
       - console exp give {user} 2200
   #Gritty Shoveler
   job16:
@@ -157,24 +157,24 @@
     actions:
       - console msg {user} You have completed the &6Gritty Shoveler Job &ffor &a$1500 EcoDollars&f!
       - console eco give {user} 1500
-  #Brush Gatherer
+  #Reef Specialist
   job17:
     world: rising
     x: -10472
     y: 78
     z: 4126
     actions:
-      - console msg {user} You have completed the &6Brush Gatherer Job &ffor &a$1000 EcoDollars and 1 Nether Star&f!
-      - console eco give {user} 1000
+      - console msg {user} You have completed the &6Reef Specialist Job &ffor &a$2500 EcoDollars and 1 Nether Star&f!
+      - console eco give {user} 2500
       - console give {user} NETHER_STAR 1  
-  #Seed Gatherer
+  #Portal Hunter
   job18:
     world: rising
     x: -10461
     y: 71
     z: 4088
     actions:
-      - console msg {user} You have completed the &6Seed Gatherer Job &ffor &a$2500 EcoDollars&f!
+      - console msg {user} You have completed the &6Portal Hunter Job &ffor &a$2500 EcoDollars&f!
       - console eco give {user} 2500
   #Kelpie
   job19:
@@ -185,33 +185,33 @@
     actions:
       - console msg {user} You have completed the &6Kelpie Job &ffor &a$2 Netherite Ingot&f!
       - console give {user} NETHERITE_INGOT 2
-  #Baker
+  #Taiga Explorer
   job20:
     world: rising
     x: -10452
     y: 70
     z: 4100
     actions:
-      - console msg {user} You have completed the &6Baker Job &ffor &a$1000 EcoDollars&f!
+      - console msg {user} You have completed the &6Taiga Explorer Job &ffor &a$2500 EcoDollars&f!
       - console eco give {user} 1000
-  #Chef
+  #Bamboo Crafter
   job21:
     world: rising
     x: -10452
     y: 70
     z: 4087
     actions:
-      - console msg {user} You have completed the &6Chef Job &ffor &a$1500 EcoDollars&f!
+      - console msg {user} You have completed the &6Bamboo Crafter Job &ffor &a$1500 EcoDollars&f!
       - console eco give {user} 1000
-  #Farmer
+  #Sugarcane Farmer
   job22:
     world: rising
     x: -10429
     y: 66
     z: 4077
     actions:
-      - console msg {user} You have completed the &6Farmer Job &ffor &a$2500 EcoDollars&f!
-      - console eco give {user} 2500
+      - console msg {user} You have completed the &6Sugarcane Farmer Job &ffor &a$1000 EcoDollars&f!
+      - console eco give {user} 1000
   #Dirt Digger
   job23:
     world: rising
@@ -221,14 +221,14 @@
     actions:
       - console msg {user} You have completed the &6Dirt Digger Job &ffor &a$1500 EcoDollars&f!
       - console eco give {user} 1500
-  #Flower Picker
+  #Cherry Enthusiast
   job24:
     world: rising
     x: -10429
     y: 66
     z: 4103
     actions:
-      - console msg {user} You have completed the &6Flower Picker Job &ffor &a$1100 EXP&f!
+      - console msg {user} You have completed the &6Cherry Enthusiast Job &ffor &a1100 EXP&f!
       - console exp give {user} 1100
   #Metals Miner
   job25:
