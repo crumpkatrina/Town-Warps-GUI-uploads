@@ -1,8 +1,13 @@
 #Jobs Input Kits
+  #Job Tutorial
+  jobtut:
+    delay: 604800
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:stone"}],id:"minecraft:shulker_box"}}
   #Oak Woodworker
   1job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:oak_stairs"},{Count:8b,Slot:1b,id:"minecraft:oak_fence"},{Count:8b,Slot:2b,id:"minecraft:oak_fence_gate"},{Count:16b,Slot:3b,id:"minecraft:oak_door"},{Count:16b,Slot:4b,id:"minecraft:oak_trapdoor"},{Count:16b,Slot:5b,id:"minecraft:oak_pressure_plate"},{Count:64b,Slot:6b,id:"minecraft:oak_button"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:oak_button"},{Count:16b,Slot:1b,id:"minecraft:oak_pressure_plate"},{Count:16b,Slot:2b,id:"minecraft:oak_door"},{Count:8b,Slot:3b,id:"minecraft:oak_fence"},{Count:8b,Slot:4b,id:"minecraft:oak_fence_gate"},{Count:32b,Slot:5b,id:"minecraft:oak_stairs"},{Count:16b,Slot:6b,id:"minecraft:oak_trapdoor"}],id:"minecraft:shulker_box"}}
   #Cobblestone Miner
   2job:
     items:
@@ -10,15 +15,15 @@
   #Specialist Fisherman
   3job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"minecraft:cod_bucket"},{Count:1b,Slot:1b,id:"minecraft:cod_bucket"},{Count:1b,Slot:2b,id:"minecraft:salmon_bucket"},{Count:1b,Slot:3b,id:"minecraft:salmon_bucket"},{Count:1b,Slot:4b,id:"minecraft:pufferfish_bucket"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:cod"},{Count:32b,Slot:1b,id:"minecraft:salmon"},{Count:8b,Slot:2b,id:"minecraft:pufferfish"},{Count:8b,Slot:3b,id:"minecraft:tropical_fish"}],id:"minecraft:shulker_box"}}
   #Woodcutter
   4job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:oak_log"},{Count:32b,Slot:1b,id:"minecraft:birch_log"},{Count:32b,Slot:2b,id:"minecraft:spruce_log"},{Count:32b,Slot:3b,id:"minecraft:jungle_log"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:birch_log"},{Count:32b,Slot:1b,id:"minecraft:jungle_log"},{Count:32b,Slot:2b,id:"minecraft:oak_log"},{Count:32b,Slot:3b,id:"minecraft:spruce_log"}],id:"minecraft:shulker_box"}}
   #Geode Miner
   5job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:amethyst_block"},{Count:32b,Slot:1b,id:"minecraft:calcite"},{Count:4b,Slot:2b,id:"minecraft:amethyst_shard"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:4b,Slot:0b,id:"minecraft:amethyst_shard"},{Count:64b,Slot:1b,id:"minecraft:amethyst_block"},{Count:32b,Slot:2b,id:"minecraft:calcite"}],id:"minecraft:shulker_box"}}
   #Stone Mason
   6job:
     items:
@@ -26,7 +31,7 @@
   #Arborist
   7job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:16b,Slot:0b,id:"minecraft:oak_sapling"},{Count:16b,Slot:1b,id:"minecraft:birch_sapling"},{Count:16b,Slot:2b,id:"minecraft:spruce_sapling"},{Count:16b,Slot:3b,id:"minecraft:jungle_sapling"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:16b,Slot:0b,id:"minecraft:birch_sapling"},{Count:16b,Slot:1b,id:"minecraft:jungle_sapling"},{Count:16b,Slot:2b,id:"minecraft:oak_sapling"},{Count:16b,Slot:3b,id:"minecraft:spruce_sapling"}],id:"minecraft:shulker_box"}}
   #Deepslate Miner
   8job:
     items:
@@ -42,11 +47,11 @@
   #Stone Miner
   11job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:stone"},{Count:32b,Slot:1b,id:"minecraft:granite"},{Count:32b,Slot:2b,id:"minecraft:diorite"},{Count:32b,Slot:3b,id:"minecraft:andesite"},{Count:32b,Slot:4b,id:"minecraft:cobblestone"}],id:"minecraft:shulker_box"}}	
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:andesite"},{Count:32b,Slot:1b,id:"minecraft:cobblestone"},{Count:32b,Slot:2b,id:"minecraft:diorite"},{Count:32b,Slot:3b,id:"minecraft:granite"},{Count:32b,Slot:4b,id:"minecraft:stone"}],id:"minecraft:shulker_box"}}	
   #Leafblower
   12job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:oak_leaves"},{Count:32b,Slot:1b,id:"minecraft:birch_leaves"},{Count:32b,Slot:2b,id:"minecraft:spruce_leaves"},{Count:32b,Slot:3b,id:"minecraft:jungle_leaves"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:birch_leaves"},{Count:32b,Slot:1b,id:"minecraft:jungle_leaves"},{Count:32b,Slot:2b,id:"minecraft:oak_leaves"},{Count:32b,Slot:3b,id:"minecraft:spruce_leaves"}],id:"minecraft:shulker_box"}}
   #Tuff Miner
   13job:
     items:
@@ -54,7 +59,7 @@
   #Shroom Farmer
   14job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:red_mushroom"},{Count:32b,Slot:1b,id:"minecraft:brown_mushroom"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:brown_mushroom"},{Count:32b,Slot:1b,id:"minecraft:red_mushroom"}],id:"minecraft:shulker_box"}}
   #Cactus Farmer
   15job:
     items:
@@ -70,11 +75,11 @@
   #Seed Gatherer
   18job:
     items: 
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:wheat_seeds"},{Count:64b,Slot:1b,id:"minecraft:pumpkin_seeds"},{Count:64b,Slot:2b,id:"minecraft:beetroot_seeds"},{Count:64b,Slot:3b,id:"minecraft:cocoa_beans"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:beetroot_seeds"},{Count:64b,Slot:1b,id:"minecraft:pumpkin_seeds"},{Count:64b,Slot:2b,id:"minecraft:wheat_seeds"},{Count:64b,Slot:3b,id:"minecraft:cocoa_beans"}],id:"minecraft:shulker_box"}}
   #Kelpie
   19job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:kelp"},{Count:64b,Slot:1b,id:"minecraft:dried_kelp_block"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:dried_kelp_block"},{Count:64b,Slot:1b,id:"minecraft:kelp"}],id:"minecraft:shulker_box"}}
   20job:
     items:
       - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:bread"}],id:"minecraft:shulker_box"}}
@@ -85,7 +90,7 @@
   #Farmer
   22job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:apple"},{Count:64b,Slot:1b,id:"minecraft:melon_slice"},{Count:64b,Slot:2b,id:"minecraft:potato"},{Count:64b,Slot:3b,id:"minecraft:pumpkin"},{Count:64b,Slot:4b,id:"minecraft:beetroot"},{Count:64b,Slot:5b,id:"minecraft:sugar_cane"},{Count:64b,Slot:6b,id:"minecraft:bamboo"},{Count:64b,Slot:7b,id:"minecraft:wheat"},{Count:64b,Slot:8b,id:"minecraft:sweet_berries"},{Count:64b,Slot:9b,id:"minecraft:carrot"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:8b,Slot:0b,id:"minecraft:apple"},{Count:64b,Slot:1b,id:"minecraft:beetroot"},{Count:64b,Slot:2b,id:"minecraft:carrot"},{Count:64b,Slot:3b,id:"minecraft:melon_slice"},{Count:64b,Slot:4b,id:"minecraft:potato"},{Count:64b,Slot:5b,id:"minecraft:sweet_berries"},{Count:64b,Slot:6b,id:"minecraft:wheat"},{Count:64b,Slot:7b,id:"minecraft:bamboo"},{Count:64b,Slot:8b,id:"minecraft:pumpkin"},{Count:64b,Slot:9b,id:"minecraft:sugar_cane"}],id:"minecraft:shulker_box"}}
   #Dirt Digger
   23job:
     items:
@@ -93,8 +98,8 @@
   #Flower Picker
   24job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:dandelion"},{Count:32b,Slot:1b,id:"minecraft:poppy"},{Count:32b,Slot:2b,id:"minecraft:oxeye_daisy"},{Count:32b,Slot:3b,id:"minecraft:sunflower"},{Count:32b,Slot:4b,id:"minecraft:rose_bush"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:dandelion"},{Count:32b,Slot:1b,id:"minecraft:oxeye_daisy"},{Count:32b,Slot:2b,id:"minecraft:poppy"},{Count:32b,Slot:3b,id:"minecraft:rose_bush"},{Count:32b,Slot:4b,id:"minecraft:sunflower"}],id:"minecraft:shulker_box"}}
   #Metals Miner
   25job:
     items:
-      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:raw_gold"},{Count:64b,Slot:1b,id:"minecraft:raw_copper"},{Count:64b,Slot:2b,id:"minecraft:raw_iron"}],id:"minecraft:shulker_box"}}
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:raw_copper"},{Count:64b,Slot:1b,id:"minecraft:raw_gold"},{Count:64b,Slot:2b,id:"minecraft:raw_iron"}],id:"minecraft:shulker_box"}}
