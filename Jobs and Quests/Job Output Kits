@@ -13,7 +13,7 @@
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Specialist Fisherman
+  #Redstone Technician
   job3:
     delay: 43200
     items:
@@ -48,7 +48,7 @@
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Brickmaker
+  #Ice Carver
   job10:
     delay: 21600
     items:
@@ -73,7 +73,7 @@
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Cactus Farmer
+  #Lilypad Hopper
   job15:
     delay: 43200
     items:
@@ -83,12 +83,12 @@
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Brush Gatherer
+  #Reef Specialist
   job17:
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Seed Gatherer
+  #Portal Hunter
   job18:
     delay: 43200
     items:
@@ -98,17 +98,17 @@
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Baker
+  #Taiga Explorer
   job20:
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Chef
+  #Bamboo Crafter
   job21:
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Farmer
+  #Sugarcane Farmer
   job22:
     delay: 43200
     items:
@@ -118,7 +118,7 @@
     delay: 21600
     items:
       - SHULKER_BOX 1
-  #Flower Picker
+  #Cherry Enthusiast
   job24:
     delay: 21600
     items:
