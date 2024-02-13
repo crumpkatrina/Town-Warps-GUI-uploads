@@ -1,0 +1,17 @@
+#Parkour Prize Kits
+  parkour1:
+    delay: 86400
+    items: 
+      - SLIME_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oJobs:_Lush_Caves|&aYou_won_&6&l$7,500_EcoDollars&a!
+  parkour2:
+    delay: 86400
+    items: 
+      - SLIME_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oJobs:Clock_Tower|&aYou_won_&6&l$7,500_EcoDollars&a!
+  parkour5:
+    delay: 86400
+    items: 
+      - SNOW_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oWinter_Festival:_&a&oEasy_Difficulty&6!&o|&aYou_won_&6&l$10,000_EcoDollars&a!
+  parkour6:
+    delay: 86400
+    items: 
+      - SNOW_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oWinter_Festival:_&c&oHard_Difficulty&6&o!|&aYou_won_&6&l$25,000_EcoDollars&a!
