@@ -31,19 +31,19 @@
     actions:
       - console msg {user} You have completed the &6Spawn Parkour #2 &ffor &a$10,000 EcoDollars&f!
       - console eco give {user} 10000
-  parkour5:
-    world: rising
-    x: -5289
-    y: 86
-    z: 4136
-    actions:
-      - console msg {user} You have completed the &6Easy Winter Festival Parkour &ffor &a$10,000 EcoDollars&f!
-      - console eco give {user} 10000
-  parkour6:
-    world: rising
-    x: -5316
-    y: 91
-    z: 4098
-    actions:
-      - console msg {user} You have completed the &6Hard Winter Festival Parkour &ffor &a$25,000 EcoDollars&f!
-      - console eco give {user} 25000
+  #parkour5:
+    #world: rising
+    #x: -5289
+    #y: 86
+    #z: 4136
+    #actions:
+      #- console msg {user} You have completed the &6Easy Winter Festival Parkour &ffor &a$10,000 EcoDollars&f!
+      #- console eco give {user} 10000
+  #parkour6:
+    #world: rising
+    #x: -5316
+    #y: 91
+    #z: 4098
+    #actions:
+      #- console msg {user} You have completed the &6Hard Winter Festival Parkour &ffor &a$25,000 EcoDollars&f!
+      #- console eco give {user} 25000
