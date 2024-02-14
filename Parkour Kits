@@ -2,19 +2,19 @@
   parkour1:
     delay: 86400
     items: 
-      - SLIME_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oJobs:_Lush_Caves|&aYou_won_&6&l$10,000_EcoDollars&a!
+      - SPORE_BLOSSOM 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oJobs:_Lush_Caves|&aYou_won_&6&l$10,000_EcoDollars&a!
   parkour2:
     delay: 86400
     items: 
-      - SLIME_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oJobs:_Clock_Tower|&aYou_won_&6&l$10,000_EcoDollars&a!
-    parkour3:
+      - SPORE_BLOSSOM 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oJobs:_Clock_Tower|&aYou_won_&6&l$10,000_EcoDollars&a!
+  parkour3:
     delay: 86400
     items: 
-      - SLIME_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oSpawn_Parkour_#1|&aYou_won_&6&l$10,000_EcoDollars&a!
+      - SPORE_BLOSSOM 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oSpawn_Parkour_#1|&aYou_won_&6&l$10,000_EcoDollars&a!
   parkour4:
     delay: 86400
     items: 
-      - SLIME_BLOCK 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oSpawn_Parkour_#2|&aYou_won_&6&l$10,000_EcoDollars&a!
+      - SPORE_BLOSSOM 1 unbreaking:1 name:&6&lA_&a&o&lLimeLush_&6&lParkour_Prize_Token lore:&aCongratulations_for_winning_a|&aLimeLush_parkour!|&6&oSpawn_Parkour_#2|&aYou_won_&6&l$10,000_EcoDollars&a!
   #parkour5:
     #delay: 86400
     #items: 
