@@ -6,7 +6,7 @@
     z: 4031
     actions:
       - console msg {user} You have completed the &6Lush Caves Parkour &ffor &a$7,500 EcoDollars&f!
-      - console eco give {user} 7500
+      - console eco give {user} 10000
   parkour2:
     world: rising
     x: -10590
@@ -14,7 +14,23 @@
     z: 4116
     actions:
       - console msg {user} You have completed the &6Clock Tower Parkour &ffor &a$7,500 EcoDollars&f!
-      - console eco give {user} 7500
+      - console eco give {user} 10000
+  parkour3:
+    world: rising
+    x: 19
+    y: 69
+    z: 33
+    actions:
+      - console msg {user} You have completed the &6Spawn Parkour #1 &ffor &a$10,000 EcoDollars&f!
+      - console eco give {user} 10000
+  parkour4:
+    world: rising
+    x: -11
+    y: 78
+    z: -19
+    actions:
+      - console msg {user} You have completed the &6Spawn Parkour #2 &ffor &a$10,000 EcoDollars&f!
+      - console eco give {user} 10000
   parkour5:
     world: rising
     x: -5289
