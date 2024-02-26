@@ -1,0 +1,198 @@
+wfwelcome:
+  lines:
+  - '&b&lWelcome {displayname} &b&lto Winter Fesitval!'
+  - '&a*Games require &eNether Stars &ato play!*'
+  - '&a*&6Get Nstars: &aVote via &c/vote!&a*'
+  - '&a*Buy Nstars with votepoints from voteshop via &c/voteshop!&a*'
+  - ''
+  - '&aTake a look around and explore!'
+  - '&aThere are several different games to play!'
+  - '&aBe sure to read signs at each game'
+  - '&ato learn how to play!'
+  position:
+    world: rising
+    x: -5421
+    y: 75
+    z: 3882
+wftele1:
+  lines:
+  - '&b&lDeepslate Wonders Coaster!'
+  - '&aStep onto the pad'
+  - '&ato teleport to this game'
+  position:
+    world: rising
+    x: -5411
+    y: 71
+    z: 3898.5
+wftele2:
+  lines:
+  - '&b&lSakura Caves Coaster!'
+  - '&aStep onto the pad'
+  - '&ato teleport to this game'
+  position:
+    world: rising
+    x: -5426.5
+    y: 71
+    z: 3898.5
+wftele3:
+  lines:
+  - '&b&lLog Cabin Prize Drops!'
+  - '&aStep onto the pad'
+  - '&ato teleport to these games'
+  position:
+    world: rising
+    x: -5411
+    y: 71
+    z: 3905.5
+wftele4:
+  lines:
+  - '&b&lSecret Santa!'
+  - '&aStep onto the pad'
+  - '&ato teleport to Secret Santa!'
+  position:
+    world: rising
+    x: -5426.5
+    y: 71
+    z: 3905.5
+wftele5:
+  lines:
+  - '&b&lWinter Festival Parkour: &cHARD&b!'
+  - '&aStep onto the pad'
+  - '&ato teleport to parkour!'
+  position:
+    world: rising
+    x: -5426.5
+    y: 71
+    z: 3912.5
+wftele6:
+  lines:
+  - '&b&lWinter Festival Parkour: &aEASY&b&f!'
+  - '&aStep onto the pad'
+  - '&ato teleport to parkour!'
+  position:
+    world: rising
+    x: -5411
+    y: 71
+    z: 3912.5
+wftele7:
+  lines:
+  - '&b&lWinter Festival Chicken Archery!'
+  - '&aStep onto the pad'
+  - '&ato teleport to the game!'
+  position:
+    world: rising
+    x: -5418.5
+    y: 73
+    z: 3918
+wfdeepslate:
+  lines:
+  - '&b&lDeepslate Wonders Coaster!'
+  - '&a*Cost: &61 Nether Star&a*'
+  - '&aStep right up, pay the dispenser and play!'
+  - '&aBe sure to read the signs on how to play!'
+  position:
+    world: rising
+    x: -5608
+    y: 70
+    z: 4041
+wfsakura:
+  lines:
+  - '&b&lSakura Caves Coaster!'
+  - '&a*Cost: &61 Nether Star&a*'
+  - '&aStep right up, pay the dispenser and play!'
+  - '&aBe sure to read the signs on how to play!'
+  position:
+    world: rising
+    x: -5501
+    y: 70
+    z: 3953
+wfprizedrops:
+  lines:
+  - '&b&lPrize Drops!'
+  - '&a*Cost: &61 Nether Star&a*'
+  - '&aStep right up, pay the dispenser and play!'
+  - '&aBe sure to read the signs on how to play!'
+  position:
+    world: rising
+    x: -5307
+    y: 71
+    z: 3831
+wfprizedrops2:
+  lines:
+  - '&b&lPrize Drops!'
+  - '&a*Cost: &61 Nether Star&a*'
+  - '&aStep right up, pay the dispenser and play!'
+  - '&aBe sure to read the signs on how to play!'
+  position:
+    world: rising
+    x: -5264
+    y: 70
+    z: 3994
+wfchickenarchery1:
+  lines:
+  - '&b&lChicken Archery!'
+  - '&a*Cost: &61 Nether Star&a*'
+  - '&aStep right up, pay the dispenser and play!'
+  - '&aBe sure to read the signs on how to play!'
+  position:
+    world: rising
+    x: -5448
+    y: 70
+    z: 3811
+wfchickenarchery2:
+  lines:
+  - '&b&lChicken Archery!'
+  - '&a*Cost: &61 Nether Star&a*'
+  - '&aStep right up, pay the dispenser and play!'
+  - '&aBe sure to read the signs on how to play!'
+  position:
+    world: rising
+    x: -5259
+    y: 70
+    z: 4014
+wfchickenarchery3:
+  lines:
+  - '&b&lChicken Archery!'
+  - '&a*Cost: &61 Nether Star&a*'
+  - '&aStep right up, pay the dispenser and play!'
+  - '&aBe sure to read the signs on how to play!'
+  position:
+    world: rising
+    x: -5404
+    y: 70
+    z: 4139
+wfparkour:
+  lines:
+  - '&b&lParkour! *&cHARD&b*!'
+  - '&aComplete the parkour and right-click the'
+  - '&asign at the end to win your prize!'
+  - '&aYou can win this Parkour prize once'
+  - '&aevery &624 hours!'
+  position:
+    world: rising
+    x: -5344
+    y: 70
+    z: 4083
+wfparkour2:
+  lines:
+  - '&b&lParkour! *&aEASY&b*!'
+  - '&aComplete the parkour and right-click the'
+  - '&asign at the end to win your prize!'
+  - '&aYou can win this Parkour prize once'
+  - '&aevery &624 hours!'
+  position:
+    world: rising
+    x: -5298
+    y: 70
+    z: 4086
+wfsecretsanta:
+  lines:
+  - '&b&lSecret Santa!'
+  - '&aThis is where Secret Santa is held!'
+  - '&aStep on the red concrete for a link'
+  - '&ato sign up for Secret Santa'
+  position:
+    world: rising
+    x: -5358
+    y: 73
+    z: 3832
