@@ -1,0 +1,980 @@
+# Start Quests System
+  helpmequests:
+    name: "HelpMe§cQuests"
+    0:
+      permission: ""
+      pass:
+        type: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    1:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    2:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    3:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    4:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    5:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    6:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    7:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    8:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    9:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    10:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    12:
+      permission: ""
+      pass:
+        type: ENCHANTING_TABLE
+        name: "&6Quests Information!"
+        desc: "&7Collect specific items and turn them in for Quest Points!|&7*Most Quests can be completed several times a day!|&aClick the Nether Star to warp to the Quests area!"
+    18:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    19:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    23:
+      permission: ""
+      pass:
+        type: CRYING_OBSIDIAN
+        name: "&6Quest Zone!"
+        desc: "&7Click here to teleport to the Quest zone!"
+        command: "warp quests"
+        message:  ""
+        runas: player
+    25:
+      permission: ""
+      pass:
+        type: DEEPSLATE_TILES
+        name: "&6Quest Warps!"
+        desc: "&7Click here to view all the specifc job warps!"
+        command: "questwarps"
+        message: 
+        runas: player
+    27:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    28:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    30:
+      permission: ""
+      pass:
+        type: ENCHANTING_TABLE
+        name: "&6Quest Equipment List!"
+        desc: "&7These are the things you need to complete most jobs:|&6*&7Shulker Boxes - Buy these from other users"
+    36:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    37:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    39:
+      permission: ""
+      pass:
+        type: BOOK
+        name: "&6Quests Information!"
+        desc: "&7Each Quest accepts a Shulker Box of items|&7The item layout within the shulker must match the display shulker at the quest stall.|&7Once you have the right items, right click the &1[Kit] &7sign with your shulker box!"
+    40:
+      permission: ""
+      pass:
+        type: BOOK
+        name: "&3Forums: Quests Information!"
+        desc: "&7Click to post a link in chat for information about Quests and Quest Points."
+		command: ""
+        message: "&e------------------\n&6[EcoCityCraft]\n&aQuests and Rewards Information\n&bhttps://tinyurl.com/ShopDBShulkerBox\n&e------------------"
+        runas: console
+	42:
+      permission: ""
+      pass:
+        type: SHULKER_BOX
+        name: "&6ShopDB: Shulker Supplies"
+        desc: "&7You need Shulker Boxes to complete Quests|&7Click the nametags for links to ShopDB listings of Shulker Boxes/Shells"
+    43:
+      permission: ""
+      pass:
+        type: NAME_TAG
+        name: "&3ShopDB: Shulker Box!"
+        desc: "&7Click here to get a link to see where to buy Shulker Boxes!"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft]\n&aShulker Box Shop Listings\n&bhttps://tinyurl.com/ShopDBShulkerBox\n&e------------------"
+        runas: console
+    44:
+      permission: ""
+      pass:
+        type: NAME_TAG
+        name: "&3ShopDB: Shulker Shells!"
+        desc: "&7Click here to get a link to see where to buy Shulker Shells!"
+        command: ""
+        message: "&e------------------\n&6[EcoCityCraft]\n&aShulker Shell Shop Listings\n&bhttps://tinyurl.com/ShopDBShulkerShells\n&e------------------"
+        runas: console
+    45:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    46:
+      permission: ""
+      pass:
+        type: OAK_DOOR
+        name: "&cMain Menu!"
+        desc: "&7Click here to return to the main menu!"
+        command: "HelpMe"
+        message: ""
+        runas: player
+    47:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    48:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    49:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    50:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    51:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    52:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    53:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    54:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+  jobwarps:
+    name: "§aJobWarps"
+    0:
+      permission: ""
+      pass:
+        type: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    1:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    2:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    3:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    4:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    5:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    6:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    7:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    8:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    9:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    10:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for job information!"
+        desc: "&7Click &3icons &7to warp."
+    11:
+      permission: ""
+      pass:
+        type: OAK_STAIRS
+        name: "&aOak Woodworker"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Oak Stairs|&6*&78 Oak Fence|&6*&78 Oak Fence Gate|&6*&716 Oak Door|&6*&716 Oak Trapdoor|&6*&716 Oak Pressure Plate|&6*&764 Oak Button"
+        command: "warp j1"
+        message: ""
+        runas: player
+    12:
+      permission: ""
+      pass:
+        type: COBBLESTONE
+        name: "&aCobblestone Miner"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Cobblestone"
+        command: "warp j2"
+        message: ""
+        runas: player
+    13:
+      permission: ""
+      pass:
+        type: COD_BUCKET
+        name: "&aSpecialist Fisherman"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&71 Bucket of Cod|&6*&71 Bucket of Cod|&6*&71 Bucket of Salmon|&6*&71 Bucket of  Salmon|&6*&71 Bucket of Pufferfish"
+        command: "warp j3"
+        message: ""
+        runas: player
+    14:
+      permission: ""
+      pass:
+        type: OAK_LOG
+        name: "&aWoodcutter"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Oak Log|&6*&732 Birch Log|&6*&732 Spruce Log|&6*&732 Jungle Log"
+        command: "warp j4"
+        message: ""
+        runas: player
+    15:
+      permission: ""
+      pass:
+        type: AMETHYST_BLOCK
+        name: "&aGeode Miner"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Amethyst Block|&6*&732 Calcite|&6*&74 Amethyst Shard"
+        command: "warp j5"
+        message: ""
+        runas: player
+    16:
+      permission: ""
+      pass:
+        type: STONE_BRICKS
+        name: "&aStone Mason"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Stone Bricks"
+        command: "warp j6"
+        message: ""
+        runas: player
+    17:
+      permission: ""
+      pass:
+        type: OAK_SAPLING
+        name: "&aArborist"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&716 Oak Sapling|&6*&716 Birch Sapling|&6*&716 Spruce Sapling|&6*&716 Jungle Sapling"
+        command: "warp j7"
+        message: ""
+        runas: player
+    18:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    19:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    20:
+      permission: ""
+      pass:
+        type: COBBLED_DEEPSLATE
+        name: "&aDeepslate Miner"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Cobbled Deepslate"
+        command: "warp j8"
+        message: ""
+        runas: player
+    21:
+      permission: ""
+      pass:
+        type: SANDSTONE
+        name: "&aSandstone Miner"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Sandstone"
+        command: "warp j9"
+        message: ""
+        runas: player
+    22:
+      permission: ""
+      pass:
+        type: BRICKS
+        name: "&aBrickmaker"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Bricks"
+        command: "warp j10"
+        message: ""
+        runas: player
+    23:
+      permission: ""
+      pass:
+        type: STONE
+        name: "&aStone Miner"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Stone|&6*&732 Granite|&6*&732 Diorite|&6*&732 Andesite|&6*&732 Cobblestone"
+        command: "warp j11"
+        message: ""
+        runas: player
+    24:
+      permission: ""
+      pass:
+        type: OAK_LEAVES
+        name: "&aLeafblower"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Oak Leaves|&6*&732 Birch Leaves|&6*&732 Spruce Leaves|&6*&732 Jungle Leaves"
+        command: "warp j12"
+        message: ""
+        runas: player
+    25:
+      permission: ""
+      pass:
+        type: TUFF
+        name: "&aTuff Miner"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Tuff"
+        command: "warp j13"
+        message: ""
+        runas: player
+    26:
+      permission: ""
+      pass:
+        type: RED_MUSHROOM
+        name: "&aShroom Farmer"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Red Mushroom|&6*&732 Brown Mushroom"
+        command: "warp j14"
+        message: ""
+        runas: player
+    27:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    28:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    29:
+      permission: ""
+      pass:
+        type: CACTUS
+        name: "&aCactus Farmer"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Cactus"
+        command: "warp j15"
+        message: ""
+        runas: player
+    30:
+      permission: ""
+      pass:
+        type: SAND
+        name: "&aGritty Shoveler"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Gravel|&6*&764 Sand"
+        command: "warp j16"
+        message: ""
+        runas: player
+    31:
+      permission: ""
+      pass:
+        type: DEAD_BUSH
+        name: "&aBrush Gatherer"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Dead Bush"
+        command: "warp j17"
+        message: ""
+        runas: player
+    32:
+      permission: ""
+      pass:
+        type: WHEAT_SEEDS
+        name: "&aSeed Gatherer"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Seeds|&6*&764 Pumpkin Seeds|&6*&764 Beetroot Seeds|&6*&764 Cocoa Beans"
+        command: "warp j18"
+        message: ""
+        runas: player
+    33:
+      permission: ""
+      pass:
+        type: KELP
+        name: "&aKelpie"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Kelp|&6*&764 Dried Kelp Block"
+        command: "warp j19"
+        message: ""
+        runas: player
+    34:
+      permission: ""
+      pass:
+        type: BREAD
+        name: "&aBaker"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Bread"
+        command: "warp j20"
+        message: ""
+        runas: player
+    35:
+      permission: ""
+      pass:
+        type: COOKED_CHICKEN
+        name: "&aChef"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&716 Cooked Steak|&6*&716 Cooked Chicken|&6*&716 Cooked Cod|&6*&716 Cooked Salmon"
+        command: "warp j21"
+        message: ""
+        runas: player
+    36:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    37:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    38:
+      permission: ""
+      pass:
+        type: WHEAT
+        name: "&aFarmer"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Apple|&6*&764 Melon Slice|&6*&764 Potato|&6*&764 Pumpkin|&6*&764 Beetroot|&6*&764 Sugarcane|&6*&7164 Bamboo|&6*&764 Wheat|&6*&764 Sweet Berries|&6*&764 Carrot"
+        command: "warp j22"
+        message: ""
+        runas: player
+    39:
+      permission: ""
+      pass:
+        type: DIRT
+        name: "&aDirt Digger"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Dirt"
+        command: "warp j23"
+        message: ""
+        runas: player
+    40:
+      permission: ""
+      pass:
+        type: SUNFLOWER
+        name: "&aFlower Picker"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Dandelion|&6*&732 Poppy|&6*&732 Oxeye Daisy|&6*&732 Sunflower|&6*&732 Rose Bush"
+        command: "warp j24"
+        message: ""
+        runas: player
+    41:
+      permission: ""
+      pass:
+        type: RAW_IRON
+        name: "&aMetals Miner"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Raw Gold|&6*&764 Raw Copper|&6*&764 Raw Iron"
+        command: "warp j25"
+        message: ""
+        runas: player
+    42:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j26"
+        message: ""
+        runas: player
+    43:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j27"
+        message: ""
+        runas: player
+    44:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j28"
+        message: ""
+        runas: player
+    45:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    46:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    47:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    48:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    49:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    50:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    51:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    52:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    53:
+      permission: ""
+      pass:
+        type: RED_WOOL
+        name: "&6Previous Page"
+        desc: ""
+        command: "HelpMeJobs"
+        message: ""
+        runas: player
+    54:
+      permission: ""
+      pass:
+        type: LIME_WOOL
+        name: "&6Next Page"
+        desc: ""
+        command: "JobWarps2"
+        message: ""
+        runas: player
+  jobwarps2:
+    name: "§aJobWarps2"
+    0:
+      permission: ""
+      pass:
+        type: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    1:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    2:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    3:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    4:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    5:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    6:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    7:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    8:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    9:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    10:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    11:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j29"
+        message: ""
+        runas: player
+    12:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j30"
+        message: ""
+        runas: player
+    13:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j31"
+        message: ""
+        runas: player
+    14:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j32"
+        message: ""
+        runas: player
+    15:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j33"
+        message: ""
+        runas: player
+    16:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j34"
+        message: ""
+        runas: player
+    17:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j35"
+        message: ""
+        runas: player
+    18:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    19:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    20:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j36"
+        message: ""
+        runas: player
+    21:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j37"
+        message: ""
+        runas: player
+    22:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j38"
+        message: ""
+        runas: player
+    23:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j39"
+        message: ""
+        runas: player
+    24:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j40"
+        message: ""
+        runas: player
+    25:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j41"
+        message: ""
+        runas: player
+    26:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j42"
+        message: ""
+        runas: player
+    27:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    28:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    29:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j43"
+        message: ""
+        runas: player
+    30:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j44"
+        message: ""
+        runas: player
+    31:
+      permission: ""
+      pass:
+        type: STRUCTURE_VOID
+        name: "&a**Not Avaliable**"
+        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j45"
+        message: ""
+        runas: player
+    36:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    37:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    45:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    46:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    47:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    48:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    49:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    50:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    51:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    52:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    53:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    54:
+      permission: ""
+      pass:
+        type: RED_WOOL
+        name: "&6Previous Page"
+        desc: ""
+        command: "JobWarps"
+        message: ""
+        runas: player
+# End Quests System
