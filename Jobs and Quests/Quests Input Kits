@@ -1,1 +1,93 @@
-TBD
+#Quests Input Kits
+
+#Overworld Quests
+#Mangrove Expedition
+  1quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:mangrove_button"},{Count:64b,Slot:1b,id:"minecraft:mangrove_pressure_plate"},{Count:16b,Slot:2b,id:"minecraft:mangrove_hanging_sign"},{Count:64b,Slot:3b,id:"minecraft:mangrove_log"},{Count:64b,Slot:4b,id:"minecraft:mangrove_planks"},{Count:16b,Slot:5b,id:"minecraft:mangrove_sign"},{Count:64b,Slot:6b,id:"minecraft:mangrove_wood"},{Count:64b,Slot:7b,id:"minecraft:stripped_mangrove_log"},{Count:64b,Slot:8b,id:"minecraft:stripped_mangrove_wood"},{Count:1b,Slot:9b,id:"minecraft:mangrove_boat"},{Count:1b,Slot:10b,id:"minecraft:mangrove_chest_boat"},{Count:16b,Slot:11b,id:"minecraft:mangrove_door"},{Count:64b,Slot:12b,id:"minecraft:mangrove_fence"},{Count:64b,Slot:13b,id:"minecraft:mangrove_fence_gate"},{Count:64b,Slot:14b,id:"minecraft:mangrove_roots"},{Count:64b,Slot:15b,id:"minecraft:mangrove_slab"},{Count:64b,Slot:16b,id:"minecraft:mangrove_stairs"},{Count:64b,Slot:17b,id:"minecraft:mangrove_trapdoor"},{Count:64b,Slot:18b,id:"minecraft:muddy_mangrove_roots"}],id:"minecraft:shulker_box"}}
+#Echoes of the Abyss
+  2quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:8b,Slot:0b,id:"minecraft:gold_block"},{Count:1b,Slot:1b,id:"minecraft:elder_guardian_spawn_egg"},{Count:1b,Slot:2b,id:"minecraft:guardian_spawn_egg"},{Count:64b,Slot:3b,id:"minecraft:dark_prismarine"},{Count:64b,Slot:4b,id:"minecraft:dark_prismarine_slab"},{Count:64b,Slot:5b,id:"minecraft:dark_prismarine_stairs"},{Count:64b,Slot:6b,id:"minecraft:prismarine"},{Count:64b,Slot:7b,id:"minecraft:prismarine_brick_slab"},{Count:64b,Slot:8b,id:"minecraft:prismarine_brick_stairs"},{Count:64b,Slot:9b,id:"minecraft:prismarine_bricks"},{Count:64b,Slot:10b,id:"minecraft:prismarine_slab"},{Count:64b,Slot:11b,id:"minecraft:prismarine_stairs"},{Count:64b,Slot:12b,id:"minecraft:prismarine_wall"},{Count:64b,Slot:13b,id:"minecraft:sea_lantern"},{Count:4b,Slot:14b,id:"minecraft:sponge"}],id:"minecraft:shulker_box"}}
+#Mudbrick Legacy
+  3quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:mud"},{Count:64b,Slot:1b,id:"minecraft:mud_brick_slab"},{Count:64b,Slot:2b,id:"minecraft:mud_brick_stairs"},{Count:64b,Slot:3b,id:"minecraft:mud_brick_wall"},{Count:64b,Slot:4b,id:"minecraft:mud_bricks"},{Count:64b,Slot:5b,id:"minecraft:packed_mud"}],id:"minecraft:shulker_box"}}
+#The Bloom Below
+  4quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:flowering_azalea_leaves"},{Count:64b,Slot:1b,id:"minecraft:glow_berries"},{Count:64b,Slot:2b,id:"minecraft:azalea"},{Count:64b,Slot:3b,id:"minecraft:big_dripleaf"},{Count:64b,Slot:4b,id:"minecraft:flowering_azalea"},{Count:64b,Slot:5b,id:"minecraft:glow_lichen"},{Count:64b,Slot:6b,id:"minecraft:hanging_roots"},{Count:64b,Slot:7b,id:"minecraft:moss_block"},{Count:64b,Slot:8b,id:"minecraft:moss_carpet"},{Count:64b,Slot:9b,id:"minecraft:spore_blossom"}],id:"minecraft:shulker_box"}}
+#The Amethyst Enigma
+  5quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:amethyst_block"},{Count:64b,Slot:1b,id:"minecraft:amethyst_block"},{Count:64b,Slot:2b,id:"minecraft:amethyst_cluster"},{Count:64b,Slot:3b,id:"minecraft:calcite"},{Count:64b,Slot:4b,id:"minecraft:calcite"},{Count:64b,Slot:5b,id:"minecraft:large_amethyst_bud"},{Count:64b,Slot:6b,id:"minecraft:medium_amethyst_bud"},{Count:64b,Slot:7b,id:"minecraft:small_amethyst_bud"}],id:"minecraft:shulker_box"}}
+#Beneath the Surface
+  6quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"minecraft:warden_spawn_egg"},{Count:8b,Slot:1b,id:"minecraft:calibrated_sculk_sensor"},{Count:64b,Slot:2b,id:"minecraft:sculk"},{Count:64b,Slot:3b,id:"minecraft:sculk"},{Count:64b,Slot:4b,id:"minecraft:sculk"},{Count:64b,Slot:5b,id:"minecraft:sculk"},{Count:4b,Slot:6b,id:"minecraft:sculk_catalyst"},{Count:8b,Slot:7b,id:"minecraft:sculk_sensor"},{Count:8b,Slot:8b,id:"minecraft:sculk_shrieker"},{Count:64b,Slot:9b,id:"minecraft:sculk_vein"}],id:"minecraft:shulker_box"}}
+#Toadstool Trial
+  7quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"minecraft:mushroom_stew"},{Count:64b,Slot:1b,id:"minecraft:brown_mushroom"},{Count:64b,Slot:2b,id:"minecraft:red_mushroom"},{Count:1b,Slot:3b,id:"minecraft:mooshroom_spawn_egg"},{Count:64b,Slot:4b,id:"minecraft:crimson_fungus"},{Count:64b,Slot:5b,id:"minecraft:brown_mushroom_block"},{Count:64b,Slot:6b,id:"minecraft:red_mushroom_block"},{Count:64b,Slot:7b,id:"minecraft:mushroom_stem"},{Count:64b,Slot:8b,id:"minecraft:mycelium"},{Count:64b,Slot:9b,id:"minecraft:warped_fungus"}],id:"minecraft:shulker_box"}}
+#Petal and Leaf
+  8quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:acacia_sapling"},{Count:64b,Slot:1b,id:"minecraft:birch_sapling"},{Count:64b,Slot:2b,id:"minecraft:dark_oak_sapling"},{Count:64b,Slot:3b,id:"minecraft:jungle_sapling"},{Count:64b,Slot:4b,id:"minecraft:oak_sapling"},{Count:64b,Slot:5b,id:"minecraft:spruce_sapling"},{Count:64b,Slot:6b,id:"minecraft:azure_bluet"},{Count:64b,Slot:7b,id:"minecraft:cornflower"},{Count:64b,Slot:8b,id:"minecraft:dandelion"},{Count:64b,Slot:9b,id:"minecraft:fern"},{Count:64b,Slot:10b,id:"minecraft:lilac"},{Count:64b,Slot:11b,id:"minecraft:lily_of_the_valley"},{Count:64b,Slot:12b,id:"minecraft:blue_orchid"},{Count:64b,Slot:13b,id:"minecraft:oxeye_daisy"},{Count:64b,Slot:14b,id:"minecraft:peony"},{Count:64b,Slot:15b,id:"minecraft:poppy"},{Count:64b,Slot:16b,id:"minecraft:rose_bush"},{Count:64b,Slot:17b,id:"minecraft:sunflower"},{Count:64b,Slot:18b,id:"minecraft:white_tulip"},{Count:64b,Slot:19b,id:"minecraft:red_tulip"},{Count:64b,Slot:20b,id:"minecraft:orange_tulip"},{Count:64b,Slot:21b,id:"minecraft:pink_tulip"},{Count:64b,Slot:22b,id:"minecraft:vine"},{Count:64b,Slot:23b,id:"minecraft:cherry_sapling"},{Count:64b,Slot:24b,id:"minecraft:mangrove_propagule"},{Count:64b,Slot:25b,id:"minecraft:pink_petals"},{Count:64b,Slot:26b,id:"minecraft:short_grass"}],id:"minecraft:shulker_box"}}
+#The Sniffer's Secret
+  9quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:32b,Slot:0b,id:"minecraft:torchflower_seeds"},{Count:32b,Slot:1b,id:"minecraft:pitcher_pod"},{Count:1b,Slot:2b,id:"minecraft:sniffer_egg"},{Count:32b,Slot:3b,id:"minecraft:pitcher_plant"},{Count:32b,Slot:4b,id:"minecraft:torchflower"}],id:"minecraft:shulker_box"}}
+#The Reef's Bounty
+  10quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:4b,Slot:0b,id:"minecraft:scute"},{Count:64b,Slot:1b,id:"minecraft:dried_kelp_block"},{Count:64b,Slot:2b,id:"minecraft:kelp"},{Count:64b,Slot:3b,id:"minecraft:lily_pad"},{Count:64b,Slot:4b,id:"minecraft:sea_pickle"},{Count:64b,Slot:5b,id:"minecraft:seagrass"},{Count:64b,Slot:6b,id:"minecraft:brain_coral"},{Count:64b,Slot:7b,id:"minecraft:brain_coral_block"},{Count:64b,Slot:8b,id:"minecraft:brain_coral_fan"},{Count:64b,Slot:9b,id:"minecraft:bubble_coral"},{Count:64b,Slot:10b,id:"minecraft:bubble_coral_block"},{Count:64b,Slot:11b,id:"minecraft:bubble_coral_fan"},{Count:64b,Slot:12b,id:"minecraft:fire_coral"},{Count:64b,Slot:13b,id:"minecraft:fire_coral_block"},{Count:64b,Slot:14b,id:"minecraft:fire_coral_fan"},{Count:64b,Slot:15b,id:"minecraft:horn_coral"},{Count:64b,Slot:16b,id:"minecraft:horn_coral_block"},{Count:64b,Slot:17b,id:"minecraft:horn_coral_fan"},{Count:64b,Slot:18b,id:"minecraft:tube_coral"},{Count:64b,Slot:19b,id:"minecraft:tube_coral_block"},{Count:64b,Slot:20b,id:"minecraft:tube_coral_fan"},{Count:4b,Slot:21b,id:"minecraft:turtle_egg"}],id:"minecraft:shulker_box"}}
+#The Honeyed Harvest
+  11quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:8b,Slot:0b,id:"minecraft:honey_bottle"},{Count:1b,Slot:1b,id:"minecraft:bee_spawn_egg"},{Count:64b,Slot:2b,id:"minecraft:honeycomb"},{Count:64b,Slot:3b,id:"minecraft:honeycomb"},{Count:64b,Slot:4b,id:"minecraft:beehive"},{Count:32b,Slot:5b,id:"minecraft:honey_block"},{Count:32b,Slot:6b,id:"minecraft:honeycomb_block"}],id:"minecraft:shulker_box"}}
+#Redstone Killer
+  12quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:jukebox"},{Count:64b,Slot:1b,id:"minecraft:redstone"},{Count:64b,Slot:2b,id:"minecraft:comparator"},{Count:64b,Slot:3b,id:"minecraft:daylight_detector"},{Count:64b,Slot:4b,id:"minecraft:dispenser"},{Count:64b,Slot:5b,id:"minecraft:dropper"},{Count:64b,Slot:6b,id:"minecraft:heavy_weighted_pressure_plate"},{Count:64b,Slot:7b,id:"minecraft:hopper"},{Count:64b,Slot:8b,id:"minecraft:lever"},{Count:64b,Slot:9b,id:"minecraft:light_weighted_pressure_plate"},{Count:64b,Slot:10b,id:"minecraft:note_block"},{Count:64b,Slot:11b,id:"minecraft:observer"},{Count:64b,Slot:12b,id:"minecraft:piston"},{Count:64b,Slot:13b,id:"minecraft:oak_pressure_plate"},{Count:64b,Slot:14b,id:"minecraft:redstone_block"},{Count:64b,Slot:15b,id:"minecraft:redstone_lamp"},{Count:64b,Slot:16b,id:"minecraft:redstone_torch"},{Count:64b,Slot:17b,id:"minecraft:repeater"},{Count:64b,Slot:18b,id:"minecraft:sticky_piston"},{Count:64b,Slot:19b,id:"minecraft:stone_button"},{Count:64b,Slot:20b,id:"minecraft:stone_pressure_plate"},{Count:64b,Slot:21b,id:"minecraft:activator_rail"},{Count:64b,Slot:22b,id:"minecraft:detector_rail"},{Count:64b,Slot:23b,id:"minecraft:lightning_rod"},{Count:64b,Slot:24b,id:"minecraft:powered_rail"},{Count:64b,Slot:25b,id:"minecraft:rail"},{Count:64b,Slot:26b,id:"minecraft:target"}],id:"minecraft:shulker_box"}}
+#Craft, Cook, Create
+  13quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:8b,Slot:0b,id:"minecraft:beacon"},{Count:1b,Slot:1b,id:"minecraft:enchanting_table"},{Count:1b,Slot:2b,id:"minecraft:ender_chest"},{Count:8b,Slot:3b,id:"minecraft:brewing_stand"},{Count:8b,Slot:4b,id:"minecraft:cauldron"},{Count:8b,Slot:5b,id:"minecraft:campfire"},{Count:1b,Slot:6b,id:"minecraft:composter"},{Count:16b,Slot:7b,id:"minecraft:anvil"},{Count:8b,Slot:8b,id:"minecraft:bell"},{Count:1b,Slot:9b,id:"minecraft:blast_furnace"},{Count:1b,Slot:10b,id:"minecraft:cartography_table"},{Count:1b,Slot:11b,id:"minecraft:chiseled_bookshelf"},{Count:1b,Slot:12b,id:"minecraft:fletching_table"},{Count:1b,Slot:13b,id:"minecraft:furnace"},{Count:1b,Slot:14b,id:"minecraft:grindstone"},{Count:1b,Slot:15b,id:"minecraft:lectern"},{Count:64b,Slot:16b,id:"minecraft:light"},{Count:64b,Slot:17b,id:"minecraft:lodestone"},{Count:1b,Slot:18b,id:"minecraft:loom"},{Count:1b,Slot:19b,id:"minecraft:respawn_anchor"},{Count:8b,Slot:20b,id:"minecraft:scaffolding"},{Count:1b,Slot:21b,id:"minecraft:smithing_table"},{Count:1b,Slot:22b,id:"minecraft:smoker"},{Count:8b,Slot:23b,id:"minecraft:soul_campfire"},{Count:1b,Slot:24b,id:"minecraft:stonecutter"},{Count:8b,Slot:25b,id:"minecraft:tinted_glass"}],id:"minecraft:shulker_box"}}
+#Nature's Pantry
+  14quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:apple"},{Count:64b,Slot:1b,id:"minecraft:beef"},{Count:64b,Slot:2b,id:"minecraft:beetroot"},{Count:64b,Slot:3b,id:"minecraft:carrot"},{Count:64b,Slot:4b,id:"minecraft:chicken"},{Count:64b,Slot:5b,id:"minecraft:cod"},{Count:64b,Slot:6b,id:"minecraft:melon_slice"},{Count:64b,Slot:7b,id:"minecraft:mutton"},{Count:64b,Slot:8b,id:"minecraft:porkchop"},{Count:64b,Slot:9b,id:"minecraft:potato"},{Count:64b,Slot:10b,id:"minecraft:rabbit"},{Count:64b,Slot:11b,id:"minecraft:salmon"},{Count:64b,Slot:12b,id:"minecraft:sweet_berries"},{Count:64b,Slot:13b,id:"minecraft:golden_carrot"},{Count:64b,Slot:14b,id:"minecraft:chorus_fruit"},{Count:64b,Slot:15b,id:"minecraft:glow_berries"},{Count:64b,Slot:16b,id:"minecraft:poisonous_potato"},{Count:64b,Slot:17b,id:"minecraft:pufferfish"},{Count:64b,Slot:18b,id:"minecraft:rotten_flesh"},{Count:64b,Slot:19b,id:"minecraft:tropical_fish"}],id:"minecraft:shulker_box"}}
+#The Sizzling Secret
+  15quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:baked_potato"},{Count:1b,Slot:1b,id:"minecraft:beetroot_soup"},{Count:64b,Slot:2b,id:"minecraft:bread"},{Count:64b,Slot:3b,id:"minecraft:cooked_beef"},{Count:64b,Slot:4b,id:"minecraft:cooked_chicken"},{Count:64b,Slot:5b,id:"minecraft:cooked_cod"},{Count:64b,Slot:6b,id:"minecraft:cooked_mutton"},{Count:64b,Slot:7b,id:"minecraft:cooked_porkchop"},{Count:64b,Slot:8b,id:"minecraft:cooked_rabbit"},{Count:64b,Slot:9b,id:"minecraft:cooked_salmon"},{Count:64b,Slot:10b,id:"minecraft:cookie"},{Count:64b,Slot:11b,id:"minecraft:dried_kelp"},{Count:64b,Slot:12b,id:"minecraft:pumpkin_pie"},{Count:1b,Slot:13b,id:"minecraft:rabbit_stew"},{Count:1b,Slot:14b,id:"minecraft:cake"}],id:"minecraft:shulker_box"}}
+#Beneath the Scorching Sun
+  16quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:cactus"},{Count:64b,Slot:1b,id:"minecraft:cactus"},{Count:64b,Slot:2b,id:"minecraft:dead_bush"}],id:"minecraft:shulker_box"}}
+#The Mosaic of History
+  17quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:1b,Slot:0b,id:"minecraft:angler_pottery_sherd"},{Count:1b,Slot:1b,id:"minecraft:archer_pottery_sherd"},{Count:1b,Slot:2b,id:"minecraft:arms_up_pottery_sherd"},{Count:1b,Slot:3b,id:"minecraft:blade_pottery_sherd"},{Count:1b,Slot:4b,id:"minecraft:brewer_pottery_sherd"},{Count:1b,Slot:5b,id:"minecraft:burn_pottery_sherd"},{Count:1b,Slot:6b,id:"minecraft:danger_pottery_sherd"},{Count:1b,Slot:7b,id:"minecraft:explorer_pottery_sherd"},{Count:1b,Slot:8b,id:"minecraft:friend_pottery_sherd"},{Count:1b,Slot:9b,id:"minecraft:heart_pottery_sherd"},{Count:1b,Slot:10b,id:"minecraft:heartbreak_pottery_sherd"},{Count:1b,Slot:11b,id:"minecraft:howl_pottery_sherd"},{Count:1b,Slot:12b,id:"minecraft:miner_pottery_sherd"},{Count:1b,Slot:13b,id:"minecraft:mourner_pottery_sherd"},{Count:1b,Slot:14b,id:"minecraft:plenty_pottery_sherd"},{Count:1b,Slot:15b,id:"minecraft:prize_pottery_sherd"},{Count:1b,Slot:16b,id:"minecraft:sheaf_pottery_sherd"},{Count:1b,Slot:17b,id:"minecraft:shelter_pottery_sherd"},{Count:1b,Slot:18b,id:"minecraft:skull_pottery_sherd"},{Count:1b,Slot:19b,id:"minecraft:snort_pottery_sherd"}],id:"minecraft:shulker_box"}}
+#The Icicle's Edge
+  18quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:blue_ice"},{Count:64b,Slot:1b,id:"minecraft:blue_ice"},{Count:64b,Slot:2b,id:"minecraft:blue_ice"},{Count:64b,Slot:3b,id:"minecraft:blue_ice"},{Count:64b,Slot:4b,id:"minecraft:ice"},{Count:64b,Slot:5b,id:"minecraft:ice"},{Count:64b,Slot:6b,id:"minecraft:ice"},{Count:64b,Slot:7b,id:"minecraft:ice"},{Count:64b,Slot:8b,id:"minecraft:packed_ice"},{Count:64b,Slot:9b,id:"minecraft:packed_ice"},{Count:64b,Slot:10b,id:"minecraft:packed_ice"},{Count:64b,Slot:11b,id:"minecraft:packed_ice"}],id:"minecraft:shulker_box"}}
+#The Alchemist's Errand
+  19quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:glowstone_dust"},{Count:64b,Slot:1b,id:"minecraft:blaze_powder"},{Count:1b,Slot:2b,id:"minecraft:dragon_breath"},{Count:64b,Slot:3b,id:"minecraft:fermented_spider_eye"},{Count:64b,Slot:4b,id:"minecraft:ghast_tear"},{Count:8b,Slot:5b,id:"minecraft:glass_bottle"},{Count:64b,Slot:6b,id:"minecraft:glistering_melon_slice"},{Count:64b,Slot:7b,id:"minecraft:golden_carrot"},{Count:64b,Slot:8b,id:"minecraft:magma_cream"},{Count:64b,Slot:9b,id:"minecraft:phantom_membrane"},{Count:64b,Slot:10b,id:"minecraft:rabbit_foot"},{Count:64b,Slot:11b,id:"minecraft:nether_wart"},{Count:64b,Slot:12b,id:"minecraft:redstone"},{Count:64b,Slot:13b,id:"minecraft:gunpowder"},{Count:64b,Slot:14b,id:"minecraft:pufferfish"},{Count:64b,Slot:15b,id:"minecraft:spider_eye"},{Count:64b,Slot:16b,id:"minecraft:sugar"}],id:"minecraft:shulker_box"}}
+
+#Mining Quests
+	  
+
+#Nether Quests
+	  
+
+#End Quests
+	  
+
+#Craftables Quests
+
+
+#Special Items Quests
