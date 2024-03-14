@@ -79,8 +79,87 @@
       - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:glowstone_dust"},{Count:64b,Slot:1b,id:"minecraft:blaze_powder"},{Count:1b,Slot:2b,id:"minecraft:dragon_breath"},{Count:64b,Slot:3b,id:"minecraft:fermented_spider_eye"},{Count:64b,Slot:4b,id:"minecraft:ghast_tear"},{Count:8b,Slot:5b,id:"minecraft:glass_bottle"},{Count:64b,Slot:6b,id:"minecraft:glistering_melon_slice"},{Count:64b,Slot:7b,id:"minecraft:golden_carrot"},{Count:64b,Slot:8b,id:"minecraft:magma_cream"},{Count:64b,Slot:9b,id:"minecraft:phantom_membrane"},{Count:64b,Slot:10b,id:"minecraft:rabbit_foot"},{Count:64b,Slot:11b,id:"minecraft:nether_wart"},{Count:64b,Slot:12b,id:"minecraft:redstone"},{Count:64b,Slot:13b,id:"minecraft:gunpowder"},{Count:64b,Slot:14b,id:"minecraft:pufferfish"},{Count:64b,Slot:15b,id:"minecraft:spider_eye"},{Count:64b,Slot:16b,id:"minecraft:sugar"}],id:"minecraft:shulker_box"}}
 
 #Mining Quests
+#The Path of Pebbles
+  20quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:1b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:2b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:3b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:4b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:5b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:6b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:7b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:8b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:9b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:10b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:11b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:12b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:13b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:14b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:15b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:16b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:17b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:18b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:19b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:20b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:21b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:22b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:23b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:24b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:25b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:26b,id:"minecraft:cobblestone_slab"}],id:"minecraft:shulker_box"}}
+#The Understone Expedition
+  21quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:1b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:2b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:3b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:4b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:5b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:6b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:7b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:8b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:9b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:10b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:11b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:12b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:13b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:14b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:15b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:16b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:17b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:18b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:19b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:20b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:21b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:22b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:23b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:24b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:25b,id:"minecraft:cobbled_deepslate_slab"},{Count:64b,Slot:26b,id:"minecraft:cobbled_deepslate_slab"}],id:"minecraft:shulker_box"}}
+#The Green Gleam
+  22quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:emerald_ore"}],id:"minecraft:shulker_box"}}
+#Veins of Night
+  23quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:coal_ore"},{Count:64b,Slot:1b,id:"minecraft:coal_ore"},{Count:64b,Slot:2b,id:"minecraft:coal_ore"},{Count:64b,Slot:3b,id:"minecraft:coal_ore"},{Count:64b,Slot:4b,id:"minecraft:coal_ore"},{Count:64b,Slot:5b,id:"minecraft:coal_ore"},{Count:64b,Slot:6b,id:"minecraft:coal_ore"},{Count:64b,Slot:7b,id:"minecraft:coal_ore"},{Count:64b,Slot:8b,id:"minecraft:coal_ore"},{Count:64b,Slot:9b,id:"minecraft:coal_ore"},{Count:64b,Slot:10b,id:"minecraft:coal_ore"},{Count:64b,Slot:11b,id:"minecraft:coal_ore"},{Count:64b,Slot:12b,id:"minecraft:coal_ore"},{Count:64b,Slot:13b,id:"minecraft:coal_ore"},{Count:64b,Slot:14b,id:"minecraft:coal_ore"},{Count:64b,Slot:15b,id:"minecraft:coal_ore"},{Count:64b,Slot:16b,id:"minecraft:coal_ore"},{Count:64b,Slot:17b,id:"minecraft:coal_ore"},{Count:64b,Slot:18b,id:"minecraft:coal_ore"},{Count:64b,Slot:19b,id:"minecraft:coal_ore"},{Count:64b,Slot:20b,id:"minecraft:coal_ore"},{Count:64b,Slot:21b,id:"minecraft:coal_ore"},{Count:64b,Slot:22b,id:"minecraft:coal_ore"},{Count:64b,Slot:23b,id:"minecraft:coal_ore"},{Count:64b,Slot:24b,id:"minecraft:coal_ore"},{Count:64b,Slot:25b,id:"minecraft:coal_ore"},{Count:64b,Slot:26b,id:"minecraft:coal_ore"}],id:"minecraft:shulker_box"}}
+#The Copper Quest
+  24quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:copper_ore"},{Count:64b,Slot:1b,id:"minecraft:copper_ore"},{Count:64b,Slot:2b,id:"minecraft:copper_ore"},{Count:64b,Slot:3b,id:"minecraft:copper_ore"},{Count:64b,Slot:4b,id:"minecraft:copper_ore"},{Count:64b,Slot:5b,id:"minecraft:copper_ore"},{Count:64b,Slot:6b,id:"minecraft:copper_ore"},{Count:64b,Slot:7b,id:"minecraft:copper_ore"},{Count:64b,Slot:8b,id:"minecraft:copper_ore"}],id:"minecraft:shulker_box"}}
+#The Steelbound Seeker
+  25quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:iron_ore"},{Count:64b,Slot:1b,id:"minecraft:iron_ore"},{Count:64b,Slot:2b,id:"minecraft:iron_ore"},{Count:64b,Slot:3b,id:"minecraft:iron_ore"},{Count:64b,Slot:4b,id:"minecraft:iron_ore"},{Count:64b,Slot:5b,id:"minecraft:iron_ore"},{Count:64b,Slot:6b,id:"minecraft:iron_ore"},{Count:64b,Slot:7b,id:"minecraft:iron_ore"},{Count:64b,Slot:8b,id:"minecraft:iron_ore"}],id:"minecraft:shulker_box"}}
+#Lure of the Lustrous
+  26quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:gold_ore"},{Count:64b,Slot:1b,id:"minecraft:gold_ore"},{Count:64b,Slot:2b,id:"minecraft:gold_ore"},{Count:64b,Slot:3b,id:"minecraft:gold_ore"},{Count:64b,Slot:4b,id:"minecraft:gold_ore"},{Count:64b,Slot:5b,id:"minecraft:gold_ore"},{Count:64b,Slot:6b,id:"minecraft:gold_ore"},{Count:64b,Slot:7b,id:"minecraft:gold_ore"},{Count:64b,Slot:8b,id:"minecraft:gold_ore"}],id:"minecraft:shulker_box"}}
+#The Crimson Circuit
+  27quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:redstone_ore"},{Count:64b,Slot:1b,id:"minecraft:redstone_ore"},{Count:64b,Slot:2b,id:"minecraft:redstone_ore"},{Count:64b,Slot:3b,id:"minecraft:redstone_ore"},{Count:64b,Slot:4b,id:"minecraft:redstone_ore"},{Count:64b,Slot:5b,id:"minecraft:redstone_ore"},{Count:64b,Slot:6b,id:"minecraft:redstone_ore"},{Count:64b,Slot:7b,id:"minecraft:redstone_ore"},{Count:64b,Slot:8b,id:"minecraft:redstone_ore"}],id:"minecraft:shulker_box"}}
+#The Cerulean Mystery
+  28quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:lapis_ore"},{Count:64b,Slot:1b,id:"minecraft:lapis_ore"},{Count:64b,Slot:2b,id:"minecraft:lapis_ore"},{Count:64b,Slot:3b,id:"minecraft:lapis_ore"},{Count:64b,Slot:4b,id:"minecraft:lapis_ore"},{Count:64b,Slot:5b,id:"minecraft:lapis_ore"},{Count:64b,Slot:6b,id:"minecraft:lapis_ore"},{Count:64b,Slot:7b,id:"minecraft:lapis_ore"},{Count:64b,Slot:8b,id:"minecraft:lapis_ore"}],id:"minecraft:shulker_box"}}
+#The Diamond Depths
+  29quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:diamond_ore"},{Count:64b,Slot:1b,id:"minecraft:diamond_ore"},{Count:64b,Slot:2b,id:"minecraft:diamond_ore"},{Count:64b,Slot:3b,id:"minecraft:diamond_ore"}],id:"minecraft:shulker_box"}}
+#The Deep Green
+  30quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:16b,Slot:0b,id:"minecraft:deepslate_emerald_ore"}],id:"minecraft:shulker_box"}}
+#The Darkened Vein
+  31quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:1b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:2b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:3b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:4b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:5b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:6b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:7b,id:"minecraft:deepslate_coal_ore"},{Count:64b,Slot:8b,id:"minecraft:deepslate_coal_ore"}],id:"minecraft:shulker_box"}}
+#Beneath the Bedrock
+  32quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:1b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:2b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:3b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:4b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:5b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:6b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:7b,id:"minecraft:deepslate_copper_ore"},{Count:64b,Slot:8b,id:"minecraft:deepslate_copper_ore"}],id:"minecraft:shulker_box"}}
+#Shadows and Steel
+  33quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:1b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:2b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:3b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:4b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:5b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:6b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:7b,id:"minecraft:deepslate_iron_ore"},{Count:64b,Slot:8b,id:"minecraft:deepslate_iron_ore"}],id:"minecraft:shulker_box"}}
+#The Golden Depths
+  34quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:1b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:2b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:3b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:4b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:5b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:6b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:7b,id:"minecraft:deepslate_gold_ore"},{Count:64b,Slot:8b,id:"minecraft:deepslate_gold_ore"}],id:"minecraft:shulker_box"}}
+#The Redstone Enigma
+  35quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:1b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:2b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:3b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:4b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:5b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:6b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:7b,id:"minecraft:deepslate_redstone_ore"},{Count:64b,Slot:8b,id:"minecraft:deepslate_redstone_ore"}],id:"minecraft:shulker_box"}}
+#Shadows and Shimmer
+  36quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:1b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:2b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:3b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:4b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:5b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:6b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:7b,id:"minecraft:deepslate_diamond_ore"},{Count:64b,Slot:8b,id:"minecraft:deepslate_diamond_ore"}],id:"minecraft:shulker_box"}}
+#The Deep Blue Mystery
+  37quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:1b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:2b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:3b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:4b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:5b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:6b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:7b,id:"minecraft:deepslate_lapis_ore"},{Count:64b,Slot:8b,id:"minecraft:deepslate_lapis_ore"}],id:"minecraft:shulker_box"}}
+#Beneath the Chisel
+  38quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:stone_button"},{Count:64b,Slot:1b,id:"minecraft:stone_pressure_plate"},{Count:64b,Slot:2b,id:"minecraft:chiseled_stone_bricks"},{Count:64b,Slot:3b,id:"minecraft:cracked_stone_bricks"},{Count:64b,Slot:4b,id:"minecraft:stone"},{Count:64b,Slot:5b,id:"minecraft:stone_brick_slab"},{Count:64b,Slot:6b,id:"minecraft:stone_brick_stairs"},{Count:64b,Slot:7b,id:"minecraft:stone_brick_wall"},{Count:64b,Slot:8b,id:"minecraft:stone_bricks"},{Count:64b,Slot:9b,id:"minecraft:stone_slab"},{Count:64b,Slot:10b,id:"minecraft:stone_stairs"}],id:"minecraft:shulker_box"}}
+#From Rubble to Castle
+  39quest:
+    items:
+      - SHULKER_BOX 1 {BlockEntityTag:{Items:[{Count:64b,Slot:0b,id:"minecraft:cobblestone"},{Count:64b,Slot:1b,id:"minecraft:cobblestone_slab"},{Count:64b,Slot:2b,id:"minecraft:cobblestone_stairs"},{Count:64b,Slot:3b,id:"minecraft:cobblestone_wall"}],id:"minecraft:shulker_box"}}
 	  
-
 #Nether Quests
 	  
 
