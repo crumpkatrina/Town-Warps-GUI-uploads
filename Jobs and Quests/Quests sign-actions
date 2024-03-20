@@ -1,1 +1,715 @@
-TBD
+#Quests sign-actions
+#Overworld Quests
+#Mangrove Expedition
+  quest1:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Echoes of the Abyss 
+  quest2:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Mudbrick Legacy  
+  quest3:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Bloom Below
+  quest4:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Amethyst Enigma  
+  quest5:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Beneath the Surface  
+  quest6:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Toadstool Trial  
+  quest7:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Petal and Leaf  
+  quest8:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Sniffer's Secret  
+  quest9:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Reef's Bounty  
+  quest10:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Honeyed Harvest 
+  quest11:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Redstone Killer  
+  quest12:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Craft, Cook, Create  
+  quest13:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Nature's Pantry  
+  quest14:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Sizzling Secret
+  quest15:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Beneath the Scorching Sun 
+  quest16:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Mosaic of History  
+  quest17:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Icicle's Edge  
+  quest18:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Alchemist's Errand  
+  quest19:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Mining Quests
+#The Path of Pebbles  
+  quest20:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Understone Expedition  
+  quest21:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Green Gleam 
+  quest22:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Veins of Night  
+  quest23:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Copper Quest 
+  quest24:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Steelbound Seeker  
+  quest25:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Lure of the Lustrous  
+  quest26:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Crimson Circuit  
+  quest27:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Cerulean Mystery  
+  quest28:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!	  
+#The Diamond Depths  
+  quest29:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Deep Green  
+  quest30:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Darkened Vein  
+  quest31:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Beneath the Bedrock 
+  quest32:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Shadows and Steel  
+  quest33:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Golden Depths  
+  quest34:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Redstone Enigma  
+  quest35:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Shadows and Shimmer  
+  quest36:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Deep Blue Mystery  
+  quest37:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Beneath the Chisel 
+  quest38:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#From Rubble to Castle  
+  quest39:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Nether Quests
+#Flames of Fortune  
+  quest40:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Molten Mission  
+  quest41:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Scarlet Excavation	  
+  quest42:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Echoes of the Crimson Forest 
+  quest43:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Into the Warped Woods  
+  quest44:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Whispering Dunes  
+  quest45:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Glimmers in the Dark  
+  quest46:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Echoes of Vermilion  
+  quest47:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Echoes of the Warped  
+  quest48:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Beneath the Fungal Glow 
+  quest49:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Infernal Forge  
+  quest50:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#End Quests
+#The Alien Bloom  
+  quest51:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Pearls of Passage  
+  quest52:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Beyond the Portal  
+  quest53:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Purple Path  
+  quest54:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Void's Masonry  
+  quest55:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Craftables Quests
+#The Waxen Whisper  
+  quest56:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Weaver's Palette 
+  quest57:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Hues of Rest  
+  quest58:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Banner's Call  
+  quest59:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Echoes of the Anvil  
+  quest60:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Armorer's Ambition  
+  quest61:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Pails of Plenty  
+  quest62:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Hook, Line, and Sinker  
+  quest63:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Bare Bark Quest  
+  quest64:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#The Gourd's Grin  
+  quest65:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Echoes of the Eccentric  
+  quest66:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Special Items Quests
+#Collectibles: Bones  
+  quest67:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Saplings  
+  quest68:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Logs  
+  quest69:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Melons  
+  quest70:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Nether Quartz  
+  quest71:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Dirt  
+  quest72:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Chorus Plant  
+  quest73:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Carrots  
+  quest74:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Wheat  
+  quest75:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Raw Iron  
+  quest76:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Raw Copper  
+  quest77:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Collectibles: Arrows  
+  quest78:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#LimeLush Minigolf  
+  quest79:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Halloween Mining Hunt (2023)  
+  quest80:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Vote Shop (Fall 2023)  
+  quest81:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Holiday Feast (2023)  
+  quest82:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#New Years Collection (2023)  
+  quest83:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Vanilla Spawn Eggs  
+  quest84:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Music Discs  
+  quest85:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Star Machine Rares  
+  quest86:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Lushland Pokemon Hunt  
+  quest87:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+#Pokemon Hunt Map Challenge  
+  quest88:
+    world: rising
+    x:
+    y:
+    z:
+    actions:
+      - console msg {user} You have completed the &6#name &ffor &a# Quest Points&f!
+
+
+
+	  
