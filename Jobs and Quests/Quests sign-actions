@@ -7,7 +7,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Mangrove Expedition: Trail of the Sunken Roots &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Mangrove Expedition: Trail of the Sunken Roots &ffor &a40 Quest Points&f!
 #Echoes of the Abyss 
   quest2:
     world: rising
@@ -15,7 +15,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Echoes of the Abyss: The Temple Beneath the Waves &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Echoes of the Abyss: The Temple Beneath the Waves &ffor &a75 Quest Points&f!
 #Mudbrick Legacy  
   quest3:
     world: rising
@@ -23,7 +23,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Mudbrick Legacy: The Earthen Trail &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Mudbrick Legacy: The Earthen Trail &ffor &a25 Quest Points&f!
 #The Bloom Below
   quest4:
     world: rising
@@ -31,7 +31,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Bloom Below: Unearthing the Cave's Mystery &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Bloom Below: Unearthing the Cave's Mystery &ffor &a50 Quest Points&f!
 #The Amethyst Enigma  
   quest5:
     world: rising
@@ -39,7 +39,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Amethyst Enigma: Journey into the Geode &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Amethyst Enigma: Journey into the Geode &ffor &a40 Quest Points&f!
 #Beneath the Surface  
   quest6:
     world: rising
@@ -47,7 +47,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Beneath the Surface: The Deep Dark's Hidden Treasure &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Beneath the Surface: The Deep Dark's Hidden Treasure &ffor &a40 Quest Points&f!
 #Toadstool Trial  
   quest7:
     world: rising
@@ -55,7 +55,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Toadstool Trial: A Journey Through the Mushroom Vale &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Toadstool Trial: A Journey Through the Mushroom Vale &ffor &a50 Quest Points&f!
 #Petal and Leaf  
   quest8:
     world: rising
@@ -63,7 +63,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Petal and Leaf: The Garden of Secrets &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Petal and Leaf: The Garden of Secrets &ffor &a10 Quest Points&f!
 #The Sniffer's Secret  
   quest9:
     world: rising
@@ -71,7 +71,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Sniffer's Secret: Quest for Ancient Sprouts &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Sniffer's Secret: Quest for Ancient Sprouts &ffor &a100 Quest Points&f!
 #The Reef's Bounty  
   quest10:
     world: rising
@@ -79,7 +79,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Reef's Bounty: The Coral Reef Collection Quest &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Reef's Bounty: The Coral Reef Collection Quest &ffor &a75 Quest Points&f!
 #The Honeyed Harvest 
   quest11:
     world: rising
@@ -87,7 +87,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Honeyed Harvest: A Beekeeper's Adventure &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Honeyed Harvest: A Beekeeper's Adventure &ffor &a75 Quest Points&f!
 #Redstone Killer  
   quest12:
     world: rising
@@ -95,7 +95,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Redstone Killer: The Bane of Skylexia &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Redstone Killer: The Bane of Skylexia &ffor &a75 Quest Points&f!
 #Craft, Cook, Create  
   quest13:
     world: rising
@@ -103,7 +103,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Craft, Cook, Create: A Toolkit in a Block &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Craft, Cook, Create: A Toolkit in a Block &ffor &a50 Quest Points&f!
 #Nature's Pantry  
   quest14:
     world: rising
@@ -111,7 +111,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Nature's Pantry: The Uncooked Food Expedition &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Nature's Pantry: The Uncooked Food Expedition &ffor &a75 Quest Points&f!
 #The Sizzling Secret
   quest15:
     world: rising
@@ -119,7 +119,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Sizzling Secret: Uncovering the Art of Cooking &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Sizzling Secret: Uncovering the Art of Cooking &ffor &a50 Quest Points&f!
 #Beneath the Scorching Sun 
   quest16:
     world: rising
@@ -127,7 +127,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Beneath the Scorching Sun: A Tale of Thirst and Flora &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Beneath the Scorching Sun: A Tale of Thirst and Flora &ffor &a50 Quest Points&f!
 #The Mosaic of History  
   quest17:
     world: rising
@@ -135,7 +135,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Mosaic of History: Piecing Together Pottery Tales &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Mosaic of History: Piecing Together Pottery Tales &ffor &a100 Quest Points&f!
 #The Icicle's Edge  
   quest18:
     world: rising
@@ -143,7 +143,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Icicle's Edge: Harvesting the Winter's Bounty &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Icicle's Edge: Harvesting the Winter's Bounty &ffor &a40 Quest Points&f!
 #The Alchemist's Errand  
   quest19:
     world: rising
@@ -151,7 +151,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Alchemist's Errand: Quest for the Arcane Ingredients &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Alchemist's Errand: Quest for the Arcane Ingredients &ffor &a75 Quest Points&f!
 #Mining Quests
 #The Path of Pebbles  
   quest20:
@@ -160,7 +160,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Path of Pebbles: The Cobblestone Slab Expedition &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Path of Pebbles: The Cobblestone Slab Expedition &ffor &a25 Quest Points&f!
 #The Understone Expedition  
   quest21:
     world: rising
@@ -168,7 +168,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Understone Expedition: Seeking Deepslate Slabs &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Understone Expedition: Seeking Deepslate Slabs &ffor &a25 Quest Points&f!
 #The Green Gleam 
   quest22:
     world: rising
@@ -176,7 +176,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Green Gleam: Hunting for Emerald Depths &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Green Gleam: Hunting for Emerald Depths &ffor &a75 Quest Points&f!
 #Veins of Night  
   quest23:
     world: rising
@@ -184,7 +184,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Veins of the Night: Searching for Coal Depths &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Veins of the Night: Searching for Coal Depths &ffor &a50 Quest Points&f!
 #The Copper Quest 
   quest24:
     world: rising
@@ -192,7 +192,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Copper Quest: Veins of the Ancient Metal &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Copper Quest: Veins of the Ancient Metal &ffor &a50 Quest Points&f!
 #The Steelbound Seeker  
   quest25:
     world: rising
@@ -200,7 +200,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Steelbound Seeker: Hunting the Iron Vein &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Steelbound Seeker: Hunting the Iron Vein &ffor &a50 Quest Points&f!
 #Lure of the Lustrous  
   quest26:
     world: rising
@@ -208,7 +208,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Lure of the Lustrous: The Hunt for Gold &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Lure of the Lustrous: The Hunt for Gold &ffor &a50 Quest Points&f!
 #The Crimson Circuit  
   quest27:
     world: rising
@@ -216,7 +216,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Crimson Circuit: Secrets of the Redstone Ore &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Crimson Circuit: Secrets of the Redstone Ore &ffor &a50 Quest Points&f!
 #The Cerulean Mystery  
   quest28:
     world: rising
@@ -224,7 +224,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Cerulean Mystery: Tracing the Lapis Trails&ffor &a# Quest Points&f!	  
+      - console msg {user} You have completed the &6Cerulean Mystery: Tracing the Lapis Trails&ffor &a50 Quest Points&f!	  
 #The Diamond Depths  
   quest29:
     world: rising
@@ -232,7 +232,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Diamond Depths: Quest for the Heart of Brilliance &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Diamond Depths: Quest for the Heart of Brilliance &ffor &a50 Quest Points&f!
 #The Deep Green  
   quest30:
     world: rising
@@ -240,7 +240,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Deep Green: Quest for Deepslate Emeralds &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Deep Green: Quest for Deepslate Emeralds &ffor &a100 Quest Points&f!
 #The Darkened Vein  
   quest31:
     world: rising
@@ -248,7 +248,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Darkened Vein: Quest for the Deepslate Coal &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Darkened Vein: Quest for the Deepslate Coal &ffor &a60 Quest Points&f!
 #Beneath the Bedrock 
   quest32:
     world: rising
@@ -256,7 +256,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Beneath the Bedrock: The Search for Deep Copper &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Beneath the Bedrock: The Search for Deep Copper &ffor &a60 Quest Points&f!
 #Shadows and Steel  
   quest33:
     world: rising
@@ -264,7 +264,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Shadows and Steel: The Quest for Hidden Iron &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Shadows and Steel: The Quest for Hidden Iron &ffor &a60 Quest Points&f!
 #The Golden Depths  
   quest34:
     world: rising
@@ -272,7 +272,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Golden Depths: Quest for the Veiled Riches &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Golden Depths: Quest for the Veiled Riches &ffor &a60 Quest Points&f!
 #The Redstone Enigma  
   quest35:
     world: rising
@@ -280,7 +280,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Redstone Enigma: Uncovering the Bedrock's Pulse &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Redstone Enigma: Uncovering the Bedrock's Pulse &ffor &a60 Quest Points&f!
 #Shadows and Shimmer  
   quest36:
     world: rising
@@ -288,7 +288,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Shadows and Shimmer: The Quest for Deep Diamonds &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Shadows and Shimmer: The Quest for Deep Diamonds &ffor &a60 Quest Points&f!
 #The Deep Blue Mystery  
   quest37:
     world: rising
@@ -296,7 +296,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Deep Blue Mystery: Tracing the Lapis Veins &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Deep Blue Mystery: Tracing the Lapis Veins &ffor &a60 Quest Points&f!
 #Beneath the Chisel 
   quest38:
     world: rising
@@ -304,7 +304,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Beneath the Chisel: Secrets of the Stone Masons &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Beneath the Chisel: Secrets of the Stone Masons &ffor &a25 Quest Points&f!
 #From Rubble to Castle  
   quest39:
     world: rising
@@ -312,7 +312,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6From Rubble to Castle: The Cobblestone Crafting Saga &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6From Rubble to Castle: The Cobblestone Crafting Saga &ffor &a25 Quest Points&f!
 #Nether Quests
 #Flames of Fortune  
   quest40:
@@ -321,7 +321,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Flames of Fortune: Seeking the Fiery Depths &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Flames of Fortune: Seeking the Fiery Depths &ffor &a25 Quest Points&f!
 #The Molten Mission  
   quest41:
     world: rising
@@ -329,7 +329,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Molten Mission: Quest for the Liquid Fire &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Molten Mission: Quest for the Liquid Fire &ffor &a40 Quest Points&f!
 #The Scarlet Excavation	  
   quest42:
     world: rising
@@ -337,7 +337,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Scarlet Excavation: Delving for Netherrack &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Scarlet Excavation: Delving for Netherrack &ffor &a5 Quest Points&f!
 #Echoes of the Crimson Forest 
   quest43:
     world: rising
@@ -345,7 +345,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Echoes of the Crimson Forest: The Nylium Trail &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Echoes of the Crimson Forest: The Nylium Trail &ffor &a20 Quest Points&f!
 #Into the Warped Woods  
   quest44:
     world: rising
@@ -353,7 +353,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Into the Warped Woods: Seeking the Twisted Mycelium &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Into the Warped Woods: Seeking the Twisted Mycelium &ffor &a20 Quest Points&f!
 #The Whispering Dunes  
   quest45:
     world: rising
@@ -361,7 +361,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Whispering Dunes: Unearthing the Soul Sand &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Whispering Dunes: Unearthing the Soul Sand &ffor &a5 Quest Points&f!
 #Glimmers in the Dark  
   quest46:
     world: rising
@@ -369,7 +369,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Glimmers in the Dark: The Quest for Glowstone &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Glimmers in the Dark: The Quest for Glowstone &ffor &a5 Quest Points&f!
 #Echoes of Vermilion  
   quest47:
     world: rising
@@ -377,7 +377,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Echoes of Vermilion: The Crimson Stem Expedition &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Echoes of Vermilion: The Crimson Stem Expedition &ffor &a25 Quest Points&f!
 #Echoes of the Warped  
   quest48:
     world: rising
@@ -385,7 +385,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Echoes of the Warped: The Stem Collection Expedition &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Echoes of the Warped: The Stem Collection Expedition &ffor &a25 Quest Points&f!
 #Beneath the Fungal Glow 
   quest49:
     world: rising
@@ -393,7 +393,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Beneath the Fungal Glow: Seeking the Light of Shrooms &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Beneath the Fungal Glow: Seeking the Light of Shrooms &ffor &a35 Quest Points&f!
 #The Infernal Forge  
   quest50:
     world: rising
@@ -401,7 +401,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Infernal Forge: Netherbrick Creations Unveiled &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Infernal Forge: Netherbrick Creations Unveiled &ffor &a25 Quest Points&f!
 #End Quests
 #The Alien Bloom  
   quest51:
@@ -410,7 +410,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Alien Bloom: Seeking the Chorus Fruit &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Alien Bloom: Seeking the Chorus Fruit &ffor &a50 Quest Points&f!
 #The Pearls of Passage  
   quest52:
     world: rising
@@ -418,7 +418,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Pearls of Passage: Quest for Ender Teleportation &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Pearls of Passage: Quest for Ender Teleportation &ffor &a50 Quest Points&f!
 #Beyond the Portal  
   quest53:
     world: rising
@@ -426,7 +426,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Beyond the Portal: The End Resource Expedition &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Beyond the Portal: The End Resource Expedition &ffor &a75 Quest Points&f!
 #The Purple Path  
   quest54:
     world: rising
@@ -434,7 +434,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Purple Path: Tracing the Origins of Purpur &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Purple Path: Tracing the Origins of Purpur &ffor &a50 Quest Points&f!
 #The Void's Masonry  
   quest55:
     world: rising
@@ -442,7 +442,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Void's Masonry: Crafting with Endstone &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Void's Masonry: Crafting with Endstone &ffor &a40 Quest Points&f!
 #Craftables Quests
 #The Waxen Whisper  
   quest56:
@@ -451,7 +451,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Waxen Whisper: Quest for the Candlemaker's Secret &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Waxen Whisper: Quest for the Candlemaker's Secret &ffor &a75 Quest Points&f!
 #The Weaver's Palette 
   quest57:
     world: rising
@@ -459,7 +459,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Weaver's Palette: Crafting the Spectrum Carpet &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Weaver's Palette: Crafting the Spectrum Carpet &ffor &a40 Quest Points&f!
 #Hues of Rest  
   quest58:
     world: rising
@@ -467,7 +467,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Hues of Rest: Crafting the Spectrum Slumber &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Hues of Rest: Crafting the Spectrum Slumber &ffor &a40 Quest Points&f!
 #The Banner's Call  
   quest59:
     world: rising
@@ -475,7 +475,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Banner's Call: Quest for the Spectrum Standard &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Banner's Call: Quest for the Spectrum Standard &ffor &a40 Quest Points&f!
 #Echoes of the Anvil  
   quest60:
     world: rising
@@ -483,7 +483,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Echoes of the Anvil: The Template Treasure Hunt &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Echoes of the Anvil: The Template Treasure Hunt &ffor &a75 Quest Points&f!
 #The Armorer's Ambition  
   quest61:
     world: rising
@@ -491,7 +491,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Armorer's Ambition: Quest for the Ultimate Set &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Armorer's Ambition: Quest for the Ultimate Set &ffor &a40 Quest Points&f!
 #Pails of Plenty  
   quest62:
     world: rising
@@ -499,7 +499,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Pails of Plenty: The Collection Crusade &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Pails of Plenty: The Collection Crusade &ffor &a60 Quest Points&f!
 #Hook, Line, and Sinker  
   quest63:
     world: rising
@@ -507,7 +507,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Hook, Line, and Sinker: The Treasure Fishing Expedition &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Hook, Line, and Sinker: The Treasure Fishing Expedition &ffor &a75 Quest Points&f!
 #The Bare Bark Quest  
   quest64:
     world: rising
@@ -515,7 +515,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Bare Bark Quest: Gathering Stripped Wood &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Bare Bark Quest: Gathering Stripped Wood &ffor &a40 Quest Points&f!
 #The Gourd's Grin  
   quest65:
     world: rising
@@ -523,7 +523,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Gourd's Grin: Seeking the Art of Pumpkin Carving &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Gourd's Grin: Seeking the Art of Pumpkin Carving &ffor &a75 Quest Points&f!
 #Echoes of the Eccentric  
   quest66:
     world: rising
@@ -540,7 +540,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Bones &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Bones &ffor &a200 Quest Points&f!
 #Collectibles: Saplings  
   quest68:
     world: rising
@@ -548,7 +548,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Saplings &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Saplings &ffor &a200 Quest Points&f!
 #Collectibles: Logs  
   quest69:
     world: rising
@@ -556,7 +556,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Logs &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Logs &ffor &a200 Quest Points&f!
 #Collectibles: Melons  
   quest70:
     world: rising
@@ -564,7 +564,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Melons &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Melons &ffor &a200 Quest Points&f!
 #Collectibles: Nether Quartz  
   quest71:
     world: rising
@@ -572,7 +572,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Nether Quartz &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Nether Quartz &ffor &a200 Quest Points&f!
 #Collectibles: Dirt  
   quest72:
     world: rising
@@ -580,7 +580,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Dirt &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Dirt &ffor &a200 Quest Points&f!
 #Collectibles: Chorus Plant  
   quest73:
     world: rising
@@ -588,7 +588,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Chorus Plant &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Chorus Plant &ffor &a200 Quest Points&f!
 #Collectibles: Carrots  
   quest74:
     world: rising
@@ -596,7 +596,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Carrots &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Carrots &ffor &a200 Quest Points&f!
 #Collectibles: Wheat  
   quest75:
     world: rising
@@ -604,7 +604,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Wheat &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Wheat &ffor &a200 Quest Points&f!
 #Collectibles: Raw Iron  
   quest76:
     world: rising
@@ -612,7 +612,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Raw Iron &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Raw Iron &ffor &a200 Quest Points&f!
 #Collectibles: Raw Copper  
   quest77:
     world: rising
@@ -620,7 +620,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Raw Copper &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Raw Copper &ffor &a200 Quest Points&f!
 #Collectibles: Arrows  
   quest78:
     world: rising
@@ -628,7 +628,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Collectibles: Arrows &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Collectibles: Arrows &ffor &a200 Quest Points&f!
 #LimeLush Minigolf  
   quest79:
     world: rising
@@ -652,7 +652,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Vote Shop (Fall 2023) &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Vote Shop (Fall 2023) &ffor &a100 Quest Points&f!
 #Holiday Feast (2023)  
   quest82:
     world: rising
@@ -660,7 +660,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Holiday feast (2023) &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Holiday feast (2023) &ffor &a100 Quest Points&f!
 #New Years Collection (2023)  
   quest83:
     world: rising
@@ -668,7 +668,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6New Years Collection (2023) &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6New Years Collection (2023) &ffor &a100 Quest Points&f!
 #Vanilla Spawn Eggs  
   quest84:
     world: rising
@@ -676,7 +676,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Vanilla Spawn Eggs &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Vanilla Spawn Eggs &ffor &a100 Quest Points&f!
 #Music Discs  
   quest85:
     world: rising
@@ -684,7 +684,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Music Discs &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Music Discs &ffor &a100 Quest Points&f!
 #Star Machine Rares  
   quest86:
     world: rising
@@ -692,7 +692,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Star Machine Rares &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Star Machine Rares &ffor &a100 Quest Points&f!
 #Lushland Pokemon Hunt  
   quest87:
     world: rising
@@ -700,7 +700,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6LushLand Pokemon Hunt &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6LushLand Pokemon Hunt &ffor &a100 Quest Points&f!
 #Pokemon Hunt Map Challenge  
   quest88:
     world: rising
@@ -708,7 +708,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6LushLand Pokemon Hunt Map Challenge &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6LushLand Pokemon Hunt Map Challenge &ffor &a100 Quest Points&f!
 
 
 
