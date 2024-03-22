@@ -1,0 +1,217 @@
+#ECC Easter 2023
+  egg1a:
+    delay: 2592000
+    items:
+      - ALLAY_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 1/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}
+  egg1b:
+    delay: 2592000
+    items:
+      - ALLAY_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 1/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg2a:
+    delay: 2592000
+    items:
+      - PHANTOM_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 2/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg2b:
+    delay: 2592000
+    items:
+      - PHANTOM_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 2/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg3a:
+    delay: 2592000
+    items:
+      - PARROT_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 3/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg3b:
+    delay: 2592000
+    items:
+      - PARROT_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 3/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg4a:
+    delay: 2592000
+    items:
+      - PUFFERFISH_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 4/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg4b:
+    delay: 2592000
+    items:
+      - PUFFERFISH_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 4/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg5a:
+    delay: 2592000
+    items:
+      - MAGMA_CUBE_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 5/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg5b:
+    delay: 2592000
+    items:
+      - MAGMA_CUBE_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 5/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg6a:
+    delay: 2592000
+    items:
+      - PANDA_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 6/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg6b:
+    delay: 2592000
+    items:
+      - PANDA_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 6/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg7a:
+    delay: 2592000
+    items:
+      - PIG_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 7/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg7b:
+    delay: 2592000
+    items:
+      - PIG_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 7/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg8a:
+    delay: 2592000
+    items:
+      - MOOSHROOM_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 8/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg8b:
+    delay: 2592000
+    items:
+      - MOOSHROOM_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 8/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg9a:
+    delay: 2592000
+    items:
+      - WARDEN_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 9/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg9b:
+    delay: 2592000
+    items:
+      - WARDEN_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 9/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg10a:
+    delay: 2592000
+    items:
+      - WANDERING_TRADER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 10/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg10b:
+    delay: 2592000
+    items:
+      - WANDERING_TRADER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 10/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg11a:
+    delay: 2592000
+    items:
+      - TROPICAL_FISH_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 11/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg11b:
+    delay: 2592000
+    items:
+      - TROPICAL_FISH_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 11/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg12a:
+    delay: 2592000
+    items:
+      - TURTLE_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 12/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg12b:
+    delay: 2592000
+    items:
+      - TURTLE_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 12/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg13a:
+    delay: 2592000
+    items:
+      - SNIFFER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 13/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg13b:
+    delay: 2592000
+    items:
+      - SNIFFER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 13/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg14a:
+    delay: 2592000
+    items:
+      - SPIDER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 14/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg14b:
+    delay: 2592000
+    items:
+      - SPIDER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 14/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg15a:
+    delay: 2592000
+    items:
+      - TRADER_LLAMA_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 15/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg15b:
+    delay: 2592000
+    items:
+      - TRADER_LLAMA_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 15/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg16a:
+    delay: 2592000
+    items:
+      - STRIDER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 16/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg16b:
+    delay: 2592000
+    items:
+      - STRIDER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 16/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg17a:
+    delay: 2592000
+    items:
+      - SALMON_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 17/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg17b:
+    delay: 2592000
+    items:
+      - SALMON_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 17/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg18a:
+    delay: 2592000
+    items:
+      - CHICKEN_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 18/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg18b:
+    delay: 2592000
+    items:
+      - CHICKEN_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 18/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg19a:
+    delay: 2592000
+    items:
+      - ENDER_DRAGON_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 19/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg19b:
+    delay: 2592000
+    items:
+      - ENDER_DRAGON_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 19/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg20a:
+    delay: 2592000
+    items:
+      - SHULKER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 20/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg20b:
+    delay: 2592000
+    items:
+      - SHULKER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 20/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}
+  egg21a:
+    delay: 2592000
+    items:
+      - PILLAGER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 21/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}
+  egg21b:
+    delay: 2592000
+    items:
+      - PILLAGER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 21/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg22a:
+    delay: 2592000
+    items:
+      - BLAZE_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 22/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg22b:
+    delay: 2592000
+    items:
+      - BLAZE_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 22/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg23a:
+    delay: 2592000
+    items:
+      - CREEPER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 23/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg23b:
+    delay: 2592000
+    items:
+      - CREEPER_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 23/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg24a:
+    delay: 2592000
+    items:
+      - AXOLOTL_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 24/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg24b:
+    delay: 2592000
+    items:
+      - AXOLOTL_SPAWN_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 24/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg25a:
+    delay: 2592000
+    items:
+      - EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"Someone forgot to dye this egg with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 25/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Plain Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg25b:
+    delay: 2592000
+    items:
+      - EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"Someone forgot to dye this egg with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 25/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Plain Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg26a:
+    delay: 2592000
+    items:
+      - TURTLE_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 26/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg26b:
+    delay: 2592000
+    items:
+      - TURTLE_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 26/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg27a:
+    delay: 2592000
+    items:
+      - SNIFFER_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 27/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  
+  egg27b:
+    delay: 2592000
+    items:
+      - SNIFFER_EGG 1 {Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],display:{Lore:['{"text":"","extra":[{"text":"This egg has been dyed with beautiful colors!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"light_purple","bold":false}]}','{"text":"","extra":[{"text":"Easter Egg 27/27","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"gray","bold":false}]}','{"text":"","extra":[{"text":"ECC Easter Event, 2024","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"green","bold":false}]}'],Name:'{"text":"","extra":[{"text":"A Colorful Egg!","obfuscated":false,"italic":true,"underlined":false,"strikethrough":false,"color":"aqua","bold":true}]}'}}	  	  
