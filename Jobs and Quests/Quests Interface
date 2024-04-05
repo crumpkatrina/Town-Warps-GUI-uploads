@@ -1,4 +1,4 @@
-# Start Quests System
+#Start Quests System
   helpmequests:
     name: "HelpMe§cQuests"
     0:
@@ -88,7 +88,7 @@
     23:
       permission: ""
       pass:
-        type: CRYING_OBSIDIAN
+        type: NETHER_STAR
         name: "&6Quest Zone!"
         desc: "&7Click here to teleport to the Quest zone!"
         command: "warp quests"
@@ -97,7 +97,7 @@
     25:
       permission: ""
       pass:
-        type: DEEPSLATE_TILES
+        type: BEACON
         name: "&6Quest Warps!"
         desc: "&7Click here to view all the specifc job warps!"
         command: "questwarps"
@@ -235,135 +235,135 @@
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Hover over an icon for information!"
         desc: "&7Click &3blue titles &7to post links in chat."
-  jobwarps:
-    name: "§aJobWarps"
+  questwarps:
+    name: "§aQuestWarps"
     0:
       permission: ""
       pass:
         type: LIGHT_GRAY_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     1:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     2:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     3:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     4:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     5:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     6:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     7:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     8:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     9:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     10:
       permission: ""
       pass:
         type: BLACK_STAINED_GLASS_PANE
-        name: "&7Hover over an icon for job information!"
+        name: "&7Hover over an icon for Quest information!"
         desc: "&7Click &3icons &7to warp."
     11:
       permission: ""
       pass:
-        type: OAK_STAIRS
-        name: "&aOak Woodworker"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Oak Stairs|&6*&78 Oak Fence|&6*&78 Oak Fence Gate|&6*&716 Oak Door|&6*&716 Oak Trapdoor|&6*&716 Oak Pressure Plate|&6*&764 Oak Button"
-        command: "warp j1"
+        type: MANGROVE_PLANKS
+        name: "&6The Mangrove Expedition"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Oak Stairs|&6*&78 Oak Fence|&6*&78 Oak Fence Gate|&6*&716 Oak Door|&6*&716 Oak Trapdoor|&6*&716 Oak Pressure Plate|&6*&764 Oak Button"
+        command: "warp q1"
         message: ""
         runas: player
     12:
       permission: ""
       pass:
-        type: COBBLESTONE
-        name: "&aCobblestone Miner"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Cobblestone"
-        command: "warp j2"
+        type: PRISMARINE
+        name: "&6Echoes of the Abyss"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Cobblestone"
+        command: "warp q2"
         message: ""
         runas: player
     13:
       permission: ""
       pass:
-        type: COD_BUCKET
-        name: "&aSpecialist Fisherman"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&71 Bucket of Cod|&6*&71 Bucket of Cod|&6*&71 Bucket of Salmon|&6*&71 Bucket of  Salmon|&6*&71 Bucket of Pufferfish"
-        command: "warp j3"
+        type: MUD_BRICKS
+        name: "&6The Mudbrick Legacy"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Bucket of Cod|&6*&71 Bucket of Cod|&6*&71 Bucket of Salmon|&6*&71 Bucket of  Salmon|&6*&71 Bucket of Pufferfish"
+        command: "warp q3"
         message: ""
         runas: player
     14:
       permission: ""
       pass:
-        type: OAK_LOG
-        name: "&aWoodcutter"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Oak Log|&6*&732 Birch Log|&6*&732 Spruce Log|&6*&732 Jungle Log"
-        command: "warp j4"
+        type: SPORE_BLOSSOM
+        name: "&6The Bloom Below"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Oak Log|&6*&732 Birch Log|&6*&732 Spruce Log|&6*&732 Jungle Log"
+        command: "warp q4"
         message: ""
         runas: player
     15:
       permission: ""
       pass:
         type: AMETHYST_BLOCK
-        name: "&aGeode Miner"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Amethyst Block|&6*&732 Calcite|&6*&74 Amethyst Shard"
-        command: "warp j5"
+        name: "&6The Amethyst Enigma"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Amethyst Block|&6*&732 Calcite|&6*&74 Amethyst Shard"
+        command: "warp q5"
         message: ""
         runas: player
     16:
       permission: ""
       pass:
-        type: STONE_BRICKS
-        name: "&aStone Mason"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Stone Bricks"
-        command: "warp j6"
+        type: SCULK
+        name: "&6Beneath the Surface"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Stone Bricks"
+        command: "warp q6"
         message: ""
         runas: player
     17:
       permission: ""
       pass:
-        type: OAK_SAPLING
-        name: "&aArborist"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&716 Oak Sapling|&6*&716 Birch Sapling|&6*&716 Spruce Sapling|&6*&716 Jungle Sapling"
-        command: "warp j7"
+        type: RED_MUSHROOM
+        name: "&6The Toadstool Trial"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&716 Oak Sapling|&6*&716 Birch Sapling|&6*&716 Spruce Sapling|&6*&716 Jungle Sapling"
+        command: "warp q7"
         message: ""
         runas: player
     18:
@@ -381,64 +381,64 @@
     20:
       permission: ""
       pass:
-        type: COBBLED_DEEPSLATE
-        name: "&aDeepslate Miner"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Cobbled Deepslate"
-        command: "warp j8"
+        type: ROSE_BUSH
+        name: "&6Petal and Leaf"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Cobbled Deepslate"
+        command: "warp q8"
         message: ""
         runas: player
     21:
       permission: ""
       pass:
-        type: SANDSTONE
-        name: "&aSandstone Miner"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Sandstone"
-        command: "warp j9"
+        type: SNIFFER_EGG
+        name: "&6The Sniffer's Secret"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Sandstone"
+        command: "warp q9"
         message: ""
         runas: player
     22:
       permission: ""
       pass:
-        type: BRICKS
-        name: "&aBrickmaker"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Bricks"
-        command: "warp j10"
+        type: BUBBLE_CORAL_BLOCK
+        name: "&6The Reef's Bounty"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Bricks"
+        command: "warp q10"
         message: ""
         runas: player
     23:
       permission: ""
       pass:
-        type: STONE
-        name: "&aStone Miner"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Stone|&6*&732 Granite|&6*&732 Diorite|&6*&732 Andesite|&6*&732 Cobblestone"
-        command: "warp j11"
+        type: HONEYCOMB
+        name: "&6The Honeyed Harvest"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Stone|&6*&732 Granite|&6*&732 Diorite|&6*&732 Andesite|&6*&732 Cobblestone"
+        command: "warp q11"
         message: ""
         runas: player
     24:
       permission: ""
       pass:
-        type: OAK_LEAVES
-        name: "&aLeafblower"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Oak Leaves|&6*&732 Birch Leaves|&6*&732 Spruce Leaves|&6*&732 Jungle Leaves"
-        command: "warp j12"
+        type: REDSTONE_BLOCK
+        name: "&6Redstone Killer"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Oak Leaves|&6*&732 Birch Leaves|&6*&732 Spruce Leaves|&6*&732 Jungle Leaves"
+        command: "warp q12"
         message: ""
         runas: player
     25:
       permission: ""
       pass:
-        type: TUFF
-        name: "&aTuff Miner"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Tuff"
-        command: "warp j13"
+        type: SMITHING_TABLE
+        name: "&6Craft, Cook, Create"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Tuff"
+        command: "warp q13"
         message: ""
         runas: player
     26:
       permission: ""
       pass:
-        type: RED_MUSHROOM
-        name: "&aShroom Farmer"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Red Mushroom|&6*&732 Brown Mushroom"
-        command: "warp j14"
+        type: APPLE
+        name: "&6Nature's Pantry"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Red Mushroom|&6*&732 Brown Mushroom"
+        command: "warp q14"
         message: ""
         runas: player
     27:
@@ -456,64 +456,64 @@
     29:
       permission: ""
       pass:
-        type: CACTUS
-        name: "&aCactus Farmer"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Cactus"
-        command: "warp j15"
+        type: COOKED_BEEF
+        name: "&6The Sizzling Secret"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Cactus"
+        command: "warp q15"
         message: ""
         runas: player
     30:
       permission: ""
       pass:
-        type: SAND
-        name: "&aGritty Shoveler"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Gravel|&6*&764 Sand"
-        command: "warp j16"
+        type: CACTUS
+        name: "&6Beneath the Scorching Sun"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Gravel|&6*&764 Sand"
+        command: "warp q16"
         message: ""
         runas: player
     31:
       permission: ""
       pass:
-        type: DEAD_BUSH
-        name: "&aBrush Gatherer"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Dead Bush"
-        command: "warp j17"
+        type: ANGLER_POTTERY_SHERD
+        name: "&6The Mosaic of History"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Dead Bush"
+        command: "warp q17"
         message: ""
         runas: player
     32:
       permission: ""
       pass:
-        type: WHEAT_SEEDS
-        name: "&aSeed Gatherer"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Seeds|&6*&764 Pumpkin Seeds|&6*&764 Beetroot Seeds|&6*&764 Cocoa Beans"
-        command: "warp j18"
+        type: ICE
+        name: "&6The Icicle's Edge"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Seeds|&6*&764 Pumpkin Seeds|&6*&764 Beetroot Seeds|&6*&764 Cocoa Beans"
+        command: "warp q18"
         message: ""
         runas: player
     33:
       permission: ""
       pass:
-        type: KELP
-        name: "&aKelpie"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Kelp|&6*&764 Dried Kelp Block"
-        command: "warp j19"
+        type: POTION
+        name: "&6The Alchemist's Errand"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Kelp|&6*&764 Dried Kelp Block"
+        command: "warp q19"
         message: ""
         runas: player
     34:
       permission: ""
       pass:
-        type: BREAD
-        name: "&aBaker"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Bread"
-        command: "warp j20"
+        type: COBBLESTONE_SLAB
+        name: "&6The Path of Pebbles"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Bread"
+        command: "warp q20"
         message: ""
         runas: player
     35:
       permission: ""
       pass:
-        type: COOKED_CHICKEN
-        name: "&aChef"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&716 Cooked Steak|&6*&716 Cooked Chicken|&6*&716 Cooked Cod|&6*&716 Cooked Salmon"
-        command: "warp j21"
+        type: COBBLED_DEEPSLATE_SLAB
+        name: "&6The Understone Expedition"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&716 Cooked Steak|&6*&716 Cooked Chicken|&6*&716 Cooked Cod|&6*&716 Cooked Salmon"
+        command: "warp q21"
         message: ""
         runas: player
     36:
@@ -531,64 +531,64 @@
     38:
       permission: ""
       pass:
-        type: WHEAT
-        name: "&aFarmer"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Apple|&6*&764 Melon Slice|&6*&764 Potato|&6*&764 Pumpkin|&6*&764 Beetroot|&6*&764 Sugarcane|&6*&7164 Bamboo|&6*&764 Wheat|&6*&764 Sweet Berries|&6*&764 Carrot"
-        command: "warp j22"
+        type: EMERALD_ORE
+        name: "&6The Green Gleam"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Apple|&6*&764 Melon Slice|&6*&764 Potato|&6*&764 Pumpkin|&6*&764 Beetroot|&6*&764 Sugarcane|&6*&7164 Bamboo|&6*&764 Wheat|&6*&764 Sweet Berries|&6*&764 Carrot"
+        command: "warp q22"
         message: ""
         runas: player
     39:
       permission: ""
       pass:
-        type: DIRT
-        name: "&aDirt Digger"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&7256 Dirt"
-        command: "warp j23"
+        type: COAL_ORE
+        name: "&6Veins of the Night"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Dirt"
+        command: "warp q23"
         message: ""
         runas: player
     40:
       permission: ""
       pass:
-        type: SUNFLOWER
-        name: "&aFlower Picker"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&732 Dandelion|&6*&732 Poppy|&6*&732 Oxeye Daisy|&6*&732 Sunflower|&6*&732 Rose Bush"
-        command: "warp j24"
+        type: COPPER_ORE
+        name: "&6The Copper Quest"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Dandelion|&6*&732 Poppy|&6*&732 Oxeye Daisy|&6*&732 Sunflower|&6*&732 Rose Bush"
+        command: "warp q24"
         message: ""
         runas: player
     41:
       permission: ""
       pass:
-        type: RAW_IRON
-        name: "&aMetals Miner"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&764 Raw Gold|&6*&764 Raw Copper|&6*&764 Raw Iron"
-        command: "warp j25"
+        type: IRON_ORE
+        name: "&6The Steelbound Seeker"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Raw Gold|&6*&764 Raw Copper|&6*&764 Raw Iron"
+        command: "warp q25"
         message: ""
         runas: player
     42:
       permission: ""
       pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j26"
+        type: GOLD_ORE
+        name: "&6Lure of the Lustrous"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q26"
         message: ""
         runas: player
     43:
       permission: ""
       pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j27"
+        type: REDSTONE_ORE
+        name: "&6The Crimson Circuit"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q27"
         message: ""
         runas: player
     44:
       permission: ""
       pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j28"
+        type: LAPIS_ORE
+        name: "&6The Cerulean Mystery"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q28"
         message: ""
         runas: player
     45:
@@ -645,7 +645,7 @@
         type: RED_WOOL
         name: "&6Previous Page"
         desc: ""
-        command: "HelpMeJobs"
+        command: "HelpMeQuests"
         message: ""
         runas: player
     54:
@@ -654,11 +654,11 @@
         type: LIME_WOOL
         name: "&6Next Page"
         desc: ""
-        command: "JobWarps2"
+        command: "JobQuest2"
         message: ""
         runas: player
-  jobwarps2:
-    name: "§aJobWarps2"
+  questwarps2:
+    name: "§aQuestWarps2"
     0:
       permission: ""
       pass:
@@ -728,37 +728,881 @@
     11:
       permission: ""
       pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j29"
+        type: DIAMOND_ORE
+        name: "&6The Diamond Depths"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q29"
         message: ""
         runas: player
     12:
       permission: ""
       pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j30"
+        type: DEEPSLATE_EMERALD_ORE
+        name: "&6The Deep Green"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q30"
         message: ""
         runas: player
     13:
       permission: ""
       pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j31"
+        type: DEEPSLATE_COAL_ORE
+        name: "&6The Darkened Vein"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q31"
         message: ""
         runas: player
     14:
       permission: ""
       pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j32"
+        type: DEEPSLATE_COPPER_ORE
+        name: "&6Beneath the Bedrock"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q32"
+        message: ""
+        runas: player
+    15:
+      permission: ""
+      pass:
+        type: DEEPSLATE_IRON_ORE
+        name: "&6Shadows and Steel"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q33"
+        message: ""
+        runas: player
+    16:
+      permission: ""
+      pass:
+        type: DEEPSLATE_GOLD_ORE
+        name: "&6The Golden Depths"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q34"
+        message: ""
+        runas: player
+    17:
+      permission: ""
+      pass:
+        type: DEEPSLATE_REDSTONE_ORE
+        name: "&6The Redstone Enigma"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q35"
+        message: ""
+        runas: player
+    18:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    19:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    20:
+      permission: ""
+      pass:
+        type: DEEPSLATE_DIAMOND_ORE
+        name: "&6Shadows and Shimmer"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q36"
+        message: ""
+        runas: player
+    21:
+      permission: ""
+      pass:
+        type: DEEPSLATE_LAPIS_ORE
+        name: "&6The Deep Blue Mystery"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q37"
+        message: ""
+        runas: player
+    22:
+      permission: ""
+      pass:
+        type: STONE_BRICKS
+        name: "&6Beneath the Chisel"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q38"
+        message: ""
+        runas: player
+    23:
+      permission: ""
+      pass:
+        type: COBBLESTONE
+        name: "&6From Rubble to Castle"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q39"
+        message: ""
+        runas: player
+    24:
+      permission: ""
+      pass:
+        type: NETHER_QUARTZ_ORE
+        name: "&6Flames of Fortune"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q40"
+        message: ""
+        runas: player
+    25:
+      permission: ""
+      pass:
+        type: MAGMA_BLOCK
+        name: "&6The Molten Mission"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q41"
+        message: ""
+        runas: player
+    26:
+      permission: ""
+      pass:
+        type: NETHERRACK
+        name: "&6The Scarlet Excavation"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q42"
+        message: ""
+        runas: player
+    27:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    28:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    29:
+      permission: ""
+      pass:
+        type: CRIMSON_NYLIUM
+        name: "&6Echoes of the Crimson Forest"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q43"
+        message: ""
+        runas: player
+    30:
+      permission: ""
+      pass:
+        type: WARPED_NYLIUM
+        name: "&6Into the Warped Woods"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q44"
+        message: ""
+        runas: player
+    31:
+      permission: ""
+      pass:
+        type: SOUL_SAND
+        name: "&6The Whispering Dunes"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q45"
+        message: ""
+        runas: player
+    32:
+      permission: ""
+      pass:
+        type: GLOWSTONE
+        name: "&6Glimmers in the Dark"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q46"
+        message: ""
+        runas: player
+    33:
+      permission: ""
+      pass:
+        type: CRIMSON_STEM
+        name: "&6Echoes of Vermilion"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q47"
+        message: ""
+        runas: player
+    34:
+      permission: ""
+      pass:
+        type: WARPED_STEM
+        name: "&6Echoes of the Warped"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q48"
+        message: ""
+        runas: player
+    35:
+      permission: ""
+      pass:
+        type: SHROOMLIGHT
+        name: "&6Beneath the Fungal Glow"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q49"
+        message: ""
+        runas: player		
+    36:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    37:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    38:
+      permission: ""
+      pass:
+        type: NETHER_BRICKS
+        name: "&6The Infernal Forge"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q50"
+        message: ""
+        runas: player	
+    39:
+      permission: ""
+      pass:
+        type: CHORUS_FLOWER
+        name: "&6The Alien Bloom"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q51"
+        message: ""
+        runas: player	
+    40:
+      permission: ""
+      pass:
+        type: ENDER_PEARL
+        name: "&6The Pearls of Passage"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q52"
+        message: ""
+        runas: player	
+    41:
+      permission: ""
+      pass:
+        type: ENDERCHEST
+        name: "&6Beyond the Portal"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q53"
+        message: ""
+        runas: player	
+    42:
+      permission: ""
+      pass:
+        type: PURPUR_BLOCK
+        name: "&6The Purple Path"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q54"
+        message: ""
+        runas: player	
+    43:
+      permission: ""
+      pass:
+        type: END_STONE
+        name: "&6The Void's Masonry"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q55"
+        message: ""
+        runas: player	
+    44:
+      permission: ""
+      pass:
+        type: CANDLE
+        name: "&6The Waxen Whisper"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q56"
+        message: ""
+        runas: player			
+    45:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    46:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    47:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    48:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    49:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    50:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    51:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    52:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    53:
+      permission: ""
+      pass:
+        type: RED_WOOL
+        name: "&6Previous Page"
+        desc: ""
+        command: "QuestWarps"
+        message: ""
+        runas: player
+    54:
+      permission: ""
+      pass:
+        type: LIME_WOOL
+        name: "&6Next Page"
+        desc: ""
+        command: "QuestWarps3"
+        message: ""
+        runas: player
+  questwarps3:
+    name: "§aQuestWarps3"
+    0:
+      permission: ""
+      pass:
+        type: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    1:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    2:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    3:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    4:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    5:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    6:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    7:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    8:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    9:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    10:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    11:
+      permission: ""
+      pass:
+        type: DIAMOND_ORE
+        name: "&6The Diamond Depths"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q57"
+        message: ""
+        runas: player
+    12:
+      permission: ""
+      pass:
+        type: DEEPSLATE_EMERALD_ORE
+        name: "&6The Deep Green"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q58"
+        message: ""
+        runas: player
+    13:
+      permission: ""
+      pass:
+        type: DEEPSLATE_COAL_ORE
+        name: "&6The Darkened Vein"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q59"
+        message: ""
+        runas: player
+    14:
+      permission: ""
+      pass:
+        type: DEEPSLATE_COPPER_ORE
+        name: "&6Beneath the Bedrock"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q60"
+        message: ""
+        runas: player
+    15:
+      permission: ""
+      pass:
+        type: DEEPSLATE_IRON_ORE
+        name: "&6Shadows and Steel"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q61"
+        message: ""
+        runas: player
+    16:
+      permission: ""
+      pass:
+        type: DEEPSLATE_GOLD_ORE
+        name: "&6The Golden Depths"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q62"
+        message: ""
+        runas: player
+    17:
+      permission: ""
+      pass:
+        type: DEEPSLATE_REDSTONE_ORE
+        name: "&6The Redstone Enigma"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q63"
+        message: ""
+        runas: player
+    18:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    19:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    20:
+      permission: ""
+      pass:
+        type: DEEPSLATE_DIAMOND_ORE
+        name: "&6Shadows and Shimmer"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q64"
+        message: ""
+        runas: player
+    21:
+      permission: ""
+      pass:
+        type: DEEPSLATE_LAPIS_ORE
+        name: "&6The Deep Blue Mystery"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q65"
+        message: ""
+        runas: player
+    22:
+      permission: ""
+      pass:
+        type: STONE_BRICKS
+        name: "&6Beneath the Chisel"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q66"
+        message: ""
+        runas: player
+    23:
+      permission: ""
+      pass:
+        type: COBBLESTONE
+        name: "&6From Rubble to Castle"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q67"
+        message: ""
+        runas: player
+    24:
+      permission: ""
+      pass:
+        type: NETHER_QUARTZ_ORE
+        name: "&6Flames of Fortune"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q68"
+        message: ""
+        runas: player
+    25:
+      permission: ""
+      pass:
+        type: MAGMA_BLOCK
+        name: "&6The Molten Mission"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q69"
+        message: ""
+        runas: player
+    26:
+      permission: ""
+      pass:
+        type: NETHERRACK
+        name: "&6The Scarlet Excavation"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q70"
+        message: ""
+        runas: player
+    27:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    28:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    29:
+      permission: ""
+      pass:
+        type: CRIMSON_NYLIUM
+        name: "&6Echoes of the Crimson Forest"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q71"
+        message: ""
+        runas: player
+    30:
+      permission: ""
+      pass:
+        type: WARPED_NYLIUM
+        name: "&6Into the Warped Woods"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q72"
+        message: ""
+        runas: player
+    31:
+      permission: ""
+      pass:
+        type: SOUL_SAND
+        name: "&6The Whispering Dunes"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q73"
+        message: ""
+        runas: player
+    32:
+      permission: ""
+      pass:
+        type: GLOWSTONE
+        name: "&6Glimmers in the Dark"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q74"
+        message: ""
+        runas: player
+    33:
+      permission: ""
+      pass:
+        type: CRIMSON_STEM
+        name: "&6Echoes of Vermilion"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q75"
+        message: ""
+        runas: player
+    34:
+      permission: ""
+      pass:
+        type: WARPED_STEM
+        name: "&6Echoes of the Warped"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q76"
+        message: ""
+        runas: player
+    35:
+      permission: ""
+      pass:
+        type: SHROOMLIGHT
+        name: "&6Beneath the Fungal Glow"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q77"
+        message: ""
+        runas: player		
+    36:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    37:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    38:
+      permission: ""
+      pass:
+        type: NETHER_BRICKS
+        name: "&6The Infernal Forge"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q78"
+        message: ""
+        runas: player	
+    39:
+      permission: ""
+      pass:
+        type: CHORUS_FLOWER
+        name: "&6The Alien Bloom"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q79"
+        message: ""
+        runas: player	
+    40:
+      permission: ""
+      pass:
+        type: ENDER_PEARL
+        name: "&6The Pearls of Passage"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q80"
+        message: ""
+        runas: player	
+    41:
+      permission: ""
+      pass:
+        type: ENDERCHEST
+        name: "&6Beyond the Portal"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q81"
+        message: ""
+        runas: player	
+    42:
+      permission: ""
+      pass:
+        type: PURPUR_BLOCK
+        name: "&6The Purple Path"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q82"
+        message: ""
+        runas: player	
+    43:
+      permission: ""
+      pass:
+        type: END_STONE
+        name: "&6The Void's Masonry"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q83"
+        message: ""
+        runas: player	
+    44:
+      permission: ""
+      pass:
+        type: CANDLE
+        name: "&6The Waxen Whisper"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q84"
+        message: ""
+        runas: player			
+    45:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    46:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    47:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    48:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    49:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    50:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    51:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    52:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    53:
+      permission: ""
+      pass:
+        type: RED_WOOL
+        name: "&6Previous Page"
+        desc: ""
+        command: "QuestWarps2"
+        message: ""
+        runas: player
+    54:
+      permission: ""
+      pass:
+        type: LIME_WOOL
+        name: "&6Next Page"
+        desc: ""
+        command: "QuestWarps4"
+        message: ""
+        runas: player		
+  questwarps4:
+    name: "§aQuestWarps4"
+    0:
+      permission: ""
+      pass:
+        type: LIGHT_GRAY_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    1:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    2:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    3:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    4:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    5:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    6:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    7:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    8:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    9:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    10:
+      permission: ""
+      pass:
+        type: BLACK_STAINED_GLASS_PANE
+        name: "&7Hover over an icon for information!"
+        desc: "&7Click &3blue titles &7to post links in chat."
+    11:
+      permission: ""
+      pass:
+        type: DIAMOND_ORE
+        name: "&6The Diamond Depths"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q85"
+        message: ""
+        runas: player
+    12:
+      permission: ""
+      pass:
+        type: DEEPSLATE_EMERALD_ORE
+        name: "&6The Deep Green"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q86"
+        message: ""
+        runas: player
+    13:
+      permission: ""
+      pass:
+        type: DEEPSLATE_COAL_ORE
+        name: "&6The Darkened Vein"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q87"
+        message: ""
+        runas: player
+    14:
+      permission: ""
+      pass:
+        type: DEEPSLATE_COAL_ORE
+        name: "&6The Darkened Vein"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp q88"
         message: ""
         runas: player
     15:
@@ -766,8 +1610,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j33"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j89"
         message: ""
         runas: player
     16:
@@ -775,8 +1619,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j34"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j90"
         message: ""
         runas: player
     17:
@@ -784,8 +1628,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j35"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j91"
         message: ""
         runas: player
     18:
@@ -805,8 +1649,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j36"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j92"
         message: ""
         runas: player
     21:
@@ -814,8 +1658,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j37"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j93"
         message: ""
         runas: player
     22:
@@ -823,8 +1667,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j38"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j94"
         message: ""
         runas: player
     23:
@@ -832,8 +1676,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j39"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j95"
         message: ""
         runas: player
     24:
@@ -841,8 +1685,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j40"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j96"
         message: ""
         runas: player
     25:
@@ -850,8 +1694,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j41"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j97"
         message: ""
         runas: player
     26:
@@ -859,8 +1703,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j42"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j98"
         message: ""
         runas: player
     27:
@@ -880,8 +1724,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j43"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j99"
         message: ""
         runas: player
     30:
@@ -889,17 +1733,8 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j44"
-        message: ""
-        runas: player
-    31:
-      permission: ""
-      pass:
-        type: STRUCTURE_VOID
-        name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this job!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
-        command: "warp j45"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        command: "warp j100"
         message: ""
         runas: player
     36:
@@ -967,14 +1802,14 @@
       pass:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Hover over an icon for information!"
-        desc: "&7Click &3blue titles &7to post links in chat."
+        desc: "&7Click &3blue titles &7to post links in chat."		
     54:
       permission: ""
       pass:
         type: RED_WOOL
         name: "&6Previous Page"
         desc: ""
-        command: "JobWarps"
+        command: "QuestWarps2"
         message: ""
         runas: player
-# End Quests System
+# End Quests System		

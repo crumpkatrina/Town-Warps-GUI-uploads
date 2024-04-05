@@ -3,9 +3,9 @@
 #Mangrove Expedition
   quest1:
     world: rising
-    x:
-    y:
-    z:
+    x: 5831
+    y: 87
+    z: -11730
     actions:
       - console msg {user} You have completed the &6Mangrove Expedition: Trail of the Sunken Roots &ffor &a40 Quest Points&f!
 #Echoes of the Abyss 
