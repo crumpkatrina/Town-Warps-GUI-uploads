@@ -120,7 +120,7 @@
       pass:
         type: ENCHANTING_TABLE
         name: "&6Quest Equipment List!"
-        desc: "&7These are the things you need to complete most jobs:|&6*&7"Shulker Boxes - Buy these from other users"
+        desc: "&7These are the things you need to complete most jobs:|&6*&7Shulker Boxes - Buy these from other users"
     36:
       permission: ""
       pass:
@@ -145,15 +145,16 @@
         type: BOOK
         name: "&3Forums: Quests Information!"
         desc: "&7Click to post a link in chat for information about Quests and Quest Points."
-		command: ""
+        command: ""
         message: "&e------------------\n&6[EcoCityCraft]\n&aQuests and Rewards Information\n&bhttps://tinyurl.com/ShopDBShulkerBox\n&e------------------"
         runas: console
-	42:
+    42:
       permission: ""
       pass:
         type: SHULKER_BOX
         name: "&6ShopDB: Shulker Supplies"
         desc: "&7You need Shulker Boxes to complete Quests|&7Click the nametags for links to ShopDB listings of Shulker Boxes/Shells"
+        runas: console
     43:
       permission: ""
       pass:
@@ -937,7 +938,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Shroomlight"
         command: "warp q49"
         message: ""
-        runas: player		
+        runas: player        
     36:
       permission: ""
       pass:
@@ -958,7 +959,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Nether Brick Fence|&6*&764 Nether Brick Slab|&6*&764 Nether Brick Stairs|&6*&7Nether Brick Wall|&6*&764 Nether Bricks|&6*&764 Chiseled Nether Bricks|&6*&764 Cracked Nether Bricks|&6*&764 Red Netherbrick Slab|&6*&764 Red Netherbrick Stairs|&6*&764 Red Netherbrick Wall|&6*&764 Red Nether Bricks"
         command: "warp q50"
         message: ""
-        runas: player	
+        runas: player    
     39:
       permission: ""
       pass:
@@ -967,7 +968,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Chorus Fruit|&6*&7256 Popped Chorus Fruit|&6*&764 Chorus Flower|&6*&7256 Chorus Plant"
         command: "warp q51"
         message: ""
-        runas: player	
+        runas: player    
     40:
       permission: ""
       pass:
@@ -976,7 +977,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Eye of Ender|&6*&7128 Ender Pearl"
         command: "warp q52"
         message: ""
-        runas: player	
+        runas: player    
     41:
       permission: ""
       pass:
@@ -985,7 +986,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 End Rod|&6*&78 Enderchest|&6*&71 Enderman Spawn Egg|&6*&71 Endermite Spawn Egg|&6*&71 Dragon Head|&6*&71 Dragon Egg"
         command: "warp q53"
         message: ""
-        runas: player	
+        runas: player    
     42:
       permission: ""
       pass:
@@ -994,7 +995,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7448 Purpur Block|&6*&7384 Purpur Pillar|&6*&7384 Purpur Slab|&6*&7448 Purpur Stairs"
         command: "warp q54"
         message: ""
-        runas: player	
+        runas: player    
     43:
       permission: ""
       pass:
@@ -1003,7 +1004,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 End Stone|&6*&7384 End Stone Brick Slab|&6*&7384 End Stone Brick Stairs|&6*&7384 End Stone Brick Stairs"
         command: "warp q55"
         message: ""
-        runas: player	
+        runas: player    
     44:
       permission: ""
       pass:
@@ -1012,7 +1013,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 White Candle |&6*&764 Light Gray Candle|&6*&764 Gray Candle|&6*&764 Black Candle|&6*&764 Brown Candle|&6*&764 Red Candle|&6*&764 Orange Candle|&6*&764 Yellow Candle|&6*&764 Lime Candle|&6*&764 Green Candle|&6*&764 Cyan Candle|&6*&764 Light Blue Candle|&6*&764 Magenta Candle|&6*&764 Purple Candle|&6*&764 Pink Candle|&6*&764 Candle"
         command: "warp q56"
         message: ""
-        runas: player			
+        runas: player            
     45:
       permission: ""
       pass:
@@ -1188,7 +1189,7 @@
       pass:
         type: IRON_CHESTPLATE
         name: "&6The Armorer's Ambition"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Shield|&6*&71 Diamond Horse Armor|&6*&71 Golden Horse Team|&6*&71 Iron Horse Armor|&6*&71 Leather Horse Armor|&6*&71 Diamond Helmet|&6*&71 Diamond Chestplate|&6*&71 Diamond Leggings|&6*&71 Diamond Boots|&6*&71 Golden Helmet|&6*&71 Golden Chestplate|&6*&71 Golden Leggings|&6*&71 Golden Boots|&6*&71 Iron Helmet|&6*&71 Iron Chestplate|&6*&71 Iron Leggings|&6*&71 Iron Boots|&6*&71 Leather Helmet|&6*&71 Leather Chestplate|&6*&71 Leather Leggings|&6*&71 Leather Boots|&6*&71 Netherite Helmet|&6*&71 Netherite Chestplate|&6*&71 Netherite Leggings|&6*&71 Netherite Boots|&6*&71 Turtle Helmet|&6*&78 Armor Stand""
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Shield|&6*&71 Diamond Horse Armor|&6*&71 Golden Horse Team|&6*&71 Iron Horse Armor|&6*&71 Leather Horse Armor|&6*&71 Diamond Helmet|&6*&71 Diamond Chestplate|&6*&71 Diamond Leggings|&6*&71 Diamond Boots|&6*&71 Golden Helmet|&6*&71 Golden Chestplate|&6*&71 Golden Leggings|&6*&71 Golden Boots|&6*&71 Iron Helmet|&6*&71 Iron Chestplate|&6*&71 Iron Leggings|&6*&71 Iron Boots|&6*&71 Leather Helmet|&6*&71 Leather Chestplate|&6*&71 Leather Leggings|&6*&71 Leather Boots|&6*&71 Netherite Helmet|&6*&71 Netherite Chestplate|&6*&71 Netherite Leggings|&6*&71 Netherite Boots|&6*&71 Turtle Helmet|&6*&78 Armor Stand"
         command: "warp q61"
         message: ""
         runas: player
@@ -1359,7 +1360,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Collectible Raw Copper (Current Lore)"
         command: "warp q77"
         message: ""
-        runas: player		
+        runas: player        
     36:
       permission: ""
       pass:
@@ -1380,7 +1381,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Collectible Arrow (Current Lore)"
         command: "warp q78"
         message: ""
-        runas: player	
+        runas: player    
     39:
       permission: ""
       pass:
@@ -1389,7 +1390,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Front 9 Champion|&6*&71 Full Course Champion|&6*&71 Back 9 Champion"
         command: "warp q79"
         message: ""
-        runas: player	
+        runas: player    
     40:
       permission: ""
       pass:
@@ -1398,7 +1399,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Marshmallow Madness|&6*&71 Vanilla Chai|&6*&71 Rustic Rose Satin|&6*&71 Black Licorice|&6*&71 Red Cinnamon|&6*&71 Pumpkin Spice|&6*&71 Oatmeal Maple Crunch|&6*&71 Pistachio Latte|&6*&71 Roasted Pumpkin Seeds|&6*&71 Mountain Frost|&6*&71 Icicles Fragrance|&6*&71 Sweet Snow Fragrance|&6*&71 Pomegrante Cider|&6*&71 Purple Halloween|&6*&71 Sugar Plums|&6*&71 Butternut Pumpkin|&6*&71 Gingersnaps"
         command: "warp q80"
         message: ""
-        runas: player	
+        runas: player    
     41:
       permission: ""
       pass:
@@ -1407,7 +1408,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Autumn Pumpkin Pie|&6*&764 Falling Leaves Firework (Burst)|&6*&764 Falling Leaves Firework (Creeper-shaped)|&6*&764 Falling Leaves Firework (Large Ball)|&6*&764 Falling Leaves Firework (Small Ball)|&6*&764 Falling Leaves Firework (Star-shaped)|&6*&71 Falling Azalea Leaves|&6*&71 Falling Cherry Leaves|&6*&71 Falling Flowering Azalea Leaves|&6*&71 Falling Acacia Leaves|&6*&71 Falling Birch Leaves|&6*&71 Falling Dark Oak Leaves|&6*&71 Falling Jungle Leaves|&6*&71 Falling Oak Leaves|&6*&71 Falling Spruce Leaves|&6*&71 Falling Mangrove Leaves|&6*&71 Brown Forest Mushroom|&6*&71 Brown Forest Mushroom (Red Mushroom Item)|&6*&71 Autumn Pumpkin|&6*&71 Autumn Pitcher Plant|&6*&71 Autumn Torchflower"
         command: "warp q81"
         message: ""
-        runas: player	
+        runas: player    
     42:
       permission: ""
       pass:
@@ -1416,7 +1417,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Holiday Dipping Apple|&6*&71 Holiday Baked Potato|&6*&71 Holiday Beet Soup|&6*&71 Holiday Bread|&6*&71 Holiday Prime Rib Roast|&6*&71 Holiday Roasted Turkey|&6*&71 Holiday Roasted Cod|&6*&71 Holiday Roasted Lamb Chops|&6*&71 Holiday Roasted Pork Loin|&6*&71 Holiday Cookie|&6*&71 Holiday Mushroom Stew|&6*&71 Holiday Rabbit Stew|&6*&71 Holiday Cranberries|&6*&71 Holiday Cake|&6*&71 Holiday Golden Apples|&6*&71 Holiday Roasted Veggies"
         command: "warp q82"
         message: ""
-        runas: player	
+        runas: player    
     43:
       permission: ""
       pass:
@@ -1425,7 +1426,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 New Years Firestarter|&6*&71 New Years Firework|&6*&71 New Year's Firework|&6*&71 New Years Firework Star|&6*&71 Tournament Ticket|&6*&71 New Years Roman Candle|&6*&71 New Years Red Sparkler|&6*&71 New Years Golden Bonfire|&6*&71 New Years Gunpowder|&6*&71 New Years Sparking Candle (Red)|&6*&71 New Years Sparking Candle (Orange)|&6*&71 New Years Sparking Candle (Yellow)|&6*&71 New Years Sparking Candle (Green)|&6*&71 New Years Sparking Candle (Blue)|&6*&71 New Years Sparking Candle (Purple)|&6*&71 New Years Lantern|&6*&71 New Years Blue Bonfire|&6*&71 New Years Lantern (Blue)|&6*&71 New Years Blue Sparkler|&6*&71 New Years Golden Sparkler"
         command: "warp q83"
         message: ""
-        runas: player	
+        runas: player    
     44:
       permission: ""
       pass:
@@ -1434,7 +1435,7 @@
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Allay Spawn Egg|&6*&71 Axolotl Spawn Egg|&6*&71 Chicken Spawn Egg|&6*&71 Creeper Spawn Egg|&6*&71 Donkey Spawn Egg|&6*&71 Ghast Spawn Egg|&6*&71 Horse Spawn Egg|&6*&71 Magma Cube Spawn Egg|&6*&71 Mooshroom Spawn Egg|&6*&71 Ocelot Spawn Egg|&6*&71 Phantom Spawn Egg|&6*&71 Piglin Spawn Egg|&6*&71 Polar Bear Spawn Egg|&6*&71 Pufferfish Spawn Egg|&6*&71 Rabbit Spawn Egg|&6*&71 Ravager Spawn Egg|&6*&71 Sheep Spawn Egg|&6*&71 Trader Llama Spawn Egg|&6*&71 Turtle Spawn Egg|&6*&71 Vindicator Spawn Egg|&6*&71 Wandering Trader Spawn Egg|&6*&71 Warden Spawn Egg|&6*&71 Witch Spawn Egg|&6*&71 Wither Skeleton Spawn Egg|&6*&71 Wolf Spawn Egg|&6*&71 Zoglin Spawn Egg|&6*&71 Zombie Villager Spawn Egg"
         command: "warp q84"
         message: ""
-        runas: player			
+        runas: player            
     45:
       permission: ""
       pass:
@@ -1500,7 +1501,7 @@
         desc: ""
         command: "QuestWarps4"
         message: ""
-        runas: player		
+        runas: player        
   questwarps4:
     name: "§aQuestWarps4"
     0:
@@ -1802,7 +1803,7 @@
       pass:
         type: BLACK_STAINED_GLASS_PANE
         name: "&7Hover over an icon for information!"
-        desc: "&7Click &3blue titles &7to post links in chat."		
+        desc: "&7Click &3blue titles &7to post links in chat."        
     54:
       permission: ""
       pass:
@@ -1812,4 +1813,4 @@
         command: "QuestWarps2"
         message: ""
         runas: player
-# End Quests System		
+# End Quests System        
