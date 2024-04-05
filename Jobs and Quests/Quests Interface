@@ -120,7 +120,7 @@
       pass:
         type: ENCHANTING_TABLE
         name: "&6Quest Equipment List!"
-        desc: "&7These are the things you need to complete most jobs:|&6*&7Shulker Boxes - Buy these from other users"
+        desc: "&7These are the things you need to complete most jobs:|&6*&7"Shulker Boxes - Buy these from other users"
     36:
       permission: ""
       pass:
@@ -308,7 +308,7 @@
       pass:
         type: MANGROVE_PLANKS
         name: "&6The Mangrove Expedition"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Oak Stairs|&6*&78 Oak Fence|&6*&78 Oak Fence Gate|&6*&716 Oak Door|&6*&716 Oak Trapdoor|&6*&716 Oak Pressure Plate|&6*&764 Oak Button"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Mangrove Button|&6*&764 Mangrove Pressure Plate|&6*&716 Mangrove Hanging Sign|&6*&764 Mangrove Log|&6*&764 Mangrove Planks|&6*&716 Mangrove Sign|&6*&7645 Mangrove Wood|&6*&764 Stripped Mangrove Wood|&6*&764 Stripped Mangrove Log|&6*&764 Stripped Mangrove Wood|&6*&71 Mangrove Boat|&6*&71 Mangrove Chest Boat|&6*&716 Mangrove Door|&6*&764 Mangrove Fence|&6*&764Mangrove Fence Gate|&6*&764 Mangrove Roots|&6*&764 Mangrove Slab|&6*&764 Mangrove Stairs|&6*&764 Mangrove Trapdoor|&6*&764 Muddy Mangrove Roots"
         command: "warp q1"
         message: ""
         runas: player
@@ -317,7 +317,7 @@
       pass:
         type: PRISMARINE
         name: "&6Echoes of the Abyss"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Cobblestone"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&78 Gold Block|&6*&71 Elder Guardian Spawn Egg|&6*&71 Guardian Spawn Egg|&6*&764 Dark Prismarine|&6*&764 Dark Prismarine Slab|&6*&764 Dark Prismarine Stairs|&6*&764 Prismarine|&6*&764 Prismarine Brick Slab|&6*&764 Prismarine Brick Stairs|&6*&764 Prismarine Bricks|&6*&764 Prismarine Slab|&6*&764 Prismarine Stairs|&6*&764 Prismarine Wall|&6*&764 Sea Lantern|&6*&74 Sponge"
         command: "warp q2"
         message: ""
         runas: player
@@ -326,7 +326,7 @@
       pass:
         type: MUD_BRICKS
         name: "&6The Mudbrick Legacy"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Bucket of Cod|&6*&71 Bucket of Cod|&6*&71 Bucket of Salmon|&6*&71 Bucket of  Salmon|&6*&71 Bucket of Pufferfish"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Mud|&6*&764 Mud Brick Slab|&6*&7Mud Brick Stairs|&6*&7Mud Brick Wall|&6*&764 Mud Bricks|&6*&7Packed Mud"
         command: "warp q3"
         message: ""
         runas: player
@@ -335,7 +335,7 @@
       pass:
         type: SPORE_BLOSSOM
         name: "&6The Bloom Below"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Oak Log|&6*&732 Birch Log|&6*&732 Spruce Log|&6*&732 Jungle Log"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Flowering Azalea Leaves|&6*&764 Glow Berries|&6*&764 Azalea|&6*&764 Big Dripleaf|&6*&764 Flowering Azalea|&6*&764 Glow Lichen|&6*&764 Hanging Roots|&6*&764 Moss Block|&6*&764 Moss Carpet|&6*&764 Spore Blossom"
         command: "warp q4"
         message: ""
         runas: player
@@ -344,7 +344,7 @@
       pass:
         type: AMETHYST_BLOCK
         name: "&6The Amethyst Enigma"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Amethyst Block|&6*&732 Calcite|&6*&74 Amethyst Shard"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7128 Amethyst Block|&6*&764 Amethyst Cluster|&6*&7128 Calcite|&6*&764 Large Amethyst Bud|&6*&764 Medium Amethyst Bud|&6*&764 Small Amethyst Bud"
         command: "warp q5"
         message: ""
         runas: player
@@ -353,7 +353,7 @@
       pass:
         type: SCULK
         name: "&6Beneath the Surface"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Stone Bricks"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Warden Spawn Egg|&6*&78 Calibrated Sculk Sensor|&6*&7256 Sculk|&6*&74 Sculk Catalyst|&6*&78 Sculk Sensor|&6*&78 Sculk Shrieker|&6*&764 Sculk Vein"
         command: "warp q6"
         message: ""
         runas: player
@@ -362,7 +362,7 @@
       pass:
         type: RED_MUSHROOM
         name: "&6The Toadstool Trial"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&716 Oak Sapling|&6*&716 Birch Sapling|&6*&716 Spruce Sapling|&6*&716 Jungle Sapling"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Mushroom Stew|&6*&764 Brown Mushroom|&6*&764 Red Mushroom|&6*&71 Mooshroom Spawn Egg|&6*&764 Crimson Fungus|&6*&764 Brown Mushroom Block|&6*&764 Red Mushroom Block|&6*&764 Mushroom Stem|&6*&764 Mycelium|&6*&764 Warped Fungus"
         command: "warp q7"
         message: ""
         runas: player
@@ -383,7 +383,7 @@
       pass:
         type: ROSE_BUSH
         name: "&6Petal and Leaf"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Cobbled Deepslate"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Acacia Sapling|&6*&764 Birch Sapling|&6*&764 Dark Oak Sapling|&6*&764 Jungle Sapling|&6*&764 Oak Sapling|&6*&764 Spruce Sapling|&6*&764Azure Bluet|&6*&764 Cornflower|&6*&764 Dandelion|&6*&764 Fern|&6*&764 Lilac|&6*&764 Lily of the Valley|&6*&764 Blue Orchid|&6*&764 Oxeye Daisy|&6*&764 Peony|&6*&764 Poppy|&6*&764 Rose Bush|&6*&764 Sunflower|&6*&764 White Tulip|&6*&764 Red Tulip|&6*&764 Orange Tulip|&6*&764 Pink Tulip|&6*&764 Vines|&6*&764 Cherry Sapling|&6*&764 Mangrove Propagule|&6*&764 Pink Petals|&6*&764 Short Grass"
         command: "warp q8"
         message: ""
         runas: player
@@ -392,7 +392,7 @@
       pass:
         type: SNIFFER_EGG
         name: "&6The Sniffer's Secret"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Sandstone"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Torchflower Seeds|&6*&732 Pitcher Pod|&6*&71 Sniffer Egg|&6*&732 Pitcher Plant|&6*&732 Torchflower"
         command: "warp q9"
         message: ""
         runas: player
@@ -401,7 +401,7 @@
       pass:
         type: BUBBLE_CORAL_BLOCK
         name: "&6The Reef's Bounty"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Bricks"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&74 Scute|&6*&764 Dried Kelp Block|&6*&764 Kelp|&6*&764 Lilypad|&6*&764 Sea Pickle|&6*&764 Seagrass|&6*&764 Brain Coral|&6*&764 Brain Coral Block|&6*&764 Brain Coral Fan|&6*&764 Bubble Coral|&6*&764 Bubble Coral Block|&6*&764 Bubble Coral Fan|&6*&7|&6*&764 Fire Coral|&6*&764 Fire Coral Block|&6*&764 Fire Coral Fan|&6*&764 Horn Coral|&6*&764 Horn Coral Block|&6*&764 Horn Coral Fan|&6*&764 Tube Coral|&6*&764 Tube Coral Block|&6*&764 Tube Coral Fan|&6*&74 Turtle Egg"
         command: "warp q10"
         message: ""
         runas: player
@@ -410,7 +410,7 @@
       pass:
         type: HONEYCOMB
         name: "&6The Honeyed Harvest"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Stone|&6*&732 Granite|&6*&732 Diorite|&6*&732 Andesite|&6*&732 Cobblestone"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&78 Honey Bottle|&6*&71 Bee Spawn Egg|&6*&7128 Honey Comb|&6*&764 Beehive|&6*&732 Honey Block|&6*&732 Honeycomb Block"
         command: "warp q11"
         message: ""
         runas: player
@@ -419,7 +419,7 @@
       pass:
         type: REDSTONE_BLOCK
         name: "&6Redstone Killer"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Oak Leaves|&6*&732 Birch Leaves|&6*&732 Spruce Leaves|&6*&732 Jungle Leaves"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Jukebox|&6*&764 Redstone|&6*1&764 Redstone Comparator|&6*&764 Daylight Sensor|&6*&764 Dispenser|&6*&764 Dropper|&6*&764 Heavy Weighted Pressure Plate|&6*&764 Hopper|&6*&764 Lever|&6*&764 Light Weighted Pressure Plate|&6*&764 Noteblock|&6*&764 Observer|&6*&764 Piston|&6*&7|&6*&764 Oak Pressure Plate|&6*&764 Redstone Block|&6*&764 Redstone Lamp|&6*&764 Redstone Torch|&6*&764 Redstone Repeater|&6*&764 Sticky Piston|&6*&764 Stone Button|&6*&764 Stone Pressure Plate|&6*&764 64 Activator Rail|&6*&764 Detector Rail|&6*&764 Lightning Rod|&6*&764 Powered Rail|&6*&764 Rail|&6*&764 Target"
         command: "warp q12"
         message: ""
         runas: player
@@ -428,7 +428,7 @@
       pass:
         type: SMITHING_TABLE
         name: "&6Craft, Cook, Create"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Tuff"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&78 Beacon|&6*&71 Enchanting Table|&6*&71 Enderchest|&6*&78 Brewing Stand|&6*&78 Cauldron|&6*&78 Campfire|&6*&71 Compost Bin|&6*&716 Anvil|&6*&78 Bell|&6*&71 Blast Furnace|&6*&71 Cartography Table|&6*&71 Chiseled Bookshelf|&6*&71 Fletching Table|&6*&71 Furnace|&6*&71 Grindstone|&6*&71 Lectern|&6*&764 Light|&6*&764 Lodestone|&6*&71 Loom|&6*&71 Respawn Anchor|&6*&78 Scaffolding|&6*&71 Smithing Table|&6*&71 Smoker|&6*&78 Soul Campfire|&6*&71 Stonecutter|&6*&78 Tinted Glass"
         command: "warp q13"
         message: ""
         runas: player
@@ -437,7 +437,7 @@
       pass:
         type: APPLE
         name: "&6Nature's Pantry"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Red Mushroom|&6*&732 Brown Mushroom"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Apple|&6*&764 Beef|&6*&764 Beetroot|&6*&764 Carrot|&6*&764 Chicken|&6*&764 Cod|&6*&764 Melon Slice|&6*&764 Mutton|&6*&764 Porkchop|&6*&764 Potato|&6*&764 Rabbit|&6*&764 Salmon|&6*&764 Sweet Berries|&6*&764 Golden Carrot|&6*&764 Chorus Fruit|&6*&764 Glow Berries|&6*&764 Poisonous Potato|&6*&764 Pufferfish|&6*&764 Rotten Flesh|&6*&764 Tropical Fish"
         command: "warp q14"
         message: ""
         runas: player
@@ -458,7 +458,7 @@
       pass:
         type: COOKED_BEEF
         name: "&6The Sizzling Secret"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Cactus"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Baked Potato|&6*&71 Beetroot Soup|&6*&764 Bread|&6*&764 Cooked Beef|&6*&764 Cooked Chicken|&6*&764 Cooked Cod|&6*&764 Cooked Mutton|&6*&764 Cooked Porkchop|&6*&764 Cooked Rabbit|&6*&764 Cooked Salmon|&6*&764 Cookie|&6*&764 Dried Kelp|&6*&764 Pumpkin Pie|&6*&71 Rabbit Stew|&6*&71 Cake"
         command: "warp q15"
         message: ""
         runas: player
@@ -467,7 +467,7 @@
       pass:
         type: CACTUS
         name: "&6Beneath the Scorching Sun"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Gravel|&6*&764 Sand"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7128 Cactus|&6*&764 Dead Bush"
         command: "warp q16"
         message: ""
         runas: player
@@ -476,7 +476,7 @@
       pass:
         type: ANGLER_POTTERY_SHERD
         name: "&6The Mosaic of History"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Dead Bush"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7Angler Pottery Sherd|&6*&71 Archer Pottery Sherd|&6*&71 Arms Up Pottery Sherd|&6*&71 Blade Pottery Sherd|&6*&71 Brewer Pottery Sherd|&6*&71 Burn Pottery Sherd|&6*&71 Danger Pottery Sherd|&6*&71 Explorer Pottery Sherd|&6*&71 Friend Pottery Sherd|&6*&71 Heart Pottery Sherd|&6*&71 Heartbreak Pottery Sherd|&6*&71 Howl Pottery Sherd|&6*&71 Miner Pottery Sherd|&6*&71 Mourner Pottery Sherd|&6*&71 Plenty Pottery Sherd|&6*&71 Prize Pottery Sherd|&6*&71 Sheaf Pottery Sherd|&6*&71 Shelter Pottery Sherd|&6*&71 Skull Pottery Sherd|&6*&71 Snort Pottery Sherd"
         command: "warp q17"
         message: ""
         runas: player
@@ -485,7 +485,7 @@
       pass:
         type: ICE
         name: "&6The Icicle's Edge"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Seeds|&6*&764 Pumpkin Seeds|&6*&764 Beetroot Seeds|&6*&764 Cocoa Beans"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Blue Ice|&6*&7256 Ice|&6*&7256 Packed Ice"
         command: "warp q18"
         message: ""
         runas: player
@@ -494,7 +494,7 @@
       pass:
         type: POTION
         name: "&6The Alchemist's Errand"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Kelp|&6*&764 Dried Kelp Block"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Glowstone Dust|&6*&764 Blaze Powder|&6*&71 Dragon's Breath|&6*&764 Fermented Spider Eye|&6*&764 Ghast Tear|&6*&78 Glass Bottle|&6*&764 Glistering Melon|&6*&764 Golden Carrot|&6*&764 Magma Cream|&6*&764 Phantom Membrane|&6*&764 Rabbit's Foot|&6*&764 Netherwart|&6*&764 Redstone|&6*&764 Gunpowder|&6*&764 Pufferfish|&6*&764 Spider Eye|&6*&764 Sugar"
         command: "warp q19"
         message: ""
         runas: player
@@ -503,7 +503,7 @@
       pass:
         type: COBBLESTONE_SLAB
         name: "&6The Path of Pebbles"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Bread"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Cobblestone Slab"
         command: "warp q20"
         message: ""
         runas: player
@@ -512,7 +512,7 @@
       pass:
         type: COBBLED_DEEPSLATE_SLAB
         name: "&6The Understone Expedition"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&716 Cooked Steak|&6*&716 Cooked Chicken|&6*&716 Cooked Cod|&6*&716 Cooked Salmon"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Cobbled Deepslate Slab"
         command: "warp q21"
         message: ""
         runas: player
@@ -533,7 +533,7 @@
       pass:
         type: EMERALD_ORE
         name: "&6The Green Gleam"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Apple|&6*&764 Melon Slice|&6*&764 Potato|&6*&764 Pumpkin|&6*&764 Beetroot|&6*&764 Sugarcane|&6*&7164 Bamboo|&6*&764 Wheat|&6*&764 Sweet Berries|&6*&764 Carrot"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Emerald Ore"
         command: "warp q22"
         message: ""
         runas: player
@@ -542,7 +542,7 @@
       pass:
         type: COAL_ORE
         name: "&6Veins of the Night"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Dirt"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Coal Ore"
         command: "warp q23"
         message: ""
         runas: player
@@ -551,7 +551,7 @@
       pass:
         type: COPPER_ORE
         name: "&6The Copper Quest"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Dandelion|&6*&732 Poppy|&6*&732 Oxeye Daisy|&6*&732 Sunflower|&6*&732 Rose Bush"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Copper Ore"
         command: "warp q24"
         message: ""
         runas: player
@@ -560,7 +560,7 @@
       pass:
         type: IRON_ORE
         name: "&6The Steelbound Seeker"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Raw Gold|&6*&764 Raw Copper|&6*&764 Raw Iron"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Iron Ore"
         command: "warp q25"
         message: ""
         runas: player
@@ -569,7 +569,7 @@
       pass:
         type: GOLD_ORE
         name: "&6Lure of the Lustrous"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Gold Ore"
         command: "warp q26"
         message: ""
         runas: player
@@ -578,7 +578,7 @@
       pass:
         type: REDSTONE_ORE
         name: "&6The Crimson Circuit"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Redstone Ore"
         command: "warp q27"
         message: ""
         runas: player
@@ -587,7 +587,7 @@
       pass:
         type: LAPIS_ORE
         name: "&6The Cerulean Mystery"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Lapis Ore"
         command: "warp q28"
         message: ""
         runas: player
@@ -730,7 +730,7 @@
       pass:
         type: DIAMOND_ORE
         name: "&6The Diamond Depths"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Diamond Ore"
         command: "warp q29"
         message: ""
         runas: player
@@ -739,7 +739,7 @@
       pass:
         type: DEEPSLATE_EMERALD_ORE
         name: "&6The Deep Green"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&716 Deepslate Emerald Ore"
         command: "warp q30"
         message: ""
         runas: player
@@ -748,7 +748,7 @@
       pass:
         type: DEEPSLATE_COAL_ORE
         name: "&6The Darkened Vein"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Deepslate Coal Ore"
         command: "warp q31"
         message: ""
         runas: player
@@ -757,7 +757,7 @@
       pass:
         type: DEEPSLATE_COPPER_ORE
         name: "&6Beneath the Bedrock"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Deepslate Copper Ore"
         command: "warp q32"
         message: ""
         runas: player
@@ -766,7 +766,7 @@
       pass:
         type: DEEPSLATE_IRON_ORE
         name: "&6Shadows and Steel"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Deepslate Iron Ore"
         command: "warp q33"
         message: ""
         runas: player
@@ -775,7 +775,7 @@
       pass:
         type: DEEPSLATE_GOLD_ORE
         name: "&6The Golden Depths"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Deepslate Gold Ore"
         command: "warp q34"
         message: ""
         runas: player
@@ -784,7 +784,7 @@
       pass:
         type: DEEPSLATE_REDSTONE_ORE
         name: "&6The Redstone Enigma"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Deepslate Redstone Ore"
         command: "warp q35"
         message: ""
         runas: player
@@ -805,7 +805,7 @@
       pass:
         type: DEEPSLATE_DIAMOND_ORE
         name: "&6Shadows and Shimmer"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Deepslate Diamond Ore"
         command: "warp q36"
         message: ""
         runas: player
@@ -814,7 +814,7 @@
       pass:
         type: DEEPSLATE_LAPIS_ORE
         name: "&6The Deep Blue Mystery"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Deepslate Lapis Ore"
         command: "warp q37"
         message: ""
         runas: player
@@ -823,7 +823,7 @@
       pass:
         type: STONE_BRICKS
         name: "&6Beneath the Chisel"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7"
         command: "warp q38"
         message: ""
         runas: player
@@ -832,7 +832,7 @@
       pass:
         type: COBBLESTONE
         name: "&6From Rubble to Castle"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Stone Button|&6*&764 Stone Pressure Plate|&6*&764 Chiseled Stone Bricks|&6*&764 Cracked Stone Bricks|&6*&764 Stone|&6*&764 Stone Brick Slab|&6*&764 Stone Brick Stairs|&6*&764 Stone Brick Wall|&6*&764 Stone Brick Wall|&6*&764 Stone Bricks|&6*&764 Stone Slab|&6*&764 Stone Stairs"
         command: "warp q39"
         message: ""
         runas: player
@@ -841,7 +841,7 @@
       pass:
         type: NETHER_QUARTZ_ORE
         name: "&6Flames of Fortune"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Nether Gold Ore|&6*&764 Nether Quartz Ore|&6*&764 Gilded Blackstone|&6*&716 Ancient Debries"
         command: "warp q40"
         message: ""
         runas: player
@@ -850,7 +850,7 @@
       pass:
         type: MAGMA_BLOCK
         name: "&6The Molten Mission"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Magma Block"
         command: "warp q41"
         message: ""
         runas: player
@@ -859,7 +859,7 @@
       pass:
         type: NETHERRACK
         name: "&6The Scarlet Excavation"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Netherrack"
         command: "warp q42"
         message: ""
         runas: player
@@ -880,7 +880,7 @@
       pass:
         type: CRIMSON_NYLIUM
         name: "&6Echoes of the Crimson Forest"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Crimson Nylium"
         command: "warp q43"
         message: ""
         runas: player
@@ -889,7 +889,7 @@
       pass:
         type: WARPED_NYLIUM
         name: "&6Into the Warped Woods"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Warped Nylium"
         command: "warp q44"
         message: ""
         runas: player
@@ -898,7 +898,7 @@
       pass:
         type: SOUL_SAND
         name: "&6The Whispering Dunes"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Soul Sand"
         command: "warp q45"
         message: ""
         runas: player
@@ -907,7 +907,7 @@
       pass:
         type: GLOWSTONE
         name: "&6Glimmers in the Dark"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Glowstone"
         command: "warp q46"
         message: ""
         runas: player
@@ -916,7 +916,7 @@
       pass:
         type: CRIMSON_STEM
         name: "&6Echoes of Vermilion"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Crimson Stem"
         command: "warp q47"
         message: ""
         runas: player
@@ -925,7 +925,7 @@
       pass:
         type: WARPED_STEM
         name: "&6Echoes of the Warped"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Warped Stem"
         command: "warp q48"
         message: ""
         runas: player
@@ -934,7 +934,7 @@
       pass:
         type: SHROOMLIGHT
         name: "&6Beneath the Fungal Glow"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Shroomlight"
         command: "warp q49"
         message: ""
         runas: player		
@@ -955,7 +955,7 @@
       pass:
         type: NETHER_BRICKS
         name: "&6The Infernal Forge"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Nether Brick Fence|&6*&764 Nether Brick Slab|&6*&764 Nether Brick Stairs|&6*&7Nether Brick Wall|&6*&764 Nether Bricks|&6*&764 Chiseled Nether Bricks|&6*&764 Cracked Nether Bricks|&6*&764 Red Netherbrick Slab|&6*&764 Red Netherbrick Stairs|&6*&764 Red Netherbrick Wall|&6*&764 Red Nether Bricks"
         command: "warp q50"
         message: ""
         runas: player	
@@ -964,7 +964,7 @@
       pass:
         type: CHORUS_FLOWER
         name: "&6The Alien Bloom"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Chorus Fruit|&6*&7256 Popped Chorus Fruit|&6*&764 Chorus Flower|&6*&7256 Chorus Plant"
         command: "warp q51"
         message: ""
         runas: player	
@@ -973,7 +973,7 @@
       pass:
         type: ENDER_PEARL
         name: "&6The Pearls of Passage"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&732 Eye of Ender|&6*&7128 Ender Pearl"
         command: "warp q52"
         message: ""
         runas: player	
@@ -982,7 +982,7 @@
       pass:
         type: ENDERCHEST
         name: "&6Beyond the Portal"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 End Rod|&6*&78 Enderchest|&6*&71 Enderman Spawn Egg|&6*&71 Endermite Spawn Egg|&6*&71 Dragon Head|&6*&71 Dragon Egg"
         command: "warp q53"
         message: ""
         runas: player	
@@ -991,7 +991,7 @@
       pass:
         type: PURPUR_BLOCK
         name: "&6The Purple Path"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7448 Purpur Block|&6*&7384 Purpur Pillar|&6*&7384 Purpur Slab|&6*&7448 Purpur Stairs"
         command: "warp q54"
         message: ""
         runas: player	
@@ -1000,7 +1000,7 @@
       pass:
         type: END_STONE
         name: "&6The Void's Masonry"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 End Stone|&6*&7384 End Stone Brick Slab|&6*&7384 End Stone Brick Stairs|&6*&7384 End Stone Brick Stairs"
         command: "warp q55"
         message: ""
         runas: player	
@@ -1009,7 +1009,7 @@
       pass:
         type: CANDLE
         name: "&6The Waxen Whisper"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 White Candle |&6*&764 Light Gray Candle|&6*&764 Gray Candle|&6*&764 Black Candle|&6*&764 Brown Candle|&6*&764 Red Candle|&6*&764 Orange Candle|&6*&764 Yellow Candle|&6*&764 Lime Candle|&6*&764 Green Candle|&6*&764 Cyan Candle|&6*&764 Light Blue Candle|&6*&764 Magenta Candle|&6*&764 Purple Candle|&6*&764 Pink Candle|&6*&764 Candle"
         command: "warp q56"
         message: ""
         runas: player			
@@ -1150,63 +1150,63 @@
     11:
       permission: ""
       pass:
-        type: DIAMOND_ORE
-        name: "&6The Diamond Depths"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: WHITE_CARPET
+        name: "&6The Weaver's Palette"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 White Carpet|&6*&764 Light Gray Carpet|&6*&764 Gray Carpet|&6*&764 Black Carpet|&6*&764 Brown Carpet|&6*&764 Red Carpet|&6*&764 Orange Carpet|&6*&764 Yellow Carpet|&6*&764 Lime Carpet|&6*&764 Green Carpet|&6*&764 Cyan Carpet|&6*&764 Light Blue Carpet|&6*&764 Magenta Carpet|&6*&764 Purple Carpet|&6*&764 Pink Carpet"
         command: "warp q57"
         message: ""
         runas: player
     12:
       permission: ""
       pass:
-        type: DEEPSLATE_EMERALD_ORE
-        name: "&6The Deep Green"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: RED_BED
+        name: "&6Hues of Rest"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 White Bed|&6*&71 Light Gray Bed|&6*&71 Gray Bed|&6*&71 Black Bed|&6*&71 Brown Bed|&6*&71 Red Bed|&6*&71 Orange Bed|&6*&71 Yellow Bed|&6*&71 Lime Bed|&6*&71 Green Bed|&6*&71 Cyan Bed|&6*&71 Light Blue Bed|&6*&71 Magenta Bed|&6*&71 Purple Bed|&6*&71 Pink Bed"
         command: "warp q58"
         message: ""
         runas: player
     13:
       permission: ""
       pass:
-        type: DEEPSLATE_COAL_ORE
-        name: "&6The Darkened Vein"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: WHITE_BANNER
+        name: "&6The Banner's Call"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&716 White Banner|&6*&716 Omnious Banner|&6*&716 Light Gray Banner|&6*&716 Gray Banner|&6*&716 Black Banner|&6*&716 Brown Banner|&6*&716 Red Banner|&6*&716 Orange Banner|&6*&716 Yellow Banner|&6*&716 Lime Banner|&6*&716 Green Banner|&6*&716 Cyan Banner|&6*&716 Light Blue Banner|&6*&716 Magenta Banner|&6*&716 Purple Banner|&6*&716 Pink Banner"
         command: "warp q59"
         message: ""
         runas: player
     14:
       permission: ""
       pass:
-        type: DEEPSLATE_COPPER_ORE
-        name: "&6Beneath the Bedrock"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
+        name: "&6Echoes of the Anvil"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Coast Armor Trim Smithing Template|&6*&71 Dune Armor Trim Smithing Template|&6*&71 Eye Armor Trim Smithing Template|&6*&71 Host Armor Trim Smithing Template|&6*&71 Netherite Upgrade Smithing Template|&6*&71 Raiser Armor Trim Smithing Template|&6*&71 Rib Armor Trim Smithing Template|&6*&71 Sentry Armor Trim Smithing Template|&6*&71Shaper Armor Trim Smithing Template|&6*&71 Silence Armor Trim Smithing Template|&6*&71 Snout Armor Trim Smithing Template|&6*&71 Spire Armor Trim Smithing Template|&6*&71 Tide Armor Trim Smithing Template|&6*&71 Vex Armor Trim Smithing Template|&6*&71 Ward Armor Trim Smithing Template|&6*&71 Wayfinder Armor Trim Smithing Template|&6*&71 Wild Armor Trim Smithing Template"
         command: "warp q60"
         message: ""
         runas: player
     15:
       permission: ""
       pass:
-        type: DEEPSLATE_IRON_ORE
-        name: "&6Shadows and Steel"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: IRON_CHESTPLATE
+        name: "&6The Armorer's Ambition"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Shield|&6*&71 Diamond Horse Armor|&6*&71 Golden Horse Team|&6*&71 Iron Horse Armor|&6*&71 Leather Horse Armor|&6*&71 Diamond Helmet|&6*&71 Diamond Chestplate|&6*&71 Diamond Leggings|&6*&71 Diamond Boots|&6*&71 Golden Helmet|&6*&71 Golden Chestplate|&6*&71 Golden Leggings|&6*&71 Golden Boots|&6*&71 Iron Helmet|&6*&71 Iron Chestplate|&6*&71 Iron Leggings|&6*&71 Iron Boots|&6*&71 Leather Helmet|&6*&71 Leather Chestplate|&6*&71 Leather Leggings|&6*&71 Leather Boots|&6*&71 Netherite Helmet|&6*&71 Netherite Chestplate|&6*&71 Netherite Leggings|&6*&71 Netherite Boots|&6*&71 Turtle Helmet|&6*&78 Armor Stand""
         command: "warp q61"
         message: ""
         runas: player
     16:
       permission: ""
       pass:
-        type: DEEPSLATE_GOLD_ORE
-        name: "&6The Golden Depths"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: BUCKET
+        name: "&6Pails of Plenty"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Bucket|&6*&71 Bucket of Cod|&6*&71 Lava Bucket|&6*&71 Milk Bucket|&6*&71 Powder Snow Bucket|&6*&71 Bucket of Pufferfish|&6*&71 Bucket of Salmon|&6*&71 Bucket Tadpole|&6*&71 Water Bucket"
         command: "warp q62"
         message: ""
         runas: player
     17:
       permission: ""
       pass:
-        type: DEEPSLATE_REDSTONE_ORE
-        name: "&6The Redstone Enigma"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: FISHING_ROD
+        name: "&6Hook, Line, and Sinker"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Diamond Sword|&6*&71 Diamond Pickaxe|&6*&71 Diamond Axe|&6*&71 Diamond Shovel|&6*&71 Diamond|&6*&71 Emerald|&6*&71 Enderpeal|&6*&71 Gold Nugget|&6*&71 Iron Nugget|&6*&71 Music Disc Blocks|&6*&71 Music Disc Chirp|&6*&71 Music Disc Far|&6*&71 Music Disc Mall|&6*&71 Music Disc Mellohi|&6*&71 Music Disc Stal|&6*&71 |&6*&71 Music Disc Strad|&6*&71 Music Disc Ward|&6*&71 Nametag|&6*&71 Saddle|&6*&71 Blaze Rod|&6*&71 Ghast Tear|&6*&71 Lilypad|&6*&71 Ink Sac|&6*&71 Leather|&6*&71 String|&6*&71 Dirt|&6*&71 Sand"
         command: "warp q63"
         message: ""
         runas: player
@@ -1225,63 +1225,63 @@
     20:
       permission: ""
       pass:
-        type: DEEPSLATE_DIAMOND_ORE
-        name: "&6Shadows and Shimmer"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: STRIPPED_OAK_WOOD
+        name: "&6The Bare Bark Quest"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Stripped Acacia Wood|&6*&764 Stripped Mangrove Wood|&6*&764 Stripped Dark Oak Wood|&6*&764 Stripped Jungle Wood|&6*&764 Stripped Oak Wood|&6*&764 Stripped Spruce Wood|&6*&764 Stripped Cherry Wood|&6*&764 Stripped Mangrove Wood|&6*&764 Stripped Bamboo Block|&6*&764 Stripped Crimson Hyphae|&6*&764 Stripped Warped Hyphae"
         command: "warp q64"
         message: ""
         runas: player
     21:
       permission: ""
       pass:
-        type: DEEPSLATE_LAPIS_ORE
-        name: "&6The Deep Blue Mystery"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: CARVED_PUMPKIN
+        name: "&6The Gourd's Grin"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71,728 Carved Pumpkin"
         command: "warp q65"
         message: ""
         runas: player
     22:
       permission: ""
       pass:
-        type: STONE_BRICKS
-        name: "&6Beneath the Chisel"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: CHEST
+        name: "&6Echoes of the Eccentric"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&78 Nautilus Shell|&6*&764 Bricks|&6*&764 Nether Brick|&6*&78 Disc Fragment|&6*&764 Fire Charge|&6*&764 Glow Ink Sac|&6*&764 Shulker Shell|&6*&764 Slimeball"
         command: "warp q66"
         message: ""
         runas: player
     23:
       permission: ""
       pass:
-        type: COBBLESTONE
-        name: "&6From Rubble to Castle"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: BONE
+        name: "&6Collectibles: Bones"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Collectible Bone (Current Lore)"
         command: "warp q67"
         message: ""
         runas: player
     24:
       permission: ""
       pass:
-        type: NETHER_QUARTZ_ORE
-        name: "&6Flames of Fortune"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: OAK_SAPLING
+        name: "&6Collectibles: Saplings"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Acacia Sapling (Current Lore)|&6*&764 Birch Sapling (Current Lore)|&6*&764 Dark Oak Sapling (Current Lore)|&6*&764 Jungle Sapling (Current Lore)|&6*&764 Oak Sapling (Current Lore)|&6*&764 Spruce Sapling (Current Lore)|&6*&764 Cherry Sapling (Current Lore)|&6*&764 Mangrove Propagule (Current Lore)"
         command: "warp q68"
         message: ""
         runas: player
     25:
       permission: ""
       pass:
-        type: MAGMA_BLOCK
-        name: "&6The Molten Mission"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: OAK_LOG
+        name: "&6Collectibles: Logs"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Cherry Log (Current Lore)|&6*&764 Acacia Log (Current Lore)|&6*&764 Birch Log (Current Lore)|&6*&764 Dark Oak Log (Current Lore)|&6*&764 Jungle Log (Current Lore)|&6*&764 Oak Log (Current Lore)|&6*&764 Spruce Log (Current Lore)|&6*&764 Mangrove Log (Current Lore)"
         command: "warp q69"
         message: ""
         runas: player
     26:
       permission: ""
       pass:
-        type: NETHERRACK
-        name: "&6The Scarlet Excavation"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: MELON
+        name: "&6Collectibles: Melons"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Collectible Melon (Current Lore)"
         command: "warp q70"
         message: ""
         runas: player
@@ -1300,63 +1300,63 @@
     29:
       permission: ""
       pass:
-        type: CRIMSON_NYLIUM
-        name: "&6Echoes of the Crimson Forest"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: NETHER_QUARTZ
+        name: "&6Collectibles: Nether Quartz"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7|&6*&7128 Collectible Quartz (Current Lore)"
         command: "warp q71"
         message: ""
         runas: player
     30:
       permission: ""
       pass:
-        type: WARPED_NYLIUM
-        name: "&6Into the Warped Woods"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: DIRT
+        name: "&6Collectibles: Dirt"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7128 Collectible Dirt (Current Lore)"
         command: "warp q72"
         message: ""
         runas: player
     31:
       permission: ""
       pass:
-        type: SOUL_SAND
-        name: "&6The Whispering Dunes"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: CHORUS_PLANT
+        name: "&6Collectibles: Chorus Plant"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Collectible Chorus Plant (Current Lore)"
         command: "warp q73"
         message: ""
         runas: player
     32:
       permission: ""
       pass:
-        type: GLOWSTONE
-        name: "&6Glimmers in the Dark"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: CARROT
+        name: "&6Collectibles: Carrots"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Collectible Carrot (Current Lore)"
         command: "warp q74"
         message: ""
         runas: player
     33:
       permission: ""
       pass:
-        type: CRIMSON_STEM
-        name: "&6Echoes of Vermilion"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: WHEAT
+        name: "&6Collectibles: Wheat"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Collectible Wheat (Current Lore)"
         command: "warp q75"
         message: ""
         runas: player
     34:
       permission: ""
       pass:
-        type: WARPED_STEM
-        name: "&6Echoes of the Warped"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: RAW_IRON
+        name: "&6Collectibles: Raw Iron"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Collectible Raw Iron (Current Lore)"
         command: "warp q76"
         message: ""
         runas: player
     35:
       permission: ""
       pass:
-        type: SHROOMLIGHT
-        name: "&6Beneath the Fungal Glow"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: RAW_COPPER
+        name: "&6Collectibles: Raw Copper"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7256 Collectible Raw Copper (Current Lore)"
         command: "warp q77"
         message: ""
         runas: player		
@@ -1375,63 +1375,63 @@
     38:
       permission: ""
       pass:
-        type: NETHER_BRICKS
-        name: "&6The Infernal Forge"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: ARROW
+        name: "&6Collectibles: Arrows"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7576 Collectible Arrow (Current Lore)"
         command: "warp q78"
         message: ""
         runas: player	
     39:
       permission: ""
       pass:
-        type: CHORUS_FLOWER
-        name: "&6The Alien Bloom"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: LIME_STAINED_GLASS
+        name: "&6LimeLush Minigolf Set"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Front 9 Champion|&6*&71 Full Course Champion|&6*&71 Back 9 Champion"
         command: "warp q79"
         message: ""
         runas: player	
     40:
       permission: ""
       pass:
-        type: ENDER_PEARL
-        name: "&6The Pearls of Passage"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: ORANGE_CANDLE
+        name: "&6Halloween Mining Hunt (2023)"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Marshmallow Madness|&6*&71 Vanilla Chai|&6*&71 Rustic Rose Satin|&6*&71 Black Licorice|&6*&71 Red Cinnamon|&6*&71 Pumpkin Spice|&6*&71 Oatmeal Maple Crunch|&6*&71 Pistachio Latte|&6*&71 Roasted Pumpkin Seeds|&6*&71 Mountain Frost|&6*&71 Icicles Fragrance|&6*&71 Sweet Snow Fragrance|&6*&71 Pomegrante Cider|&6*&71 Purple Halloween|&6*&71 Sugar Plums|&6*&71 Butternut Pumpkin|&6*&71 Gingersnaps"
         command: "warp q80"
         message: ""
         runas: player	
     41:
       permission: ""
       pass:
-        type: ENDERCHEST
-        name: "&6Beyond the Portal"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: PUMPKIN_PIE
+        name: "&6Vote Shop (Fall 2023)"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Autumn Pumpkin Pie|&6*&764 Falling Leaves Firework (Burst)|&6*&764 Falling Leaves Firework (Creeper-shaped)|&6*&764 Falling Leaves Firework (Large Ball)|&6*&764 Falling Leaves Firework (Small Ball)|&6*&764 Falling Leaves Firework (Star-shaped)|&6*&71 Falling Azalea Leaves|&6*&71 Falling Cherry Leaves|&6*&71 Falling Flowering Azalea Leaves|&6*&71 Falling Acacia Leaves|&6*&71 Falling Birch Leaves|&6*&71 Falling Dark Oak Leaves|&6*&71 Falling Jungle Leaves|&6*&71 Falling Oak Leaves|&6*&71 Falling Spruce Leaves|&6*&71 Falling Mangrove Leaves|&6*&71 Brown Forest Mushroom|&6*&71 Brown Forest Mushroom (Red Mushroom Item)|&6*&71 Autumn Pumpkin|&6*&71 Autumn Pitcher Plant|&6*&71 Autumn Torchflower"
         command: "warp q81"
         message: ""
         runas: player	
     42:
       permission: ""
       pass:
-        type: PURPUR_BLOCK
-        name: "&6The Purple Path"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: SWEET_BERRIES
+        name: "&6Holiday feast (2023)"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Holiday Dipping Apple|&6*&71 Holiday Baked Potato|&6*&71 Holiday Beet Soup|&6*&71 Holiday Bread|&6*&71 Holiday Prime Rib Roast|&6*&71 Holiday Roasted Turkey|&6*&71 Holiday Roasted Cod|&6*&71 Holiday Roasted Lamb Chops|&6*&71 Holiday Roasted Pork Loin|&6*&71 Holiday Cookie|&6*&71 Holiday Mushroom Stew|&6*&71 Holiday Rabbit Stew|&6*&71 Holiday Cranberries|&6*&71 Holiday Cake|&6*&71 Holiday Golden Apples|&6*&71 Holiday Roasted Veggies"
         command: "warp q82"
         message: ""
         runas: player	
     43:
       permission: ""
       pass:
-        type: END_STONE
-        name: "&6The Void's Masonry"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: BLAZE_POWDER
+        name: "&6New Years Collection (2023)"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 New Years Firestarter|&6*&71 New Years Firework|&6*&71 New Year's Firework|&6*&71 New Years Firework Star|&6*&71 Tournament Ticket|&6*&71 New Years Roman Candle|&6*&71 New Years Red Sparkler|&6*&71 New Years Golden Bonfire|&6*&71 New Years Gunpowder|&6*&71 New Years Sparking Candle (Red)|&6*&71 New Years Sparking Candle (Orange)|&6*&71 New Years Sparking Candle (Yellow)|&6*&71 New Years Sparking Candle (Green)|&6*&71 New Years Sparking Candle (Blue)|&6*&71 New Years Sparking Candle (Purple)|&6*&71 New Years Lantern|&6*&71 New Years Blue Bonfire|&6*&71 New Years Lantern (Blue)|&6*&71 New Years Blue Sparkler|&6*&71 New Years Golden Sparkler"
         command: "warp q83"
         message: ""
         runas: player	
     44:
       permission: ""
       pass:
-        type: CANDLE
-        name: "&6The Waxen Whisper"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: CHICKEN_SPAWN_EGG
+        name: "&6Vanilla Spawn Eggs"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Allay Spawn Egg|&6*&71 Axolotl Spawn Egg|&6*&71 Chicken Spawn Egg|&6*&71 Creeper Spawn Egg|&6*&71 Donkey Spawn Egg|&6*&71 Ghast Spawn Egg|&6*&71 Horse Spawn Egg|&6*&71 Magma Cube Spawn Egg|&6*&71 Mooshroom Spawn Egg|&6*&71 Ocelot Spawn Egg|&6*&71 Phantom Spawn Egg|&6*&71 Piglin Spawn Egg|&6*&71 Polar Bear Spawn Egg|&6*&71 Pufferfish Spawn Egg|&6*&71 Rabbit Spawn Egg|&6*&71 Ravager Spawn Egg|&6*&71 Sheep Spawn Egg|&6*&71 Trader Llama Spawn Egg|&6*&71 Turtle Spawn Egg|&6*&71 Vindicator Spawn Egg|&6*&71 Wandering Trader Spawn Egg|&6*&71 Warden Spawn Egg|&6*&71 Witch Spawn Egg|&6*&71 Wither Skeleton Spawn Egg|&6*&71 Wolf Spawn Egg|&6*&71 Zoglin Spawn Egg|&6*&71 Zombie Villager Spawn Egg"
         command: "warp q84"
         message: ""
         runas: player			
@@ -1572,36 +1572,36 @@
     11:
       permission: ""
       pass:
-        type: DIAMOND_ORE
-        name: "&6The Diamond Depths"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: MUSIC_DISC_BLOCKS
+        name: "&6Music Discs"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Music Disc 11|&6*&71 Music Disc 5|&6*&71 Music Disc Blocks|&6*&71 Music Disc Chirp|&6*&71 Music Disc Far|&6*&71 Music Disc Mall|&6*&71 Music Disc Mellohi|&6*&71 Music Disc Otherside|&6*&71 Music Disc Pigstep|&6*&71 Music Disc Relic|&6*&71 Music Disc Stal|&6*&71 Music Disc Strad|&6*&71 Music Disc Wait|&6*&71 Music Disc Ward"
         command: "warp q85"
         message: ""
         runas: player
     12:
       permission: ""
       pass:
-        type: DEEPSLATE_EMERALD_ORE
-        name: "&6The Deep Green"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: COMMAND_BLOCK
+        name: "&6Star Machine Rares"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 End Portal Frame|&6*&71 Infested Chisled Stone Bricks|&6*&71 Infested Cracked Stone Bricks|&6*&71 Infested Mossy Stone Bricks|&6*&71 Infested Stone Bricks|&6*&71 Minecart with Command Block|&6*&71 Barrier|&6*&71 Bedrock|&6*&71 Budding Amethyst|&6*&71 Chain Command Block|&6*&71 Command Block|&6*&71 Creeper Head|&6*&71 Dirt Path|&6*&71 Dragon Head|&6*&71 Dragon Egg|&6*&71 Farmland|&6*&71 Frogspawn|&6*&71 Infested Cobblestone|&6*&71 Infested Deepslate|&6*&71 Infested Stone|&6*&71 Petrified Oak Slab|&6*&71 Piglin Head|&6*&71 Repeating Command Block|&6*&71 Structure Block|&6*&71 Structure Void|&6*&71 Wither Skeleton Skull"
         command: "warp q86"
         message: ""
         runas: player
     13:
       permission: ""
       pass:
-        type: DEEPSLATE_COAL_ORE
-        name: "&6The Darkened Vein"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: BARREL
+        name: "&6LushLand Pokemon Hunt"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Team Ender Veteran|&6*&71 Team Slime Veteran|&6*&71 Hunt Comparator|&6*&71 Hunt Dispenser|&6*&71 Hunt Barrel|&6*&71 Team Ender Member|&6*&71 Team GSquid Veteran|&6*&71 Team Slime Member|&6*&71 Hunt Dirt|&6*&71 Hunt Sand"
         command: "warp q87"
         message: ""
         runas: player
     14:
       permission: ""
       pass:
-        type: DEEPSLATE_COAL_ORE
-        name: "&6The Darkened Vein"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        type: JUNGLE_WOOD
+        name: "&6LushLand Pokemon Hunt Map Challenge"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 A Fragment From Hidden Paradise|&6*&71 A Fragment From Floating Forest|&6*&71 A Fragment From Arc Beach|&6*&71 A Fragment From Knife's Edge|&6*&71 A Fragment From Sharp Point|&6*&71 A Fragment From Flaming Rig|&6*&71 A Fragment From Wrecked Barge|&6*&71 A Fragment From Coral Town|&6*&71 A Fragment From Island Get-Away|&6*&71 A Fragment From Campfire Community|&6*&71 A Fragment From Omninous Essence|&6*&71 A Fragment From Erupting Ash|&6*&71 A Fragment From Overgrown Pass|&6*&71 A Fragment From Glowshroom Dunes|&6*&71 A Fragment From Astral Skies|&6*&71 A Fragment From Glacial Coast|&6*&71 A Fragment From Miasmic Atoll|&6*&71 A Fragment From Cresent Isle"
         command: "warp q88"
         message: ""
         runas: player
@@ -1610,7 +1610,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j89"
         message: ""
         runas: player
@@ -1619,7 +1619,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j90"
         message: ""
         runas: player
@@ -1628,7 +1628,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j91"
         message: ""
         runas: player
@@ -1649,7 +1649,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j92"
         message: ""
         runas: player
@@ -1658,7 +1658,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j93"
         message: ""
         runas: player
@@ -1667,7 +1667,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j94"
         message: ""
         runas: player
@@ -1676,7 +1676,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j95"
         message: ""
         runas: player
@@ -1685,7 +1685,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j96"
         message: ""
         runas: player
@@ -1694,7 +1694,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j97"
         message: ""
         runas: player
@@ -1703,7 +1703,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j98"
         message: ""
         runas: player
@@ -1724,7 +1724,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j99"
         message: ""
         runas: player
@@ -1733,7 +1733,7 @@
       pass:
         type: STRUCTURE_VOID
         name: "&a**Not Avaliable**"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no job here at this time|&cCheck back later!"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&cThere is no Quest here at this time|&cCheck back later!"
         command: "warp j100"
         message: ""
         runas: player
