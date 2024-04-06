@@ -225,7 +225,7 @@
     y: 69
     z: -11708
     actions:
-      - console msg {user} You have completed the &6Cerulean Mystery: Tracing the Lapis Trails&ffor &a50 Quest Points&f!	  
+      - console msg {user} You have completed the &6Cerulean Mystery: Tracing the Lapis Trails &ffor &a50 Quest Points&f!	  
 #The Diamond Depths  
   quest29:
     world: rising
@@ -532,7 +532,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Echoes of the Eccentric: Gathering the Odd and Unusual &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Echoes of the Eccentric: Gathering the Odd and Unusual &ffor &a75 Quest Points&f!
 #Special Items Quests
 #Collectibles: Bones  
   quest67:
@@ -637,7 +637,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6LimeLush Minigolf Set &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6LimeLush Minigolf Set &ffor &a100 Quest Points&f!
 #Halloween Mining Hunt (2023)  
   quest80:
     world: rising
@@ -645,7 +645,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Halloween Mining Hunt (2023) &ffor &a# Quest Points&f!
+      - console msg {user} You have completed the &6Halloween Mining Hunt (2023) &ffor &a100 Quest Points&f!
 #Vote Shop (Fall 2023)  
   quest81:
     world: rising
@@ -661,7 +661,7 @@
     y:
     z:
     actions:
-      - console msg {user} You have completed the &6Holiday feast (2023) &ffor &a100 Quest Points&f!
+      - console msg {user} You have completed the &6Holiday Feast (2023) &ffor &a100 Quest Points&f!
 #New Years Collection (2023)  
   quest83:
     world: rising

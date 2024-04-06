@@ -1,356 +1,858 @@
-Quest1: The Mangrove Expedition: Trail of the Sunken Roots
-Quest2: Echoes of the Abyss: The Temple Beneath the Waves
-Quest3: The Mudbrick Legacy: The Earthen Trail
-Quest4: The Bloom Below: Unearthing the Cave's Mystery
-Quest5: The Amethyst Enigma: Journey into the Geode
-Quest6: Beneath the Surface: The Deep Dark's Hidden Treasure
-Quest7: The Toadstool Trial: A Journey Through the Mushroom Vale
-Quest8: Petal and Leaf: The Garden of Secrets
-Quest9: The Sniffer's Secret: Quest for Ancient Sprouts
-Quest10: The Reef's Bounty: The Coral Reef Collection Quest
-Quest11: The Honeyed Harvest: A Beekeeper's Adventure 
-Quest12: Redstone Killer: The Bane of Skylexia
-Quest13: Craft, Cook, Create: A Toolkit in a Block
-Quest14: Nature's Pantry: The Uncooked Food Expedition
-Quest15: The Sizzling Secret: Uncovering the Art of Cooking
-Quest16: Beneath the Scorching Sun: A Tale of Thirst and Flora
-Quest17: The Mosaic of History: Piecing Together Pottery Tales
-Quest18: The Icicle's Edge: Harvesting the Winter's Bounty
-Quest19: The Alchemist's Errand: Quest for the Arcane Ingredients
-Quest20: The Path of Pebbles: The Cobblestone Slab Expedition
-Quest21: The Understone Expedition: Seeking Deepslate Slabs
-Quest22: The Green Gleam: Hunting for Emerald Depths
-Quest23: Veins of the Night: Searching for Coal Depths
-Quest24: The Copper Quest: Veins of the Ancient Metal
-Quest25: The Steelbound Seeker: Hunting the Iron Vein
-Quest26: Lure of the Lustrous: The Hunt for Gold
-Quest27: The Crimson Circuit: Secrets of the Redstone Ore
-Quest28: The Cerulean Mystery: Tracing the Lapis Trails
-Quest29: The Diamond Depths: Quest for the Heart of Brilliance
-Quest30: The Deep Green: Quest for Deepslate Emeralds
-Quest31: The Darkened Vein: Quest for the Deepslate Coal
-Quest32: Beneath the Bedrock: The Search for Deep Copper
-Quest33: Shadows and Steel: The Quest for Hidden Iron
-Quest34: The Golden Depths: Quest for the Veiled Riches
-Quest35: The Redstone Enigma: Uncovering the Bedrock's Pulse
-Quest36: Shadows and Shimmer: The Quest for Deep Diamonds
-Quest37: The Deep Blue Mystery: Tracing the Lapis Veins
-Quest38: Beneath the Chisel: Secrets of the Stone Masons
-Quest39: From Rubble to Castle: The Cobblestone Crafting Saga
-Quest40: Flames of Fortune: Seeking the Fiery Depths
-Quest41: The Molten Mission: Quest for the Liquid Fire
-Quest42: The Scarlet Excavation: Delving for Netherrack
-Quest43: Echoes of the Crimson Forest: The Nylium Trail
-Quest44: Into the Warped Woods: Seeking the Twisted Mycelium
-Quest45: The Whispering Dunes: Unearthing the Soul Sand
-Quest46: Glimmers in the Dark: The Quest for Glowstone
-Quest47: Echoes of Vermilion: The Crimson Stem Expedition
-Quest48: Echoes of the Warped: The Stem Collection Expedition
-Quest49: Beneath the Fungal Glow: Seeking the Light of Shrooms
-Quest50: The Infernal Forge: Netherbrick Creations Unveiled
-Quest51: The Alien Bloom: Seeking the Chorus Fruit
-Quest52: The Pearls of Passage: Quest for Ender Teleportation
-Quest53: Beyond the Portal: The End Resource Expedition
-Quest54: The Purple Path: Tracing the Origins of Purpur
-Quest55: The Void's Masonry: Crafting with Endstone
-Quest56: The Waxen Whisper: Quest for the Candlemaker's Secret
-Quest57: The Weaver's Palette: Crafting the Spectrum Carpet
-Quest58: Hues of Rest: Crafting the Spectrum Slumber
-Quest59: The Banner's Call: Quest for the Spectrum Standard
-Quest60: Echoes of the Anvil: The Template Treasure Hunt
-Quest61: The Armorer's Ambition: Quest for the Ultimate Set
-Quest62: Pails of Plenty: The Collection Crusade
-Quest63: Hook, Line, and Sinker: The Treasure Fishing Expedition
-Quest64: The Bare Bark Quest: Gathering Stripped Wood
-Quest65: The Gourd's Grin: Seeking the Art of Pumpkin Carving
-Quest66: Echoes of the Eccentric: Gathering the Odd and Unusual
-Quest67: Collectibles: Bones
-Quest68: Collectibles: Saplings
-Quest69: Collectibles: Logs
-Quest70: Collectibles: Melons
-Quest71: Collectibles: Nether Quartz
-Quest72: Collectibles: Dirt
-Quest73: Collectibles: Chorus Plant
-Quest74: Collectibles: Carrots
-Quest75: Collectibles: Wheat
-Quest76: Collectibles: Raw Iron
-Quest77: Collectibles: Raw Copper
-Quest78: Collectibles: Arrows
-Quest79: LimeLush Minigolf Set
-Quest80: Halloween Mining Hunt (2023)
-Quest81: Vote Shop (Fall 2023)
-Quest82: Holiday Feast (2023)
-Quest83: New Years Collection (2023)
-Quest84: Vanilla Spawn Eggs
-Quest85: Music Discs
-Quest86: Star Machine Rares
-Quest87: LushLand Pokemon Hunt
-Quest88: LushLand Pokemon Hunt Map Challenge
-job1:
+quest1:
   lines:
-  - '&b&lOak Woodworker!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&a&l*1 Nether Star*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lThe Mangrove Expedition'
+  - '&bTrail of the Sunken Roots'
+  - '&a&l40 Quest Points!'
   position:
     world: rising
-    x: -10561.5
-    y: 85
-    z: 4094
-job2:
+    x: 5826
+    y: 88
+    z: -11730
+quest2:
   lines:
-  - '&b&lCobblestone Miner!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lEchoes of the Abyss'
+  - '&bThe Temple Beneath the Waves'
+  - '&b75 Quest Points!'
   position:
     world: rising
-    x: -10579
-    y: 85
-    z: 4080.5
-job3:
+    x: 5790
+    y: 88
+    z: -11730
+quest3:
   lines:
-  - '&b&lRedstone Technician!'
-  - '&a&l*$2500 EcoDollars*'
-  - '&a&l*1 Nether Star*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lThe Mudbrick Legacy'
+  - '&bThe Earthen Trail'
+  - '&b25 Quest Points!'
   position:
     world: rising
-    x: -10586.5
-    y: 85
-    z: 4065
-job4:
+    x: 5785
+    y: 88
+    z: -11737
+quest4:
   lines:
-  - '&b&lWoodcutter!'
-  - '&a&l*$1100 EXP*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lThe Bloom Below'
+  - '&bUnearthing the Cave's Mystery'
+  - '&b50 Quest Points!'
   position:
     world: rising
-    x: -10589.5
-    y: 85
-    z: 4071
-job5:
+    x: 5783
+    y: 88
+    z: -11744
+quest5:
   lines:
-  - '&b&lGeode Miner!'
-  - '&a&l*16 Diamonds*'
-  - '&a&l*1 Nether Star*'  
-  - '&6&l*Every 2 Hours*'
+  - '&b&lThe Amethyst Enigma'
+  - '&bJourney into the Geode'
+  - '&a&l40 Quest Points!' 
   position:
     world: rising
-    x: -10599.5
-    y: 85
-    z: 4065
-job6:
+    x: 5782
+    y: 88
+    z: -11751
+quest6:
   lines:
-  - '&b&lStone Mason!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lBeneath the Surface'
+  - '&bThe Deep Dark's Hidden Treasure'
+  - '&a&l40 Quest Points!'  
   position:
     world: rising
     x: -10602.5
     y: 85
     z: 4071
-job7:
+quest7:
   lines:
-  - '&b&lArborist!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lToadstool Trial'
+  - '&bA Journey Through the Mushroom Vale'
+  - '&a&l50 Quest Points!'
   position:
     world: rising
     x: -10519
     y: 90
     z: 4011.5
-job8:
+quest8:
   lines:
-  - '&b&lDeepslate Miner!'
-  - '&a&l*2200 EXP*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lPetal and Leaf'
+  - '&bThe Garden of Secrets'
+  - '&a&l10 Quest Points!'
   position:
     world: rising
     x: -10507
     y: 90
     z: 4014.5
-job9:
+quest9:
   lines:
-  - '&b&lSandstone Miner!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lSniffer's Secret'
+  - '&bQuest for Ancient Sprouts'
+  - '&a&l100 Quest Points!'
   position:
     world: rising
     x: -10524.5
     y: 82
     z: 3989
-job10:
+quest10:
   lines:
-  - '&b&lIce Carver!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lReef's Bounty'
+  - '&bThe Coral Reef Collection'
+  - '&a&l75 Quest Points!'
   position:
     world: rising
     x: -10511.5
     y: 82
     z: 3989
-job11:
+quest11:
   lines:
-  - '&b&lStone Miner!'
-  - '&a&l*1100 EXP*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lHoneyed Harvest'
+  - '&bA Beekeeper's Adventure'
+  - '&a&l75 Quest Points!'
   position:
     world: rising
     x: -10498.5
     y: 82
     z: 3989
-job12:
+quest12:
   lines:
-  - '&b&lLeafblower!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&a&l*1 Nether Star*'  
-  - '&6&l*Every 2 Hours*'
+  - '&b&lRedstone Killer'
+  - '&bThe Bane of Skylexia'
+  - '&a&l75 Quest Points!'
   position:
     world: rising
     x: -10480.5
     y: 74
     z: 3987
-job13:
+quest13:
   lines:
-  - '&b&lTuff Miner!'
-  - '&a&l*2200 EXP*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lCraft, Cook, Create'
+  - '&bA Toolkit in a Block'
+  - '&a&l50 Quest Points!'
   position:
     world: rising
     x: -10467.5
     y: 71
     z: 3987
-job14:
+quest14:
   lines:
-  - '&b&lShroom Farmer!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&a&l*1 Nether Star*'   
-  - '&6&l*Every 2 Hours*'
+  - '&b&lNatures Pantry'
+  - '&bThe Uncooked Food Expedition'
+  - '&a&l75 Quest Points!'  
   position:
     world: rising
     x: -10461
     y: 71
     z: 3997.5
-job15:
+quest15:
   lines:
-  - '&b&lLilypad Hopper!'
-  - '&a&l*2200 EXP*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lSizzling Secret'
+  - '&bUncovering the Art of Cooking'
+  - '&a&l50 Quest Points!'
   position:
     world: rising
     x: -10479
     y: 82
     z: 4107.5
-job16:
+quest16:
   lines:
-  - '&b&lGritty Shoveler!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lBeneath the Scorching Sun'
+  - '&bA Tale of Thirst and Flora'
+  - '&a&l50 Quest Points!'
   position:
     world: rising
     x: -10468
     y: 71
     z: 4026.5
-job17:
+quest17:
   lines:
-  - '&b&lReef Specialist!'
-  - '&a&l*$2500 EcoDollars*'
-  - '&a&l*1 Nether Star*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lMosaic of History'
+  - '&bPiecing Together Pottery Tales'
+  - '&a&l100 Quest Points!'
   position:
     world: rising
     x: -10471.5
     y: 79
     z: 4122
-job18:
+quest18:
   lines:
-  - '&b&lPortal Hunter!'
-  - '&a&l*$2500 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lIcicles Edge'
+  - '&bHarvesting the Winter's Bounty'
+  - '&a&l40 Quest Points!'
   position:
     world: rising
     x: -10460.5
     y: 72
     z: 4092
-job19:
+quest19:
   lines:
-  - '&b&lKelpie!'
-  - '&a&l*2 Netherite Ingots*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lAlchemist's Errand'
+  - '&bQuest for the Arcane Ingredients'
+  - '&a&l75 Quest Points!'
   position:
     world: rising
     x: -10463.5
     y: 72
     z: 4098
-job20:
+quest20:
   lines:
-  - '&b&lTaiga Explorer!'
-  - '&a&l*$2500 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lPath of Pebbles'
+  - '&bThe Cobblestone Slab Expedition'
+  - '&a&l25 Quest Points!'
   position:
     world: rising
     x: -10448
     y: 71
     z: 4100.5
-job21:
+quest21:
   lines:
-  - '&b&lBamboo Crafter!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lUnderstone Expedition'
+  - '&bSeeking Deepslate Slabs'
+  - '&a&l25 Quest Points!'
   position:
     world: rising
     x: -10448
     y: 71
     z: 4087.5
-job22:
+quest22:
   lines:
-  - '&b&lSugarcane Farmer!'
-  - '&a&l*$1000 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lGreen Gleam'
+  - '&bHunting for Emerald Depths'
+  - '&a&l75 Quest Points!'
   position:
     world: rising
     x: -10433
     y: 67
     z: 4077.5     
-job23:
+quest23:
   lines:
-  - '&b&lDirt Digger!'
-  - '&a&l*$1500 EcoDollars*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lVeins of the Night'
+  - '&bSearching for Coal Depths'
+  - '&a&l50 Quest Points!'
   position:
     world: rising
     x: -10441.5
     y: 71
     z: 4111
-job24:
+quest24:
   lines:
-  - '&b&lCherry Enthusiast!'
-  - '&a&l*1100 EXP*'
-  - '&6&l*Every 2 Hours*'
+  - '&b&lCopper Quest'
+  - '&bVeins of the Ancient Metal'
+  - '&a&l50 Quest Points!'
   position:
     world: rising
     x: -10433
     y: 67
     z: 4103.5
-job25:
+quest25:
   lines:
-  - '&b&lMetals Miner!'
-  - '&a&l16 Diamonds*'
-  - '&a&l*1 Nether Star*'   
-  - '&6&l*Every 2 Hours*'
+  - '&b&lSteelbound Seeker'
+  - '&bHunting the Iron Vein'
+  - '&a&l50 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5  
+quest26:
+  lines:
+  - '&b&lLure of the Lustrous'
+  - '&bThe Hunt for Gold'
+  - '&a&l50 Quest Points!'   
   position:
     world: rising
     x: -10433
     y: 67
     z: 4090.5
-jobtut:
+quest27:
   lines:
-  - '&b&lJobs Tutorial!'
-  - '&a&l*Start here!*'
-  - '&6&l*1x Weekly*'
+  - '&b&lCrimson Circuit'
+  - '&bSecrets of the Redstone Ore'
+  - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10542.5
-    y: 88
-    z: 4081    
-  
+    x: -10433
+    y: 67
+    z: 4090.5
+quest28:
+  lines:
+  - '&b&lCerulean Mystery'
+  - '&bTracing the Lapis Trails'
+  - '&a&l50 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest29:
+  lines:
+  - '&b&lDiamond Depths'
+  - '&bQuest for the Heart of Brilliance'
+  - '&a&l50 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest30:
+  lines:
+  - '&b&lDeep Green'
+  - '&bQuest for Deepslate Emeralds'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest31:
+  lines:
+  - '&b&lDarkened Vein'
+  - '&bQuest for the Deepslate Coal'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest32:
+  lines:
+  - '&b&lBeneath the Bedrock'
+  - '&bThe Search for Deep Copper'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest33:
+  lines:
+  - '&b&lShadows and Steel'
+  - '&bThe Quest for Hidden Iron'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest34:
+  lines:
+  - '&b&lGolden Depths'
+  - '&bQuest for the Veiled Riches'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest35:
+  lines:
+  - '&b&lRedstone Enigma'
+  - '&bUncovering the Bedrock's Pulse'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest36:
+  lines:
+  - '&b&lShadows and Shimmer'
+  - '&bThe Quest for Deep Diamonds'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest37:
+  lines:
+  - '&b&lDeep Blue Mystery'
+  - '&bTracing the Lapis Veins'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest38:
+  lines:
+  - '&b&lBeneath the Chisel'
+  - '&bSecrets of the Stone Masons'
+  - '&a&l25 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest39:
+  lines:
+  - '&b&lFrom Rubble to Castle'
+  - '&bThe Cobblestone Crafting Saga'
+  - '&a&l25 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest40:
+  lines:
+  - '&b&lFlames of Fortune'
+  - '&bSeeking the Fiery Depths'
+  - '&a&l25 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest41:
+  lines:
+  - '&b&lMolten Mission'
+  - '&bQuest for the Liquid Fire'
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest42:
+  lines:
+  - '&b&lScarlet Excavation'
+  - '&bDelving for Netherrack'
+  - '&a&l5 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest43:
+  lines:
+  - '&b&lEchoes of the Crimson Forest'
+  - '&bThe Nylium Trail'
+  - '&a&l20 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest44:
+  lines:
+  - '&b&lInto the Warped Woods'
+  - '&bSeeking the Twisted Mycelium'
+  - '&a&l20 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest45:
+  lines:
+  - '&b&lWhispering Dunes'
+  - '&bUnearthing the Soul Sand'
+  - '&a&l5 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest46:
+  lines:
+  - '&b&lGlimmers in the Dark'
+  - '&bThe Quest for Glowstone'
+  - '&a&l5 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest47:
+  lines:
+  - '&b&lEchoes of Vermilion'
+  - '&bThe Crimson Stem Expedition'
+  - '&a&l25 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest48:
+  lines:
+  - '&b&lEchoes of the Warped'
+  - '&bThe Stem Collection Expedition'
+  - '&a&l25 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest49:
+  lines:
+  - '&b&lBeneath the Fungal Glow'
+  - '&bSeeking the Light of Shrooms'
+  - '&a&l35 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest50:
+  lines:
+  - '&b&lInfernal Forge'
+  - '&bNetherbrick Creations Unveiled'
+  - '&a&l25 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest51:
+  lines:
+  - '&b&lAlien Bloom'
+  - '&bSeeking the Chorus Fruit'
+  - '&a&l50 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest52:
+  lines:
+  - '&b&lPearls of Passage'
+  - '&bQuest for Ender Teleportation'
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest53:
+  lines:
+  - '&b&lBeyond the Portal'
+  - '&bThe End Resource Expedition'
+  - '&a&l75 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest54:
+  lines:
+  - '&b&lPurple Path'
+  - '&bTracing the Origins of Purpur'
+  - '&a&l50 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest55:
+  lines:
+  - '&b&lVoid's Masonry'
+  - '&b16 Diamonds*'
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest56:
+  lines:
+  - '&b&lWaxen Whisper'
+  - '&bQuest for the Candlemaker's Secret'
+  - '&a&l75 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest57:
+  lines:
+  - '&b&lWeaver's Palette'
+  - '&bCrafting the Spectrum Carpet'
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest58:
+  lines:
+  - '&b&lHues of Rest'
+  - '&bCrafting the Spectrum Slumber'
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest59:
+  lines:
+  - '&b&lBanner's Call'
+  - '&bQuest for the Spectrum Standard'
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest60:
+  lines:
+  - '&b&lEchoes of the Anvil'
+  - '&bThe Template Treasure Hunt'
+  - '&a&l75 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest61:
+  lines:
+  - '&b&lArmorer's Ambition'
+  - '&bQuest for the Ultimate Set'
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest62:
+  lines:
+  - '&b&lPails of Plenty'
+  - '&bThe Collection Crusade'
+  - '&a&l60 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest63:
+  lines:
+  - '&b&lHook, Line, and Sinker'
+  - '&bThe Treasure Fishing Expedition'
+  - '&a&l75 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest64:
+  lines:
+  - '&b&lBare Bark Quest'
+  - '&bGathering Stripped Wood '
+  - '&a&l40 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest65:
+  lines:
+  - '&b&lGourd's Grin'
+  - '&bSeeking the Art of Pumpkin Carving'
+  - '&a&l75 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest66:
+  lines:
+  - '&b&lEchoes of the Eccentric'
+  - '&bGathering the Odd and Unusual'
+  - '&a&l75 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest67:
+  lines:
+  - '&b&lCollectibles: Bones'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest68:
+  lines:
+  - '&b&lCollectibles: Saplings'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest69:
+  lines:
+  - '&b&lCollectibles: Logs'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest70:
+  lines:
+  - '&b&lCollectibles: Melons'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest71:
+  lines:
+  - '&b&lCollectibles: Nether Quartz'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest72:
+  lines:
+  - '&b&lCollectibles: Dirt'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest73:
+  lines:
+  - '&b&lCollectibles: Chorus Plant'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest74:
+  lines:
+  - '&b&lCollectibles: Carrots'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest75:
+  lines:
+  - '&b&lCollectibles: Wheat'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest76:
+  lines:
+  - '&b&lCollectibles: Raw Iron'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest77:
+  lines:
+  - '&b&lCollectibles: Raw Copper'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest78:
+  lines:
+  - '&b&lCollectibles: Arrows'
+  - '&a&l200 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest79:
+  lines:
+  - '&b&lLimeLush Minigolf Set'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest80:
+  lines:
+  - '&b&lHalloween Mining Hunt (2023)'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest81:
+  lines:
+  - '&b&lVote Shop (Fall 2023)'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest82:
+  lines:
+  - '&b&lHoliday Feast (2023)'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest83:
+  lines:
+  - '&b&lNew Years Collection (2023)'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest84:
+  lines:
+  - '&b&lVanilla Spawn Eggs'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest85:
+  lines:
+  - '&b&lMusic Discs'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest86:
+  lines:
+  - '&b&lStar Machine Rares'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest87:
+  lines:
+  - '&b&lLushLand Pokemon Hunt'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5
+quest88:
+  lines:
+  - '&b&lLushLand Pokemon Hunt Map Challenge'
+  - '&a&l100 Quest Points!'   
+  position:
+    world: rising
+    x: -10433
+    y: 67
+    z: 4090.5	
