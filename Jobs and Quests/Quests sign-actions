@@ -528,9 +528,9 @@
 #Echoes of the Eccentric  
   quest66:
     world: rising
-    x:
-    y:
-    z:
+    x: 5818
+    y: 68
+    z: -11679
     actions:
       - console msg {user} You have completed the &6Echoes of the Eccentric: Gathering the Odd and Unusual &ffor &a75 Quest Points&f!
 #Special Items Quests
@@ -538,176 +538,176 @@
   quest67:
     world: rising
     x: 5818
-    y: 68
-    z: -11679
+    y: 84
+    z: -11696
     actions:
       - console msg {user} You have completed the &6Collectibles: Bones &ffor &a200 Quest Points&f!
 #Collectibles: Saplings  
   quest68:
     world: rising
-    x:
-    y:
-    z:
+    x: 5827
+    y: 84
+    z: -11703
     actions:
       - console msg {user} You have completed the &6Collectibles: Saplings &ffor &a200 Quest Points&f!
 #Collectibles: Logs  
   quest69:
     world: rising
-    x:
-    y:
-    z:
+    x: 5835
+    y: 84
+    z: -11704
     actions:
       - console msg {user} You have completed the &6Collectibles: Logs &ffor &a200 Quest Points&f!
 #Collectibles: Melons  
   quest70:
     world: rising
-    x:
-    y:
-    z:
+    x: 5843
+    y: 84
+    z: -11703
     actions:
       - console msg {user} You have completed the &6Collectibles: Melons &ffor &a200 Quest Points&f!
 #Collectibles: Nether Quartz  
   quest71:
     world: rising
-    x:
-    y:
-    z:
+    x: 5857
+    y: 84
+    z: -11703
     actions:
       - console msg {user} You have completed the &6Collectibles: Nether Quartz &ffor &a200 Quest Points&f!
 #Collectibles: Dirt  
   quest72:
     world: rising
-    x:
-    y:
-    z:
+    x: 5864
+    y: 84
+    z: -11704
     actions:
       - console msg {user} You have completed the &6Collectibles: Dirt &ffor &a200 Quest Points&f!
 #Collectibles: Chorus Plant  
   quest73:
     world: rising
-    x:
-    y:
-    z:
+    x: 5871
+    y: 84
+    z: -11703
     actions:
       - console msg {user} You have completed the &6Collectibles: Chorus Plant &ffor &a200 Quest Points&f!
 #Collectibles: Carrots  
   quest74:
     world: rising
-    x:
-    y:
-    z:
+    x: 5882
+    y: 84
+    z: -11692
     actions:
       - console msg {user} You have completed the &6Collectibles: Carrots &ffor &a200 Quest Points&f!
 #Collectibles: Wheat  
   quest75:
     world: rising
-    x:
-    y:
-    z:
+    x: 5883
+    y: 84
+    z: -11685
     actions:
       - console msg {user} You have completed the &6Collectibles: Wheat &ffor &a200 Quest Points&f!
 #Collectibles: Raw Iron  
   quest76:
     world: rising
-    x:
-    y:
-    z:
+    x: 5882
+    y: 84
+    z: -11678
     actions:
       - console msg {user} You have completed the &6Collectibles: Raw Iron &ffor &a200 Quest Points&f!
 #Collectibles: Raw Copper  
   quest77:
     world: rising
-    x:
-    y:
-    z:
+    x: 5871
+    y: 84
+    z: -11667
     actions:
       - console msg {user} You have completed the &6Collectibles: Raw Copper &ffor &a200 Quest Points&f!
 #Collectibles: Arrows  
   quest78:
     world: rising
-    x:
-    y:
-    z:
+    x: 5864
+    y: 84
+    z: -11666
     actions:
       - console msg {user} You have completed the &6Collectibles: Arrows &ffor &a200 Quest Points&f!
 #LimeLush Minigolf  
   quest79:
     world: rising
-    x:
-    y:
-    z:
+    x: 5857
+    y: 84
+    z: -11667
     actions:
       - console msg {user} You have completed the &6LimeLush Minigolf Set &ffor &a100 Quest Points&f!
 #Halloween Mining Hunt (2023)  
   quest80:
     world: rising
-    x:
-    y:
-    z:
+    x: 5843
+    y: 84
+    z: -11667
     actions:
       - console msg {user} You have completed the &6Halloween Mining Hunt (2023) &ffor &a100 Quest Points&f!
 #Vote Shop (Fall 2023)  
   quest81:
     world: rising
-    x:
-    y:
-    z:
+    x: 5835
+    y: 84
+    z: -11665
     actions:
       - console msg {user} You have completed the &6Vote Shop (Fall 2023) &ffor &a100 Quest Points&f!
 #Holiday Feast (2023)  
   quest82:
     world: rising
-    x:
-    y:
-    z:
+    x: 5827
+    y: 84
+    z: -11667
     actions:
       - console msg {user} You have completed the &6Holiday Feast (2023) &ffor &a100 Quest Points&f!
 #New Years Collection (2023)  
   quest83:
     world: rising
-    x:
-    y:
-    z:
+    x: 5818
+    y: 84
+    z: -11674
     actions:
       - console msg {user} You have completed the &6New Years Collection (2023) &ffor &a100 Quest Points&f!
 #Vanilla Spawn Eggs  
   quest84:
     world: rising
-    x:
-    y:
-    z:
+    x: 5858
+    y: 79
+    z: -11696
     actions:
       - console msg {user} You have completed the &6Vanilla Spawn Eggs &ffor &a100 Quest Points&f!
 #Music Discs  
   quest85:
     world: rising
-    x:
-    y:
-    z:
+    x: 5866
+    y: 79
+    z: -11693
     actions:
       - console msg {user} You have completed the &6Music Discs &ffor &a100 Quest Points&f!
 #Star Machine Rares  
   quest86:
     world: rising
-    x:
-    y:
-    z:
+    x: 5872
+    y: 79
+    z: -11685
     actions:
       - console msg {user} You have completed the &6Star Machine Rares &ffor &a100 Quest Points&f!
 #Lushland Pokemon Hunt  
   quest87:
     world: rising
-    x:
-    y:
-    z:
+    x: 5866
+    y: 79
+    z: -11677
     actions:
       - console msg {user} You have completed the &6LushLand Pokemon Hunt &ffor &a100 Quest Points&f!
 #Pokemon Hunt Map Challenge  
   quest88:
     world: rising
-    x:
-    y:
-    z:
+    x: 5858
+    y: 79
+    z: -11674
     actions:
       - console msg {user} You have completed the &6LushLand Pokemon Hunt Map Challenge &ffor &a100 Quest Points&f!
 

@@ -55,9 +55,9 @@ quest6:
   - '&a&l40 Quest Points!'  
   position:
     world: rising
-    x: -10602.5
-    y: 85
-    z: 4071
+    x: 5783
+    y: 88
+    z: -11758
 quest7:
   lines:
   - '&b&lToadstool Trial'
@@ -65,9 +65,9 @@ quest7:
   - '&a&l50 Quest Points!'
   position:
     world: rising
-    x: -10519
-    y: 90
-    z: 4011.5
+    x: 5785
+    y: 88
+    z: -11765
 quest8:
   lines:
   - '&b&lPetal and Leaf'
@@ -75,29 +75,29 @@ quest8:
   - '&a&l10 Quest Points!'
   position:
     world: rising
-    x: -10507
-    y: 90
-    z: 4014.5
+    x: 5790
+    y: 88
+    z: -11772
 quest9:
   lines:
-  - '&b&lSniffer's Secret'
+  - '&b&lSniffers Secret'
   - '&bQuest for Ancient Sprouts'
   - '&a&l100 Quest Points!'
   position:
     world: rising
-    x: -10524.5
-    y: 82
-    z: 3989
+    x: 5794
+    y: 88
+    z: -11774
 quest10:
   lines:
-  - '&b&lReef's Bounty'
+  - '&b&lReefs Bounty'
   - '&bThe Coral Reef Collection'
   - '&a&l75 Quest Points!'
   position:
     world: rising
-    x: -10511.5
-    y: 82
-    z: 3989
+    x: 5801
+    y: 88
+    z: -11776
 quest11:
   lines:
   - '&b&lHoneyed Harvest'
@@ -105,9 +105,9 @@ quest11:
   - '&a&l75 Quest Points!'
   position:
     world: rising
-    x: -10498.5
-    y: 82
-    z: 3989
+    x: 5808
+    y: 88
+    z: -11777
 quest12:
   lines:
   - '&b&lRedstone Killer'
@@ -115,9 +115,9 @@ quest12:
   - '&a&l75 Quest Points!'
   position:
     world: rising
-    x: -10480.5
-    y: 74
-    z: 3987
+    x: 5815
+    y: 88
+    z: -11776
 quest13:
   lines:
   - '&b&lCraft, Cook, Create'
@@ -125,9 +125,9 @@ quest13:
   - '&a&l50 Quest Points!'
   position:
     world: rising
-    x: -10467.5
-    y: 71
-    z: 3987
+    x: 5822
+    y: 88
+    z: -11774
 quest14:
   lines:
   - '&b&lNatures Pantry'
@@ -135,9 +135,9 @@ quest14:
   - '&a&l75 Quest Points!'  
   position:
     world: rising
-    x: -10461
-    y: 71
-    z: 3997.5
+    x: 5826
+    y: 88
+    z: -11772
 quest15:
   lines:
   - '&b&lSizzling Secret'
@@ -145,9 +145,9 @@ quest15:
   - '&a&l50 Quest Points!'
   position:
     world: rising
-    x: -10479
-    y: 82
-    z: 4107.5
+    x: 5831
+    y: 88
+    z: -11765
 quest16:
   lines:
   - '&b&lBeneath the Scorching Sun'
@@ -155,9 +155,9 @@ quest16:
   - '&a&l50 Quest Points!'
   position:
     world: rising
-    x: -10468
-    y: 71
-    z: 4026.5
+    x: 5833
+    y: 88
+    z: -11758
 quest17:
   lines:
   - '&b&lMosaic of History'
@@ -165,9 +165,9 @@ quest17:
   - '&a&l100 Quest Points!'
   position:
     world: rising
-    x: -10471.5
-    y: 79
-    z: 4122
+    x: 5834
+    y: 88
+    z: -11751
 quest18:
   lines:
   - '&b&lIcicles Edge'
@@ -175,9 +175,9 @@ quest18:
   - '&a&l40 Quest Points!'
   position:
     world: rising
-    x: -10460.5
-    y: 72
-    z: 4092
+    x: 5833
+    y: 88
+    z: -11744
 quest19:
   lines:
   - '&b&lAlchemist's Errand'
@@ -185,9 +185,9 @@ quest19:
   - '&a&l75 Quest Points!'
   position:
     world: rising
-    x: -10463.5
-    y: 72
-    z: 4098
+    x: 5831
+    y: 88
+    z: -11737
 quest20:
   lines:
   - '&b&lPath of Pebbles'
@@ -195,9 +195,9 @@ quest20:
   - '&a&l25 Quest Points!'
   position:
     world: rising
-    x: -10448
-    y: 71
-    z: 4100.5
+    x: 5761
+    y: 70
+    z: -11683
 quest21:
   lines:
   - '&b&lUnderstone Expedition'
@@ -205,9 +205,9 @@ quest21:
   - '&a&l25 Quest Points!'
   position:
     world: rising
-    x: -10448
-    y: 71
-    z: 4087.5
+    x: 5755
+    y: 70
+    z: -11681
 quest22:
   lines:
   - '&b&lGreen Gleam'
@@ -215,9 +215,9 @@ quest22:
   - '&a&l75 Quest Points!'
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4077.5     
+    x: 5776
+    y: 70
+    z: -11703     
 quest23:
   lines:
   - '&b&lVeins of the Night'
@@ -225,9 +225,9 @@ quest23:
   - '&a&l50 Quest Points!'
   position:
     world: rising
-    x: -10441.5
-    y: 71
-    z: 4111
+    x: 5749
+    y: 70
+    z: -11681
 quest24:
   lines:
   - '&b&lCopper Quest'
@@ -235,9 +235,9 @@ quest24:
   - '&a&l50 Quest Points!'
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4103.5
+    x: 5742
+    y: 70
+    z: -11683
 quest25:
   lines:
   - '&b&lSteelbound Seeker'
@@ -245,9 +245,9 @@ quest25:
   - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5  
+    x: 5735
+    y: 70
+    z: -11687
 quest26:
   lines:
   - '&b&lLure of the Lustrous'
@@ -255,9 +255,9 @@ quest26:
   - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5734
+    y: 70
+    z: -11688
 quest27:
   lines:
   - '&b&lCrimson Circuit'
@@ -265,9 +265,9 @@ quest27:
   - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5730
+    y: 70
+    z: -11695
 quest28:
   lines:
   - '&b&lCerulean Mystery'
@@ -275,9 +275,9 @@ quest28:
   - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5728
+    y: 70
+    z: -11702
 quest29:
   lines:
   - '&b&lDiamond Depths'
@@ -285,9 +285,9 @@ quest29:
   - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5728
+    y: 70
+    z: -11708
 quest30:
   lines:
   - '&b&lDeep Green'
@@ -295,9 +295,9 @@ quest30:
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5730
+    y: 70
+    z: -11715
 quest31:
   lines:
   - '&b&lDarkened Vein'
@@ -305,9 +305,9 @@ quest31:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5734
+    y: 70
+    z: -11722
 quest32:
   lines:
   - '&b&lBeneath the Bedrock'
@@ -315,9 +315,9 @@ quest32:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5735
+    y: 68
+    z: -11723
 quest33:
   lines:
   - '&b&lShadows and Steel'
@@ -325,9 +325,9 @@ quest33:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5742
+    y: 70
+    z: -11727
 quest34:
   lines:
   - '&b&lGolden Depths'
@@ -335,9 +335,9 @@ quest34:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5749
+    y: 70
+    z: -11729
 quest35:
   lines:
   - '&b&lRedstone Enigma'
@@ -345,9 +345,9 @@ quest35:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5755
+    y: 70
+    z: -11729
 quest36:
   lines:
   - '&b&lShadows and Shimmer'
@@ -355,9 +355,9 @@ quest36:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5762
+    y: 70
+    z: -11727
 quest37:
   lines:
   - '&b&lDeep Blue Mystery'
@@ -365,9 +365,9 @@ quest37:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5769
+    y: 70
+    z: -11723
 quest38:
   lines:
   - '&b&lBeneath the Chisel'
@@ -375,9 +375,9 @@ quest38:
   - '&a&l25 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5771
+    y: 70
+    z: -11719
 quest39:
   lines:
   - '&b&lFrom Rubble to Castle'
@@ -385,9 +385,9 @@ quest39:
   - '&a&l25 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5776
+    y: 70
+    z: -11708
 quest40:
   lines:
   - '&b&lFlames of Fortune'
@@ -395,9 +395,9 @@ quest40:
   - '&a&l25 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5735
+    y: 84
+    z: -11656
 quest41:
   lines:
   - '&b&lMolten Mission'
@@ -405,9 +405,9 @@ quest41:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5728
+    y: 84
+    z: -11653
 quest42:
   lines:
   - '&b&lScarlet Excavation'
@@ -415,9 +415,9 @@ quest42:
   - '&a&l5 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5725
+    y: 84
+    z: -11648
 quest43:
   lines:
   - '&b&lEchoes of the Crimson Forest'
@@ -425,9 +425,9 @@ quest43:
   - '&a&l20 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5724
+    y: 84
+    z: -11641
 quest44:
   lines:
   - '&b&lInto the Warped Woods'
@@ -435,9 +435,9 @@ quest44:
   - '&a&l20 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5725
+    y: 84
+    z: -11634
 quest45:
   lines:
   - '&b&lWhispering Dunes'
@@ -445,9 +445,9 @@ quest45:
   - '&a&l5 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5732
+    y: 84
+    z: -11627
 quest46:
   lines:
   - '&b&lGlimmers in the Dark'
@@ -455,9 +455,9 @@ quest46:
   - '&a&l5 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5739
+    y: 84
+    z: -11626
 quest47:
   lines:
   - '&b&lEchoes of Vermilion'
@@ -465,9 +465,9 @@ quest47:
   - '&a&l25 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5746
+    y: 84
+    z: -11627
 quest48:
   lines:
   - '&b&lEchoes of the Warped'
@@ -475,9 +475,9 @@ quest48:
   - '&a&l25 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5753
+    y: 84
+    z: -11634
 quest49:
   lines:
   - '&b&lBeneath the Fungal Glow'
@@ -485,9 +485,9 @@ quest49:
   - '&a&l35 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5754
+    y: 84
+    z: -11641
 quest50:
   lines:
   - '&b&lInfernal Forge'
@@ -495,9 +495,9 @@ quest50:
   - '&a&l25 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5753
+    y: 84
+    z: -11648
 quest51:
   lines:
   - '&b&lAlien Bloom'
@@ -505,9 +505,9 @@ quest51:
   - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5779
+    y: 99
+    z: -11604
 quest52:
   lines:
   - '&b&lPearls of Passage'
@@ -515,9 +515,9 @@ quest52:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5775
+    y: 99
+    z: -11598
 quest53:
   lines:
   - '&b&lBeyond the Portal'
@@ -525,9 +525,9 @@ quest53:
   - '&a&l75 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5774
+    y: 99
+    z: -11590
 quest54:
   lines:
   - '&b&lPurple Path'
@@ -535,9 +535,9 @@ quest54:
   - '&a&l50 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5775
+    y: 99
+    z: -11584
 quest55:
   lines:
   - '&b&lVoid's Masonry'
@@ -545,19 +545,19 @@ quest55:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5782
+    y: 99
+    z: -11577
 quest56:
   lines:
   - '&b&lWaxen Whisper'
-  - '&bQuest for the Candlemaker's Secret'
+  - '&bQuest for the Candlemakers Secret'
   - '&a&l75 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5822
+    y: 69
+    z: -11664
 quest57:
   lines:
   - '&b&lWeaver's Palette'
@@ -565,9 +565,9 @@ quest57:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5829
+    y: 69
+    z: -11658
 quest58:
   lines:
   - '&b&lHues of Rest'
@@ -575,9 +575,9 @@ quest58:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5836
+    y: 69
+    z: -11657
 quest59:
   lines:
   - '&b&lBanner's Call'
@@ -585,9 +585,9 @@ quest59:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5843
+    y: 69
+    z: -11658
 quest60:
   lines:
   - '&b&lEchoes of the Anvil'
@@ -595,9 +595,9 @@ quest60:
   - '&a&l75 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5850
+    y: 69
+    z: -11665
 quest61:
   lines:
   - '&b&lArmorer's Ambition'
@@ -605,9 +605,9 @@ quest61:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5851
+    y: 69
+    z: -11673
 quest62:
   lines:
   - '&b&lPails of Plenty'
@@ -615,9 +615,9 @@ quest62:
   - '&a&l60 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5850
+    y: 69
+    z: -11679
 quest63:
   lines:
   - '&b&lHook, Line, and Sinker'
@@ -625,9 +625,9 @@ quest63:
   - '&a&l75 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5843
+    y: 69
+    z: -11686
 quest64:
   lines:
   - '&b&lBare Bark Quest'
@@ -635,9 +635,9 @@ quest64:
   - '&a&l40 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5836
+    y: 69
+    z: -11687
 quest65:
   lines:
   - '&b&lGourd's Grin'
@@ -645,9 +645,9 @@ quest65:
   - '&a&l75 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5829
+    y: 69
+    z: -11686
 quest66:
   lines:
   - '&b&lEchoes of the Eccentric'
@@ -655,204 +655,204 @@ quest66:
   - '&a&l75 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5822
+    y: 69
+    z: -11679
 quest67:
   lines:
   - '&b&lCollectibles: Bones'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5822
+    y: 85
+    z: -11696
 quest68:
   lines:
   - '&b&lCollectibles: Saplings'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5827
+    y: 85
+    z: -11699
 quest69:
   lines:
   - '&b&lCollectibles: Logs'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5835
+    y: 85
+    z: -11700
 quest70:
   lines:
   - '&b&lCollectibles: Melons'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5843
+    y: 85
+    z: -11699
 quest71:
   lines:
   - '&b&lCollectibles: Nether Quartz'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5857
+    y: 85
+    z: -11699
 quest72:
   lines:
   - '&b&lCollectibles: Dirt'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5864
+    y: 85
+    z: -11700
 quest73:
   lines:
   - '&b&lCollectibles: Chorus Plant'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5871
+    y: 85
+    z: -11699
 quest74:
   lines:
   - '&b&lCollectibles: Carrots'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5878
+    y: 85
+    z: -11692
 quest75:
   lines:
   - '&b&lCollectibles: Wheat'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5879
+    y: 85
+    z: -11685
 quest76:
   lines:
   - '&b&lCollectibles: Raw Iron'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5878
+    y: 85
+    z: -11678
 quest77:
   lines:
   - '&b&lCollectibles: Raw Copper'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5871
+    y: 85
+    z: -11671
 quest78:
   lines:
   - '&b&lCollectibles: Arrows'
   - '&a&l200 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5864
+    y: 85
+    z: -11670
 quest79:
   lines:
   - '&b&lLimeLush Minigolf Set'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5857
+    y: 85
+    z: -11671
 quest80:
   lines:
   - '&b&lHalloween Mining Hunt (2023)'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5843
+    y: 85
+    z: -11671
 quest81:
   lines:
   - '&b&lVote Shop (Fall 2023)'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5835
+    y: 85
+    z: -11669
 quest82:
   lines:
   - '&b&lHoliday Feast (2023)'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5827
+    y: 85
+    z: -11671
 quest83:
   lines:
   - '&b&lNew Years Collection (2023)'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5822
+    y: 85
+    z: -11674
 quest84:
   lines:
   - '&b&lVanilla Spawn Eggs'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5858
+    y: 80
+    z: -11692
 quest85:
   lines:
   - '&b&lMusic Discs'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5866
+    y: 80
+    z: -11689
 quest86:
   lines:
   - '&b&lStar Machine Rares'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5868
+    y: 80
+    z: -11685
 quest87:
   lines:
   - '&b&lLushLand Pokemon Hunt'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5
+    x: 5866
+    y: 80
+    z: -11681
 quest88:
   lines:
   - '&b&lLushLand Pokemon Hunt Map Challenge'
   - '&a&l100 Quest Points!'   
   position:
     world: rising
-    x: -10433
-    y: 67
-    z: 4090.5	
+    x: 5858
+    y: 80
+    z: -11678	
