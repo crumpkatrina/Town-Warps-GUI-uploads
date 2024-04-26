@@ -1,368 +1,361 @@
-#Quests Input Kits
-#Overworld Quests
-#Mangrove Expedition
+#Quests Output Kits
+ #Overworld Quests
+  #Mangrove Expedition
   quest1:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Echoes of the Abyss
+      - SHULKER_BOX 1
+  #Echoes of the Abyss
   quest2:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Mudbrick Legacy
+      - SHULKER_BOX 1
+  #Mudbrick Legacy
   quest3:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Bloom Below
+      - SHULKER_BOX 1
+  #The Bloom Below
   quest4:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Amethyst Enigma
+      - SHULKER_BOX 1
+  #The Amethyst Enigma
   quest5:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Beneath the Surface
+      - SHULKER_BOX 1
+  #Beneath the Surface
   quest6:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Toadstool Trial
+      - SHULKER_BOX 1
+  #Toadstool Trial
   quest7:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Petal and Leaf
+      - SHULKER_BOX 1
+  #Petal and Leaf
   quest8:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Sniffer's Secret
+      - SHULKER_BOX 1
+  #The Sniffer's Secret
   quest9:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Reef's Bounty
+      - SHULKER_BOX 1
+  #The Reef's Bounty
   quest10:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Honeyed Harvest
+      - SHULKER_BOX 1
+  #The Honeyed Harvest
   quest11:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Redstone Killer
+      - SHULKER_BOX 1
+  #Redstone Killer
   quest12:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Craft, Cook, Create
+      - SHULKER_BOX 1
+  #Craft, Cook, Create
   quest13:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Nature's Pantry
+      - SHULKER_BOX 1
+  #Nature's Pantry
   quest14:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Sizzling Secret
+      - SHULKER_BOX 1
+  #The Sizzling Secret
   quest15:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Beneath the Scorching Sun
+      - SHULKER_BOX 1
+  #Beneath the Scorching Sun
   quest16:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Mosaic of History
+      - SHULKER_BOX 1
+  #The Mosaic of History
   quest17:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Icicle's Edge
+      - SHULKER_BOX 1
+  #The Icicle's Edge
   quest18:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Alchemist's Errand
+      - SHULKER_BOX 1
+  #The Alchemist's Errand
   quest19:
     items:
-      - BIG_DRIPLEAF_STEM 1
-
-#Mining Quests
-#The Path of Pebbles
+      - SHULKER_BOX 1
+ #Mining Quests
+  #The Path of Pebbles
   quest20:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Understone Expedition
+      - SHULKER_BOX 1
+  #The Understone Expedition
   quest21:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Green Gleam
+      - SHULKER_BOX 1
+  #The Green Gleam
   quest22:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Veins of Night
+      - SHULKER_BOX 1
+  #Veins of Night
   quest23:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Copper Quest
+      - SHULKER_BOX 1
+  #The Copper Quest
   quest24:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Steelbound Seeker
+      - SHULKER_BOX 1
+  #The Steelbound Seeker
   quest25:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Lure of the Lustrous
+      - SHULKER_BOX 1
+  #Lure of the Lustrous
   quest26:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Crimson Circuit
+      - SHULKER_BOX 1
+  #The Crimson Circuit
   quest27:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Cerulean Mystery
+      - SHULKER_BOX 1
+  #The Cerulean Mystery
   quest28:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Diamond Depths
+      - SHULKER_BOX 1
+  #The Diamond Depths
   quest29:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Deep Green
+      - SHULKER_BOX 1
+  #The Deep Green
   quest30:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Darkened Vein
+      - SHULKER_BOX 1
+  #The Darkened Vein
   quest31:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Beneath the Bedrock
+      - SHULKER_BOX 1
+  #Beneath the Bedrock
   quest32:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Shadows and Steel
+      - SHULKER_BOX 1
+  #Shadows and Steel
   quest33:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Golden Depths
+      - SHULKER_BOX 1
+  #The Golden Depths
   quest34:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Redstone Enigma
+      - SHULKER_BOX 1
+  #The Redstone Enigma
   quest35:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Shadows and Shimmer
+      - SHULKER_BOX 1
+  #Shadows and Shimmer
   quest36:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Deep Blue Mystery
+      - SHULKER_BOX 1
+  #The Deep Blue Mystery
   quest37:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Beneath the Chisel
+      - SHULKER_BOX 1
+  #Beneath the Chisel
   quest38:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#From Rubble to Castle
+      - SHULKER_BOX 1
+  #From Rubble to Castle
   quest39:
     items:
-      - BIG_DRIPLEAF_STEM 1
-	  
-#Nether Quests
-#Flames of Fortune  
+      - SHULKER_BOX 1	  
+ #Nether Quests
+  #Flames of Fortune  
   quest40:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Molten Mission
+      - SHULKER_BOX 1
+  #The Molten Mission
   quest41:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Scarlet Excavation	  
+      - SHULKER_BOX 1
+  #The Scarlet Excavation	  
   quest42:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Echoes of the Crimson Forest	  
+      - SHULKER_BOX 1
+  #Echoes of the Crimson Forest	  
   quest43:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Into the Warped Woods  
+      - SHULKER_BOX 1
+  #Into the Warped Woods  
   quest44:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Whispering Dunes
-  quest:45
+      - SHULKER_BOX 1
+  #The Whispering Dunes
+  quest45:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Glimmers in the Dark
+      - SHULKER_BOX 1
+  #Glimmers in the Dark
   quest46:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Echoes of Vermilion
+      - SHULKER_BOX 1
+  #Echoes of Vermilion
   quest47:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Echoes of the Warped
+      - SHULKER_BOX 1
+  #Echoes of the Warped
   quest48:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Beneath the Fungal Glow
+      - SHULKER_BOX 1
+  #Beneath the Fungal Glow
   quest49:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Infernal Forge
+      - SHULKER_BOX 1
+  #The Infernal Forge
   quest50:
     items:
-      - BIG_DRIPLEAF_STEM 1
-
-#End Quests
-#The Alien Bloom
+      - SHULKER_BOX 1
+ #End Quests
+  #The Alien Bloom
   quest51:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Pearls of Passage
+      - SHULKER_BOX 1
+  #The Pearls of Passage
   quest52:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Beyond the Portal
+      - SHULKER_BOX 1
+  #Beyond the Portal
   quest53:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Purple Path
+      - SHULKER_BOX 1
+  #The Purple Path
   quest54:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Void's Masonry
+      - SHULKER_BOX 1
+  #The Void's Masonry
   quest55:
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
 
-#Craftables Quests
-#The Waxen Whisper
+ #Craftables Quests
+  #The Waxen Whisper
   quest56:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Weaver's Palette
+      - SHULKER_BOX 1
+  #The Weaver's Palette
   quest57:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Hues of Rest
+      - SHULKER_BOX 1
+  #Hues of Rest
   quest58:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Banner's Call
+      - SHULKER_BOX 1
+  #The Banner's Call
   quest59:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Echoes of the Anvil
+      - SHULKER_BOX 1
+  #Echoes of the Anvil
   quest60:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Armorer's Ambition
+      - SHULKER_BOX 1
+  #The Armorer's Ambition
   quest61:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Pails of Plenty
+      - SHULKER_BOX 1
+  #Pails of Plenty
   quest62:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Hook, Line, and Sinker
+      - SHULKER_BOX 1
+  #Hook, Line, and Sinker
   quest63:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Bare Bark Quest
+      - SHULKER_BOX 1
+  #The Bare Bark Quest
   quest64:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#The Gourd's Grin
+      - SHULKER_BOX 1
+  #The Gourd's Grin
   quest65:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Echoes of the Eccentric
+      - SHULKER_BOX 1
+  #Echoes of the Eccentric
   quest66:
     items:
-      - BIG_DRIPLEAF_STEM 1
+      - SHULKER_BOX 1
 	  
-#Special Items Quests
-#Collectibles: Bones
+ #Special Items Quests
+  #Collectibles: Bones
   quest67:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Saplings
+      - SHULKER_BOX 1
+  #Collectibles: Saplings
   quest68:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Logs
+      - SHULKER_BOX 1
+  #Collectibles: Logs
   quest69:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Melons
+      - SHULKER_BOX 1
+  #Collectibles: Melons
   quest70:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Nether Quartz
+      - SHULKER_BOX 1
+  #Collectibles: Nether Quartz
   quest71:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Dirt 
+      - SHULKER_BOX 1
+  #Collectibles: Dirt 
   quest72:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Chorus Plant
+      - SHULKER_BOX 1
+  #Collectibles: Chorus Plant
   quest73:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Carrots
+      - SHULKER_BOX 1
+  #Collectibles: Carrots
   quest74:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Wheat
+      - SHULKER_BOX 1
+  #Collectibles: Wheat
   quest75:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Raw Iron
+      - SHULKER_BOX 1
+  #Collectibles: Raw Iron
   quest76:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Raw Copper
+      - SHULKER_BOX 1
+  #Collectibles: Raw Copper
   quest77:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Collectibles: Arrows
+      - SHULKER_BOX 1
+  #Collectibles: Arrows
   quest78:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#LimeLush Minigolf
+      - SHULKER_BOX 1
+  #LimeLush Minigolf
   quest79:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Halloween Mining Hunt (2023)
+      - SHULKER_BOX 1
+  #Halloween Mining Hunt (2023)
   quest80:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Vote Shop (Fall 2023)
+      - SHULKER_BOX 1
+  #Vote Shop (Fall 2023)
   quest81:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Holiday Feast (2023)
-  quest82:
-    items:
-      - BIG_DRIPLEAF_STEM 1
-#New Years Collection (2023)
-  quest83:
-    items:
-      - BIG_DRIPLEAF_STEM 1
-#Vanilla Spawn Eggs
+      - SHULKER_BOX 1
+  #Holiday Feast (2023)
+  #quest82:
+    #items:
+      #- SHULKER_BOX 1
+  #New Years Collection (2023)
+  #quest83:
+    #items:
+      #- SHULKER_BOX 1
+  #Vanilla Spawn Eggs
   quest84:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Music Discs
+      - SHULKER_BOX 1
+  #Music Discs
   quest85:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Star Machine Rares
+      - SHULKER_BOX 1
+  #Star Machine Rares
   quest86:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Lushland Pokemon Hunt
+      - SHULKER_BOX 1
+  #Lushland Pokemon Hunt
   quest87:
     items:
-      - BIG_DRIPLEAF_STEM 1
-#Pokemon Hunt Map Challenge
+      - SHULKER_BOX 1
+  #Pokemon Hunt Map Challenge
   quest88:
     items:
-      - BIG_DRIPLEAF_STEM 1
-
-
-
-	  
+      - SHULKER_BOX 1

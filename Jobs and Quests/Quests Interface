@@ -1,4 +1,4 @@
-#Start Quests System
+# Start Quests System
   helpmequests:
     name: "HelpMe§cQuests"
     0:
@@ -146,7 +146,7 @@
         name: "&3Forums: Quests Information!"
         desc: "&7Click to post a link in chat for information about Quests and Quest Points."
         command: ""
-        message: "&e------------------\n&6[EcoCityCraft]\n&aQuests and Rewards Information\n&bhttps://tinyurl.com/ShopDBShulkerBox\n&e------------------"
+        message: "&e------------------\n&6[EcoCityCraft]\n&aQuests and Rewards Information\n&becc.eco/threads/.225341/\n&e------------------"
         runas: console
     42:
       permission: ""
@@ -402,7 +402,7 @@
       pass:
         type: BUBBLE_CORAL_BLOCK
         name: "&6The Reef's Bounty"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&74 Scute|&6*&764 Dried Kelp Block|&6*&764 Kelp|&6*&764 Lilypad|&6*&764 Sea Pickle|&6*&764 Seagrass|&6*&764 Brain Coral|&6*&764 Brain Coral Block|&6*&764 Brain Coral Fan|&6*&764 Bubble Coral|&6*&764 Bubble Coral Block|&6*&764 Bubble Coral Fan|&6*&7|&6*&764 Fire Coral|&6*&764 Fire Coral Block|&6*&764 Fire Coral Fan|&6*&764 Horn Coral|&6*&764 Horn Coral Block|&6*&764 Horn Coral Fan|&6*&764 Tube Coral|&6*&764 Tube Coral Block|&6*&764 Tube Coral Fan|&6*&74 Turtle Egg"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&74 Scute|&6*&764 Dried Kelp Block|&6*&764 Kelp|&6*&764 Lilypad|&6*&764 Sea Pickle|&6*&764 Seagrass|&6*&764 Brain Coral|&6*&764 Brain Coral Block|&6*&764 Brain Coral Fan|&6*&764 Bubble Coral|&6*&764 Bubble Coral Block|&6*&764 Bubble Coral Fan|&6*&764 Fire Coral|&6*&764 Fire Coral Block|&6*&764 Fire Coral Fan|&6*&764 Horn Coral|&6*&764 Horn Coral Block|&6*&764 Horn Coral Fan|&6*&764 Tube Coral|&6*&764 Tube Coral Block|&6*&764 Tube Coral Fan|&6*&74 Turtle Egg"
         command: "warp q10"
         message: ""
         runas: player
@@ -420,7 +420,7 @@
       pass:
         type: REDSTONE_BLOCK
         name: "&6Redstone Killer"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Jukebox|&6*&764 Redstone|&6*1&764 Redstone Comparator|&6*&764 Daylight Sensor|&6*&764 Dispenser|&6*&764 Dropper|&6*&764 Heavy Weighted Pressure Plate|&6*&764 Hopper|&6*&764 Lever|&6*&764 Light Weighted Pressure Plate|&6*&764 Noteblock|&6*&764 Observer|&6*&764 Piston|&6*&7|&6*&764 Oak Pressure Plate|&6*&764 Redstone Block|&6*&764 Redstone Lamp|&6*&764 Redstone Torch|&6*&764 Redstone Repeater|&6*&764 Sticky Piston|&6*&764 Stone Button|&6*&764 Stone Pressure Plate|&6*&764 64 Activator Rail|&6*&764 Detector Rail|&6*&764 Lightning Rod|&6*&764 Powered Rail|&6*&764 Rail|&6*&764 Target"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Jukebox|&6*&764 Redstone|&6*&764 Redstone Comparator|&6*&764 Daylight Sensor|&6*&764 Dispenser|&6*&764 Dropper|&6*&764 Heavy Weighted Pressure Plate|&6*&764 Hopper|&6*&764 Lever|&6*&764 Light Weighted Pressure Plate|&6*&764 Noteblock|&6*&764 Observer|&6*&764 Piston|&6*&764 Oak Pressure Plate|&6*&764 Redstone Block|&6*&764 Redstone Lamp|&6*&764 Redstone Torch|&6*&764 Redstone Repeater|&6*&764 Sticky Piston|&6*&764 Stone Button|&6*&764 Stone Pressure Plate|&6*&764 64 Activator Rail|&6*&764 Detector Rail|&6*&764 Lightning Rod|&6*&764 Powered Rail|&6*&764 Rail|&6*&764 Target"
         command: "warp q12"
         message: ""
         runas: player
@@ -655,7 +655,7 @@
         type: LIME_WOOL
         name: "&6Next Page"
         desc: ""
-        command: "JobQuest2"
+        command: "QuestWarps2"
         message: ""
         runas: player
   questwarps2:
@@ -824,7 +824,7 @@
       pass:
         type: STONE_BRICKS
         name: "&6Beneath the Chisel"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Stone Button|&6*&764 Stone Pressure Plate|&6*&764 Chiseled Stone Bricks|&6*&764 Cracked Stone Bricks|&6*&764 Stone|&6*&764 Stone Brick Slab|&6*&764 Stone Brick Stairs|&6*&764 Stone Brick Wall|&6*&764 Stone Bricks|&6*&7Stone Slab|&6*&7Stone Stairs"
         command: "warp q38"
         message: ""
         runas: player
@@ -956,7 +956,7 @@
       pass:
         type: NETHER_BRICKS
         name: "&6The Infernal Forge"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Nether Brick Fence|&6*&764 Nether Brick Slab|&6*&764 Nether Brick Stairs|&6*&7Nether Brick Wall|&6*&764 Nether Bricks|&6*&764 Chiseled Nether Bricks|&6*&764 Cracked Nether Bricks|&6*&764 Red Netherbrick Slab|&6*&764 Red Netherbrick Stairs|&6*&764 Red Netherbrick Wall|&6*&764 Red Nether Bricks"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 Nether Brick Fence|&6*&764 Nether Brick Slab|&6*&764 Nether Brick Stairs|&6*&764 Nether Brick Wall|&6*&764 Nether Bricks|&6*&764 Chiseled Nether Bricks|&6*&764 Cracked Nether Bricks|&6*&764 Red Netherbrick Slab|&6*&764 Red Netherbrick Stairs|&6*&764 Red Netherbrick Wall|&6*&764 Red Nether Bricks"
         command: "warp q50"
         message: ""
         runas: player    
@@ -981,7 +981,7 @@
     41:
       permission: ""
       pass:
-        type: ENDERCHEST
+        type: ENDER_CHEST
         name: "&6Beyond the Portal"
         desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&764 End Rod|&6*&78 Enderchest|&6*&71 Enderman Spawn Egg|&6*&71 Endermite Spawn Egg|&6*&71 Dragon Head|&6*&71 Dragon Egg"
         command: "warp q53"
@@ -1180,7 +1180,7 @@
       pass:
         type: NETHERITE_UPGRADE_SMITHING_TEMPLATE
         name: "&6Echoes of the Anvil"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Coast Armor Trim Smithing Template|&6*&71 Dune Armor Trim Smithing Template|&6*&71 Eye Armor Trim Smithing Template|&6*&71 Host Armor Trim Smithing Template|&6*&71 Netherite Upgrade Smithing Template|&6*&71 Raiser Armor Trim Smithing Template|&6*&71 Rib Armor Trim Smithing Template|&6*&71 Sentry Armor Trim Smithing Template|&6*&71Shaper Armor Trim Smithing Template|&6*&71 Silence Armor Trim Smithing Template|&6*&71 Snout Armor Trim Smithing Template|&6*&71 Spire Armor Trim Smithing Template|&6*&71 Tide Armor Trim Smithing Template|&6*&71 Vex Armor Trim Smithing Template|&6*&71 Ward Armor Trim Smithing Template|&6*&71 Wayfinder Armor Trim Smithing Template|&6*&71 Wild Armor Trim Smithing Template"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Coast Armor Trim Smithing Template|&6*&71 Dune Armor Trim Smithing Template|&6*&71 Eye Armor Trim Smithing Template|&6*&71 Host Armor Trim Smithing Template|&6*&71 Netherite Upgrade Smithing Template|&6*&71 Raiser Armor Trim Smithing Template|&6*&71 Rib Armor Trim Smithing Template|&6*&71 Sentry Armor Trim Smithing Template|&6*&71 Shaper Armor Trim Smithing Template|&6*&71 Silence Armor Trim Smithing Template|&6*&71 Snout Armor Trim Smithing Template|&6*&71 Spire Armor Trim Smithing Template|&6*&71 Tide Armor Trim Smithing Template|&6*&71 Vex Armor Trim Smithing Template|&6*&71 Ward Armor Trim Smithing Template|&6*&71 Wayfinder Armor Trim Smithing Template|&6*&71 Wild Armor Trim Smithing Template"
         command: "warp q60"
         message: ""
         runas: player
@@ -1207,7 +1207,7 @@
       pass:
         type: FISHING_ROD
         name: "&6Hook, Line, and Sinker"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Diamond Sword|&6*&71 Diamond Pickaxe|&6*&71 Diamond Axe|&6*&71 Diamond Shovel|&6*&71 Diamond|&6*&71 Emerald|&6*&71 Enderpeal|&6*&71 Gold Nugget|&6*&71 Iron Nugget|&6*&71 Music Disc Blocks|&6*&71 Music Disc Chirp|&6*&71 Music Disc Far|&6*&71 Music Disc Mall|&6*&71 Music Disc Mellohi|&6*&71 Music Disc Stal|&6*&71 |&6*&71 Music Disc Strad|&6*&71 Music Disc Ward|&6*&71 Nametag|&6*&71 Saddle|&6*&71 Blaze Rod|&6*&71 Ghast Tear|&6*&71 Lilypad|&6*&71 Ink Sac|&6*&71 Leather|&6*&71 String|&6*&71 Dirt|&6*&71 Sand"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&71 Diamond Sword|&6*&71 Diamond Pickaxe|&6*&71 Diamond Axe|&6*&71 Diamond Shovel|&6*&71 Diamond|&6*&71 Emerald|&6*&71 Enderpeal|&6*&71 Gold Nugget|&6*&71 Iron Nugget|&6*&71 Music Disc Blocks|&6*&71 Music Disc Chirp|&6*&71 Music Disc Far|&6*&71 Music Disc Mall|&6*&71 Music Disc Mellohi|&6*&71 Music Disc Stal|&6*&71 Music Disc Strad|&6*&71 Music Disc Ward|&6*&71 Nametag|&6*&71 Saddle|&6*&71 Blaze Rod|&6*&71 Ghast Tear|&6*&71 Lilypad|&6*&71 Ink Sac|&6*&71 Leather|&6*&71 String|&6*&71 Dirt|&6*&71 Sand"
         command: "warp q63"
         message: ""
         runas: player
@@ -1301,9 +1301,9 @@
     29:
       permission: ""
       pass:
-        type: NETHER_QUARTZ
+        type: QUARTZ
         name: "&6Collectibles: Nether Quartz"
-        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7|&6*&7128 Collectible Quartz (Current Lore)"
+        desc: "&aClick to warp to this quest!|&7*Requirements*|&6*&7128 Collectible Quartz (Current Lore)"
         command: "warp q71"
         message: ""
         runas: player
@@ -1813,4 +1813,4 @@
         command: "QuestWarps2"
         message: ""
         runas: player
-# End Quests System        
+# End Quests System
