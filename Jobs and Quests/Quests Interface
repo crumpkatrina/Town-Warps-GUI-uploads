@@ -1810,7 +1810,7 @@
         type: RED_WOOL
         name: "&6Previous Page"
         desc: ""
-        command: "QuestWarps2"
+        command: "QuestWarps3"
         message: ""
         runas: player
 # End Quests System

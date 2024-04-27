@@ -268,8 +268,7 @@
   #Echoes of the Eccentric
   quest66:
     items:
-      - SHULKER_BOX 1
-	  
+      - SHULKER_BOX 1	  
  #Special Items Quests
   #Collectibles: Bones
   quest67:
