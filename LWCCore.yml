@@ -34,6 +34,7 @@ database:
     prefix: lwc_
     ping_interval: 300
     useSSL: true
+    allowPublicKeyRetrieval: true
 protections:
     denyRedstone: true
     denyHoppers: true
@@ -365,6 +366,8 @@ protections:
         cherry_hanging_wall_sign:
             enabled: true
         beacon:
+            enabled: true
+        decorated_pot:
             enabled: true
 modes:
     droptransfer:
