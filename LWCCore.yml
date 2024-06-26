@@ -369,6 +369,40 @@ protections:
             enabled: true
         decorated_pot:
             enabled: true
+		copper_door:
+            enabled: true
+		crafter:
+            enabled: true
+		exposed_copper_door:
+            enabled: true
+		oxidized_copper_door:
+            enabled: true
+		weathered_copper_door:
+            enabled: true
+		copper_trapdoor:
+            enabled: true
+		exposed_copper_trapdoor:
+            enabled: true
+		oxidized_copper_trapdoor:
+            enabled: true
+		weathered_copper_trapdoor:
+            enabled: true
+		waxed_copper_door:
+            enabled: true
+		waxed_exposed_copper_door:
+            enabled: true
+		waxed_oxidized_copper_door:
+            enabled: true
+		waxed_weathered_copper_door:
+            enabled: true
+		waxed_copper_trapdoor:
+            enabled: true
+		waxed_exposed_copper_trapdoor:
+            enabled: true
+		waxed_oxidized_copper_trapdoor:
+            enabled: true
+		waxed_weathered_copper_trapdoor:
+            enabled: true
 modes:
     droptransfer:
         enabled: false
