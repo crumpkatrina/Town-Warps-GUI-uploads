@@ -1,0 +1,621 @@
+VoteShop:
+  Enabled: true
+  Name: 'VoteShop'
+  BackButton: true
+  # Hide items in vote shop which user can not buy
+  HideLimitedReached: false
+  # Requires above to be false
+  LimitReached: '&aYou reached your limit'
+  RequireConfirmation: false
+  Disabled: '&cVote shop disabled'
+  # If true, shop gui will reopen, updating all placeholders
+  ReopenGUIOnPurchase: false
+  
+Shop:
+  # Identifier
+  # Used in placeholders for formats
+  # Do not have spaces in the identifier
+  # Change the identifier for each shop item
+  #Diamond:
+    #Identifier_Name: 'Diamond'
+    # Item
+    #Material: 'DIAMOND'
+    #Amount: 1
+    #Name: '&4Buy A Diamond'
+    # You can set skulls of the player using the following
+    # Remove the # to enable
+    #Skull: '%Player%'
+    #Lore:
+    #- '&c&lCost: &c3 Voting Points'
+    # Number of voting points this cost
+    #Cost: 3
+    # Permission required, leave blank for no permission
+    #Permission: ''
+    # Hide if player doesn't have permission (only if permission is set)
+    #HideOnNoPermission: true
+    # Whether or not to keep GUI open after purchase
+    #CloseGUI: true
+    # Require confirmation on purchase, overrides global option above
+    #RequireConfirmation: false
+    # Overrides other purchase message
+    #PurchaseMessage: 'Thanks for the purchase'
+    # Limit how many times you can buy this
+    #Limit: 3
+    # Reset limit daily/weekly/monthly
+    #Reset:
+      #Daily: false
+      #Weekly: false
+      #Monthly: false
+    # If true, item is not buyable
+    #NotBuyable: false
+    # Rewards to run if player buys successfully
+    #Rewards:
+      # Run command on purchase
+      #Commands:
+      #- 'command here'
+      #Items:
+        #Diamond:
+          #Material: 'DIAMOND'
+          #Amount: 1    
+            
+  NetherStar:
+    Identifier_Name: Nether Star
+    Material: NETHER_STAR
+    Amount: 1
+    Name: '&4Buy A Nether Star'
+    Lore:
+    - '&c&lCost: &c4 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 4
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Items:
+        NetherStar:
+          Material: NETHER_STAR
+          Amount: 1
+  JigSaw:
+    Identifier_Name: Jig Saw
+    Material: JIGSAW
+    Amount: 1
+    Name: '&4Buy A JigSaw (64 Nether Stars!)'
+    Lore:
+    - '&c&lCost: &c220 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 220
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Items:
+        JigSaw:
+          Material: JIGSAW
+          Amount: 1
+  GodDrop:
+    Identifier_Name: God Drop
+    Material: LECTERN
+    Amount: 1
+    Name: '&4Buy A God Drop! (Spin with &f/cc&4)'
+    Lore:
+    - '&c&lCost: &c1,625 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 1625
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - cc give virtual goddrop 1 %Player%
+  StarMelonSword:
+    Identifier_Name: Star Melon Sword
+    Material: DIAMOND_SWORD
+    Amount: 1
+    Name: '&4Buy A Star Melon Sword!'
+    Lore:
+    - '&c&lCost: &c250 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 250
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - kit eff5sword %Player%
+  StarEff7Pickaxe:
+    Identifier_Name: Star Eff 7 Pickaxe
+    Material: DIAMOND_PICKAXE
+    Amount: 1
+    Name: '&4Buy A Star Eff 7 Pickaxe!'
+    Lore:
+    - '&c&lCost: &c250 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 250
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - kit eff7pick %Player%
+  StarEff10Axe:
+    Identifier_Name: Star Eff 10 Axe
+    Material: DIAMOND_AXE
+    Amount: 1
+    Name: '&4Buy A Star Eff 10 Axe!'
+    Lore:
+    - '&c&lCost: &c250 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 250
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - kit eff10axe %Player%
+  StarEff10Shovel:
+    Identifier_Name: Star Eff 10 Shovel
+    Material: DIAMOND_SHOVEL
+    Amount: 1
+    Name: '&4Buy A Star Eff 10 Shovel!'
+    Lore:
+    - '&c&lCost: &c250 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 250
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - kit eff10shovel %Player%
+  StarHoe:
+    Identifier_Name: Star Fortune 5 Hoe
+    Material: DIAMOND_HOE
+    Amount: 1
+    Name: '&4Buy A Star Fortune 5 Hoe!'
+    Lore:
+    - '&c&lCost: &c250 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 250
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - kit fort5hoe %Player%
+  StarLure5Rod:
+    Identifier_Name: Star Lure 5 Rod
+    Material: FISHING_ROD
+    Amount: 1
+    Name: '&4Buy A Star Lure 5 Rod!'
+    Lore:
+    - '&c&lCost: &c250 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 250
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - kit lure5rod %Player%
+  StarKey:
+    Identifier_Name: Star Crate Key
+    Material: TRIPWIRE_HOOK
+    Amount: 1
+    Name: '&4Buy A Star Crate Spin (Spin with &f/cc&4)!'
+    Lore:
+    - '&c&lCost: &c200 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 200
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - cc give physical star 1 %Player%
+  500CosmoCoins:
+    Identifier_Name: 500 Cosmo Coins
+    Material: BOOK
+    Amount: 1
+    Name: '&4Buy 500 Cosmo Coins!'
+    Lore:
+    - '&c&lCost: &c10 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 10
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - procosmetics give coins %Player% 500
+  Magic Wolf (Pale, Summer Colors):
+    Identifier_Name: Magic Wolf (Pale, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Pale, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Pale, Summer Colors"}'],entity_data={id:"minecraft:wolf",variant:"pale",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+        1
+  Magic Wolf (Woods, Summer Colors):
+    Identifier_Name: Magic Wolf (Woods, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Woods, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player& wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Woods, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"woods",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Magic Wolf (Ashen, Summer Colors):
+    Identifier_Name: Magic Wolf (Ashen, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Ashen, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Ashen, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"ashen",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Magic Wolf (Black, Summer Colors):
+    Identifier_Name: Magic Wolf (Black, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Black, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Black, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"black",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Magic Wolf (Chestnut, Summer Colors):
+    Identifier_Name: Magic Wolf (Chestnut, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Chestnut, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Chestnut, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"chestnut",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Magic Wolf (Rusty, Summer Colors):
+    Identifier_Name: Magic Wolf (Rusty, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Rusty, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Rusty, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"rusty",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Magic Wolf (Spotted, Summer Colors):
+    Identifier_Name: Magic Wolf (Spotted, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Spotted, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Spotted, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"spotted",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Magic Wolf (Striped, Summer Colors):
+    Identifier_Name: Magic Wolf (Striped, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Striped, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Striped, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"striped",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Magic Wolf (Snowy, Summer Colors):
+    Identifier_Name: Magic Wolf (Snowy, Summer Colors)
+    Material: WOLF_SPAWN_EGG
+    Amount: 1
+    Name: '&4Buy a Magic Wolf (Snowy, Summer Colors)!'
+    Lore:
+    - '&c&lCost: &c40 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 40
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %player% wolf_spawn_egg[custom_name='[{"color":"dark_purple","italic":true,"text":"*~*"},{"bold":true,"color":"aqua","text":"Magic Mob (Wolf)"},{"color":"dark_purple","italic":true,"text":"*~*"}]',lore=['{"color":"#FFD91C","italic":true,"text":"Snowy, Summer Colors"}'],enchantment_glint_override=true,entity_data={id:"minecraft:wolf",variant:"snowy",active_effects:[{id:"minecraft:haste",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:jump_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:health_boost",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b},{id:"minecraft:strength",amplifier:1,duration:-1,show_particles:1b,show_icon:1b,ambient:0b}]}] 1
+  Summer Copper Bulb:
+    Identifier_Name: Summer Copper Bulb!
+    Material: COPPER_BULB
+    Amount: 1
+    Name: '&4Buy 1 Summer Copper Bulb!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% copper_bulb[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Bulb"}',lore=['{"color":"#FFD91C","italic":true,"text":"This shiny Copper Bulb reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Exposed Copper Bulb:
+    Identifier_Name: Summer Exposed Copper Bulb!
+    Material: EXPOSED_COPPER_BULB
+    Amount: 1
+    Name: '&4Buy 1 Summer Exposed Copper Bulb!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% exposed_copper_bulb[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Bulb"}',lore=['{"color":"#FFD91C","italic":true,"text":"This lightly oxidized Copper Bulb reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Weathered Copper Bulb:
+    Identifier_Name: Summer Weathered Copper Bulb!
+    Material: WEATHERED_COPPER_BULB
+    Amount: 1
+    Name: '&4Buy 1 Summer Weather Copper Bulb!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% weathered_copper_bulb[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Bulb"}',lore=['{"color":"#FFD91C","italic":true,"text":"This weathered Copper Bulb reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Oxidized Copper Bulb:
+    Identifier_Name: Summer Oxidized Copper Bulb!
+    Material: OXIDIZED_COPPER_BULB
+    Amount: 1
+    Name: '&4Buy 1 Summer Oxidized Copper Bulb!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% oxidized_copper_bulb[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Bulb"}',lore=['{"color":"#FFD91C","italic":true,"text":"This fully oxidized Copper Bulb reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Copper Grate:
+    Identifier_Name: Summer Copper Grate!
+    Material: COPPER_GRATE
+    Amount: 1
+    Name: '&4Buy 1 Summer Copper Grate!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% copper_grate[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Grate"}',lore=['{"color":"#FFD91C","italic":true,"text":"This shiny Copper Grate reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Exposed Copper Grate:
+    Identifier_Name: Summer Exposed Copper Grate
+    Material: EXPOSED_COPPER_GRATE
+    Amount: 1
+    Name: '&4Buy 1 Summer Exposed Copper Grate!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% exposed_copper_grate[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Grate"}',lore=['{"color":"#FFD91C","italic":true,"text":"This lightly oxidized Copper Grate reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Weathered Copper Grate:
+    Identifier_Name: Summer Weathered Copper Grate!
+    Material: WEATHERED_COPPER_GRATE
+    Amount: 1
+    Name: '&4Buy 1 Summer Weathered Copper Grate!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% weathered_copper_grate[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Grate"}',lore=['{"color":"#FFD91C","italic":true,"text":"This weathered Copper Grate reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Oxidized Copper Grate:
+    Identifier_Name: Summer Oxidized Copper Grate!
+    Material: OXIDIZED_COPPER_GRATE
+    Amount: 1
+    Name: '&4Buy 1 Summer Oxidized Copper Grate!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% oxidized_copper_grate[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Copper Grate"}',lore=['{"color":"#FFD91C","italic":true,"text":"This fully oxidized Copper Grate reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Wind Charge:
+    Identifier_Name: Summer Wind Charge!
+    Material: WIND_CHARGE
+    Amount: 1
+    Name: '&4Buy 1 Summer Wind Charge!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% wind_charge[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Wind Charge"}',lore=['{"color":"#FFD91C","italic":true,"text":"This wind charge reminds you of"}','{"color":"#FFD91C","text":"warm summer breezes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Chiseled Tuff:
+    Identifier_Name: Summer Chiseled Tuff!
+    Material: CHISELED_TUFF
+    Amount: 1
+    Name: '&4Buy 1 Summer Chiseled Tuff!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% chiseled_tuff_bricks[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Chiseled Tuff Bricks"}',lore=['{"color":"#FFD91C","italic":true,"text":"This delicately chiseled block of tuff reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Chiseled Tuff Bricks:
+    Identifier_Name: Summer Chiseled Tuff Bricks!
+    Material: CHISELED_TUFF_BRICKS
+    Amount: 1
+    Name: '&4Buy 1 Summer Chiseled Tuff Bricks!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% chiseled_tuff_bricks[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Chiseled Tuff Bricks"}',lore=['{"color":"#FFD91C","italic":true,"text":"This delicately chiseled block of tuff reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Polished Tuff:
+    Identifier_Name: Summer Polished Tuff!
+    Material: POLISHED_TUFF
+    Amount: 1
+    Name: '&4Buy 1 Summer Polished Tuff!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% chiseled_tuff_bricks[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Chiseled Tuff Bricks"}',lore=['{"color":"#FFD91C","italic":true,"text":"This delicately chiseled block of tuff reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Tuff Bricks:
+    Identifier_Name: Summer Tuff Bricks!
+    Material: TUFF_BRICKS
+    Amount: 1
+    Name: '&4Buy 1 Summer Tuff Bricks!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% tuff_bricks[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Tuff Bricks"}',lore=['{"color":"#FFD91C","italic":true,"text":"This carefully stacked block of tuff reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}'],enchantment_glint_override=true] 1
+  Summer Flow Sherd:
+    Identifier_Name: Summer Flow Sherd!
+    Material: FLOW_POTTERY_SHERD
+    Amount: 1
+    Name: '&4Buy 1 Summer Flow Sherd!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% flow_pottery_sherd[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Flow Sherd"}',lore=['{"color":"#FFD91C","italic":true,"text":"This carefully carved sherd reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}']] 1
+  Summer Guster Sherd:
+    Identifier_Name: Summer Guster Sherd!
+    Material: GUSTER_POTTERY_SHERD
+    Amount: 1
+    Name: '&4Buy 1 Summer Guster Sherd!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% guster_pottery_sherd[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Guster Sherd"}',lore=['{"color":"#FFD91C","italic":true,"text":"This carefully carved sherd reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}']] 1
+  Summer Scrape Sherd:
+    Identifier_Name: Summer Scrape Sherd!
+    Material: SCRAPE_POTTERY_SHERD
+    Amount: 1
+    Name: '&4Buy 1 Summer Scrape Sherd!'
+    Lore:
+    - '&c&lCost: &c25 EcoVotes'
+    - '&c&lYour Balance: &a%points%'
+    Cost: 25
+    Permission: ''
+    CloseGUI: false
+    RequireConfirmation: true
+    Rewards:
+      Commands:
+      - minecraft:give %Player% scrape_pottery_sherd[custom_name='{"bold":true,"color":"#FFBC1F","italic":true,"text":"Summer Scrape Sherd"}',lore=['{"color":"#FFD91C","italic":true,"text":"This carefully carved sherd reminds you of"}','{"color":"#FFD91C","text":"rustic outdoor scenes on balmy summer nights!"}','{"color":"dark_purple","italic":true,"text":"Summer Tokens Collection"}','{"color":"dark_purple","italic":true,"text":"July 2023 - Vote Shop"}']] 1
+
+# VoteShop extra items for display only
+#ExtraItems:
+  #ItemIdentifier:
+    #...
+      
+ShopConfirmPurchase:
+  Title: 'Confirm Purchase?'
+  YesItem:
+    Material: EMERALD_BLOCK
+    Amount: 1
+    Name: '&aYes'
+  NoItem:
+    Material: BARRIER
+    Amount: 1
+    Name: '&cNo'
