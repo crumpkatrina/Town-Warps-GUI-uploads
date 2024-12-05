@@ -13,7 +13,10 @@ core:
 optional:
     onlyProtectWhenOwnerIsOnline: false
     onlyProtectWhenOwnerIsOffline: false
+    onlyRemoveProtectionForUnplayedUsers: true
     exemptBlocks: []
+    selfPlaceOwnerOnly:
+    - spawner
     optOut: false
     blacklistedBlocks:
     - '166'
@@ -402,6 +405,8 @@ protections:
         waxed_oxidized_copper_trapdoor:
             enabled: true
         waxed_weathered_copper_trapdoor:
+            enabled: true
+        spawner:
             enabled: true
 modes:
     droptransfer:
