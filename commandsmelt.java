@@ -14,7 +14,9 @@ import org.bukkit.inventory.ItemStack;
 
 import java.util.EnumMap;
 import java.util.HashMap;
+import java.util.HashSet;
 import java.util.Map;
+import java.util.Set;
 import java.util.UUID;
 import java.util.concurrent.TimeUnit;
 
@@ -40,8 +42,30 @@ public class Commandsmelt extends LiquidCommand
                 SMELT_ALL_COOLDOWN_MAP.put(player.getUniqueId(), System.currentTimeMillis() + SMELT_ALL_COOLDOWN);
             }
 
+            Set<Material> filteredMaterial = new HashSet<>();
+            if (args.length == 2) {
+                String materialName = args[1];
+                Material material = null;
+                if ("hand".equalsIgnoreCase(args[1])) {
+                    material = player.getInventory().getItemInMainHand().getType();
+                } else {
+                    material = Material.matchMaterial(materialName);
+                }
+                if (material != null && !material.isAir()) {
+                    if (smeltedMaterial(material) != null) {
+                        filteredMaterial.add(material);
+                    } else {
+                        throw new LiquidCommandException("Invalid material " + material.key().value() );
+                    }
+                } else {
+                    throw new LiquidCommandException("Unknown material: " + materialName);
+                }
+            }
+
             for (ItemStack itemStack : player.getInventory().getStorageContents()) {
-                handleItemStack(player, itemStack, amountMap);
+                if (itemStack != null && (filteredMaterial.isEmpty() || filteredMaterial.contains(itemStack.getType()))) {
+                    handleItemStack(player, itemStack, amountMap);
+                }
             }
         } else {
             if (!player.hasPermission("liquidsafe.command.smelt.nocooldown")) {
@@ -86,7 +110,7 @@ public class Commandsmelt extends LiquidCommand
     private void handleItemStack(final Player player, final ItemStack itemStack, final Map<Material, Integer> amountMap)
     {
         if (itemStack != null) {
-            if (MagicUtils.getMagicLevel(itemStack) != -1) return;
+            if (ItemUtil.isSpecial(itemStack)) return;
             final Material converted = smeltedMaterial(itemStack.getType());
             if (converted != null) {
                 amountMap.put(converted, amountMap.getOrDefault(converted, 0) + itemStack.getAmount());
@@ -233,10 +257,10 @@ public class Commandsmelt extends LiquidCommand
             case IRON_AXE:
             case IRON_SHOVEL:
             case IRON_HOE:
-            case CHAINMAIL_HELMET:
-            case CHAINMAIL_CHESTPLATE:
-            case CHAINMAIL_LEGGINGS:
-            case CHAINMAIL_BOOTS:
+            // case CHAINMAIL_HELMET:
+            // case CHAINMAIL_CHESTPLATE:
+            // case CHAINMAIL_LEGGINGS:
+            // case CHAINMAIL_BOOTS:
             case IRON_HELMET:
             case IRON_CHESTPLATE:
             case IRON_LEGGINGS:
