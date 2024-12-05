@@ -122,6 +122,8 @@ protections:
             enabled: true
         cherry_door:
             enabled: true
+        pale_oak_door:
+            enabled: true
         iron_trapdoor:
             enabled: true
         oak_trapdoor:
@@ -146,6 +148,8 @@ protections:
             enabled: true
         cherry_trapdoor:
             enabled: true
+        pale_oak_trapdoor:
+            enabled: true            
         oak_fence_gate:
             enabled: true
         spruce_fence_gate:
@@ -167,6 +171,8 @@ protections:
         bamboo_fence_gate:
             enabled: true
         cherry_fence_gate:
+            enabled: true
+        pale_oak_fence_gate:
             enabled: true
         white_banner:
             enabled: true
@@ -263,6 +269,8 @@ protections:
         bamboo_button:
             enabled: true
         cherry_button:
+            enabled: true
+        pale_oak_button:
             enabled: true
         activatorrail:
             enabled: true
@@ -367,6 +375,10 @@ protections:
         cherry_hanging_sign:
             enabled: true
         cherry_hanging_wall_sign:
+            enabled: true
+        pale_oak_hanging_sign:
+            enabled: true
+        pale_oak_hanging_wall_sign:
             enabled: true
         beacon:
             enabled: true
