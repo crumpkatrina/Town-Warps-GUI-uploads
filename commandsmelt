@@ -1,0 +1,307 @@
+package com.ecocitycraft.liquidsafe.commands;
+
+import com.ecocitycraft.liquidcore.commands.LiquidCommand;
+import com.ecocitycraft.liquidcore.commands.LiquidCommandException;
+import com.ecocitycraft.liquidsafe.magic.util.MagicUtils;
+import com.ecocitycraft.liquidsafe.util.ItemUtil;
+
+import org.bukkit.ChatColor;
+import org.bukkit.Material;
+import org.bukkit.Server;
+import org.bukkit.command.Command;
+import org.bukkit.entity.Player;
+import org.bukkit.inventory.ItemStack;
+
+import java.util.EnumMap;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.UUID;
+import java.util.concurrent.TimeUnit;
+
+public class Commandsmelt extends LiquidCommand
+{
+    private static final Map<UUID, Long> SMELT_ALL_COOLDOWN_MAP = new HashMap<>();
+    private static final Map<UUID, Long> SMELT_HAND_COOLDOWN_MAP = new HashMap<>();
+
+    private static final long SMELT_ALL_COOLDOWN = TimeUnit.MINUTES.toMillis(5);
+    private static final long SMELT_HAND_COOLDOWN = TimeUnit.SECONDS.toMillis(15);
+
+    @Override
+    public void run(Server server, Player player, Command cmd, String commandLabel, String[] args) throws LiquidCommandException
+    {
+        final Map<Material, Integer> amountMap = new EnumMap<>(Material.class);
+
+        if (args.length != 0 && args[0].equalsIgnoreCase("all")) {
+            if (!player.hasPermission("liquidsafe.command.smelt.nocooldown")) {
+                long activeCooldown = SMELT_ALL_COOLDOWN_MAP.getOrDefault(player.getUniqueId(), 0L) - System.currentTimeMillis();
+                if (activeCooldown > 0) {
+                    throw new LiquidCommandException("You are on a smelt all cooldown for " + activeCooldown / 1000 + " more seconds.");
+                }
+                SMELT_ALL_COOLDOWN_MAP.put(player.getUniqueId(), System.currentTimeMillis() + SMELT_ALL_COOLDOWN);
+            }
+
+            for (ItemStack itemStack : player.getInventory().getStorageContents()) {
+                handleItemStack(player, itemStack, amountMap);
+            }
+        } else {
+            if (!player.hasPermission("liquidsafe.command.smelt.nocooldown")) {
+                long activeCooldown = SMELT_HAND_COOLDOWN_MAP.getOrDefault(player.getUniqueId(), 0L) - System.currentTimeMillis();
+                if (activeCooldown > 0) {
+                    throw new LiquidCommandException("You are on a smelt hand cooldown for " + activeCooldown / 1000 + " more seconds.");
+                }
+                SMELT_HAND_COOLDOWN_MAP.put(player.getUniqueId(), System.currentTimeMillis() + SMELT_HAND_COOLDOWN);
+            }
+
+            handleItemStack(player, player.getInventory().getItemInMainHand(), amountMap);
+        }
+
+        if (amountMap.isEmpty()) {
+            throw new LiquidCommandException("You have no items that can be converted by smelting.");
+        }
+
+        player.sendMessage(ChatColor.GOLD + "Smelted " + amountMap.size() + " itemstacks.");
+
+        // Add items.
+        for (Map.Entry<Material, Integer> entry : amountMap.entrySet()) {
+            int amount = entry.getValue();
+
+            while (amount > 64) {
+                ItemUtil.addItemToInventoryOrDrop(player, new ItemStack(entry.getKey(), 64));
+                amount -= 64;
+            }
+
+            ItemUtil.addItemToInventoryOrDrop(player, new ItemStack(entry.getKey(), amount));
+        }
+
+        // Clean cooldown maps
+        long currentTime = System.currentTimeMillis();
+        SMELT_HAND_COOLDOWN_MAP.entrySet().removeIf(entry -> currentTime > entry.getValue());
+        SMELT_ALL_COOLDOWN_MAP.entrySet().removeIf(entry -> currentTime > entry.getValue());
+    }
+
+    /**
+     * This handles a single {@link ItemStack} in the procedure by trying to convert the material, adding the amount to
+     * the map and removing it from the inventory.
+     */
+    private void handleItemStack(final Player player, final ItemStack itemStack, final Map<Material, Integer> amountMap)
+    {
+        if (itemStack != null) {
+            if (MagicUtils.getMagicLevel(itemStack) != -1) return;
+            final Material converted = smeltedMaterial(itemStack.getType());
+            if (converted != null) {
+                amountMap.put(converted, amountMap.getOrDefault(converted, 0) + itemStack.getAmount());
+                player.getInventory().clear(player.getInventory().first(itemStack));
+            }
+        }
+    }
+
+    /**
+     * Converts the given {@link Material} if it is smeltable or returns null if it is not.
+     */
+    public static Material smeltedMaterial(Material material)
+    {
+        switch (material) {
+            // Food
+            case PORKCHOP:
+                return Material.COOKED_PORKCHOP;
+            case BEEF:
+                return Material.COOKED_BEEF;
+            case CHICKEN:
+                return Material.COOKED_CHICKEN;
+            case COD:
+                return Material.COOKED_COD;
+            case SALMON:
+                return Material.COOKED_SALMON;
+            case POTATO:
+                return Material.BAKED_POTATO;
+            case MUTTON:
+                return Material.COOKED_MUTTON;
+            case RABBIT:
+                return Material.COOKED_RABBIT;
+
+            // Ores
+            case IRON_ORE:
+            case RAW_IRON:
+            case DEEPSLATE_IRON_ORE:
+                return Material.IRON_INGOT;
+            case GOLD_ORE:
+            case RAW_GOLD:
+            case DEEPSLATE_GOLD_ORE:
+            case NETHER_GOLD_ORE:
+                return Material.GOLD_INGOT;
+            case DIAMOND_ORE:
+            case DEEPSLATE_DIAMOND_ORE:
+                return Material.DIAMOND;
+            case LAPIS_ORE:
+            case DEEPSLATE_LAPIS_ORE:
+                return Material.LAPIS_LAZULI;
+            case REDSTONE_ORE:
+                return Material.REDSTONE;
+            case RAW_IRON_BLOCK:
+                return Material.IRON_BLOCK;
+            case RAW_GOLD_BLOCK:
+                return Material.GOLD_BLOCK;
+            case RAW_COPPER_BLOCK:
+                return Material.COPPER_BLOCK;
+            case COAL_ORE:
+
+            // Deepslate
+            case DEEPSLATE_COAL_ORE:
+                return Material.COAL;
+            case COPPER_ORE:
+            case DEEPSLATE_COPPER_ORE:
+            case RAW_COPPER:
+                return Material.COPPER_INGOT;
+            case EMERALD_ORE:
+            case DEEPSLATE_EMERALD_ORE:
+                return Material.EMERALD;
+            case NETHER_QUARTZ_ORE:
+                return Material.QUARTZ;
+            case ANCIENT_DEBRIS:
+                return Material.NETHERITE_SCRAP;
+            case DEEPSLATE_REDSTONE_ORE:
+                return Material.REDSTONE;
+            case COBBLED_DEEPSLATE:
+                return Material.DEEPSLATE;
+
+            // Building
+            case SAND:
+            case RED_SAND:
+                return Material.GLASS;
+            case CLAY_BALL:
+                return Material.BRICK;
+            case NETHERRACK:
+                return Material.NETHER_BRICK;
+            case COBBLESTONE:
+                return Material.STONE;
+            case STONE_BRICKS:
+                return Material.CRACKED_STONE_BRICKS;
+            case STONE:
+                return Material.SMOOTH_STONE;
+            case SANDSTONE:
+                return Material.SMOOTH_SANDSTONE;
+            case RED_SANDSTONE:
+                return Material.SMOOTH_RED_SANDSTONE;
+            case QUARTZ_BLOCK:
+                return Material.SMOOTH_QUARTZ;
+            case NETHER_BRICKS:
+                return Material.CRACKED_NETHER_BRICKS;
+            case POLISHED_BLACKSTONE_BRICKS:
+                return Material.CRACKED_POLISHED_BLACKSTONE_BRICKS;
+
+            // Terracotta
+            case CLAY:
+                return Material.TERRACOTTA;
+            case WHITE_TERRACOTTA:
+                return Material.WHITE_GLAZED_TERRACOTTA;
+            case ORANGE_TERRACOTTA:
+                return Material.ORANGE_GLAZED_TERRACOTTA;
+            case MAGENTA_TERRACOTTA:
+                return Material.MAGENTA_GLAZED_TERRACOTTA;
+            case LIGHT_BLUE_TERRACOTTA:
+                return Material.LIGHT_BLUE_GLAZED_TERRACOTTA;
+            case YELLOW_TERRACOTTA:
+                return Material.YELLOW_GLAZED_TERRACOTTA;
+            case LIME_TERRACOTTA:
+                return Material.LIME_GLAZED_TERRACOTTA;
+            case PINK_TERRACOTTA:
+                return Material.PINK_GLAZED_TERRACOTTA;
+            case GRAY_TERRACOTTA:
+                return Material.GRAY_GLAZED_TERRACOTTA;
+            case LIGHT_GRAY_TERRACOTTA:
+                return Material.LIGHT_GRAY_GLAZED_TERRACOTTA;
+            case CYAN_TERRACOTTA:
+                return Material.CYAN_GLAZED_TERRACOTTA;
+            case PURPLE_TERRACOTTA:
+                return Material.PURPLE_GLAZED_TERRACOTTA;
+            case BLUE_TERRACOTTA:
+                return Material.BLUE_GLAZED_TERRACOTTA;
+            case BROWN_TERRACOTTA:
+                return Material.BROWN_GLAZED_TERRACOTTA;
+            case GREEN_TERRACOTTA:
+                return Material.GREEN_GLAZED_TERRACOTTA;
+            case RED_TERRACOTTA:
+                return Material.RED_GLAZED_TERRACOTTA;
+            case BLACK_TERRACOTTA:
+                return Material.BLACK_GLAZED_TERRACOTTA;
+            case BASALT:
+                return Material.SMOOTH_BASALT;
+
+            // Smelting armor + tools
+            case IRON_SWORD:
+            case IRON_PICKAXE:
+            case IRON_AXE:
+            case IRON_SHOVEL:
+            case IRON_HOE:
+            case CHAINMAIL_HELMET:
+            case CHAINMAIL_CHESTPLATE:
+            case CHAINMAIL_LEGGINGS:
+            case CHAINMAIL_BOOTS:
+            case IRON_HELMET:
+            case IRON_CHESTPLATE:
+            case IRON_LEGGINGS:
+            case IRON_BOOTS:
+            case IRON_HORSE_ARMOR:
+                return Material.IRON_NUGGET;
+            case GOLDEN_SWORD:
+            case GOLDEN_PICKAXE:
+            case GOLDEN_AXE:
+            case GOLDEN_SHOVEL:
+            case GOLDEN_HOE:
+            case GOLDEN_HELMET:
+            case GOLDEN_CHESTPLATE:
+            case GOLDEN_LEGGINGS:
+            case GOLDEN_BOOTS:
+            case GOLDEN_HORSE_ARMOR:
+                return Material.GOLD_NUGGET;
+
+            // Other
+            case KELP:
+                return Material.DRIED_KELP;
+            case CACTUS:
+                return Material.GREEN_DYE;
+            case OAK_LOG:
+            case SPRUCE_LOG:
+            case BIRCH_LOG:
+            case JUNGLE_LOG:
+            case ACACIA_LOG:
+            case DARK_OAK_LOG:
+            case STRIPPED_OAK_LOG:
+            case STRIPPED_SPRUCE_LOG:
+            case STRIPPED_BIRCH_LOG:
+            case STRIPPED_JUNGLE_LOG:
+            case STRIPPED_ACACIA_LOG:
+            case STRIPPED_DARK_OAK_LOG:
+            case OAK_WOOD:
+            case SPRUCE_WOOD:
+            case BIRCH_WOOD:
+            case JUNGLE_WOOD:
+            case ACACIA_WOOD:
+            case DARK_OAK_WOOD:
+            case STRIPPED_OAK_WOOD:
+            case STRIPPED_SPRUCE_WOOD:
+            case STRIPPED_BIRCH_WOOD:
+            case STRIPPED_JUNGLE_WOOD:
+            case STRIPPED_ACACIA_WOOD:
+            case STRIPPED_DARK_OAK_WOOD:
+                return Material.CHARCOAL;
+            case CHORUS_FRUIT:
+                return Material.POPPED_CHORUS_FRUIT;
+            case WET_SPONGE:
+                return Material.SPONGE;
+            case SEA_PICKLE:
+                return Material.LIME_DYE;
+            case DEEPSLATE_BRICKS:
+                return Material.CRACKED_DEEPSLATE_BRICKS;
+            case DEEPSLATE_TILES:
+                return Material.CRACKED_DEEPSLATE_TILES;
+            case CRACKED_DEEPSLATE_BRICKS:
+                return Material.DEEPSLATE_BRICKS;
+            case CRACKED_DEEPSLATE_TILES:
+                return Material.DEEPSLATE_TILES;
+
+            default:
+                return null;
+        }
+    }
+}
