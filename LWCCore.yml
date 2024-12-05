@@ -13,7 +13,10 @@ core:
 optional:
     onlyProtectWhenOwnerIsOnline: false
     onlyProtectWhenOwnerIsOffline: false
+    onlyRemoveProtectionForUnplayedUsers: true
     exemptBlocks: []
+    selfPlaceOwnerOnly:
+    - spawner
     optOut: false
     blacklistedBlocks:
     - '166'
@@ -369,39 +372,41 @@ protections:
             enabled: true
         decorated_pot:
             enabled: true
-		copper_door:
+        copper_door:
             enabled: true
-		crafter:
+        crafter:
             enabled: true
-		exposed_copper_door:
+        exposed_copper_door:
             enabled: true
-		oxidized_copper_door:
+        oxidized_copper_door:
             enabled: true
-		weathered_copper_door:
+        weathered_copper_door:
             enabled: true
-		copper_trapdoor:
+        copper_trapdoor:
             enabled: true
-		exposed_copper_trapdoor:
+        exposed_copper_trapdoor:
             enabled: true
-		oxidized_copper_trapdoor:
+        oxidized_copper_trapdoor:
             enabled: true
-		weathered_copper_trapdoor:
+        weathered_copper_trapdoor:
             enabled: true
-		waxed_copper_door:
+        waxed_copper_door:
             enabled: true
-		waxed_exposed_copper_door:
+        waxed_exposed_copper_door:
             enabled: true
-		waxed_oxidized_copper_door:
+        waxed_oxidized_copper_door:
             enabled: true
-		waxed_weathered_copper_door:
+        waxed_weathered_copper_door:
             enabled: true
-		waxed_copper_trapdoor:
+        waxed_copper_trapdoor:
             enabled: true
-		waxed_exposed_copper_trapdoor:
+        waxed_exposed_copper_trapdoor:
             enabled: true
-		waxed_oxidized_copper_trapdoor:
+        waxed_oxidized_copper_trapdoor:
             enabled: true
-		waxed_weathered_copper_trapdoor:
+        waxed_weathered_copper_trapdoor:
+            enabled: true
+        spawner:
             enabled: true
 modes:
     droptransfer:
