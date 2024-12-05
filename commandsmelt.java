@@ -211,8 +211,9 @@ public class Commandsmelt extends LiquidCommand
             case NETHER_BRICKS:
                 return Material.CRACKED_NETHER_BRICKS;
             case POLISHED_BLACKSTONE_BRICKS:
-                return Material.CRACKED_POLISHED_BLACKSTONE_BRICKS;
-
+                return Material.CRACKED_POLISHED_BLACKSTONE_BRICKS;  
+            case RESIN_CLUMP:
+                return Material.RESIN_BRICK; 
             // Terracotta
             case CLAY:
                 return Material.TERRACOTTA;
@@ -290,24 +291,36 @@ public class Commandsmelt extends LiquidCommand
             case JUNGLE_LOG:
             case ACACIA_LOG:
             case DARK_OAK_LOG:
+            case MANGROVE_LOG:
+            case CHERRY_LOG:
+            case PALE_OAK_LOG:                
             case STRIPPED_OAK_LOG:
             case STRIPPED_SPRUCE_LOG:
             case STRIPPED_BIRCH_LOG:
             case STRIPPED_JUNGLE_LOG:
             case STRIPPED_ACACIA_LOG:
             case STRIPPED_DARK_OAK_LOG:
+            case STRIPPED_MANGROVE_LOG:
+            case STRIPPED_CHERRY_LOG:
+            case STRIPPED_PALE_OAK_LOG:                
             case OAK_WOOD:
             case SPRUCE_WOOD:
             case BIRCH_WOOD:
             case JUNGLE_WOOD:
             case ACACIA_WOOD:
             case DARK_OAK_WOOD:
+            case MANGROVE_WOOD:
+            case CHERRY_WOOD:
+            case PALE_OAK_WOOD:               
             case STRIPPED_OAK_WOOD:
             case STRIPPED_SPRUCE_WOOD:
             case STRIPPED_BIRCH_WOOD:
             case STRIPPED_JUNGLE_WOOD:
             case STRIPPED_ACACIA_WOOD:
             case STRIPPED_DARK_OAK_WOOD:
+            case STRIPPED_MANGROVE_WOOD:
+            case STRIPPED_CHERRY_WOOD:
+            case STRIPPED_PALE_OAK_WOOD:                
                 return Material.CHARCOAL;
             case CHORUS_FRUIT:
                 return Material.POPPED_CHORUS_FRUIT;
